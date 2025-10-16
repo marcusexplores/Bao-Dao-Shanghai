@@ -1,3 +1,4 @@
+import { Button } from "@/components/button/Button";
 import Bao1 from "@/assets/vectors/Bao1_404.svg";
 import Bao2 from "@/assets/vectors/Bao2_404.svg";
 
@@ -13,9 +14,9 @@ export const NotFoundPage = () => {
             Oops! It looks like this page wandered off to find snacks, our cute
             little buns are looking for it too!
           </div>
-          <span className="mt-6 inline-block text-center border p-2 bg-yellow-400 rounded-lg">
-            button
-          </span>
+          <Button className="mt-6 inline-block text-center rounded-full">
+            Go Back Home
+          </Button>
         </div>
         <div className="flex space-x-8 order-2 my-8 lg:order-none lg:contents">
           <div className="flex-1 lg:order-1 lg:block lg:flex-1">
