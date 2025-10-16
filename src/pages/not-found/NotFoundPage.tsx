@@ -1,6 +1,8 @@
 import { Button } from "@/components/button/Button";
 import Bao1 from "@/assets/vectors/Bao1_404.svg";
 import Bao2 from "@/assets/vectors/Bao2_404.svg";
+import { NAVIGATION_KEY } from "@/components/navigation/constants";
+import { Link } from "react-router";
 
 export const NotFoundPage = () => {
   return (
@@ -14,8 +16,10 @@ export const NotFoundPage = () => {
             Oops! It looks like this page wandered off to find snacks, our cute
             little buns are looking for it too!
           </div>
-          <Button className="mt-6 inline-block text-center rounded-full">
-            Go Back Home
+          <Button asChild className="mt-6 inline-block text-center rounded-full">
+            <Link to={NAVIGATION_KEY.HOME}>
+              Go Back Home
+            </Link>
           </Button>
         </div>
         <div className="flex space-x-8 order-2 my-8 lg:order-none lg:contents">
