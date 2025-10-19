@@ -64,7 +64,7 @@ export const Flipboard = ({ flight  }: FlipboardProps) => {
     return () => {
       clearInterval(intervalId);
     };
-  }, []);
+  }, [flight.length]);
   // --- End Automatic Flip Logic ---
 
   // Memoize the structured data sections based on the current segment index
@@ -108,7 +108,7 @@ export const Flipboard = ({ flight  }: FlipboardProps) => {
         type: "info",
       },
     ];
-  }, [currentFlightSegmentIndex, rowLength]); // Add rowLength to dependencies
+  }, [currentFlightSegmentIndex, rowLength, flight]); // Add rowLength to dependencies
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col items-center p-4 md:p-8 font-[Inter]">

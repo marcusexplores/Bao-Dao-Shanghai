@@ -68,7 +68,7 @@ export const FlipboardCharacter = memo(
     // Custom classes for the display color
     const colorClasses = isSpace
       ? "bg-gray-800 text-gray-800" // Invisible space
-      : "bg-gray-900 text-yellow-400"; // Visible character
+      : "bg-gray-900 text-primary-foreground"; // Visible character
 
     return (
       <div

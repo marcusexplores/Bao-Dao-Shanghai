@@ -167,7 +167,7 @@
 
 @layer base {
   html {
-    @apply bg-background text-foreground font-varela;
+    @apply text-foreground font-varela;
   }
 
   ::selection {
