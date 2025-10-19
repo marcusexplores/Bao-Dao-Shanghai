@@ -3,6 +3,7 @@ import { ChevronRightIcon } from "lucide-react";
 import { Collapsible } from "@/components/collapsible/Collapsible";
 import { CollapsibleTrigger } from "@/components/collapsible/CollapsibleTrigger";
 import { CollapsibleContent } from "@/components/collapsible/CollapsibleContent";
+import { SheetClose } from "@/components/sheet/SheetClose";
 import { cn } from "@/functions/classname";
 import type { NavigationItem } from "./data";
 
@@ -17,16 +18,18 @@ export const NavigationMenuItem = ({
 }: NavigationMenuItemProps) => {
   if (item.type === "page") {
     return (
-      <Link to={item.key}>
-        <div
-          className={cn(
-            "focus-visible:ring-ring/50 flex items-center gap-2 rounded-md p-1 outline-none focus-visible:ring-[3px]",
-            level === 0 ? "pl-1" : "pl-[1.75rem]"
-          )}
-        >
-          <span className="text-sm">{item.name}</span>
-        </div>
-      </Link>
+      <SheetClose asChild>
+        <Link to={item.key}>
+          <div
+            className={cn(
+              "focus-visible:ring-ring/50 flex items-center gap-2 rounded-md p-1 outline-none focus-visible:ring-[3px]",
+              level === 0 ? "pl-1" : "pl-[1.75rem]"
+            )}
+          >
+            <span className="text-sm">{item.name}</span>
+          </div>
+        </Link>
+      </SheetClose>
     );
   }
 
@@ -38,9 +41,11 @@ export const NavigationMenuItem = ({
       )}
     >
       <div className="focus-visible:ring-ring/50 flex items-center gap-2 rounded-md p-1 outline-none focus-visible:ring-[3px]">
-        <Link to={item.key} className="flex-1 text-start text-sm">
-          <span>{item.name}</span>
-        </Link>
+        <SheetClose asChild>
+          <Link to={item.key} className="flex-1 text-start text-sm">
+            <span>{item.name}</span>
+          </Link>
+        </SheetClose>
         <CollapsibleTrigger>
           <ChevronRightIcon className='size-4 shrink-0 transition-transform [[data-state="open"]>&]:rotate-90 cursor-pointer' />
         </CollapsibleTrigger>
