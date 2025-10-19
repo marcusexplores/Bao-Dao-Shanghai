@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import { cn } from "@/functions/classname";
 import { NAVIGATION_KEY } from "./constants";
-import logo from '@/assets/logo.svg'; // Correct path to your image file
+import logo from '@/assets/vectors/logo.svg'; // Correct path to your image file
 
 interface NavigationLogoProps {
   className?: string;
