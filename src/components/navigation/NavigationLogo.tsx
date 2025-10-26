@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import { cn } from "@/functions/classname";
 import { NAVIGATION_KEY } from "./constants";
-import logo from '@/assets/vectors/logo.svg'; // Correct path to your image file
+import Logo from '@/assets/vectors/Logo.svg'; // Correct path to your image file
 
 interface NavigationLogoProps {
   className?: string;
@@ -16,7 +16,7 @@ export const NavigationLogo = ({ className }: NavigationLogoProps) => {
         className
       )}
     >
-      <img src={logo} height="15" width="30" alt="Brand Logo" />
+      <img src={Logo} height="15" width="30" alt="Brand Logo" />
     </Link>
   );
 };

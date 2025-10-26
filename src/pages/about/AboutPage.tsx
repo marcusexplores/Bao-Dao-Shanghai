@@ -2,7 +2,7 @@ import { Page } from "@/components/page/Page";
 import { PageContainer } from "@/components/page/PageContainer";
 import { PageContainerItem } from "@/components/page/PageContainerItem";
 import { PageHeadline } from "@/components/page/PageHeadline";
-import Logo from "@/assets/vectors/logo.svg";
+import Logo from "@/assets/vectors/Logo.svg";
 import { Profile } from "./components/Profile";
 
 export const AboutPage = () => {
@@ -82,7 +82,13 @@ export const AboutPage = () => {
             <img src={Logo} />
           </div>
           <div>
-            If you look closely at our logo, you'll see two happy little 生煎包 (Shēng Jiān Bāo), a famous signature street food of Shanghai—crispy pan-fried buns filled with savory pork and a burst of hot soup. They're a perfect, slightly cute representation of us (the travelers) and the city we're so excited to explore!
+            <span>If you look closely at our logo, you'll see two happy little </span>
+            <ruby>
+              生<rt>shēng</rt>
+              煎<rt>jiān</rt>
+              包<rt>bāo</rt>
+            </ruby>
+            <span>, a famous signature street food of Shanghai—crispy pan-fried buns filled with savory pork and a burst of hot soup. They're a perfect, slightly cute representation of us (the travelers) and the city we're so excited to explore!</span>
           </div>
         </PageContainerItem>
       </PageContainer>

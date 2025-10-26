@@ -1,6 +1,8 @@
+import { Page } from "@/components/page/Page";
+
 export const HomePage = () => {
   return (
-    <>
+    <Page hasTopPadding={false}>
       {/* Placeholder content to enable scrolling */}
       <div className="pt-24 bg-gray-900 min-h-[300vh]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -17,6 +19,6 @@ export const HomePage = () => {
           </div>
         </div>
       </div>
-    </>
+    </Page>
   );
 };

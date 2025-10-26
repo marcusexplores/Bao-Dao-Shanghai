@@ -1,12 +1,13 @@
+import { Link } from "react-router";
+import { Page } from "@/components/page/Page";
 import { Button } from "@/components/button/Button";
+import { NAVIGATION_KEY } from "@/components/navigation/constants";
 import Bao1 from "@/assets/vectors/Bao1_404.svg";
 import Bao2 from "@/assets/vectors/Bao2_404.svg";
-import { NAVIGATION_KEY } from "@/components/navigation/constants";
-import { Link } from "react-router";
 
 export const NotFoundPage = () => {
   return (
-    <div className="h-screen bg-cover bg-center flex items-center justify-center">
+    <Page hasTopPadding={false} className="h-screen bg-background bg-cover bg-center flex items-center justify-center">
       <div className="flex flex-col items-center p-4 w-full max-w-7xl lg:flex-row lg:items-stretch lg:justify-between">
         <div className="flex flex-col items-center justify-center my-8 lg:my-0 lg:order-2 lg:flex-1">
           <h1 className="text-9xl lg:text-[15rem] font-extrabold text-primary [text-shadow:4px_4px_6px_rgba(0,0,0,0.25)]">
@@ -31,6 +32,6 @@ export const NotFoundPage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Page>
   );
 };
