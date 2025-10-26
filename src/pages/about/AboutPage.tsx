@@ -1,6 +1,7 @@
 import { Page } from "@/components/page/Page";
 import { PageContainer } from "@/components/page/PageContainer";
 import { PageContainerItem } from "@/components/page/PageContainerItem";
+import { PageContainerItemTitle } from "@/components/page/PageContainerItemTitle";
 import { PageHeadline } from "@/components/page/PageHeadline";
 import Logo from "@/assets/vectors/Logo.svg";
 import { Profile } from "./components/Profile";
@@ -18,10 +19,8 @@ export const AboutPage = () => {
         </PageContainerItem>
       </PageContainer>
       <PageContainer>
-        <PageContainerItem>
-          <h2 className="text-4xl font-bold text-center">Our Name</h2>
-        </PageContainerItem>
-        <PageContainerItem className="text-2xll font-bold">The Double Meaning of "Bao"</PageContainerItem>
+        <PageContainerItemTitle>Our Name</PageContainerItemTitle>
+        <PageContainerItem className="font-bold">The Double Meaning of "Bao"</PageContainerItem>
         <PageContainerItem>
           <span className="float-left text-[8rem] sm:text-[10rem] font-black text-primary mr-6 leading-none select-none">
             保
@@ -74,9 +73,7 @@ export const AboutPage = () => {
         </PageContainerItem>
       </PageContainer>
       <PageContainer>
-        <PageContainerItem>
-          <h2 className="text-4xl font-bold text-center">Our Logo</h2>
-        </PageContainerItem>
+        <PageContainerItemTitle>Our Logo</PageContainerItemTitle>
         <PageContainerItem className="flex flex-col md:flex-row md:space-x-15">
           <div className="mb-4 md:mb-0">
             <img src={Logo} />
@@ -93,9 +90,7 @@ export const AboutPage = () => {
         </PageContainerItem>
       </PageContainer>
       <PageContainer>
-        <PageContainerItem>
-          <h2 className="text-4xl font-bold text-center">The Baos</h2>
-        </PageContainerItem>
+        <PageContainerItemTitle>The Baos</PageContainerItemTitle>
         <PageContainerItem className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-15 p-4">
           <Profile name="Bernard" image="https://github.com/shadcn.png" placeholder="B" className="mb-25 md:mb-0">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
