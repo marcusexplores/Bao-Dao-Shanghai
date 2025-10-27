@@ -1,34 +1,34 @@
-import * as RechartsPrimitive from "recharts";
-import { ChartContainer } from "@/components/chart/ChartContainer";
-import { ChartTooltip } from "@/components/chart/ChartTooltip";
-import { ChartTooltipContent } from "@/components/chart/ChartTooltipContent";
-import type { ChartConfig } from "@/components/chart/types";
+import { Label, Pie, PieChart, ResponsiveContainer } from "recharts";
+import { Tooltip } from "recharts";
 
-type PieChartProps = React.ComponentProps<typeof RechartsPrimitive.Pie> & {
-  config?: ChartConfig;
+type PieChartProps = React.ComponentProps<typeof Pie> & {
   title: string;
   subtitle: string;
 };
 
-export const DonutChart = ({ config={}, dataKey, nameKey, data, title, subtitle }: PieChartProps) => {
+export const DonutChart = ({
+  dataKey,
+  nameKey,
+  data,
+  title,
+  subtitle,
+}: PieChartProps) => {
   return (
-    <ChartContainer
-      config={config}
-      className="mx-auto aspect-square max-h-[250px]"
-    >
-      <RechartsPrimitive.PieChart>
-        <ChartTooltip
-          cursor={false}
-          content={<ChartTooltipContent hideLabel />}
-        />
-        <RechartsPrimitive.Pie
+    <ResponsiveContainer width="100%" height={400}>
+      <PieChart>
+        <Pie
           data={data}
           dataKey={dataKey}
           nameKey={nameKey}
-          innerRadius={60}
-          strokeWidth={5}
+          cx="50%"
+          cy="50%"
+          innerRadius="60%"
+          outerRadius="80%"
+          label={({ name, percent }) =>
+            `${name} ${(percent * 100).toFixed(0)}%`
+          }
         >
-          <RechartsPrimitive.Label
+          <Label
             content={({ viewBox }) => {
               if (viewBox && "cx" in viewBox && "cy" in viewBox) {
                 return (
@@ -57,8 +57,16 @@ export const DonutChart = ({ config={}, dataKey, nameKey, data, title, subtitle 
               }
             }}
           />
-        </RechartsPrimitive.Pie>
-      </RechartsPrimitive.PieChart>
-    </ChartContainer>
+        </Pie>
+        <Tooltip
+          formatter={(value: number) => `$${value.toLocaleString()}`}
+          contentStyle={{
+            backgroundColor: "var(--background)",
+            border: "var(--border)",
+            borderRadius: "var(--radius)",
+          }}
+        />
+      </PieChart>
+    </ResponsiveContainer>
   );
 };

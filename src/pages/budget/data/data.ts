@@ -1,5 +1,4 @@
 import type { JSX } from "react";
-import { BUDGET_CATEGORY, CHART_NAME_KEY } from "../constants";
 import {
   FlightIcon,
   AccommodationIcon,
@@ -10,23 +9,13 @@ import {
   EntertainmentIcon,
   OtherIcon
 } from "./icons";
-
-export const chartData = [
-  { [CHART_NAME_KEY]: BUDGET_CATEGORY.FLIGHT, value: 275, fill: "var(--chart-1)" },
-  { [CHART_NAME_KEY]: BUDGET_CATEGORY.ACCOMMODATION, value: 200, fill: "var(--chart-2)" },
-  { [CHART_NAME_KEY]: BUDGET_CATEGORY.INSURANCE, value: 287, fill: "var(--chart-3)" },
-  { [CHART_NAME_KEY]: BUDGET_CATEGORY.COMMUNICATION, value: 173, fill: "var(--chart-4)" },
-  { [CHART_NAME_KEY]: BUDGET_CATEGORY.TRANSPORT, value: 190, fill: "var(--chart-5)" },
-  { [CHART_NAME_KEY]: BUDGET_CATEGORY.FOOD, value: 190, fill: "var(--chart-4)" },
-  { [CHART_NAME_KEY]: BUDGET_CATEGORY.ENTERTAINMENT, value: 190, fill: "var(--chart-3)" },
-  { [CHART_NAME_KEY]: BUDGET_CATEGORY.OTHER, value: 190, fill: "var(--chart-2)" },
-];
+import { BUDGET_CATEGORY } from "../constants";
 
 interface ExpenseItem {
   id: string;
   name: string;
   amount: number;
-  description: string;
+  description?: string;
 }
 
 interface ExpenseCategory {
@@ -37,11 +26,11 @@ interface ExpenseCategory {
   items: ExpenseItem[];
 }
 
-export const expenseData: ExpenseCategory[] = [
+export const expenses: ExpenseCategory[] = [
   {
     name: BUDGET_CATEGORY.FLIGHT,
     total: 650,
-    color: "#06b6d4",
+    color: "var(--chart-1)",
     icon: FlightIcon,
     items: [
       { id: "25", name: "Round Trip Ticket", amount: 550, description: "Oct 20-25" },
@@ -52,7 +41,7 @@ export const expenseData: ExpenseCategory[] = [
   {
     name: BUDGET_CATEGORY.ACCOMMODATION,
     total: 850,
-    color: "#3b82f6",
+    color: "var(--chart-2)",
     icon: AccommodationIcon,
     items: [
       { id: "1", name: "Hotel Night 1-3", amount: 450, description: "Oct 20-22" },
@@ -63,18 +52,18 @@ export const expenseData: ExpenseCategory[] = [
   {
     name: BUDGET_CATEGORY.INSURANCE,
     total: 175,
-    color: "#ef4444",
+    color: "var(--chart-3)",
     icon: InsuranceIcon,
     items: [
       { id: "31", name: "Travel Insurance", amount: 85, description: "Oct 20" },
-      { id: "32", name: "First Aid Supplies", amount: 25, description: "Oct 21" },
+      { id: "32", name: "First Aid Supplies", amount: 25 },
       { id: "33", name: "Spa & Massage", amount: 65, description: "Oct 24" },
     ],
   },
   {
     name: BUDGET_CATEGORY.COMMUNICATION,
     total: 125,
-    color: "#14b8a6",
+    color: "var(--chart-4)",
     icon: CommunicationIcon,
     items: [
       { id: "28", name: "International SIM Card", amount: 45, description: "Oct 20" },
@@ -85,7 +74,7 @@ export const expenseData: ExpenseCategory[] = [
   {
     name: BUDGET_CATEGORY.TRANSPORT,
     total: 480,
-    color: "#f59e0b",
+    color: "var(--chart-5)",
     icon: TransportIcon,
     items: [
       { id: "12", name: "Airport Transfer", amount: 60, description: "Oct 20" },
@@ -98,7 +87,7 @@ export const expenseData: ExpenseCategory[] = [
   {
     name: BUDGET_CATEGORY.FOOD,
     total: 620,
-    color: "#10b981",
+    color: "var(--chart-6)",
     icon: FoodIcon,
     items: [
       { id: "4", name: "Restaurant Dinner", amount: 85, description: "Oct 20" },
@@ -114,7 +103,7 @@ export const expenseData: ExpenseCategory[] = [
   {
     name: BUDGET_CATEGORY.ENTERTAINMENT,
     total: 390,
-    color: "#8b5cf6",
+    color: "var(--chart-7)",
     icon: EntertainmentIcon,
     items: [
       { id: "17", name: "Museum Tickets", amount: 45, description: "Oct 21" },
@@ -127,7 +116,7 @@ export const expenseData: ExpenseCategory[] = [
   {
     name: BUDGET_CATEGORY.OTHER,
     total: 285,
-    color: "#ec4899",
+    color: "var(--chart-8)",
     icon: OtherIcon,
     items: [
       { id: "22", name: "Souvenirs", amount: 85, description: "Oct 22" },
