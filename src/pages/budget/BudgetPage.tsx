@@ -1,18 +1,18 @@
 import { useMemo } from "react";
 import { Page } from "@/components/page/Page";
+import { PageHeadline } from "@/components/page/PageHeadline";
 import { PageContainer } from "@/components/page/PageContainer";
 import { PageContainerItem } from "@/components/page/PageContainerItem";
-import { PageHeadline } from "@/components/page/PageHeadline";
+import { PageContainerItemTitle } from "@/components/page/PageContainerItemTitle";
 import { DonutChart } from "@/components/chart-donut/DonutChart";
-import { expenses } from "./data/data";
 import { Card } from "@/components/card/Card";
 import { CardHeader } from "@/components/card/CardHeader";
 import { CardTitle } from "@/components/card/CardTitle";
 import { CardContent } from "@/components/card/CardContent";
-import { PageContainerItemTitle } from "@/components/page/PageContainerItemTitle";
+import { expenses } from "./data/data";
 
 export const BudgetPage = () => {
-  const totalAmountPerPerson = useMemo(() => {
+  const netAmountPerPerson = useMemo(() => {
     const value = expenses.reduce((sum, category) => sum + category.total, 0) / 2;
     return value.toFixed(2).toLocaleString();
   }, []);
@@ -35,7 +35,7 @@ export const BudgetPage = () => {
         <PageContainerItem>
           <DonutChart
             data={chartData}
-            title={`SGD ${totalAmountPerPerson}`}
+            title={`SGD ${netAmountPerPerson}`}
             subtitle="per person"
           />
         </PageContainerItem>

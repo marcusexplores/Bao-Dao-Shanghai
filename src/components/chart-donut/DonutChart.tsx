@@ -1,5 +1,11 @@
-import { Label, Pie, PieChart, ResponsiveContainer } from "recharts";
-import { Tooltip } from "recharts";
+import {
+  Label,
+  Pie,
+  PieChart,
+  ResponsiveContainer,
+  Tooltip,
+  type PieLabelRenderProps,
+} from "recharts";
 
 type PieChartProps = React.ComponentProps<typeof Pie> & {
   title: string;
@@ -24,9 +30,11 @@ export const DonutChart = ({
           cy="50%"
           innerRadius="60%"
           outerRadius="80%"
-          label={({ name, percent }) =>
-            `${name} ${(percent * 100).toFixed(0)}%`
-          }
+          label={({ name, percent }: PieLabelRenderProps) => {
+            const finalName = name ?? "";
+            const percentage = percent as number;
+            return `${finalName} ${(percentage * 100).toFixed(0)}%`;
+          }}
         >
           <Label
             content={({ viewBox }) => {
