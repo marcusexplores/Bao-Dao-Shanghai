@@ -1,13 +1,7 @@
-import {
-  Label,
-  Pie,
-  PieChart,
-  ResponsiveContainer,
-  Tooltip,
-  type PieLabelRenderProps,
-} from "recharts";
+import { Label, Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts";
+import { DonutChartLabel } from "./DonutChartLabel";
 
-type PieChartProps = React.ComponentProps<typeof Pie> & {
+type DonutChartProps = React.ComponentProps<typeof Pie> & {
   title: string;
   subtitle: string;
 };
@@ -18,7 +12,7 @@ export const DonutChart = ({
   data,
   title,
   subtitle,
-}: PieChartProps) => {
+}: DonutChartProps) => {
   return (
     <ResponsiveContainer width="100%" height={400}>
       <PieChart>
@@ -30,11 +24,8 @@ export const DonutChart = ({
           cy="50%"
           innerRadius="60%"
           outerRadius="80%"
-          label={({ name, percent }: PieLabelRenderProps) => {
-            const finalName = name ?? "";
-            const percentage = percent as number;
-            return `${finalName} ${(percentage * 100).toFixed(0)}%`;
-          }}
+          labelLine={{ className: "hidden lg:block" }}
+          label={DonutChartLabel}
         >
           <Label
             content={({ viewBox }) => {
@@ -67,7 +58,7 @@ export const DonutChart = ({
           />
         </Pie>
         <Tooltip
-          formatter={(value: number) => `$${value.toLocaleString()}`}
+          formatter={(value: number) => `$${value.toFixed(2).toLocaleString()}`}
           contentStyle={{
             backgroundColor: "var(--background)",
             border: "var(--border)",
@@ -75,6 +66,7 @@ export const DonutChart = ({
           }}
         />
       </PieChart>
+      <div>Legend</div>
     </ResponsiveContainer>
   );
 };
