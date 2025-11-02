@@ -3,7 +3,7 @@ export const NAVIGATION_KEY = {
   HOME: "/",
   ABOUT: "/about",
   PREPARATION: "/preparation",
-  PREPARATION_PACKING_LIST: "/preparation/packing-list",
+  PREPARATION_CHECKLIST: "/preparation/checklist",
   BUDGET: "/budget",
   ITINERARY: "/itinerary",
   ITINERARY_DAY_1: "/itinerary/day1",

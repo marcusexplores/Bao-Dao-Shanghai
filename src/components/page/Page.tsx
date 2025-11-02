@@ -7,6 +7,7 @@ type PageProps = React.ComponentProps<"div"> & {
 export const Page = ({ hasTopPadding = true, children, className }: PageProps) => {
   return (
     <div className={cn(
+        "min-h-screen",
         hasTopPadding ? "pt-15" : "",
         className
       )}>

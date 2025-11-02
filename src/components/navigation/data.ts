@@ -38,8 +38,8 @@ export const navigationItems: NavigationItem[] = [
     type: "category",
     children: [
       {
-        name: "Packing List",
-        key: NAVIGATION_KEY.PREPARATION_PACKING_LIST,
+        name: "Checklist",
+        key: NAVIGATION_KEY.PREPARATION_CHECKLIST,
         type: "page",
       },
     ],
