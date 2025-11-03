@@ -1,6 +1,6 @@
 import { Label, Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts";
 import { DonutChartLabel } from "./DonutChartLabel";
-import { LegendItem } from "./DonutChartLegendItem";
+import { DonutChartLegendItem } from "./DonutChartLegendItem";
 
 type DonutChartProps = React.ComponentProps<typeof Pie> & {
   title: string;
@@ -73,7 +73,7 @@ export const DonutChart = ({
       </ResponsiveContainer>
       <div className="flex flex-wrap justify-center w-full lg:hidden">
         {data?.map((item) => (
-          <LegendItem
+          <DonutChartLegendItem
             key={item.name as string}
             name={item.name as string}
             fill={item.fill as string}

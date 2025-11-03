@@ -1,9 +1,9 @@
-interface LegendItemProps {
+interface DonutChartLegendItemProps {
   name: string;
   fill: string;
 }
 
-export const LegendItem = ({ name, fill }: LegendItemProps) => {
+export const DonutChartLegendItem = ({ name, fill }: DonutChartLegendItemProps) => {
   return (
     <div className="flex items-center space-x-1 mr-4 mb-2">
       <div
