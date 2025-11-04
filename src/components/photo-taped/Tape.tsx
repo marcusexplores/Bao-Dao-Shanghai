@@ -19,7 +19,7 @@ export const Tape = ({ className, rotation }: TapeProps) => {
   return (
     <div
       style={tapeStyles}
-      className={cn("absolute w-16 h-4 md:w-20 md:h-5 z-50", className)}
+      className={cn("absolute w-16 h-4 md:w-20 md:h-5 z-10", className)}
       aria-hidden="true" // Decorative element
     />
   );

@@ -7,7 +7,7 @@ interface TimelineProps {
 
 export const Timeline = ({ data }: TimelineProps) => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       {data.map((item, index) => (
         <TimelineItem
           key={index}
