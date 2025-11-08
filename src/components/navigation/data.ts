@@ -21,8 +21,48 @@ export const navigationItems: NavigationItem[] = [
     type: "category",
     children: [
       {
+        name: "Day 0",
+        key: NAVIGATION_KEY.ITINERARY_DAY_0,
+        type: "page",
+      },
+      {
         name: "Day 1",
         key: NAVIGATION_KEY.ITINERARY_DAY_1,
+        type: "page",
+      },
+      {
+        name: "Day 2",
+        key: NAVIGATION_KEY.ITINERARY_DAY_2,
+        type: "page",
+      },
+      {
+        name: "Day 3",
+        key: NAVIGATION_KEY.ITINERARY_DAY_3,
+        type: "page",
+      },
+      {
+        name: "Day 4",
+        key: NAVIGATION_KEY.ITINERARY_DAY_4,
+        type: "page",
+      },
+      {
+        name: "Day 5",
+        key: NAVIGATION_KEY.ITINERARY_DAY_5,
+        type: "page",
+      },
+      {
+        name: "Day 6",
+        key: NAVIGATION_KEY.ITINERARY_DAY_6,
+        type: "page",
+      },
+      {
+        name: "Day 7",
+        key: NAVIGATION_KEY.ITINERARY_DAY_7,
+        type: "page",
+      },
+      {
+        name: "Day 8",
+        key: NAVIGATION_KEY.ITINERARY_DAY_8,
         type: "page",
       },
     ],

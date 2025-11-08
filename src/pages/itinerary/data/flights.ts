@@ -3,18 +3,18 @@ import type { FlightInformation } from "@/components/flipboard/types";
 export const outboundFlight: DeepReadonly<FlightInformation[]> = [
   {
     transit: 'Departure',
-    flightNumber: "SQ928",
-    date: "12 OCT 2025",
-    time: "14:30",
+    flightNumber: "HO1606",
+    date: "23 NOV 2025",
+    time: "23:25",
     location: "SINGAPORE",
-    terminal: "T1",
+    terminal: "T4",
   },
   {
     transit: 'Arrival',
-    flightNumber: "SQ928",
-    date: "13 OCT 2025",
-    time: "05:25",
-    location: "NAGOYA",
+    flightNumber: "HO1606",
+    date: "24 NOV 2025",
+    time: "04:35",
+    location: "SHANGHAI",
     terminal: "T2",
   }
 ];
@@ -22,18 +22,18 @@ export const outboundFlight: DeepReadonly<FlightInformation[]> = [
 export const returnFlight: DeepReadonly<FlightInformation[]> = [
   {
     transit: 'Departure',
-    flightNumber: "SQ928",
-    date: "12 OCT 2025",
-    time: "14:30",
-    location: "SINGAPORE",
-    terminal: "T1",
+    flightNumber: "HO1605",
+    date: "01 DEC 2025",
+    time: "16:15",
+    location: "SHANGHAI",
+    terminal: "T2",
   },
   {
     transit: 'Arrival',
-    flightNumber: "SQ928",
-    date: "13 OCT 2025",
-    time: "05:25",
-    location: "NAGOYA",
-    terminal: "T2",
+    flightNumber: "HO1605",
+    date: "01 DEC 2025",
+    time: "22:10",
+    location: "SINGAPORE",
+    terminal: "T4",
   }
 ];

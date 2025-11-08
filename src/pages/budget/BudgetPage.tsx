@@ -62,15 +62,15 @@ export const BudgetPage = () => {
                     <CardTitle className="text-lg">{category.name}</CardTitle>
                   </div>
                   <div>
-                    ${category.total.toLocaleString()}
+                    ${category.total.toFixed(2).toLocaleString()}
                   </div>
                 </div>
               </CardHeader>
               <CardContent>
                 <div className="space-y-3">
-                  {category.items.map((item) => (
+                  {category.items.map((item, index) => (
                     <div
-                      key={item.id}
+                      key={index}
                       className="flex items-center justify-between py-2 border-b border-slate-100 last:border-0"
                     >
                       <div className="flex-1">
@@ -81,7 +81,7 @@ export const BudgetPage = () => {
                           </p>
                         )}
                       </div>
-                      <div className="text-muted-foreground">${item.amount}</div>
+                      <div className="text-muted-foreground">${item.amount.toFixed(2).toLocaleString()}</div>
                     </div>
                   ))}
                 </div>

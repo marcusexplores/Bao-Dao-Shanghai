@@ -7,15 +7,15 @@ import {
   TransportIcon,
   FoodIcon,
   EntertainmentIcon,
-  OtherIcon
+  OtherIcon,
 } from "./icons";
 import { BUDGET_CATEGORY } from "../constants";
 
 interface ExpenseItem {
-  id: string;
   name: string;
   amount: number;
   description?: string;
+  breakdown?: Record<string, number>;
 }
 
 interface ExpenseCategory {
@@ -33,9 +33,19 @@ export const expenses: ExpenseCategory[] = [
     color: "var(--chart-1)",
     icon: FlightIcon,
     items: [
-      { id: "25", name: "Round Trip Ticket", amount: 550, description: "Oct 20-25" },
-      { id: "26", name: "Baggage Fee", amount: 60, description: "Oct 20" },
-      { id: "27", name: "Seat Selection", amount: 40, description: "Oct 20" },
+      {
+        name: "Juneyao Air",
+        amount: 997.4,
+        description: "Round Trip Economy Class",
+        breakdown: {
+          Fare: 480,
+          Tax: 517.4,
+          "Checked Baggage (2 x 23KG)": 0,
+          "Hand Baggage (1 x 5KG)": 0,
+          "Meals Included": 0,
+          "Mari Credit Card Cashback 1.7%": -16.96,
+        },
+      },
     ],
   },
   {
@@ -44,9 +54,30 @@ export const expenses: ExpenseCategory[] = [
     color: "var(--chart-2)",
     icon: AccommodationIcon,
     items: [
-      { id: "1", name: "Hotel Night 1-3", amount: 450, description: "Oct 20-22" },
-      { id: "2", name: "Hotel Night 4-5", amount: 300, description: "Oct 23-24" },
-      { id: "3", name: "Airbnb Cleaning Fee", amount: 100, description: "Oct 25" },
+      {
+        name: "Hangzhou Hotel",
+        amount: 193.76,
+        description: "2 Nights",
+        breakdown: {
+          "Original Price": 276.86,
+          "First Booking Deal": -41.54,
+          "Special Discount": -33.24,
+          "Multi-night Discount": -8.32,
+          "Mari Credit Card Cashback 1.7%": -3.29,
+        },
+      },
+      {
+        name: "Mehood Elegant Hotel Shanghai Bund",
+        amount: 828.0,
+        description: "5 Nights",
+        breakdown: {
+          "Original Price": 0,
+          "Silver Tier Deal": -0,
+          "Special Discount": -0,
+          "Multi-night Discount": -0,
+          "Mari Credit Card Cashback 1.7%": -0,
+        },
+      },
     ],
   },
   {
@@ -55,9 +86,14 @@ export const expenses: ExpenseCategory[] = [
     color: "var(--chart-3)",
     icon: InsuranceIcon,
     items: [
-      { id: "31", name: "Travel Insurance", amount: 85, description: "Oct 20" },
-      { id: "32", name: "First Aid Supplies", amount: 25 },
-      { id: "33", name: "Spa & Massage", amount: 65, description: "Oct 24" },
+      {
+        name: "FWD Insurance",
+        amount: 56.1,
+        breakdown: {
+          "Original Premium": 86.31,
+          "Promo Code 35% (FWDTRAVE)": -30.21,
+        },
+      },
     ],
   },
   {
@@ -66,38 +102,32 @@ export const expenses: ExpenseCategory[] = [
     color: "var(--chart-4)",
     icon: CommunicationIcon,
     items: [
-      { id: "28", name: "International SIM Card", amount: 45, description: "Oct 20" },
-      { id: "29", name: "Portable WiFi Rental", amount: 60, description: "Oct 20-25" },
-      { id: "30", name: "Data Top-up", amount: 20, description: "Oct 23" },
-    ],
-  },
-  {
-    name: BUDGET_CATEGORY.TRANSPORT,
-    total: 480,
-    color: "var(--chart-5)",
-    icon: TransportIcon,
-    items: [
-      { id: "12", name: "Airport Transfer", amount: 60, description: "Oct 20" },
-      { id: "13", name: "Car Rental (3 days)", amount: 180, description: "Oct 21-23" },
-      { id: "14", name: "Gas", amount: 80, description: "Oct 21-23" },
-      { id: "15", name: "Taxi Rides", amount: 95, description: "Oct 20-25" },
-      { id: "16", name: "Parking Fees", amount: 65, description: "Oct 21-24" },
-    ],
-  },
-  {
-    name: BUDGET_CATEGORY.FOOD,
-    total: 620,
-    color: "var(--chart-6)",
-    icon: FoodIcon,
-    items: [
-      { id: "4", name: "Restaurant Dinner", amount: 85, description: "Oct 20" },
-      { id: "5", name: "Local Market", amount: 45, description: "Oct 21" },
-      { id: "6", name: "Breakfast Cafe", amount: 30, description: "Oct 21" },
-      { id: "7", name: "Fine Dining", amount: 150, description: "Oct 22" },
-      { id: "8", name: "Street Food", amount: 25, description: "Oct 23" },
-      { id: "9", name: "Groceries", amount: 65, description: "Oct 24" },
-      { id: "10", name: "Coffee Shops", amount: 90, description: "Oct 20-25" },
-      { id: "11", name: "Lunch Spots", amount: 130, description: "Oct 20-25" },
+      {
+        name: "eSIM",
+        amount: 5.63,
+        description: "Daily 2GB + Unlimited for 8 Days",
+        breakdown: {
+          "Original Price": 18.5,
+          "Product Discount": -9.11,
+          "Shop Voucher": -0.3,
+          "Shopee Voucher": -3.0,
+          "Shopee Coins": -0.39,
+          "Shopback Cashback": -0.07,
+        },
+      },
+      {
+        name: "SIM Card",
+        amount: 7.5,
+        description: "Daily 2GB + Unlimited for 8 Days",
+        breakdown: {
+          "Original Price": 11.45,
+          "Product Discount": -0.16,
+          "Shop Voucher": -0.3,
+          "Shopee Voucher": -3.0,
+          "Shopee Coins": -0.4,
+          "Shopback Cashback": -0.09,
+        },
+      },
     ],
   },
   {
@@ -106,11 +136,61 @@ export const expenses: ExpenseCategory[] = [
     color: "var(--chart-7)",
     icon: EntertainmentIcon,
     items: [
-      { id: "17", name: "Museum Tickets", amount: 45, description: "Oct 21" },
-      { id: "18", name: "Guided Tour", amount: 120, description: "Oct 22" },
-      { id: "19", name: "Theme Park Entry", amount: 85, description: "Oct 23" },
-      { id: "20", name: "Water Sports", amount: 95, description: "Oct 24" },
-      { id: "21", name: "City Pass", amount: 45, description: "Oct 20" },
+      {
+        name: "OMG Heartbeat Park",
+        amount: 168.9,
+        description: "Hangzhou",
+        breakdown: {
+          "Original Price": 368.3,
+          "Booking Discount": -196.48,
+          "Mari Credit Card Cashback 1.7%": -2.92,
+        },
+      },
+      {
+        name: "Shanghai L+SNOW Indoor Skiing Theme Resort",
+        amount: 106.76,
+        description: "Shanghai",
+        breakdown: {
+          "Original Price": 153.46,
+          "Booking Discount": -43.74,
+          "Mari Credit Card Cashback 1.7%": -1.87,
+          "Shopback Cashback": -1.09,
+        },
+      },
+      {
+        name: "Shanghai Disney Resort",
+        amount: 188.58,
+        description: "Shanghai",
+        breakdown: {
+          "Original Price": 218.86,
+          "Booking Discount": -25.06,
+          "Mari Credit Card Cashback 1.7%": -3.29,
+          "Shopback Cashback": -1.93,
+        },
+      },
+    ],
+  },
+  {
+    name: BUDGET_CATEGORY.TRANSPORT,
+    total: 480,
+    color: "var(--chart-5)",
+    icon: TransportIcon,
+    items: [{ name: "Taxi Rides", amount: 95, description: "Oct 20-25" }],
+  },
+  {
+    name: BUDGET_CATEGORY.FOOD,
+    total: 620,
+    color: "var(--chart-6)",
+    icon: FoodIcon,
+    items: [
+      { name: "Restaurant Dinner", amount: 85, description: "Oct 20" },
+      { name: "Local Market", amount: 45, description: "Oct 21" },
+      { name: "Breakfast Cafe", amount: 30, description: "Oct 21" },
+      { name: "Fine Dining", amount: 150, description: "Oct 22" },
+      { name: "Street Food", amount: 25, description: "Oct 23" },
+      { name: "Groceries", amount: 65, description: "Oct 24" },
+      { name: "Coffee Shops", amount: 90, description: "Oct 20-25" },
+      { name: "Lunch Spots", amount: 130, description: "Oct 20-25" },
     ],
   },
   {
@@ -119,9 +199,9 @@ export const expenses: ExpenseCategory[] = [
     color: "var(--chart-8)",
     icon: OtherIcon,
     items: [
-      { id: "22", name: "Souvenirs", amount: 85, description: "Oct 22" },
-      { id: "23", name: "Local Crafts", amount: 120, description: "Oct 23" },
-      { id: "24", name: "Clothing", amount: 80, description: "Oct 24" },
+      { name: "Souvenirs", amount: 85, description: "Oct 22" },
+      { name: "Local Crafts", amount: 120, description: "Oct 23" },
+      { name: "Clothing", amount: 80, description: "Oct 24" },
     ],
   },
 ];

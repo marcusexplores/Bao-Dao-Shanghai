@@ -6,5 +6,13 @@ export const NAVIGATION_KEY = {
   PREPARATION_CHECKLIST: "/preparation/checklist",
   BUDGET: "/budget",
   ITINERARY: "/itinerary",
+  ITINERARY_DAY_0: "/itinerary/day0",
   ITINERARY_DAY_1: "/itinerary/day1",
+  ITINERARY_DAY_2: "/itinerary/day2",
+  ITINERARY_DAY_3: "/itinerary/day3",
+  ITINERARY_DAY_4: "/itinerary/day4",
+  ITINERARY_DAY_5: "/itinerary/day5",
+  ITINERARY_DAY_6: "/itinerary/day6",
+  ITINERARY_DAY_7: "/itinerary/day7",
+  ITINERARY_DAY_8: "/itinerary/day8",
 } 

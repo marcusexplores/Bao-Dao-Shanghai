@@ -3,8 +3,8 @@ export const BUDGET_CATEGORY = {
   ACCOMMODATION: "Accommodation",
   INSURANCE: "Insurance",
   COMMUNICATION: "Communication",
+  ENTERTAINMENT: "Entertainment",
   TRANSPORT: "Transportation",
   FOOD: "Food & Dining",
-  ENTERTAINMENT: "Entertainment",
   OTHER: "Others",
 } as const;
