@@ -1,4 +1,5 @@
 import { useMemo } from "react";
+import { Info } from "lucide-react";
 import { Page } from "@/components/page/Page";
 import { PageHeadline } from "@/components/page/PageHeadline";
 import { PageContainer } from "@/components/page/PageContainer";
@@ -13,7 +14,8 @@ import { expenses } from "./data/data";
 
 export const BudgetPage = () => {
   const netAmountPerPerson = useMemo(() => {
-    const value = expenses.reduce((sum, category) => sum + category.total, 0) / 2;
+    const value =
+      expenses.reduce((sum, category) => sum + category.total, 0) / 2;
     return value.toFixed(2).toLocaleString();
   }, []);
 
@@ -61,9 +63,7 @@ export const BudgetPage = () => {
                     </div>
                     <CardTitle className="text-lg">{category.name}</CardTitle>
                   </div>
-                  <div>
-                    ${category.total.toFixed(2).toLocaleString()}
-                  </div>
+                  <div>${category.total.toFixed(2).toLocaleString()}</div>
                 </div>
               </CardHeader>
               <CardContent>
@@ -74,14 +74,21 @@ export const BudgetPage = () => {
                       className="flex items-center justify-between py-2 border-b border-slate-100 last:border-0"
                     >
                       <div className="flex-1">
-                        <p>{item.name}</p>
+                        <div className="flex items-center">
+                          <p>{item.name}</p>
+                          {item.breakdown && (
+                            <Info className="size-4 ml-1 text-muted-foreground cursor-pointer" />
+                          )}
+                        </div>
                         {item.description && (
                           <p className="text-xs text-muted-foreground">
                             {item.description}
                           </p>
                         )}
                       </div>
-                      <div className="text-muted-foreground">${item.amount.toFixed(2).toLocaleString()}</div>
+                      <div className="text-muted-foreground">
+                        ${item.amount.toFixed(2).toLocaleString()}
+                      </div>
                     </div>
                   ))}
                 </div>
