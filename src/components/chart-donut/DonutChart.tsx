@@ -61,7 +61,7 @@ export const DonutChart = ({
           </Pie>
           <Tooltip
             formatter={(value: number) =>
-              `$${value.toFixed(2).toLocaleString()}`
+              `$${value.toFixed(2)}`
             }
             contentStyle={{
               backgroundColor: "var(--background)",

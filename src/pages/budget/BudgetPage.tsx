@@ -1,5 +1,4 @@
 import { useMemo } from "react";
-import { Info } from "lucide-react";
 import { Page } from "@/components/page/Page";
 import { PageHeadline } from "@/components/page/PageHeadline";
 import { PageContainer } from "@/components/page/PageContainer";
@@ -10,13 +9,14 @@ import { Card } from "@/components/card/Card";
 import { CardHeader } from "@/components/card/CardHeader";
 import { CardTitle } from "@/components/card/CardTitle";
 import { CardContent } from "@/components/card/CardContent";
+import { BudgetBreakdownDialog } from "./components/BudgetBreakdownDialog";
 import { expenses } from "./data/data";
 
 export const BudgetPage = () => {
   const netAmountPerPerson = useMemo(() => {
     const value =
       expenses.reduce((sum, category) => sum + category.total, 0) / 2;
-    return value.toFixed(2).toLocaleString();
+    return value.toFixed(2);
   }, []);
 
   const chartData = useMemo(() => {
@@ -63,7 +63,7 @@ export const BudgetPage = () => {
                     </div>
                     <CardTitle className="text-lg">{category.name}</CardTitle>
                   </div>
-                  <div>${category.total.toFixed(2).toLocaleString()}</div>
+                  <div>${category.total.toFixed(2)}</div>
                 </div>
               </CardHeader>
               <CardContent>
@@ -77,7 +77,7 @@ export const BudgetPage = () => {
                         <div className="flex items-center">
                           <p>{item.name}</p>
                           {item.breakdown && (
-                            <Info className="size-4 ml-1 text-muted-foreground cursor-pointer" />
+                            <BudgetBreakdownDialog title={item.name} amount={item.amount} breakdown={item.breakdown} />
                           )}
                         </div>
                         {item.description && (
@@ -87,7 +87,7 @@ export const BudgetPage = () => {
                         )}
                       </div>
                       <div className="text-muted-foreground">
-                        ${item.amount.toFixed(2).toLocaleString()}
+                        ${item.amount.toFixed(2)}
                       </div>
                     </div>
                   ))}

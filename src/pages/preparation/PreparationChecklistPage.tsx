@@ -96,7 +96,7 @@ export const PreparationChecklistPage = () => {
               <motion.div
                 className="h-full bg-gradient-to-r from-primary to-success"
                 initial={{ width: 0 }}
-                animate={{ width: `${progress.toLocaleString()}%` }}
+                animate={{ width: `${progress.toString()}%` }}
                 transition={{ duration: 0.5, ease: "easeOut" }}
               />
             </div>

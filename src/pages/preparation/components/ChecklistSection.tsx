@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { Plus, X } from "lucide-react";
+import { PlusIcon, XIcon } from "lucide-react";
 import { cn } from "@/functions/classname";
 import type { Category } from "../data/checklist";
 
@@ -64,7 +64,7 @@ export const ChecklistSection = ({
                 }}
                 className="w-7 h-7 rounded-full flex items-center justify-center"
               >
-                <Plus className="w-4 h-4" />
+                <PlusIcon className="w-4 h-4" />
               </motion.button>
             </div>
             <div className="flex items-center gap-2">
@@ -75,7 +75,7 @@ export const ChecklistSection = ({
                 <motion.div
                   className="h-full rounded-full bg-success"
                   initial={{ width: 0 }}
-                  animate={{ width: `${progress.toLocaleString()}%` }}
+                  animate={{ width: `${progress.toString()}%` }}
                   transition={{ duration: 0.3 }}
                 />
               </div>
@@ -124,7 +124,7 @@ export const ChecklistSection = ({
                 }}
                 className="w-8 h-8 rounded-full flex items-center justify-center"
               >
-                <X className="w-4 h-4" />
+                <XIcon className="w-4 h-4" />
               </motion.button>
             </div>
           </motion.form>
@@ -210,7 +210,7 @@ export const ChecklistSection = ({
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
                   >
-                    <X className="w-3.5 h-3.5 text-muted-foreground group-hover:text-destructive-foreground" />
+                    <XIcon className="w-3.5 h-3.5 text-muted-foreground group-hover:text-destructive-foreground" />
                   </motion.button>
                 )}
               </AnimatePresence>

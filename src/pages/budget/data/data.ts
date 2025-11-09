@@ -67,7 +67,7 @@ export const expenses: ExpenseCategory[] = [
         },
       },
       {
-        name: "Mehood Elegant Hotel Shanghai Bund",
+        name: "Mehood Elegant Hotel",
         amount: 828.0,
         description: "5 Nights",
         breakdown: {
@@ -91,7 +91,7 @@ export const expenses: ExpenseCategory[] = [
         amount: 56.1,
         breakdown: {
           "Original Premium": 86.31,
-          "Promo Code 35% (FWDTRAVE)": -30.21,
+          "Promo Code 35% (FWDTRAVEL)": -30.21,
         },
       },
     ],
@@ -147,7 +147,7 @@ export const expenses: ExpenseCategory[] = [
         },
       },
       {
-        name: "Shanghai L+SNOW Indoor Skiing Theme Resort",
+        name: "L+SNOW Skiing Resort",
         amount: 106.76,
         description: "Shanghai",
         breakdown: {

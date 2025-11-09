@@ -1,4 +1,4 @@
-import { Menu } from "lucide-react";
+import { MenuIcon } from "lucide-react";
 import { Sheet } from "@/components/sheet/Sheet";
 import { SheetTrigger } from "@/components/sheet/SheetTrigger";
 import { SheetContent } from "@/components/sheet/SheetContent";
@@ -14,7 +14,7 @@ export const NavigationMenu = () => {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Menu className="cursor-pointer" />
+        <MenuIcon className="cursor-pointer" />
       </SheetTrigger>
       <SheetContent side="left" className="w-75">
         <SheetHeader>

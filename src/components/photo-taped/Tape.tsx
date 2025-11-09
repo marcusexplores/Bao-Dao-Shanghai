@@ -13,7 +13,7 @@ export const Tape = ({ className, rotation }: TapeProps) => {
     // Subtle shadow to give it thickness
     boxShadow: "0 1px 3px rgba(0, 0, 0, 0.25)", // Increased shadow
     // Dynamic rotation based on props
-    transform: `rotate(${rotation.toLocaleString()}deg)`,
+    transform: `rotate(${rotation.toString()}deg)`,
   };
 
   return (
