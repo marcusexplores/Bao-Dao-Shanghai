@@ -15,6 +15,7 @@ export const TimelineItem = ({
   description,
   subtitle,
   icon,
+  thumbnail,
   isLast,
 }: TimelineItemProps) => {
   const isLeft = index % 2 === 0;
@@ -44,7 +45,7 @@ export const TimelineItem = ({
           <p className="text-sm font-semibold text-primary/70">{subtitle}</p>
         </div>
         <p className="mt-2 text-sm text-muted-foreground">{description}</p>
-        <TapedPhoto className="mt-5 mx-5" />
+        <TapedPhoto className="mt-5 mx-5" image={thumbnail}/>
       </div>
 
       {/* 3. Central Line and Badge (Visible only on desktop) */}

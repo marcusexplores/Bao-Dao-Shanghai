@@ -3,13 +3,14 @@ import { Tape } from "./Tape";
 
 interface TapedPhotoProps {
   className?: string;
+  image: string;
 }
 
-export const TapedPhoto = ({ className }: TapedPhotoProps) => {
+export const TapedPhoto = ({ className, image }: TapedPhotoProps) => {
   return (
     <div className={cn("relative flex justify-center items-center", className)}>
       <img
-        src={"https://placehold.co/600x450/333333/FFFFFF?text=Photo"}
+        src={image}
         alt={"alt"}
       />
       {/* Tape 1: Top Left */}
