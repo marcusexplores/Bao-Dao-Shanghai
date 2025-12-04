@@ -1,14 +1,14 @@
 import { ZapIcon } from "lucide-react";
 import type { TimelineActivity } from "@/components/timeline/types";
-import Day0Thumbnail from '@/assets/photos/Itinerary_Day0_Thumbnail.jpg';
-import Day1Thumbnail from '@/assets/photos/Itinerary_Day1_Thumbnail.jpg';
-import Day2Thumbnail from '@/assets/photos/Itinerary_Day2_Thumbnail.jpg';
-import Day3Thumbnail from '@/assets/photos/Itinerary_Day3_Thumbnail.jpg';
-import Day4Thumbnail from '@/assets/photos/Itinerary_Day4_Thumbnail.jpg';
-import Day5Thumbnail from '@/assets/photos/Itinerary_Day5_Thumbnail.jpg';
-import Day6Thumbnail from '@/assets/photos/Itinerary_Day6_Thumbnail.jpg';
-import Day7Thumbnail from '@/assets/photos/Itinerary_Day7_Thumbnail.jpg';
-import Day8Thumbnail from '@/assets/photos/Itinerary_Day8_Thumbnail.jpg';
+import Day0Thumbnail from '@/assets/photos/Itinerary_Thumbnail_Day0.jpg';
+import Day1Thumbnail from '@/assets/photos/Itinerary_Thumbnail_Day1.jpg';
+import Day2Thumbnail from '@/assets/photos/Itinerary_Thumbnail_Day2.jpg';
+import Day3Thumbnail from '@/assets/photos/Itinerary_Thumbnail_Day3.jpg';
+import Day4Thumbnail from '@/assets/photos/Itinerary_Thumbnail_Day4.jpg';
+import Day5Thumbnail from '@/assets/photos/Itinerary_Thumbnail_Day5.jpg';
+import Day6Thumbnail from '@/assets/photos/Itinerary_Thumbnail_Day6.jpg';
+import Day7Thumbnail from '@/assets/photos/Itinerary_Thumbnail_Day7.jpg';
+import Day8Thumbnail from '@/assets/photos/Itinerary_Thumbnail_Day8.jpg';
 
 export const timeline: TimelineActivity[] = [
   {

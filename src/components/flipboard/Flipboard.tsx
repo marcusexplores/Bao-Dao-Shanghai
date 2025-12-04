@@ -111,7 +111,7 @@ export const Flipboard = ({ flight  }: FlipboardProps) => {
   }, [currentFlightSegmentIndex, rowLength, flight]); // Add rowLength to dependencies
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col items-center p-4 md:p-8 font-[Inter]">
+    <div className="flex flex-col items-center p-4 md:p-8 font-[Inter]">
       {/* Flip Board Container */}
       <div className="w-full max-w-4xl bg-gray-700 shadow-2xl rounded-xl p-4 md:p-6 border-4 border-gray-800">
         {/* Dynamic Display Rows */}
