@@ -50,7 +50,7 @@ export const TimelineItem = ({
 
       {/* 3. Central Line and Badge (Visible only on desktop) */}
       {/* The main line is continuous, but the badge sits on top */}
-      <div className="absolute md:left-1/2 top-0 h-full w-1 -translate-x-1/2 ml-4 md:ml-0">
+      <div className="absolute md:left-1/2 top-0 h-full w-1 -translate-x-1/2 ml-5 md:ml-0">
         {/* <div className="absolute left-1/2 top-0 hidden h-full w-1 -translate-x-1/2 md:block"> */}
         <TimelineNode icon={icon} isLast={isLast} />
       </div>
