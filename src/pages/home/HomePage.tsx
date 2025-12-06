@@ -1,24 +1,21 @@
 import { Page } from "@/components/page/Page";
+import HeroBanner from "@/assets/photos/test.jpg";
+import { PageContainer } from "@/components/page/PageContainer";
 
 export const HomePage = () => {
   return (
     <Page hideTopPadding>
-      {/* Placeholder content to enable scrolling */}
-      <div className="pt-24 bg-gray-900 min-h-[300vh]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-extrabold text-white">
-            Scroll Down to See Navbar in Action
-          </h1>
-          <p className="mt-4 text-xl text-gray-400">
-            The bar will slide up and disappear when you scroll down quickly,
-            and reappear when you scroll up. The background will turn from
-            transparent to black after scrolling 80px.
-          </p>
-          <div className="h-[200vh] mt-10 bg-gray-800 rounded-xl p-6 text-gray-300">
-            <p>Content block...</p>
-          </div>
-        </div>
+      <section className="relative w-full overflow-hidden min-h-screen flex items-center justify-center">
+      <div
+        className="absolute inset-0 -z-10 bg-cover bg-center bg-no-repeat"
+        // Use inline style for the CSS background image
+        style={{ backgroundImage: `url(${HeroBanner})` }}
+      >
+        {/* Dark Overlay for Text Readability and Aesthetic */}
+        {/* <div className="absolute inset-0 bg-black/70 backdrop-blur-sm"></div> */}
       </div>
+      </section>
+      <PageContainer>test</PageContainer>
     </Page>
   );
 };
