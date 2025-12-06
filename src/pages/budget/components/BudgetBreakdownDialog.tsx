@@ -5,16 +5,15 @@ import { DialogContent } from "@/components/dialog/DialogContent";
 import { DialogTitle } from "@/components/dialog/DialogTitle";
 import { DialogHeader } from "@/components/dialog/DialogHeader";
 import { DialogBody } from "@/components/dialog/DialogBody";
+import { calculateItemTotal } from "../functions";
 
 interface BudgetBreakdownDialogProps {
   title: string;
-  amount: number;
   breakdown: Record<string, number>;
 }
 
 export const BudgetBreakdownDialog = ({
   title,
-  amount,
   breakdown,
 }: BudgetBreakdownDialogProps) => {
   return (
@@ -33,7 +32,7 @@ export const BudgetBreakdownDialog = ({
                 key={key}
                 className="flex justify-between items-center border-b border-dashed border-muted pb-1 last:border-b-0"
               >
-                <span>{key.trim()}</span>
+                <span className="flex-shrink-0 w-50 md:w-65">{key.trim()}</span>
                 <span className="font-semibold text-right">
                   {value < 0
                     ? `- $${Math.abs(value).toFixed(2)}`
@@ -45,7 +44,7 @@ export const BudgetBreakdownDialog = ({
 
           <div className="pt-4 mt-4 border-t border-muted flex justify-between items-center font-bold text-lg">
             <span>TOTAL</span>
-            <span>${amount.toFixed(2)}</span>
+            <span>${calculateItemTotal(breakdown).toFixed(2)}</span>
           </div>
         </DialogBody>
       </DialogContent>

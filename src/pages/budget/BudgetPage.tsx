@@ -10,22 +10,33 @@ import { CardHeader } from "@/components/card/CardHeader";
 import { CardTitle } from "@/components/card/CardTitle";
 import { CardContent } from "@/components/card/CardContent";
 import { BudgetBreakdownDialog } from "./components/BudgetBreakdownDialog";
-import { expenses } from "./data/data";
+import { calculateItemTotal } from "./functions";
+import { expenses } from "./data/expenses";
 
 export const BudgetPage = () => {
-  const netAmountPerPerson = useMemo(() => {
-    const value =
-      expenses.reduce((sum, category) => sum + category.total, 0) / 2;
-    return value.toFixed(2);
+  const categoryTotals: Record<string, number> = useMemo(() => {
+    const totals: Record<string, number> = {};
+
+    for (const category of expenses) {
+      let categoryTotal = 0;
+      for (const item of category.items) {
+        categoryTotal += calculateItemTotal(item.breakdown ?? {});
+      }
+      totals[category.name] = categoryTotal;
+    }
+
+    return totals;
   }, []);
+
+  const netAmountPerPerson = (Object.values(categoryTotals).reduce((sum, categoryTotal) => sum + categoryTotal, 0)/2).toFixed(2);
 
   const chartData = useMemo(() => {
     return expenses.map((category) => ({
       name: category.name,
-      value: category.total / 2,
+      value: categoryTotals[category.name] / 2,
       fill: category.color,
     }));
-  }, []);
+  }, [categoryTotals]);
 
   return (
     <Page>
@@ -63,7 +74,7 @@ export const BudgetPage = () => {
                     </div>
                     <CardTitle className="text-lg">{category.name}</CardTitle>
                   </div>
-                  <div>${category.total.toFixed(2)}</div>
+                  <div>${categoryTotals[category.name].toFixed(2)}</div>
                 </div>
               </CardHeader>
               <CardContent>
@@ -77,7 +88,10 @@ export const BudgetPage = () => {
                         <div className="flex items-center">
                           <p>{item.name}</p>
                           {item.breakdown && (
-                            <BudgetBreakdownDialog title={item.name} amount={item.amount} breakdown={item.breakdown} />
+                            <BudgetBreakdownDialog
+                              title={item.name}
+                              breakdown={item.breakdown}
+                            />
                           )}
                         </div>
                         {item.description && (
@@ -87,7 +101,7 @@ export const BudgetPage = () => {
                         )}
                       </div>
                       <div className="text-muted-foreground">
-                        ${item.amount.toFixed(2)}
+                        ${calculateItemTotal(item.breakdown ?? {}).toFixed(2)}
                       </div>
                     </div>
                   ))}
