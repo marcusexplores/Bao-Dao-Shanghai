@@ -50,8 +50,8 @@ export const SuzhouSection = () => {
           <div className="lg:w-1/2 flex-shrink-0">
             <motion.div
               initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1, delay: 0.2 }}
+              whileInView={{ opacity: 1, x: 0, transition: { duration: 1, delay: 0.2 } }}
+              viewport={{ once: true, amount: 0.3 }}
               className="aspect-[4/3] rounded-lg overflow-hidden shadow-lg border-2 border-gray-100"
             >
               <img
@@ -71,8 +71,8 @@ export const SuzhouSection = () => {
                   <motion.div
                     key="title-section"
                     initial={{ opacity: 0, scale: 0.8 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.8, delay: 1.5 }}
+                    whileInView={{ opacity: 1, scale: 1, transition: { duration: 1, delay: 0.2 } }}
+                    viewport={{ once: true, amount: 0.5 }}
                     className="flex flex-col items-center justify-center space-y-4"
                     style={{
                       writingMode: "vertical-rl",
@@ -92,7 +92,8 @@ export const SuzhouSection = () => {
                     className="flex flex-row-reverse flex-nowrap overflow-hidden py-2"
                     variants={containerVariants}
                     initial="hidden"
-                    animate="visible"
+                    whileInView="visible"
+                    viewport={{ once: true, amount: 0.5 }}
                   >
                     {poemLines.map((line, index) => (
                       <motion.p
