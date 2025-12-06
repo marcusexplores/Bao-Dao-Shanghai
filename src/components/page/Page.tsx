@@ -1,14 +1,14 @@
 import { cn } from "@/functions/classname";
 
 type PageProps = React.ComponentProps<"div"> & {
-  hasTopPadding?: boolean
+  hideTopPadding?: boolean
 };
 
-export const Page = ({ hasTopPadding = true, children, className }: PageProps) => {
+export const Page = ({ hideTopPadding = false, children, className }: PageProps) => {
   return (
     <div className={cn(
         "min-h-screen",
-        hasTopPadding ? "pt-15" : "",
+        !hideTopPadding ? "pt-15" : "",
         className
       )}>
       {children}
