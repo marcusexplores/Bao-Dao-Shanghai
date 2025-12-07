@@ -4,24 +4,28 @@ import { PageContainer } from "@/components/page/PageContainer";
 import { PageContainerItem } from "@/components/page/PageContainerItem";
 import { Button } from "@/components/button/Button";
 import { NAVIGATION_KEY } from "@/components/navigation/constants";
-import HeroBanner from "@/assets/photos/test.jpg";
+import HeroBanner from "@/assets/photos/Home_HeroBanner.jpg";
+import LogoText from "@/assets/vectors/Logo_Text.svg";
+import Buddies from "@/assets/images/Home_Buddies.png";
 import { SuzhouSection } from "./components/SuzhouSection";
 
 export const HomePage = () => {
   return (
     <Page hideTopPadding>
-      <section className="relative w-full overflow-hidden min-h-screen flex items-center justify-center">
+      <section className="relative w-full overflow-hidden min-h-screen flex justify-center">
         <div
           className="absolute inset-0 -z-10 bg-cover bg-center bg-no-repeat"
-          // Use inline style for the CSS background image
           style={{ backgroundImage: `url(${HeroBanner})` }}
-        >
-          {/* Dark Overlay for Text Readability and Aesthetic */}
-          {/* <div className="absolute inset-0 bg-black/70 backdrop-blur-sm"></div> */}
-        </div>
+        ></div>
+        <img src={LogoText} className="mt-23 w-55 h-50 md:w-85 md:h-85" />
       </section>
+      <img
+        src={Buddies}
+        alt="Buddies"
+        className="absolute left-2 -bottom-14 md:-bottom-23 w-45 h-50 md:w-75 md:h-85 object-cover z-10"
+      />
       <PageContainer>
-        <PageContainerItem>
+        <PageContainerItem className="mt-5">
           Our immersive tour through Shanghai, Hangzhou, and Suzhou was a quest
           for discovery, brimming with pure fun and inspiration. This adventure
           redefined the travel experience, proving deeply fulfilling as we
