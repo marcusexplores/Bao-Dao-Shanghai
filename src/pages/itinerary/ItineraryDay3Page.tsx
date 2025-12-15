@@ -3,41 +3,42 @@ import { PageContainer } from "@/components/page/PageContainer";
 import { PageContainerItem } from "@/components/page/PageContainerItem";
 import { PageContainerItemImage } from "@/components/page/PageContainerItemImage";
 import { PageHeadline } from "@/components/page/PageHeadline";
-import TrainBoard from "@/assets/photos/Itinerary_Day3_Train_Board.jpg";
-import Hotel from "@/assets/photos/Itinerary_Day3_Hotel.jpg";
-import HotelRoomOverview from "@/assets/photos/Itinerary_Day3_Hotel_Room_Overview.jpg";
-import HotelBedroom from "@/assets/photos/Itinerary_Day3_Hotel_Room_Bedroom.jpg";
-import HotelBathroom from "@/assets/photos/Itinerary_Day3_Hotel_Room_Bathroom.jpg";
-import HotelToilet from "@/assets/photos/Itinerary_Day3_Hotel_Room_Toilet.jpg";
-import HotelRoomCard from "@/assets/photos/Itinerary_Day3_Hotel_Room_Card.jpg";
-import BeefNoodleShop from "@/assets/photos/Itinerary_Day3_BeefNoodle_Shop.jpg";
-import BeefNoodleOriginal from "@/assets/photos/Itinerary_Day3_BeefNoodle_Original.jpg";
-import BeefNoodleMarrow from "@/assets/photos/Itinerary_Day3_BeefNoodle_Marrow.jpg";
-import NeoWorld from "@/assets/photos/Itinerary_Day3_NeoWorld.jpg";
-import NeoWorldMap from "@/assets/photos/Itinerary_Day3_NeoWorld_Map.jpg";
-import ArknightsContainer from "@/assets/photos/Itinerary_Day3_NeoWorld_Arknights.jpg";
-import ConsoleController from "@/assets/photos/Itinerary_Day3_NeoWorld_Controller.jpg";
-import TrashbinFlex from "@/assets/photos/Itinerary_Day3_Trashbin_Flex.jpg";
-import TrashbinFoldArm from "@/assets/photos/Itinerary_Day3_Trashbin_FoldArm.jpg";
-import TrashbinBow from "@/assets/photos/Itinerary_Day3_Trashbin_Bow.jpg";
-import Cake from "@/assets/photos/Itinerary_Day3_Cake.jpg";
-import Pollux from "@/assets/photos/Itinerary_Day3_Pollux.jpg";
-import Sam from "@/assets/photos/Itinerary_Day3_Sam.jpg";
-import TrashbinSit from "@/assets/photos/Itinerary_Day3_Trashbin_Sit.jpg";
-import ArknightStandee from "@/assets/photos/Itinerary_Day3_Arknights_Standee.jpg";
-import MihoyoShop from "@/assets/photos/Itinerary_Day3_Mihoyo.jpg";
-import Teashop from "@/assets/photos/Itinerary_Day3_TeaShop.jpg";
-import CrabSoupDumplingShop from "@/assets/photos/Itinerary_Day3_CrabSoupDumpling_Shop.jpg";
-import CrabSoupDumplingFood from "@/assets/photos/Itinerary_Day3_CrabSoupDumpling_Food.jpg";
-import DaHuChunShop from "@/assets/photos/Itinerary_Day3_DaHuChun_Shop.jpg";
-import DaHuChunFood from "@/assets/photos/Itinerary_Day3_DaHuChun_Food.jpg";
-import FoodStreet from "@/assets/photos/Itinerary_Day3_FoodStreet.jpg";
-import FoodStreetFood from "@/assets/photos/Itinerary_Day3_FoodStreet_Food.jpg";
-import Bund from "@/assets/photos/Itinerary_Day3_Bund.jpg";
-import Building from "@/assets/photos/Itinerary_Day3_Building.jpg";
-import BernardTaxi from "@/assets/photos/Itinerary_Day3_Bernard_Taxi.jpg";
-import BernardSit from "@/assets/photos/Itinerary_Day3_Bernard_Sit.jpg";
-import ChristmasMarket from "@/assets/photos/Itinerary_Day3_ChristmasMarket.jpg";
+import { mediaContainerVariant } from "@/components/page/constants";
+import TrainBoardPhoto from "@/assets/photos/Itinerary_Day3_Train_Board.jpg";
+import HotelPhoto from "@/assets/photos/Itinerary_Day3_Hotel.jpg";
+import HotelRoomOverviewPhoto from "@/assets/photos/Itinerary_Day3_Hotel_Room_Overview.jpg";
+import HotelBedroomPhoto from "@/assets/photos/Itinerary_Day3_Hotel_Room_Bedroom.jpg";
+import HotelBathroomPhoto from "@/assets/photos/Itinerary_Day3_Hotel_Room_Bathroom.jpg";
+import HotelToiletPhoto from "@/assets/photos/Itinerary_Day3_Hotel_Room_Toilet.jpg";
+import HotelRoomCardPhoto from "@/assets/photos/Itinerary_Day3_Hotel_Room_Card.jpg";
+import BeefNoodleShopPhoto from "@/assets/photos/Itinerary_Day3_BeefNoodle_Shop.jpg";
+import BeefNoodleOriginalPhoto from "@/assets/photos/Itinerary_Day3_BeefNoodle_Original.jpg";
+import BeefNoodleMarrowPhoto from "@/assets/photos/Itinerary_Day3_BeefNoodle_Marrow.jpg";
+import NeoWorldPhoto from "@/assets/photos/Itinerary_Day3_NeoWorld.jpg";
+import NeoWorldMapPhoto from "@/assets/photos/Itinerary_Day3_NeoWorld_Map.jpg";
+import ArknightsContainerPhoto from "@/assets/photos/Itinerary_Day3_NeoWorld_Arknights.jpg";
+import ConsoleControllerPhoto from "@/assets/photos/Itinerary_Day3_NeoWorld_Controller.jpg";
+import TrashbinFlexPhoto from "@/assets/photos/Itinerary_Day3_Trashbin_Flex.jpg";
+import TrashbinFoldArmPhoto from "@/assets/photos/Itinerary_Day3_Trashbin_FoldArm.jpg";
+import TrashbinBowPhoto from "@/assets/photos/Itinerary_Day3_Trashbin_Bow.jpg";
+import CakePhoto from "@/assets/photos/Itinerary_Day3_Cake.jpg";
+import PolluxPhoto from "@/assets/photos/Itinerary_Day3_Pollux.jpg";
+import SamPhoto from "@/assets/photos/Itinerary_Day3_Sam.jpg";
+import TrashbinSitPhoto from "@/assets/photos/Itinerary_Day3_Trashbin_Sit.jpg";
+import ArknightStandeePhoto from "@/assets/photos/Itinerary_Day3_Arknights_Standee.jpg";
+import MihoyoShopPhoto from "@/assets/photos/Itinerary_Day3_Mihoyo.jpg";
+import TeashopPhoto from "@/assets/photos/Itinerary_Day3_TeaShop.jpg";
+import CrabSoupDumplingShopPhoto from "@/assets/photos/Itinerary_Day3_CrabSoupDumpling_Shop.jpg";
+import CrabSoupDumplingFoodPhoto from "@/assets/photos/Itinerary_Day3_CrabSoupDumpling_Food.jpg";
+import DaHuChunShopPhoto from "@/assets/photos/Itinerary_Day3_DaHuChun_Shop.jpg";
+import DaHuChunFoodPhoto from "@/assets/photos/Itinerary_Day3_DaHuChun_Food.jpg";
+import FoodStreetPhoto from "@/assets/photos/Itinerary_Day3_FoodStreet.jpg";
+import FoodStreetFoodPhoto from "@/assets/photos/Itinerary_Day3_FoodStreet_Food.jpg";
+import BundPhoto from "@/assets/photos/Itinerary_Day3_Bund.jpg";
+import BuildingPhoto from "@/assets/photos/Itinerary_Day3_Building.jpg";
+import BernardTaxiPhoto from "@/assets/photos/Itinerary_Day3_Bernard_Taxi.jpg";
+import BernardSitPhoto from "@/assets/photos/Itinerary_Day3_Bernard_Sit.jpg";
+import ChristmasMarketPhoto from "@/assets/photos/Itinerary_Day3_ChristmasMarket.jpg";
 
 export const ItineraryDay3Page = () => {
   return (
@@ -58,27 +59,27 @@ export const ItineraryDay3Page = () => {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.
         </PageContainerItem>
-        <PageContainerItemImage images={[TrainBoard]} />
-        <PageContainerItemImage images={[Hotel]} />
-        <PageContainerItemImage images={[HotelRoomOverview, HotelBedroom, HotelBathroom, HotelToilet, HotelRoomCard]} />
-        <PageContainerItemImage images={[BeefNoodleShop, BeefNoodleOriginal, BeefNoodleMarrow]} />
-        <PageContainerItemImage images={[NeoWorld, NeoWorldMap]} />
-        <PageContainerItemImage images={[ArknightsContainer]} />
-        <PageContainerItemImage images={[ConsoleController]} />
-        <PageContainerItemImage images={[TrashbinFlex, TrashbinFoldArm, TrashbinBow]} />
-        <PageContainerItemImage images={[Cake]} />
-        <PageContainerItemImage images={[Pollux]} />
-        <PageContainerItemImage images={[Sam]} />
-        <PageContainerItemImage images={[TrashbinSit, ArknightStandee]} />
-        <PageContainerItemImage images={[MihoyoShop]} />
-        <PageContainerItemImage images={[Teashop]} />
-        <PageContainerItemImage images={[CrabSoupDumplingShop, CrabSoupDumplingFood]} />
-        <PageContainerItemImage images={[DaHuChunShop, DaHuChunFood]} />
-        <PageContainerItemImage images={[FoodStreet, FoodStreetFood]} />
-        <PageContainerItemImage images={[Bund]} />
-        <PageContainerItemImage images={[Building]} />
-        <PageContainerItemImage images={[BernardTaxi, BernardSit]} />
-        <PageContainerItemImage images={[ChristmasMarket]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: TrainBoardPhoto, alt: "Train Timings"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: HotelPhoto, alt: "Hotel"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[HotelRoomOverviewPhoto, HotelBedroomPhoto, HotelBathroomPhoto, HotelToiletPhoto, HotelRoomCardPhoto]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[BeefNoodleShopPhoto, BeefNoodleOriginalPhoto, BeefNoodleMarrowPhoto]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[NeoWorldPhoto, NeoWorldMapPhoto]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: ArknightsContainerPhoto, alt: "Arknights Container"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: ConsoleControllerPhoto, alt: "Life-sized Controller"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[TrashbinFlexPhoto, TrashbinFoldArmPhoto, TrashbinBowPhoto]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: CakePhoto, alt: "HSR Cake"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: PolluxPhoto, alt: "HSR Pollux"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: SamPhoto, alt: "HSR Sam"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[TrashbinSitPhoto, ArknightStandeePhoto]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: MihoyoShopPhoto, alt: "Mihoyo Shop"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: TeashopPhoto, alt: "Tea Shop"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[CrabSoupDumplingShopPhoto, CrabSoupDumplingFoodPhoto]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[DaHuChunShopPhoto, DaHuChunFoodPhoto]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[FoodStreetPhoto, FoodStreetFoodPhoto]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: BundPhoto, alt: "The Bund Night Skyline"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: BuildingPhoto, alt: "Building"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[BernardTaxiPhoto, BernardSitPhoto]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: ChristmasMarketPhoto, alt: "Christmas Market"}} />
       </PageContainer>
     </Page>
   );

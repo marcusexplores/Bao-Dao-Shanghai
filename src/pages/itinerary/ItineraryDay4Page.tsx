@@ -3,39 +3,40 @@ import { PageContainer } from "@/components/page/PageContainer";
 import { PageContainerItem } from "@/components/page/PageContainerItem";
 import { PageContainerItemImage } from "@/components/page/PageContainerItemImage";
 import { PageHeadline } from "@/components/page/PageHeadline";
-import Breakfast from "@/assets/photos/Itinerary_Day4_Breakfast.jpg";
-import SnowWorld from "@/assets/photos/Itinerary_Day4_SnowWorld.jpg";
-import SnowWorldGroundFloor from "@/assets/photos/Itinerary_Day4_SnowWorld_GroundFloor.jpg";
-import SnowWorldGroundFloorTogether from "@/assets/photos/Itinerary_Day4_SnowWorld_GroundFloor_Together.jpg";
-import LakeLogo from "@/assets/photos/Itinerary_Day4_Lake_Logo.jpg";
-import LakeBikeTogether from "@/assets/photos/Itinerary_Day4_Lake_Bike_Together.jpg";
-import Carlowitz from "@/assets/photos/Itinerary_Day4_Carlowitz.jpg";
-import Mural from "@/assets/photos/Itinerary_Day4_Mural.jpg";
-import JiChangXingLogo from "@/assets/photos/Itinerary_Day4_JiChangXing_Logo.jpg";
-import JiChangXingCrabNoodles from "@/assets/photos/Itinerary_Day4_JiChangXing_CrabNoodles.jpg";
-import JiChangXingMeat from "@/assets/photos/Itinerary_Day4_JiChangXing_Meat.jpg";
-import JiChangXingDumpling from "@/assets/photos/Itinerary_Day4_JiChangXing_Dumpling.jpg";
-import JiChangXingEel from "@/assets/photos/Itinerary_Day4_JiChangXing_Eel.jpg";
-import JiChangXingFish from "@/assets/photos/Itinerary_Day4_JiChangXing_Fish.jpg";
-import BailianSega from "@/assets/photos/Itinerary_Day4_Bailian_Sega.jpg";
-import BailianJump from "@/assets/photos/Itinerary_Day4_Bailian_Jump.jpg";
-import BailianDsDisplay from "@/assets/photos/Itinerary_Day4_Bailian_DS_Display.jpg";
-import BailianDsStandee from "@/assets/photos/Itinerary_Day4_Bailian_DS_Standee.jpg";
-import BailianDsNakime from "@/assets/photos/Itinerary_Day4_Bailian_DS_Nakime.jpg";
-import BailianDsWall from "@/assets/photos/Itinerary_Day4_Bailian_DS_Wall.jpg";
-import BailianDsStandeeMini from "@/assets/photos/Itinerary_Day4_Bailian_DS_Standee_Mini.jpg";
-import BrownDust from "@/assets/photos/Itinerary_Day4_Bailian_BrownDust.jpg";
-import PgrOverview from "@/assets/photos/Itinerary_Day4_Bailian_Pgr_Overview.jpg";
-import PgrFilm from "@/assets/photos/Itinerary_Day4_Bailian_Pgr_Film.jpg";
-import PgrCard1 from "@/assets/photos/Itinerary_Day4_Bailian_Pgr_Card1.jpg";
-import PgrCard2 from "@/assets/photos/Itinerary_Day4_Bailian_Pgr_Card2.jpg";
-import PgrBadge1 from "@/assets/photos/Itinerary_Day4_Bailian_Pgr_Badge1.jpg";
-import PgrBadge2 from "@/assets/photos/Itinerary_Day4_Bailian_Pgr_Badge2.jpg";
-import PgrBadge3 from "@/assets/photos/Itinerary_Day4_Bailian_Pgr_Badge3.jpg";
-import PgrBadge4 from "@/assets/photos/Itinerary_Day4_Bailian_Pgr_Badge4.jpg";
-import TeaShop from "@/assets/photos/Itinerary_Day4_Tea_Shop.jpg";
-import Tea from "@/assets/photos/Itinerary_Day4_Tea.jpg";
-import Luggage from "@/assets/photos/Itinerary_Day4_Luggage.jpg";
+import { mediaContainerVariant } from "@/components/page/constants";
+import BreakfastPhoto from "@/assets/photos/Itinerary_Day4_Breakfast.jpg";
+import SnowWorldPhoto from "@/assets/photos/Itinerary_Day4_SnowWorld.jpg";
+import SnowWorldGroundFloorPhoto from "@/assets/photos/Itinerary_Day4_SnowWorld_GroundFloor.jpg";
+import SnowWorldGroundFloorWefiePhoto from "@/assets/photos/Itinerary_Day4_SnowWorld_GroundFloor_Together.jpg";
+import LakeLogoPhoto from "@/assets/photos/Itinerary_Day4_Lake_Logo.jpg";
+import LakeBikeTogetherPhoto from "@/assets/photos/Itinerary_Day4_Lake_Bike_Together.jpg";
+import CarlowitzPhoto from "@/assets/photos/Itinerary_Day4_Carlowitz.jpg";
+import MuralPhoto from "@/assets/photos/Itinerary_Day4_Mural.jpg";
+import JiChangXingLogoPhoto from "@/assets/photos/Itinerary_Day4_JiChangXing_Logo.jpg";
+import JiChangXingCrabNoodlesPhoto from "@/assets/photos/Itinerary_Day4_JiChangXing_CrabNoodles.jpg";
+import JiChangXingMeatPhoto from "@/assets/photos/Itinerary_Day4_JiChangXing_Meat.jpg";
+import JiChangXingDumplingPhoto from "@/assets/photos/Itinerary_Day4_JiChangXing_Dumpling.jpg";
+import JiChangXingEelPhoto from "@/assets/photos/Itinerary_Day4_JiChangXing_Eel.jpg";
+import JiChangXingFishPhoto from "@/assets/photos/Itinerary_Day4_JiChangXing_Fish.jpg";
+import BailianSegaPhoto from "@/assets/photos/Itinerary_Day4_Bailian_Sega.jpg";
+import BailianJumpPhoto from "@/assets/photos/Itinerary_Day4_Bailian_Jump.jpg";
+import BailianDsDisplayPhoto from "@/assets/photos/Itinerary_Day4_Bailian_DS_Display.jpg";
+import BailianDsStandeePhoto from "@/assets/photos/Itinerary_Day4_Bailian_DS_Standee.jpg";
+import BailianDsNakimePhoto from "@/assets/photos/Itinerary_Day4_Bailian_DS_Nakime.jpg";
+import BailianDsWallPhoto from "@/assets/photos/Itinerary_Day4_Bailian_DS_Wall.jpg";
+import BailianDsStandeeMiniPhoto from "@/assets/photos/Itinerary_Day4_Bailian_DS_Standee_Mini.jpg";
+import BrownDustPhoto from "@/assets/photos/Itinerary_Day4_Bailian_BrownDust.jpg";
+import PgrOverviewPhoto from "@/assets/photos/Itinerary_Day4_Bailian_Pgr_Overview.jpg";
+import PgrFilmPhoto from "@/assets/photos/Itinerary_Day4_Bailian_Pgr_Film.jpg";
+import PgrCard1Photo from "@/assets/photos/Itinerary_Day4_Bailian_Pgr_Card1.jpg";
+import PgrCard2Photo from "@/assets/photos/Itinerary_Day4_Bailian_Pgr_Card2.jpg";
+import PgrBadge1Photo from "@/assets/photos/Itinerary_Day4_Bailian_Pgr_Badge1.jpg";
+import PgrBadge2Photo from "@/assets/photos/Itinerary_Day4_Bailian_Pgr_Badge2.jpg";
+import PgrBadge3Photo from "@/assets/photos/Itinerary_Day4_Bailian_Pgr_Badge3.jpg";
+import PgrBadge4Photo from "@/assets/photos/Itinerary_Day4_Bailian_Pgr_Badge4.jpg";
+import TeaShopPhoto from "@/assets/photos/Itinerary_Day4_Tea_Shop.jpg";
+import TeaPhoto from "@/assets/photos/Itinerary_Day4_Tea.jpg";
+import LuggagePhoto from "@/assets/photos/Itinerary_Day4_Luggage.jpg";
 
 export const ItineraryDay4Page = () => {
   return (
@@ -56,40 +57,50 @@ export const ItineraryDay4Page = () => {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.
         </PageContainerItem>
-        <PageContainerItemImage images={[Breakfast]} />
-        <PageContainerItemImage images={[SnowWorld]} />
-        <PageContainerItemImage images={[SnowWorldGroundFloor]} />
-        <PageContainerItemImage images={[SnowWorldGroundFloorTogether]} />
-        <PageContainerItemImage images={[LakeLogo]} />
-        <PageContainerItemImage images={[LakeBikeTogether]} />
-        <PageContainerItemImage images={[Carlowitz]} />
-        <PageContainerItemImage images={[Mural]} />
-        <PageContainerItemImage images={[JiChangXingLogo]} />
-        <PageContainerItemImage images={[JiChangXingCrabNoodles]} />
-        <PageContainerItemImage images={[JiChangXingMeat]} />
-        <PageContainerItemImage images={[JiChangXingDumpling]} />
-        <PageContainerItemImage images={[JiChangXingEel]} />
-        <PageContainerItemImage images={[JiChangXingFish]} />
-        <PageContainerItemImage images={[BailianSega]} />
-        <PageContainerItemImage images={[BailianJump]} />
-        <PageContainerItemImage images={[BailianDsDisplay]} />
-        <PageContainerItemImage images={[BailianDsStandee]} />
-        <PageContainerItemImage images={[BailianDsNakime]} />
-        <PageContainerItemImage images={[BailianDsWall]} />
-        <PageContainerItemImage images={[BailianDsStandeeMini]} />
-        <PageContainerItemImage images={[BrownDust]} />
-        <PageContainerItemImage images={[PgrOverview]} />
-        <PageContainerItemImage images={[PgrFilm]} />
-        <PageContainerItemImage images={[PgrCard1]} />
-        <PageContainerItemImage images={[PgrCard2]} />
-        <PageContainerItemImage images={[PgrBadge1]} />
-        <PageContainerItemImage images={[PgrBadge2]} />
-        <PageContainerItemImage images={[PgrBadge3]} />
-        <PageContainerItemImage images={[PgrBadge4]} />
-        <PageContainerItemImage images={[TeaShop]} />
-        <PageContainerItemImage images={[Tea]} />
-        <PageContainerItemImage images={[Luggage]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: BreakfastPhoto, alt: "Breakfast"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: SnowWorldPhoto, alt: "Snow World"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: SnowWorldGroundFloorPhoto, alt: "Snow World Ground Floor"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: SnowWorldGroundFloorWefiePhoto, alt: "Snow World Wefie"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: LakeLogoPhoto, alt: "Dishui Lake"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: LakeBikeTogetherPhoto, alt: "Cycling at Dishui Lake"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: CarlowitzPhoto, alt: "Carlowitz"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: MuralPhoto, alt: "Mural"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: JiChangXingLogoPhoto, alt: "Ji Chang Xing"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Quilt} data={[
+            {
+              data: {src: JiChangXingCrabNoodlesPhoto, alt: "Crab Noodles"},
+              cols: 1,
+              rows: 1,
+            },
+            {
+              data: {src: JiChangXingMeatPhoto, alt: "Meat"},
+              cols: 1,
+              rows: 1,
+            },
+            {
+              data: {src: JiChangXingDumplingPhoto, alt: "Dumpling"},
+              cols: 1,
+              rows: 2,
+            },
+            {
+              data: {src: JiChangXingEelPhoto, alt: "Eel"},
+              cols: 1,
+              rows: 2,
+            },
+            {
+              data: {src: JiChangXingFishPhoto, alt: "Squirrel Fish"},
+              cols: 1,
+              rows: 1,
+            },
+          ]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[BailianSegaPhoto, BailianJumpPhoto]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[BailianDsDisplayPhoto, BailianDsStandeePhoto, BailianDsNakimePhoto, BailianDsWallPhoto, BailianDsStandeeMiniPhoto]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: BrownDustPhoto, alt: "Hotel"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: PgrOverviewPhoto, alt: "Hotel"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[PgrFilmPhoto, PgrCard1Photo, PgrCard2Photo, PgrBadge1Photo, PgrBadge2Photo, PgrBadge3Photo, PgrBadge4Photo]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[TeaShopPhoto, TeaPhoto]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: LuggagePhoto, alt: "Luggage"}} />
       </PageContainer>
     </Page>
   );
-}
+};

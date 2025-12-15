@@ -4,8 +4,9 @@ import { PageContainerItem } from "@/components/page/PageContainerItem";
 import { PageContainerItemImage } from "@/components/page/PageContainerItemImage";
 import { PageHeadline } from "@/components/page/PageHeadline";
 import { Flipboard } from "@/components/flipboard/Flipboard";
-import GymSpace1 from "@/assets/photos/Itinerary_Day8_Gym_Space1.jpg";
-import GymSpace2 from "@/assets/photos/Itinerary_Day8_Gym_Space2.jpg";
+import { mediaContainerVariant } from "@/components/page/constants";
+import GymSpace1Photo from "@/assets/photos/Itinerary_Day8_Gym_Space1.jpg";
+import GymSpace2Photo from "@/assets/photos/Itinerary_Day8_Gym_Space2.jpg";
 import { returnFlight } from "./data/flights";
 
 export const ItineraryDay8Page = () => {
@@ -28,7 +29,7 @@ export const ItineraryDay8Page = () => {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.
         </PageContainerItem>
-        <PageContainerItemImage images={[GymSpace1, GymSpace2]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[GymSpace1Photo, GymSpace2Photo]} />
       </PageContainer>
     </Page>
   );

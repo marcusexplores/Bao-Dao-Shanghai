@@ -23,4 +23,9 @@ declare global {
       readonly [P in keyof T]: DeepReadonly<T[P]>;
     }
   : T;
+
+  interface Image {
+    src: string,
+    alt: string
+  }
 }

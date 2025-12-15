@@ -3,56 +3,56 @@ import { PageContainer } from "@/components/page/PageContainer";
 import { PageContainerItem } from "@/components/page/PageContainerItem";
 import { PageContainerItemImage } from "@/components/page/PageContainerItemImage";
 import { PageHeadline } from "@/components/page/PageHeadline";
-import HotelBuffetHot from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Hot.jpg";
-import HotelBuffetSides from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Sides.jpg";
-import HotelBuffetDrink from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Drink.jpg";
-import HotelBuffetPorridge from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Porridge.jpg";
-import HotelBuffetCook from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Cook.jpg";
-import HotelBuffetVegetables from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Vegetables.jpg";
-import HotelBuffetIce from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Ice.jpg";
-import HotelBuffetSoup from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Soup.jpg";
-import HotelBuffetPasteries from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Pasteries.jpg";
-import HotelBuffetSteam from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Steam.jpg";
-import OmgParkTogether from "@/assets/photos/Itinerary_Day2_Omg_Together.jpg";
-import OmgParkMascot from "@/assets/photos/Itinerary_Day2_Omg_Mascot.jpg";
-import OmgParkTotem from "@/assets/photos/Itinerary_Day2_Omg_Totem.jpg";
-import BoatEntrance from "@/assets/photos/Itinerary_Day2_BoatEntrance.jpg";
-import BoatBoarding from "@/assets/photos/Itinerary_Day2_BoatBoarding.jpg";
-import Altar from "@/assets/photos/Itinerary_Day2_Altar.jpg";
-import Buddha from "@/assets/photos/Itinerary_Day2_Buddha.jpg";
-import CaveInspector from "@/assets/photos/Itinerary_Day2_Cave_Inspector.jpg";
-import CaveScenery from "@/assets/photos/Itinerary_Day2_Cave_Scenery.jpg";
-import CaveReward from "@/assets/photos/Itinerary_Day2_Cave_Reward.jpg";
-import Lift from "@/assets/photos/Itinerary_Day2_Lift.jpg";
-import Wing_Bernard from "@/assets/photos/Itinerary_Day2_Wing_Bernard.jpg";
-import GlassBridge from "@/assets/photos/Itinerary_Day2_GlassBridge.jpg";
-import LittlePrince from "@/assets/photos/Itinerary_Day2_LittlePrince.jpg";
-import GlassBridgeOverview from "@/assets/photos/Itinerary_Day2_GlassBridge_Overview.jpg";
-import CliffSwing from "@/assets/photos/Itinerary_Day2_CliffSwing.jpg";
-import Astronaut from "@/assets/photos/Itinerary_Day2_Astronaut.jpg";
-import AstronautTouch from "@/assets/photos/Itinerary_Day2_Astronaut_Touch.jpg";
-import ObservatoryBernard from "@/assets/photos/Itinerary_Day2_Observatory_Bernard.jpg";
-import ObservatoryMarcus from "@/assets/photos/Itinerary_Day2_Observatory_Marcus.jpg";
-import WaterEntrance from "@/assets/photos/Itinerary_Day2_Water_Entrance.jpg";
-import WaterBackStory from "@/assets/photos/Itinerary_Day2_Water_BackStory.jpg";
-import WaterBoat from "@/assets/photos/Itinerary_Day2_Water_Boat.jpg";
-import WaterTogether from "@/assets/photos/Itinerary_Day2_Water_Together.jpg";
-import WaterDryer from "@/assets/photos/Itinerary_Day2_Water_Dryer.jpg";
-import Teahouse from "@/assets/photos/Itinerary_Day2_Teahouse.jpg";
-import TeahouseFood from "@/assets/photos/Itinerary_Day2_Teahouse_Food.jpg";
-import DoveArea from "@/assets/photos/Itinerary_Day2_Dove_Area.jpg";
-import DoveHouse from "@/assets/photos/Itinerary_Day2_Dove_House.jpg";
-import ForestBernard from "@/assets/photos/Itinerary_Day2_Forest_Bernard.jpg";
-import ForestMarcus from "@/assets/photos/Itinerary_Day2_Forest_Marcus.jpg";
-import Dragon from "@/assets/photos/Itinerary_Day2_Dragon.jpg";
-import GapEntrance from "@/assets/photos/Itinerary_Day2_Gap_Entrance.jpg";
-import GapArea from "@/assets/photos/Itinerary_Day2_Gap_Area.jpg";
-import GapDrink from "@/assets/photos/Itinerary_Day2_Gap_Drink.jpg";
-import ParkRewards from "@/assets/photos/Itinerary_Day2_Park_Rewards.jpg";
-import HefangStreet from "@/assets/photos/Itinerary_Day2_HefangStreet.jpg";
-import HefangStreetSkewers from "@/assets/photos/Itinerary_Day2_HefangStreet_Skewers.jpg";
-import HefangStreetPastery from "@/assets/photos/Itinerary_Day2_HefangStreet_Pastery.jpg";
-
+import { mediaContainerVariant } from "@/components/page/constants";
+import HotelBuffetHotPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Hot.jpg";
+import HotelBuffetSidesPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Sides.jpg";
+import HotelBuffetDrinkPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Drink.jpg";
+import HotelBuffetPorridgePhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Porridge.jpg";
+import HotelBuffetCookPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Cook.jpg";
+import HotelBuffetVegetablesPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Vegetables.jpg";
+import HotelBuffetIcePhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Ice.jpg";
+import HotelBuffetSoupPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Soup.jpg";
+import HotelBuffetPasteriesPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Pasteries.jpg";
+import HotelBuffetSteamPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Steam.jpg";
+import OmgParkTogetherPhoto from "@/assets/photos/Itinerary_Day2_Omg_Together.jpg";
+import OmgParkMascotPhoto from "@/assets/photos/Itinerary_Day2_Omg_Mascot.jpg";
+import OmgParkTotemPhoto from "@/assets/photos/Itinerary_Day2_Omg_Totem.jpg";
+import BoatEntrancePhoto from "@/assets/photos/Itinerary_Day2_BoatEntrance.jpg";
+import BoatBoardingPhoto from "@/assets/photos/Itinerary_Day2_BoatBoarding.jpg";
+import AltarPhoto from "@/assets/photos/Itinerary_Day2_Altar.jpg";
+import BuddhaPhoto from "@/assets/photos/Itinerary_Day2_Buddha.jpg";
+import CaveInspectorPhoto from "@/assets/photos/Itinerary_Day2_Cave_Inspector.jpg";
+import CaveSceneryPhoto from "@/assets/photos/Itinerary_Day2_Cave_Scenery.jpg";
+import CaveRewardPhoto from "@/assets/photos/Itinerary_Day2_Cave_Reward.jpg";
+import LiftPhoto from "@/assets/photos/Itinerary_Day2_Lift.jpg";
+import BernardWingPhoto from "@/assets/photos/Itinerary_Day2_Wing_Bernard.jpg";
+import GlassBridgePhoto from "@/assets/photos/Itinerary_Day2_GlassBridge.jpg";
+import LittlePrincePhoto from "@/assets/photos/Itinerary_Day2_LittlePrince.jpg";
+import GlassBridgeOverviewPhoto from "@/assets/photos/Itinerary_Day2_GlassBridge_Overview.jpg";
+import CliffSwingPhoto from "@/assets/photos/Itinerary_Day2_CliffSwing.jpg";
+import AstronautPhoto from "@/assets/photos/Itinerary_Day2_Astronaut.jpg";
+import AstronautTouchPhoto from "@/assets/photos/Itinerary_Day2_Astronaut_Touch.jpg";
+import ObservatoryBernardPhoto from "@/assets/photos/Itinerary_Day2_Observatory_Bernard.jpg";
+import ObservatoryMarcusPhoto from "@/assets/photos/Itinerary_Day2_Observatory_Marcus.jpg";
+import WaterEntrancePhoto from "@/assets/photos/Itinerary_Day2_Water_Entrance.jpg";
+import WaterBackStoryPhoto from "@/assets/photos/Itinerary_Day2_Water_BackStory.jpg";
+import WaterBoatPhoto from "@/assets/photos/Itinerary_Day2_Water_Boat.jpg";
+import WaterTogetherPhoto from "@/assets/photos/Itinerary_Day2_Water_Together.jpg";
+import WaterDryerPhoto from "@/assets/photos/Itinerary_Day2_Water_Dryer.jpg";
+import TeahousePhoto from "@/assets/photos/Itinerary_Day2_Teahouse.jpg";
+import TeahouseFoodPhoto from "@/assets/photos/Itinerary_Day2_Teahouse_Food.jpg";
+import DoveAreaPhoto from "@/assets/photos/Itinerary_Day2_Dove_Area.jpg";
+import DoveHousePhoto from "@/assets/photos/Itinerary_Day2_Dove_House.jpg";
+import ForestBernardPhoto from "@/assets/photos/Itinerary_Day2_Forest_Bernard.jpg";
+import ForestMarcusPhoto from "@/assets/photos/Itinerary_Day2_Forest_Marcus.jpg";
+import DragonPhoto from "@/assets/photos/Itinerary_Day2_Dragon.jpg";
+import GapEntrancePhoto from "@/assets/photos/Itinerary_Day2_Gap_Entrance.jpg";
+import GapAreaPhoto from "@/assets/photos/Itinerary_Day2_Gap_Area.jpg";
+import GapDrinkPhoto from "@/assets/photos/Itinerary_Day2_Gap_Drink.jpg";
+import ParkRewardsPhoto from "@/assets/photos/Itinerary_Day2_Park_Rewards.jpg";
+import HefangStreetPhoto from "@/assets/photos/Itinerary_Day2_HefangStreet.jpg";
+import HefangStreetSkewersPhoto from "@/assets/photos/Itinerary_Day2_HefangStreet_Skewers.jpg";
+import HefangStreetPasteryPhoto from "@/assets/photos/Itinerary_Day2_HefangStreet_Pastery.jpg";
 
 export const ItineraryDay2Page = () => {
   return (
@@ -73,38 +73,38 @@ export const ItineraryDay2Page = () => {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.
         </PageContainerItem>
-        <PageContainerItemImage images={[HotelBuffetHot, HotelBuffetSides, HotelBuffetDrink, HotelBuffetPorridge, HotelBuffetCook, HotelBuffetVegetables, HotelBuffetIce, HotelBuffetSoup, HotelBuffetPasteries, HotelBuffetSteam]} />
-        <PageContainerItemImage images={[OmgParkTogether, OmgParkMascot]} />
-        <PageContainerItemImage images={[OmgParkTotem]} />
-        <PageContainerItemImage images={[BoatEntrance, BoatBoarding]} />
-        <PageContainerItemImage images={[Altar]} />
-        <PageContainerItemImage images={[Buddha]} />
-        <PageContainerItemImage images={[CaveInspector]} />
-        <PageContainerItemImage images={[CaveScenery]} />
-        <PageContainerItemImage images={[CaveReward]} />
-        <PageContainerItemImage images={[Lift]} />
-        <PageContainerItemImage images={[Wing_Bernard]} />
-        <PageContainerItemImage images={[GlassBridge]} />
-        <PageContainerItemImage images={[LittlePrince]} />
-        <PageContainerItemImage images={[GlassBridgeOverview]} />
-        <PageContainerItemImage images={[CliffSwing]} />
-        <PageContainerItemImage images={[Astronaut, AstronautTouch]} />
-        <PageContainerItemImage images={[ObservatoryBernard, ObservatoryMarcus]} />
-        <PageContainerItemImage images={[WaterEntrance]} />
-        <PageContainerItemImage images={[WaterBackStory]} />
-        <PageContainerItemImage images={[WaterBoat]} />
-        <PageContainerItemImage images={[WaterTogether]} />
-        <PageContainerItemImage images={[WaterDryer]} />
-        <PageContainerItemImage images={[Teahouse, TeahouseFood]} />
-        <PageContainerItemImage images={[DoveArea, DoveHouse]} />
-        <PageContainerItemImage images={[ForestBernard, ForestMarcus]} />
-        <PageContainerItemImage images={[Dragon]} />
-        <PageContainerItemImage images={[GapEntrance]} />
-        <PageContainerItemImage images={[GapArea]} />
-        <PageContainerItemImage images={[GapDrink]} />
-        <PageContainerItemImage images={[ParkRewards]} />
-        <PageContainerItemImage images={[HefangStreet]} />
-        <PageContainerItemImage images={[HefangStreetSkewers, HefangStreetPastery]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[HotelBuffetHotPhoto, HotelBuffetSidesPhoto, HotelBuffetDrinkPhoto, HotelBuffetPorridgePhoto, HotelBuffetCookPhoto, HotelBuffetVegetablesPhoto, HotelBuffetIcePhoto, HotelBuffetSoupPhoto, HotelBuffetPasteriesPhoto, HotelBuffetSteamPhoto]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[OmgParkTogetherPhoto, OmgParkMascotPhoto]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: OmgParkTotemPhoto, alt: "Park Totem"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[BoatEntrancePhoto, BoatBoardingPhoto]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: AltarPhoto, alt: "Altar"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: BuddhaPhoto, alt: "Buddha"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: CaveInspectorPhoto, alt: "Cave Inspector"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: CaveSceneryPhoto, alt: "Scenery inside the cave"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: CaveRewardPhoto, alt: "Rewards from completing Cave Exploration"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: LiftPhoto, alt: "Lift"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: BernardWingPhoto, alt: "Wings"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: GlassBridgePhoto, alt: "Glass Bridge"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: LittlePrincePhoto, alt: "Little Prince"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: GlassBridgeOverviewPhoto, alt: "Glass Bridge"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: CliffSwingPhoto, alt: "Cliff Swing"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[AstronautPhoto, AstronautTouchPhoto]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[ObservatoryBernardPhoto, ObservatoryMarcusPhoto]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: WaterEntrancePhoto, alt: "Water Ride Entrance"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: WaterBackStoryPhoto, alt: "Background story for Water Ride"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: WaterBoatPhoto, alt: "Boats used in Water Ride"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: WaterTogetherPhoto, alt: "Photo captured during Water Ride"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: WaterDryerPhoto, alt: "Hair Dryer"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[TeahousePhoto, TeahouseFoodPhoto]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[DoveAreaPhoto, DoveHousePhoto]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[ForestBernardPhoto, ForestMarcusPhoto]} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: DragonPhoto, alt: "Dragon"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: GapEntrancePhoto, alt: "Entrance to GAP"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: GapAreaPhoto, alt: "GAP Area"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: GapDrinkPhoto, alt: "Cafe drinks"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: ParkRewardsPhoto, alt: "Rewards"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: HefangStreetPhoto, alt: "Hefang Street"}} />
+        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[HefangStreetSkewersPhoto, HefangStreetPasteryPhoto]} />
       </PageContainer>
     </Page>
   );
