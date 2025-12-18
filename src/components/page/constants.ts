@@ -4,3 +4,5 @@ export const mediaContainerVariant = {
   Quilt: "Quilt",
   Masonry: "Masonry",
 } as const;
+
+export { MediaType } from "@/components/quilt/constants";

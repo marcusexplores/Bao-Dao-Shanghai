@@ -28,4 +28,9 @@ declare global {
     src: string,
     alt: string
   }
+
+  interface Video {
+    src: string;
+    type?: string;
+  }
 }

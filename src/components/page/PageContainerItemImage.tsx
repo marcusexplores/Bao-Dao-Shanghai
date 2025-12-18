@@ -1,18 +1,18 @@
 import { Masonry } from "../masonry/Masonry";
-import type { QuiltTile } from "@/components/quilt/types";
+import type { QuiltObsoleteTile } from "@/components/quilt/types";
 import { PageContainerItem } from "./PageContainerItem";
 import { mediaContainerVariant } from "./constants";
-import { Quilt } from "../quilt/Quilt";
+import { QuiltObsolete } from "../quilt/QuiltObsolete";
 
 interface PageContainerItemImageProps {
   variant: string;
-  data?: Image | string[] | QuiltTile[];
+  data?: Image | string[] | QuiltObsoleteTile[];
   caption?: string;
 }
 
 const getMediaContainer = (
   variant: string,
-  data?: Image | string[] | QuiltTile[]
+  data?: Image | string[] | QuiltObsoleteTile[]
 ) => {
   if (variant === mediaContainerVariant.Image) {
     const input = data as Image;
@@ -22,8 +22,8 @@ const getMediaContainer = (
       </div>
     );
   } else if (variant === mediaContainerVariant.Quilt) {
-    const input = data as QuiltTile[];
-    return <Quilt data={input} />;
+    const input = data as QuiltObsoleteTile[];
+    return <QuiltObsolete data={input} />;
   } else if (variant === mediaContainerVariant.Masonry) {
     const input = data as string[];
     return <Masonry images={input} />;
