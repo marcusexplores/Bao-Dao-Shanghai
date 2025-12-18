@@ -58,7 +58,7 @@ export const expenses: ExpenseCategory[] = [
           "Special Discount": -33.24,
           "Multi-night Discount": -8.32,
           "Mari Credit Card Cashback 1.7%": -3.29,
-          Shopback: -8.69,
+          "Shopback Cashback": -8.69,
         },
       },
       {
@@ -70,6 +70,7 @@ export const expenses: ExpenseCategory[] = [
           "Special Discount": -267.2,
           "Multi-night Discount": -40.1,
           "Mari Credit Card Cashback 1.7%": -14.08,
+          "Shopback Cashback": -16.55,
         },
       },
     ],
@@ -84,6 +85,7 @@ export const expenses: ExpenseCategory[] = [
         breakdown: {
           "Original Premium": 86.31,
           "Promo Code 35% (FWDTRAVEL)": -30.21,
+          "Shopback Cashback": -1.12,
         },
       },
     ],
@@ -131,6 +133,7 @@ export const expenses: ExpenseCategory[] = [
           "Original Price": 368.3,
           "Booking Discount": -196.48,
           "Mari Credit Card Cashback 1.7%": -2.92,
+          "Shopback Cashback": -3.44,
         },
       },
       {
