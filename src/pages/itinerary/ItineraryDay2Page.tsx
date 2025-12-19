@@ -26,6 +26,7 @@ import CaveSceneryPhoto from "@/assets/photos/Itinerary_Day2_Cave_Scenery.jpg";
 import CaveRewardPhoto from "@/assets/photos/Itinerary_Day2_Cave_Reward.jpg";
 import LiftPhoto from "@/assets/photos/Itinerary_Day2_Lift.jpg";
 import BernardWingPhoto from "@/assets/photos/Itinerary_Day2_Wing_Bernard.jpg";
+import GalbrenaImage from "@/assets/images/Galbrena.jpg";
 import GlassBridgePhoto from "@/assets/photos/Itinerary_Day2_GlassBridge.jpg";
 import LittlePrincePhoto from "@/assets/photos/Itinerary_Day2_LittlePrince.jpg";
 import GlassBridgeOverviewPhoto from "@/assets/photos/Itinerary_Day2_GlassBridge_Overview.jpg";
@@ -394,10 +395,16 @@ export const ItineraryDay2Page = () => {
         <PageContainerItemMedia
           data={[
             {
-              type: MediaType.Image,
+              type: MediaType.ImageComparison,
               media: {
-                src: BernardWingPhoto,
-                alt: "Bernard with Wings",
+                first: {
+                  src: BernardWingPhoto,
+                  alt: "Bernard with Wings",
+                },
+                second: {
+                  src: GalbrenaImage,
+                  alt: "Galbrena",
+                },
               },
               className: "col-span-full",
             },

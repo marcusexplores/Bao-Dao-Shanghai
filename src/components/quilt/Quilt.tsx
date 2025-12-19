@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { cn } from "@/functions/classname";
+import { ImageComparison } from "@/components/comparison/ImageComparison";
 import type { QuiltTile } from "./types";
 import { MediaType } from "./constants";
 
@@ -23,7 +24,10 @@ const displayTile = (tile: QuiltTile) => {
         <img
           src={image.src}
           alt={image.alt}
-          className={cn("w-full h-full object-cover transition duration-500 group-hover:opacity-80 group-hover:scale-105", tile.className)}
+          className={cn(
+            "w-full h-full object-cover transition duration-500 group-hover:opacity-80 group-hover:scale-105",
+            tile.className
+          )}
         />
       </motion.div>
     );
@@ -38,6 +42,13 @@ const displayTile = (tile: QuiltTile) => {
         <source src={video.src} type={video.type ?? "video/mp4"} />
         Your browser does not support the video tag.
       </video>
+    );
+  } else if (tile.type === MediaType.ImageComparison) {
+    const pair = tile.media as Pair<Image, Image>;
+    return (
+      <div className={cn(tile.className)}>
+        <ImageComparison before={pair.first} after={pair.second} />
+      </div>
     );
   } else {
     throw new Error("An error occurred while creating media container.");

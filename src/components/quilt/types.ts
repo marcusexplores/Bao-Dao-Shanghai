@@ -1,6 +1,6 @@
 export interface QuiltTile {
   type: string;
-  media: Image | Video;
+  media: Image | Video | Pair<Image, Image>;
   className: string;
 }
 
