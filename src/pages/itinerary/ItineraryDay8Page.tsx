@@ -1,10 +1,10 @@
 import { Page } from "@/components/page/Page";
 import { PageContainer } from "@/components/page/PageContainer";
 import { PageContainerItem } from "@/components/page/PageContainerItem";
-import { PageContainerItemImage } from "@/components/page/PageContainerItemImage";
+import { PageContainerItemMedia } from "@/components/page/PageContainerItemMedia";
 import { PageHeadline } from "@/components/page/PageHeadline";
 import { Flipboard } from "@/components/flipboard/Flipboard";
-import { mediaContainerVariant } from "@/components/page/constants";
+import { MediaType } from "@/components/page/constants";
 import GymSpace1Photo from "@/assets/photos/Itinerary_Day8_Gym_Space1.jpg";
 import GymSpace2Photo from "@/assets/photos/Itinerary_Day8_Gym_Space2.jpg";
 import { returnFlight } from "./data/flights";
@@ -29,7 +29,26 @@ export const ItineraryDay8Page = () => {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.
         </PageContainerItem>
-        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[GymSpace1Photo, GymSpace2Photo]} />
+        <PageContainerItemMedia
+          data={[
+            {
+              type: MediaType.Image,
+              media: {
+                src: GymSpace1Photo,
+                alt: "Gym Workout Area",
+              },
+              className: "col-span-6",
+            },
+            {
+              type: MediaType.Image,
+              media: {
+                src: GymSpace2Photo,
+                alt: "Gym Stretching Area",
+              },
+              className: "col-span-6",
+            },
+          ]}
+        />
       </PageContainer>
     </Page>
   );

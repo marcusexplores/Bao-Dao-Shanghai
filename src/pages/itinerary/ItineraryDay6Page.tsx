@@ -1,9 +1,9 @@
 import { Page } from "@/components/page/Page";
 import { PageContainer } from "@/components/page/PageContainer";
 import { PageContainerItem } from "@/components/page/PageContainerItem";
-import { PageContainerItemImage } from "@/components/page/PageContainerItemImage";
+import { PageContainerItemMedia } from "@/components/page/PageContainerItemMedia";
 import { PageHeadline } from "@/components/page/PageHeadline";
-import { mediaContainerVariant } from "@/components/page/constants";
+import { MediaType } from "@/components/page/constants";
 import BreakfastBagPhoto from "@/assets/photos/Itinerary_Day6_Breakfast_Bag.jpg";
 import BreakfastFoodPhoto from "@/assets/photos/Itinerary_Day6_Breakfast_Food.jpg";
 
@@ -26,8 +26,27 @@ export const ItineraryDay6Page = () => {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.
         </PageContainerItem>
-        <PageContainerItemImage variant={mediaContainerVariant.Masonry} data={[BreakfastBagPhoto, BreakfastFoodPhoto]} />
+        <PageContainerItemMedia
+          data={[
+            {
+              type: MediaType.Image,
+              media: {
+                src: BreakfastBagPhoto,
+                alt: "Breakfast Carrier Bag",
+              },
+              className: "col-span-6",
+            },
+            {
+              type: MediaType.Image,
+              media: {
+                src: BreakfastFoodPhoto,
+                alt: "Breakfast Food",
+              },
+              className: "col-span-6",
+            },
+          ]}
+        />
       </PageContainer>
     </Page>
   );
-}
+};

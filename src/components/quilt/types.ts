@@ -1,11 +1,7 @@
+import { MediaType } from "./constants";
+
 export interface QuiltTile {
-  type: string;
+  type: (typeof MediaType)[keyof typeof MediaType];
   media: Image | Video | Pair<Image, Image>;
   className: string;
-}
-
-export interface QuiltObsoleteTile {
-  data: Image;
-  cols: number; // Corresponds to Tailwind col-span-{cols}
-  rows: number; // Corresponds to Tailwind row-span-{rows}
 }

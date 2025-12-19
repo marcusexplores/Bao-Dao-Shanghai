@@ -1,5 +1,5 @@
 export const MediaType = {
-  Image: "Image",
-  Video: "Video",
-  ImageComparison: "ImageComparison",
+  Image: "image",
+  Video: "video",
+  ImageComparison: "image-comparison",
 } as const;

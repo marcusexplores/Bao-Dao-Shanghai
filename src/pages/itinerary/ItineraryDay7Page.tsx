@@ -1,9 +1,9 @@
 import { Page } from "@/components/page/Page";
 import { PageContainer } from "@/components/page/PageContainer";
 import { PageContainerItem } from "@/components/page/PageContainerItem";
-import { PageContainerItemImage } from "@/components/page/PageContainerItemImage";
+import { PageContainerItemMedia } from "@/components/page/PageContainerItemMedia";
 import { PageHeadline } from "@/components/page/PageHeadline";
-import { mediaContainerVariant } from "@/components/page/constants";
+import { MediaType } from "@/components/page/constants";
 import EggPancakeStallPhoto from "@/assets/photos/Itinerary_Day7_EggPancake_Stall.jpg";
 
 export const ItineraryDay7Page = () => {
@@ -25,8 +25,19 @@ export const ItineraryDay7Page = () => {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.
         </PageContainerItem>
-        <PageContainerItemImage variant={mediaContainerVariant.Image} data={{src: EggPancakeStallPhoto, alt: "Egg Pancake Stall"}} />
+        <PageContainerItemMedia
+          data={[
+            {
+              type: MediaType.Image,
+              media: {
+                src: EggPancakeStallPhoto,
+                alt: "Egg Pancake Stall",
+              },
+              className: "col-span-full max-w-lg mx-auto",
+            },
+          ]}
+        />
       </PageContainer>
     </Page>
   );
-}
+};
