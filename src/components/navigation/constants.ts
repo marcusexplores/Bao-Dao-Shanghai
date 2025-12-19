@@ -15,4 +15,4 @@ export const NAVIGATION_KEY = {
   ITINERARY_DAY_6: "/itinerary/day6",
   ITINERARY_DAY_7: "/itinerary/day7",
   ITINERARY_DAY_8: "/itinerary/day8",
-} 
+} as const;

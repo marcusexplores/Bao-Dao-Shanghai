@@ -9,7 +9,26 @@ interface QuiltProps {
 }
 
 const displayTile = (tile: QuiltTile) => {
-  if (tile.type === MediaType.Image) {
+  if (tile.type === MediaType.ImageComparison) {
+    const pair = tile.media as Pair<Image, Image>;
+    return (
+      <div className={cn(tile.className)}>
+        <ImageComparison before={pair.first} after={pair.second} />
+      </div>
+    );
+  } else if (tile.type === MediaType.Video) {
+    const video = tile.media as Video;
+    return (
+      <video
+        controls
+        key={video.src}
+        className={cn("w-full h-full object-cover", tile.className)}
+      >
+        <source src={video.src} type={video.type ?? "video/mp4"} />
+        Your browser does not support the video tag.
+      </video>
+    );
+  } else {
     const image = tile.media as Image;
     return (
       <motion.div
@@ -31,27 +50,6 @@ const displayTile = (tile: QuiltTile) => {
         />
       </motion.div>
     );
-  } else if (tile.type === MediaType.Video) {
-    const video = tile.media as Video;
-    return (
-      <video
-        controls
-        key={video.src}
-        className={cn("w-full h-full object-cover", tile.className)}
-      >
-        <source src={video.src} type={video.type ?? "video/mp4"} />
-        Your browser does not support the video tag.
-      </video>
-    );
-  } else if (tile.type === MediaType.ImageComparison) {
-    const pair = tile.media as Pair<Image, Image>;
-    return (
-      <div className={cn(tile.className)}>
-        <ImageComparison before={pair.first} after={pair.second} />
-      </div>
-    );
-  } else {
-    throw new Error("An error occurred while creating media container.");
   }
 };
 

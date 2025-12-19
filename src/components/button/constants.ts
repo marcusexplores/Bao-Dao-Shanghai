@@ -1,4 +1,4 @@
-export const buttonVariant = {
+export const ButtonVariant = {
   Default: "default",
   Secondary: "secondary",
   Outline: "outline",
@@ -7,7 +7,7 @@ export const buttonVariant = {
   Link: "link"
 } as const;
 
-export const buttonSize = {
+export const ButtonSize = {
   Default: "default",
   Small: "sm",
   Large: "lg",
