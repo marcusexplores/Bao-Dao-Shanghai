@@ -6,7 +6,7 @@ export const useComparisonContext = () => {
 
   if (!context) {
     throw new Error(
-      "useComparisonContext must be used within a Comparison"
+      "useComparisonContext must be used within a ComparisonProvider"
     );
   }
 
