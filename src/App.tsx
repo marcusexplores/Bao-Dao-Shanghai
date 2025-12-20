@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router";
 import { NotFoundPage } from "@/pages/not-found/NotFoundPage";
 import { HomePage } from "@/pages/home/HomePage";
 import { ItineraryPage } from "@/pages/itinerary/ItineraryPage";
+import { ItineraryDayPageLayout } from "@/pages/itinerary/ItineraryDayPageLayout";
 import { ItineraryDay0Page } from "@/pages/itinerary/ItineraryDay0Page";
 import { ItineraryDay1Page } from "@/pages/itinerary/ItineraryDay1Page";
 import { ItineraryDay2Page } from "@/pages/itinerary/ItineraryDay2Page";
@@ -26,15 +27,19 @@ export default function App() {
         <Routes>
           <Route index element={<HomePage />} />
           <Route path={NAVIGATION_KEY.ITINERARY} element={<ItineraryPage />} />
-          <Route path={NAVIGATION_KEY.ITINERARY_DAY_0} element={<ItineraryDay0Page />} />
-          <Route path={NAVIGATION_KEY.ITINERARY_DAY_1} element={<ItineraryDay1Page />} />
-          <Route path={NAVIGATION_KEY.ITINERARY_DAY_2} element={<ItineraryDay2Page />} />
-          <Route path={NAVIGATION_KEY.ITINERARY_DAY_3} element={<ItineraryDay3Page />} />
-          <Route path={NAVIGATION_KEY.ITINERARY_DAY_4} element={<ItineraryDay4Page />} />
-          <Route path={NAVIGATION_KEY.ITINERARY_DAY_5} element={<ItineraryDay5Page />} />
-          <Route path={NAVIGATION_KEY.ITINERARY_DAY_6} element={<ItineraryDay6Page />} />
-          <Route path={NAVIGATION_KEY.ITINERARY_DAY_7} element={<ItineraryDay7Page />} />
-          <Route path={NAVIGATION_KEY.ITINERARY_DAY_8} element={<ItineraryDay8Page />} />
+
+          <Route element={<ItineraryDayPageLayout />}>
+            <Route path={NAVIGATION_KEY.ITINERARY_DAY_0} element={<ItineraryDay0Page />} />
+            <Route path={NAVIGATION_KEY.ITINERARY_DAY_1} element={<ItineraryDay1Page />} />
+            <Route path={NAVIGATION_KEY.ITINERARY_DAY_2} element={<ItineraryDay2Page />} />
+            <Route path={NAVIGATION_KEY.ITINERARY_DAY_3} element={<ItineraryDay3Page />} />
+            <Route path={NAVIGATION_KEY.ITINERARY_DAY_4} element={<ItineraryDay4Page />} />
+            <Route path={NAVIGATION_KEY.ITINERARY_DAY_5} element={<ItineraryDay5Page />} />
+            <Route path={NAVIGATION_KEY.ITINERARY_DAY_6} element={<ItineraryDay6Page />} />
+            <Route path={NAVIGATION_KEY.ITINERARY_DAY_7} element={<ItineraryDay7Page />} />
+            <Route path={NAVIGATION_KEY.ITINERARY_DAY_8} element={<ItineraryDay8Page />} />
+          </Route>
+
           <Route path={NAVIGATION_KEY.BUDGET} element={<BudgetPage />} />
           <Route path={NAVIGATION_KEY.PREPARATION} element={<PreparationPage />} />
           <Route path={NAVIGATION_KEY.PREPARATION_CHECKLIST} element={<PreparationChecklistPage />} />
