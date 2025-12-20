@@ -1,10 +1,10 @@
 import { Link } from "react-router";
 import { ChevronDownIcon } from "lucide-react";
-import type { NavigationItem } from "./data";
 import { DropdownMenu } from "@/components/dropdown-menu/DropdownMenu";
 import { DropdownMenuTrigger } from "@/components/dropdown-menu/DropdownMenuTrigger";
 import { DropdownMenuContent } from "@/components/dropdown-menu/DropdownMenuContent";
 import { NavigationBarSubItem } from "./NavigationBarSubItem";
+import type { NavigationItem } from "./data";
 
 interface NavigationBarItemProps {
   item: NavigationItem;

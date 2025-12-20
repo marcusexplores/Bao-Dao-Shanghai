@@ -1,10 +1,10 @@
 import { Link } from "react-router";
-import type { NavigationItem } from "./data";
 import { DropdownMenuItem } from "@/components/dropdown-menu/DropdownMenuItem";
 import { DropdownMenuSub } from "@/components/dropdown-menu/DropdownMenuSub";
 import { DropdownMenuSubTrigger } from "@/components/dropdown-menu/DropdownMenuSubTrigger";
 import { DropdownMenuPortal } from "@/components/dropdown-menu/DropdownMenuPortal";
 import { DropdownMenuSubContent } from "@/components/dropdown-menu/DropdownMenuSubContent";
+import type { NavigationItem } from "./data";
 
 interface NavigationBarSubItemProps {
   item: NavigationItem;

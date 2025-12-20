@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useMemo, useState, type FormEvent, type KeyboardEvent } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { PlusIcon, XIcon } from "lucide-react";
 import { cn } from "@/functions/classname";
@@ -31,7 +31,7 @@ export const ChecklistSection = ({
     };
   }, [category.items]);
 
-  const handleAddSubmit = (e: React.FormEvent) => {
+  const handleAddSubmit = (e: FormEvent) => {
     e.preventDefault();
     if (newItemName.trim()) {
       onAddItem(category.name, newItemName);
@@ -40,7 +40,7 @@ export const ChecklistSection = ({
     }
   };
 
-  const handleKeyDown = (e: React.KeyboardEvent) => {
+  const handleKeyDown = (e: KeyboardEvent) => {
     if (e.key === "Escape") {
       setIsAdding(false);
       setNewItemName("");

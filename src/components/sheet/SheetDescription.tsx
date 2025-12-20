@@ -1,7 +1,8 @@
+import type { ComponentProps } from "react";
 import * as SheetPrimitive from "@radix-ui/react-dialog";
 import { cn } from "@/functions/classname";
 
-type SheetDescriptionProps = React.ComponentProps<typeof SheetPrimitive.Description>;
+type SheetDescriptionProps = ComponentProps<typeof SheetPrimitive.Description>;
 
 export const SheetDescription = ({
   className,

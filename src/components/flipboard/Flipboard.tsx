@@ -1,4 +1,5 @@
 import { useState, useMemo, useEffect } from "react";
+import { FlipboardCharacter } from "./FlipboardCharacter";
 import {
   AUTO_FLIP_INTERVAL,
   DESKTOP_ROW_LENGTH,
@@ -6,7 +7,6 @@ import {
 } from "./constants";
 import { getCharacters } from "./functions";
 import { type FlightInformation } from "./types";
-import { FlipboardCharacter } from "./FlipboardCharacter";
 
 interface DisplaySection {
   label: string;

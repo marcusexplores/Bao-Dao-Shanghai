@@ -1,6 +1,7 @@
+import type { ComponentProps } from "react";
 import { cn } from "@/functions/classname";
 
-type CardProps = React.ComponentProps<"div">;
+type CardProps = ComponentProps<"div">;
 
 export const Card = ({ className, ...props }: CardProps) => {
   return (

@@ -1,8 +1,8 @@
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 import { DialogContext } from "./DialogContext";
 
 interface DialogProps {
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
 export const Dialog = ({ children }: DialogProps) => {

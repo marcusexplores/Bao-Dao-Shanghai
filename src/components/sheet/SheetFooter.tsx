@@ -1,6 +1,7 @@
+import type { ComponentProps } from "react";
 import { cn } from "@/functions/classname";
 
-type SheetFooterProps = React.ComponentProps<"div">;
+type SheetFooterProps = ComponentProps<"div">;
 
 export const SheetFooter = ({ className, ...props }: SheetFooterProps) => {
   return (

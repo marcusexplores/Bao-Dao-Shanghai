@@ -1,9 +1,10 @@
-import React, {
+import {
   Children,
   isValidElement,
   cloneElement,
   type ReactElement,
   type HTMLProps,
+  type MouseEvent,
 } from "react";
 import { useDialogContext } from "./hooks";
 
@@ -21,7 +22,7 @@ export const DialogTrigger = ({ children }: DialogTriggerProps) => {
 
   return cloneElement(children, {
     // Inject the combined onClick logic
-    onClick: (e: React.MouseEvent<HTMLElement>) => {
+    onClick: (e: MouseEvent<HTMLElement>) => {
       openDialog();
 
       // If the original child had its own onClick, call that too (for chaining)

@@ -1,9 +1,10 @@
+import type { ComponentProps } from "react";
 import { Avatar } from "@/components/avatar/Avatar";
 import { AvatarFallback } from "@/components/avatar/AvatarFallback";
 import { AvatarImage } from "@/components/avatar/AvatarImage";
 import { cn } from "@/functions/classname";
 
-type ProfileProps = React.ComponentProps<"div"> & {
+type ProfileProps = ComponentProps<"div"> & {
   name: string;
   image: string;
   placeholder: string;

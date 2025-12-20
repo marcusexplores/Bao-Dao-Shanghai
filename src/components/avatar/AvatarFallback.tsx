@@ -1,7 +1,8 @@
+import type { ComponentProps } from "react";
 import * as AvatarPrimitive from "@radix-ui/react-avatar";
 import { cn } from "@/functions/classname";
 
-type AvatarFallbackProps = React.ComponentProps<typeof AvatarPrimitive.Fallback>;
+type AvatarFallbackProps = ComponentProps<typeof AvatarPrimitive.Fallback>;
 
 export const AvatarFallback = ({
   className,

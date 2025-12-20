@@ -1,7 +1,8 @@
+import type { ComponentProps } from "react";
 import * as DropdownMenuPrimitive from "@radix-ui/react-dropdown-menu";
 import { cn } from "@/functions/classname";
 
-type DropdownMenuItemProps = React.ComponentProps<typeof DropdownMenuPrimitive.Item> & {
+type DropdownMenuItemProps = ComponentProps<typeof DropdownMenuPrimitive.Item> & {
   inset?: boolean;
   variant?: "default" | "destructive";
 };

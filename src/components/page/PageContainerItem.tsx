@@ -1,4 +1,6 @@
-type PageContainerItemProps = React.ComponentProps<"div">;
+import type { ComponentProps } from "react";
+
+type PageContainerItemProps = ComponentProps<"div">;
 
 export const PageContainerItem = ({ children, className }: PageContainerItemProps) => {
   return (

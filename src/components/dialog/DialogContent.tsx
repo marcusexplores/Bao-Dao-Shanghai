@@ -1,8 +1,9 @@
+import type { ReactNode } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { useDialogContext } from "./hooks";
 
 interface DialogContentProps {
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
 export const DialogContent = ({ children }: DialogContentProps) => {

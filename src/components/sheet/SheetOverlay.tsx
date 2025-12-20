@@ -1,7 +1,8 @@
+import type { ComponentProps } from "react";
 import * as SheetPrimitive from "@radix-ui/react-dialog";
 import { cn } from "@/functions/classname";
 
-type SheetOverlayProps = React.ComponentProps<typeof SheetPrimitive.Overlay>;
+type SheetOverlayProps = ComponentProps<typeof SheetPrimitive.Overlay>;
 
 export const SheetOverlay = ({ className, ...props }: SheetOverlayProps) => {
   return (

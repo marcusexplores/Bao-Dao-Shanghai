@@ -1,6 +1,7 @@
+import type { ComponentProps } from "react";
 import { cn } from "@/functions/classname";
 
-type DropdownMenuShortcutProps = React.ComponentProps<"span">;
+type DropdownMenuShortcutProps = ComponentProps<"span">;
 
 export const DropdownMenuShortcut = ({
   className,

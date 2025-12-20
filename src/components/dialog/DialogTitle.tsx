@@ -1,4 +1,6 @@
-type DialogTitleProps = React.ComponentProps<"h2">;
+import type { ComponentProps } from "react";
+
+type DialogTitleProps = ComponentProps<"h2">;
 
 export const DialogTitle = ({ children }: DialogTitleProps) => {
   return (

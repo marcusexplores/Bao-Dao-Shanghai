@@ -1,6 +1,7 @@
+import type { ComponentProps } from "react";
 import { cn } from "@/functions/classname";
 
-type PageProps = React.ComponentProps<"div"> & {
+type PageProps = ComponentProps<"div"> & {
   hideTopPadding?: boolean
 };
 

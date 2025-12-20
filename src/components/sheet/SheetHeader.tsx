@@ -1,6 +1,7 @@
+import type { ComponentProps } from "react";
 import { cn } from "@/functions/classname";
 
-type SheetHeaderProps = React.ComponentProps<"div">;
+type SheetHeaderProps = ComponentProps<"div">;
 
 export const SheetHeader = ({ className, ...props }: SheetHeaderProps) => {
   return (

@@ -1,5 +1,5 @@
-import { navigationItems } from "./data";
 import { NavigationBarItem } from "./NavigationBarItem";
+import { navigationItems } from "./data";
 
 export const NavigationBarRight = () => {
   return (

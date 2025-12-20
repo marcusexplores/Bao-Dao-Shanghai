@@ -1,8 +1,9 @@
+import type { ComponentProps } from "react";
 import * as DropdownMenuPrimitive from "@radix-ui/react-dropdown-menu";
 import { CircleIcon } from "lucide-react";
 import { cn } from "@/functions/classname";
 
-type DropdownMenuRadioItemProps = React.ComponentProps<typeof DropdownMenuPrimitive.RadioItem>;
+type DropdownMenuRadioItemProps = ComponentProps<typeof DropdownMenuPrimitive.RadioItem>;
 
 export const DropdownMenuRadioItem = ({
   className,

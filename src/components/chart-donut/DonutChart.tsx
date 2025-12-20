@@ -1,8 +1,9 @@
+import type { ComponentProps } from "react";
 import { Label, Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts";
 import { DonutChartLabel } from "./DonutChartLabel";
 import { DonutChartLegendItem } from "./DonutChartLegendItem";
 
-type DonutChartProps = React.ComponentProps<typeof Pie> & {
+type DonutChartProps = ComponentProps<typeof Pie> & {
   title: string;
   subtitle: string;
 };

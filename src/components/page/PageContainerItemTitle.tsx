@@ -1,7 +1,8 @@
+import type { ComponentProps } from "react";
 import { cn } from "@/functions/classname";
 import { PageContainerItem } from "./PageContainerItem";
 
-type PageContainerItemTitleProps = React.ComponentProps<"h2">;
+type PageContainerItemTitleProps = ComponentProps<"h2">;
 
 export const PageContainerItemTitle = ({
   children,

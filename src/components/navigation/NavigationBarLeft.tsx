@@ -1,5 +1,5 @@
-import { NavigationLogo } from "./NavigationLogo";
 import { NavigationMenu } from "./NavigationMenu";
+import { NavigationLogo } from "./NavigationLogo";
 
 export const NavigationBarLeft = () => {
   return (

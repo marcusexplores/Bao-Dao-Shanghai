@@ -1,7 +1,8 @@
+import type { ComponentProps } from "react";
 import * as AvatarPrimitive from "@radix-ui/react-avatar";
 import { cn } from "@/functions/classname";
 
-type AvatarImageProps = React.ComponentProps<typeof AvatarPrimitive.Image>;
+type AvatarImageProps = ComponentProps<typeof AvatarPrimitive.Image>;
 
 export const AvatarImage = ({ className, ...props }: AvatarImageProps) => {
   return (

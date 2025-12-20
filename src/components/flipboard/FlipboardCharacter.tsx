@@ -1,6 +1,6 @@
 import { useEffect, useState, memo  } from "react";
-import { ALPHANUMERIC, CYCLE_DELAY, FLIP_DURATION } from "./constants";
 import { AnimatePresence, motion } from "motion/react";
+import { ALPHANUMERIC, CYCLE_DELAY, FLIP_DURATION } from "./constants";
 
 interface FlipboardCharacterProps {
   char: string;

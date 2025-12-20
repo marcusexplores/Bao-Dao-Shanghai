@@ -1,7 +1,8 @@
+import type { ComponentProps } from "react";
 import { XIcon } from "lucide-react";
 import { useDialogContext } from "./hooks";
 
-type DialogHeaderProps = React.ComponentProps<"div"> & {
+type DialogHeaderProps = ComponentProps<"div"> & {
   hideCloseIcon?: boolean;
 };
 

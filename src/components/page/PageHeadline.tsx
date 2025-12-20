@@ -1,6 +1,7 @@
+import type { ComponentProps } from "react";
 import { cn } from "@/functions/classname";
 
-type PageHeadlineProps = React.ComponentProps<"h1">;
+type PageHeadlineProps = ComponentProps<"h1">;
 
 export const PageHeadline = ({ children, className }: PageHeadlineProps) => {
   return (

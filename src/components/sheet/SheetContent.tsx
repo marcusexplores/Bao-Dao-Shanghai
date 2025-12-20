@@ -1,10 +1,11 @@
+import type { ComponentProps } from "react";
 import * as SheetPrimitive from "@radix-ui/react-dialog";
 import { XIcon } from "lucide-react";
 import { cn } from "@/functions/classname";
 import { SheetPortal } from "./SheetPortal";
 import { SheetOverlay } from "./SheetOverlay";
 
-type SheetContentProps = React.ComponentProps<typeof SheetPrimitive.Content> & {
+type SheetContentProps = ComponentProps<typeof SheetPrimitive.Content> & {
   side?: "top" | "right" | "bottom" | "left";
 };
 
