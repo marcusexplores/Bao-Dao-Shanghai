@@ -8,11 +8,11 @@ interface QuiltProps {
   data: QuiltTile[];
 }
 
-const displayTile = (tile: QuiltTile) => {
+const displayTile = (index: number, tile: QuiltTile) => {
   if (tile.type === MediaType.ImageComparison) {
     const pair = tile.media as Pair<Image, Image>;
     return (
-      <div className={cn(tile.className)}>
+      <div key={index} className={cn(tile.className)}>
         <ImageComparison before={pair.first} after={pair.second} />
       </div>
     );
@@ -21,7 +21,7 @@ const displayTile = (tile: QuiltTile) => {
     return (
       <video
         controls
-        key={video.src}
+        key={index}
         className={cn("w-full h-full object-cover", tile.className)}
       >
         <source src={video.src} type={video.type ?? "video/mp4"} />
@@ -32,7 +32,7 @@ const displayTile = (tile: QuiltTile) => {
     const image = tile.media as Image;
     return (
       <motion.div
-        key={image.src}
+        key={index}
         className={cn(
           "relative overflow-hidden group transition-all duration-300 ease-in-out",
           tile.className
@@ -56,7 +56,7 @@ const displayTile = (tile: QuiltTile) => {
 export const Quilt = ({ data }: QuiltProps) => {
   return (
     <div className="grid grid-flow-dense grid-cols-12 gap-2 md:gap-4">
-      {data.map((item) => displayTile(item))}
+      {data.map((item, index) => displayTile(index, item))}
     </div>
   );
 };
