@@ -13,8 +13,6 @@ const getDayNumber = (path: string): number | null => {
   const regex = /day(\d+)/i;
   const match = regex.exec(path);
 
-  // match[0] is the full string "day2"
-  // match[1] is the captured group "2"
   if (match?.[1]) {
     const parsed = parseInt(match[1], 10);
     return isNaN(parsed) ? null : parsed;
@@ -29,15 +27,13 @@ export const ItineraryDayPageLayout = () => {
   const [currentDay, setCurrentDay] = useState<number>(0);
 
   useEffect(() => {
-    // Example path: "/itinerary/day2"
-    // Logic: Split path, get the last part, and convert to number
     const pathParts = location.pathname.split("/");
     const dayFromUrl = getDayNumber(pathParts[pathParts.length - 1]);
 
     if (dayFromUrl != null) {
       setCurrentDay(dayFromUrl);
     }
-  }, [location]); // Re-run whenever the URL changes
+  }, [location]);
 
   const handlePageChange = (day: number) => {
     // This updates the URL, which in turn updates currentDay via the useEffect above
@@ -50,7 +46,7 @@ export const ItineraryDayPageLayout = () => {
     <ItineraryDayPageContext.Provider value={{ currentDay, setCurrentDay }}>
       <Page>
         <PageContainer>
-          <PageHeadline>Day {currentDay}</PageHeadline>
+          <PageHeadline>{itineraryDays[currentDay].title}</PageHeadline>
           <PageContainerItem className="flex justify-center items-center">
             {itineraryDays[currentDay].date}
           </PageContainerItem>

@@ -41,7 +41,7 @@ export const TimelineItem = ({
         )}
       >
         <div className="flex flex-col gap-1 lg:flex-row lg:items-center lg:justify-between">
-          <h3 className="text-xl font-bold text-card-foreground">{title}</h3>
+          <h3 className="text-xl font-bold text-foreground md:max-w-xs">{title}</h3>
           <p className="text-sm font-semibold text-primary/70">{subtitle}</p>
         </div>
         <p className="mt-2 text-sm text-muted-foreground">{description}</p>
