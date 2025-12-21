@@ -18,10 +18,12 @@ import { PreparationChecklistPage } from "@/pages/preparation/PreparationCheckli
 import { AboutPage } from "@/pages/about/AboutPage";
 import { NavigationBar } from "@/components/navigation/NavigationBar";
 import { NAVIGATION_KEY } from "@/components/navigation/constants";
+import { ScrollToTop } from "@/components/scroll/ScrollToTop";
 
 export default function App() {
   return (
     <>
+      <ScrollToTop />
       <NavigationBar />
       <main>
         <Routes>
