@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { motion } from "motion/react";
 import { cn } from "@/functions/classname";
 import { TapedPhoto } from "@/components/photo-taped/TapedPhoto";
@@ -16,11 +17,12 @@ export const TimelineItem = ({
   subtitle,
   icon,
   thumbnail,
+  link,
   isLast,
 }: TimelineItemProps) => {
   const isLeft = index % 2 === 0;
 
-  // framer-motion variants for alternating slide-in effect
+  // motion variants for alternating slide-in effect
   const variants = {
     hidden: { opacity: 0, x: isLeft ? -100 : 100 },
     visible: { opacity: 1, x: 0, transition: { duration: 0.6, delay: 0.1 } },
@@ -41,19 +43,26 @@ export const TimelineItem = ({
         )}
       >
         <div className="flex flex-col gap-1 lg:flex-row lg:items-center lg:justify-between">
-          <h3 className="text-xl font-bold text-foreground md:max-w-xs">{title}</h3>
+          <Link
+            to={link}
+            className="text-xl font-bold text-foreground md:max-w-xs"
+          >
+            {title}
+          </Link>
           <p className="text-sm font-semibold text-primary/70">{subtitle}</p>
         </div>
         <p className="mt-2 text-sm text-muted-foreground">{description}</p>
-        <TapedPhoto className="mt-5 mx-5" image={thumbnail}/>
+        <Link to={link}>
+          <TapedPhoto className="mt-5 mx-5" image={thumbnail} />
+        </Link>
       </div>
 
-      {/* 3. Central Line and Badge (Visible only on desktop) */}
-      {/* The main line is continuous, but the badge sits on top */}
-      <div className="absolute md:left-1/2 top-0 h-full w-1 -translate-x-1/2 ml-5 md:ml-0">
-        {/* <div className="absolute left-1/2 top-0 hidden h-full w-1 -translate-x-1/2 md:block"> */}
+      <Link
+        to={link}
+        className="absolute md:left-1/2 top-0 h-full w-1 -translate-x-1/2 ml-5 md:ml-0"
+      >
         <TimelineNode icon={icon} isLast={isLast} />
-      </div>
+      </Link>
     </motion.div>
   );
 };

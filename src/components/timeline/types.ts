@@ -6,4 +6,5 @@ export interface TimelineActivity {
   description: string;
   icon: LucideIcon;
   thumbnail: string;
+  link: string;
 }
