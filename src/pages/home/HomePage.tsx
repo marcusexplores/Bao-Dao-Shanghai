@@ -18,14 +18,14 @@ export const HomePage = () => {
           style={{ backgroundImage: `url(${HeroBanner})` }}
         ></div>
         <img src={LogoText} className="mt-23 w-55 h-50 md:w-85 md:h-85" />
+        <img
+          src={Buddies}
+          alt="Buddies"
+          className="absolute left-2 -bottom-14 md:-bottom-23 w-45 h-50 md:w-75 md:h-85 object-cover z-10"
+        />
       </section>
-      <img
-        src={Buddies}
-        alt="Buddies"
-        className="absolute left-2 -bottom-14 md:-bottom-23 w-45 h-50 md:w-75 md:h-85 object-cover z-10"
-      />
       <PageContainer>
-        <PageContainerItem className="mt-5">
+        <PageContainerItem>
           Our immersive tour through Shanghai, Hangzhou, and Suzhou was a quest
           for discovery, brimming with pure fun and inspiration. This adventure
           redefined the travel experience, proving deeply fulfilling as we
@@ -47,6 +47,8 @@ export const HomePage = () => {
             <Link to={NAVIGATION_KEY.ITINERARY}>View Itinerary</Link>
           </Button>
         </PageContainerItem>
+      </PageContainer>
+      <PageContainer>
         <PageContainerItem>
           <SuzhouSection />
         </PageContainerItem>
