@@ -60,14 +60,7 @@ export const PreparationPage = () => {
       {recommendations.map((category, index) => (
         <PreparationPageSection key={index} title={category.title}>
           {category.items.map((item, index) => (
-            <Recommendation
-              key={index}
-              name={item.name}
-              description={item.description}
-              icon={item.icon}
-              details={item.details}
-              link={item.link}
-            />
+            <Recommendation key={index} item={item} />
           ))}
         </PreparationPageSection>
       ))}

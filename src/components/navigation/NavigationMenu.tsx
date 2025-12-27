@@ -6,6 +6,7 @@ import { SheetHeader } from "@/components/sheet/SheetHeader";
 import { SheetTitle } from "@/components/sheet/SheetTitle";
 import { SheetFooter } from "@/components/sheet/SheetFooter";
 import { Separator } from "@/components/separator/Separator";
+import { ExternalLink } from "@/components/link/ExternalLink";
 import Bao1 from "@/assets/vectors/Bao1_DongPoRou.svg";
 import { NavigationMenuItem } from "./NavigationMenuItem";
 import { navigationMenuItems } from "./data";
@@ -34,7 +35,7 @@ export const NavigationMenu = () => {
             <span>
               <b>Powered by</b>
             </span>
-            <a href="https://marcusexplores.github.io/" target="_blank" rel="noopener noreferrer">
+            <ExternalLink href="https://marcusexplores.github.io/">
               <svg
                 width="72.77256"
                 height="48.902336"
@@ -55,7 +56,7 @@ export const NavigationMenu = () => {
                   <path d="M 68.6448,35.7443 C 68.637053,36.509005 69.176923,37 69.8743,37 c 0.5623,0 0.961725,-0.246675 1.1743,-0.727 0.355329,-0.802885 -0.29219,-1.765867 -1.1909,-1.7623 -0.486969,0.0019 -1.203513,0.306995 -1.2129,1.2336 z" />
                 </g>
               </svg>
-            </a>
+            </ExternalLink>
           </div>
         </SheetFooter>
       </SheetContent>
