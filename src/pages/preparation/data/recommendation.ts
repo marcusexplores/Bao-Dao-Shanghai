@@ -1,4 +1,5 @@
-import JuneyaoAirLogo from "@/assets/images/Logo_JuneyaoAir.jpg";
+import JuneyaoAirLogo from "@/assets/images/Logo_JuneyaoAir.webp";
+import PriorityPassLogo from "@/assets/images/Logo_PriorityPass.webp";
 import TripLogo from "@/assets/images/Logo_Trip.webp";
 import AlipayLogo from "@/assets/images/Logo_Alipay.webp";
 import WeChatPayLogo from "@/assets/images/Logo_WeChat.webp";
@@ -35,12 +36,16 @@ export interface Item {
 
 export interface Category {
   title: string;
+  introductions: string[];
   items: Item[];
 }
 
 export const recommendations: Category[] = [
   {
     title: "Flight",
+    introductions: [
+      "Due to our unpredictable work schedules, we could only book our flights quite last minute. While scouring various third-party booking sites for a miracle, we stumbled upon Juneyao Air, an airline we had honestly never heard of before. It occupied a perfect middle ground, offering fares that were only slightly higher than budget carriers yet significantly cheaper than full-service airlines. After seeing the various benefits they bring to the table, we decided it was worth giving them a shot. Since we generally prefer the security of buying tickets directly from the source, we headed to their official website to finalize our booking.",
+    ],
     items: [
       {
         name: "Juneyao Air | 吉祥航空",
@@ -61,7 +66,44 @@ export const recommendations: Category[] = [
         links: [
           {
             type: ExternalLinkOption.Website,
-            src: "https://global.juneyaoair.com/",
+            src: "https://global.juneyaoair.com",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Airport Lounge",
+    introductions: [
+      "By taking advantage of our DBS Altitude Visa Signature Card, we kicked off our trip with a bit of luxury. This card provides a complimentary Priority Pass membership that allows for two free lounge visits. Since this benefit can be used for one member and a guest, we were both able to head inside together. It was a great way to spend our pre-flight time, as we managed to enjoy some food and charge our phones in comfort before making our way to the gate.",
+    ],
+    items: [
+      {
+        name: "Priority Pass",
+        description:
+          "Global airport lounge network for a premium pre-flight experience",
+        icon: {
+          src: PriorityPassLogo,
+          alt: "Priority Pass Logo",
+        },
+        benefits: [
+          "Access to many lounges in Singapore and China",
+          "Complimentary refreshments, alcohol, and hot food",
+          "Quiet workspaces with reliable Wi-Fi and power outlets",
+          "Some Singapore-issued credit cards include Priority Pass lounge access as a premium benefit",
+        ],
+        links: [
+          {
+            type: ExternalLinkOption.Website,
+            src: "https://www.prioritypass.com",
+          },
+          {
+            type: ExternalLinkOption.GooglePlay,
+            src: "https://play.google.com/store/apps/details?id=com.prioritypass3&pcampaignid=web_share",
+          },
+          {
+            type: ExternalLinkOption.AppStore,
+            src: "https://apps.apple.com/sg/app/priority-pass/id406878019",
           },
         ],
       },
@@ -69,6 +111,9 @@ export const recommendations: Category[] = [
   },
   {
     title: "Accommodation",
+    introductions: [
+      "Even though countless third-party sites offer endless options, we decided to book through Trip.com. We felt this was the best choice as it is the international alternative to the domestic powerhouse, Ctrip, and they truly know their country best when it comes to local listings. Since we could stack the Trip Coins earned from our previous travels with Shopback cashback, this platform became the clear winner for our stay.",
+    ],
     items: [
       {
         name: "Trip.com",
@@ -105,6 +150,12 @@ export const recommendations: Category[] = [
   },
   {
     title: "Payment",
+    introductions: [
+      "Navigating the payment landscape in China is an experience in itself, as the country has become almost entirely cashless. QR-code systems like Alipay and WeChat Pay dominate daily life, but fortunately, international tourists can now link their foreign cards to these apps for seamless transactions at nearly any vendor. While some places still accept cash, it is often difficult for vendors to provide change, so having the exact amount is essential if you go that route.",
+      "To unlock the full functionality of these apps, completing identity verification with your passport details is highly recommended. Between the two, Alipay became our primary choice because its interface is incredibly intuitive, as all the necessary mini-apps for transport and payments are right on the landing page once the app is open. WeChat Pay remains a reliable backup, though it requires clicking through a few more interfaces to reach the payment screen.",
+      "One important tip to keep in mind is that both platforms impose a 3% fee on transactions exceeding 200 RMB. To get around this, we often checked if vendors could split a large bill into smaller batches under the 200 RMB limit. Alternatively, Singapore-based travellers can use Changi Pay to scan Alipay QR codes without incurring those extra transaction fees.",
+      "Beyond the fee structure, the digital nature of these payments makes it effortless to track our budget. Since every transaction is recorded, we had a clear history to keep tabs on our spending and could easily address any discrepancies via the in-app chat support."
+    ],
     items: [
       {
         name: "Alipay | 支付宝",
@@ -193,6 +244,7 @@ export const recommendations: Category[] = [
   },
   {
     title: "Navigation",
+    introductions: ["xxx"],
     items: [
       {
         name: "AMap | 高德地图",
@@ -228,6 +280,7 @@ export const recommendations: Category[] = [
   },
   {
     title: "Transportation",
+    introductions: ["xxx"],
     items: [
       {
         name: "DiDi",
@@ -240,7 +293,7 @@ export const recommendations: Category[] = [
           "Ride-hailing services integrated directly as a mini-app within Alipay",
           "Exclusive discounts and incentive programs accessible primarily through the Chinese-language interface",
           "Offers in-app auto-translation",
-          "Direct payment through the linked payment methods within Alipay"
+          "Direct payment through the linked payment methods within Alipay",
         ],
       },
       {
@@ -275,6 +328,7 @@ export const recommendations: Category[] = [
   },
   {
     title: "Food",
+    introductions: ["xxx"],
     items: [
       {
         name: "Meituan | 美团",
@@ -307,6 +361,7 @@ export const recommendations: Category[] = [
   },
   {
     title: "Shopping",
+    introductions: ["xxx"],
     items: [
       {
         name: "Taobao | 淘宝",
@@ -339,6 +394,7 @@ export const recommendations: Category[] = [
   },
   {
     title: "Network Communication",
+    introductions: ["xxx"],
     items: [
       {
         name: "WeFly",
@@ -363,6 +419,7 @@ export const recommendations: Category[] = [
   },
   {
     title: "VPN",
+    introductions: ["xxx"],
     items: [
       {
         name: "Secure VPN",
@@ -391,6 +448,7 @@ export const recommendations: Category[] = [
   },
   {
     title: "Insurance",
+    introductions: ["xxx"],
     items: [
       {
         name: "FWD SG",
@@ -429,6 +487,7 @@ export const recommendations: Category[] = [
   },
   {
     title: "Research & Inspiration",
+    introductions: ["xxx"],
     items: [
       {
         name: "Google",
@@ -554,6 +613,7 @@ export const recommendations: Category[] = [
   },
   {
     title: "Useful Applications",
+    introductions: ["xxx"],
     items: [
       {
         name: "Dian Ping | 大众点评",

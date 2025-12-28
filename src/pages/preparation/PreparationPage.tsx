@@ -59,6 +59,11 @@ export const PreparationPage = () => {
       </PreparationPageSection>
       {recommendations.map((category, index) => (
         <PreparationPageSection key={index} title={category.title}>
+          <PageContainerItem className="flex flex-col gap-4">
+            {category.introductions.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
+          </PageContainerItem>
           {category.items.map((item, index) => (
             <Recommendation key={index} item={item} />
           ))}

@@ -21,7 +21,7 @@ export const Recommendation = ({ item }: RecommendationProps) => {
         </div>
         <div className="text-left">
           <h4 className="font-medium text-slate-900">{item.name}</h4>
-          <p className="text-sm text-slate-500">{item.description}</p>
+          <p className="text-sm text-slate-500 mt-1">{item.description}</p>
         </div>
       </div>
 
