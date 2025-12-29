@@ -154,7 +154,7 @@ export const recommendations: Category[] = [
       "Navigating the payment landscape in China is an experience in itself, as the country has become almost entirely cashless. QR-code systems like Alipay and WeChat Pay dominate daily life, but fortunately, international tourists can now link their foreign cards to these apps for seamless transactions at nearly any vendor. While some places still accept cash, it is often difficult for vendors to provide change, so having the exact amount is essential if you go that route.",
       "To unlock the full functionality of these apps, completing identity verification with your passport details is highly recommended. Between the two, Alipay became our primary choice because its interface is incredibly intuitive, as all the necessary mini-apps for transport and payments are right on the landing page once the app is open. WeChat Pay remains a reliable backup, though it requires clicking through a few more interfaces to reach the payment screen.",
       "One important tip to keep in mind is that both platforms impose a 3% fee on transactions exceeding 200 RMB. To get around this, we often checked if vendors could split a large bill into smaller batches under the 200 RMB limit. Alternatively, Singapore-based travellers can use Changi Pay to scan Alipay QR codes without incurring those extra transaction fees.",
-      "Beyond the fee structure, the digital nature of these payments makes it effortless to track our budget. Since every transaction is recorded, we had a clear history to keep tabs on our spending and could easily address any discrepancies via the in-app chat support."
+      "Beyond the fee structure, the digital nature of these payments makes it effortless to track our budget. Since every transaction is recorded, we had a clear history to keep tabs on our spending and could easily address any discrepancies via the in-app chat support.",
     ],
     items: [
       {
@@ -244,7 +244,10 @@ export const recommendations: Category[] = [
   },
   {
     title: "Navigation",
-    introductions: ["xxx"],
+    introductions: [
+      "Utilizing AMap proved essential during our planning phase for identifying the exact addresses of the places we wanted to visit. Relying on Google Maps was not an option as it is often inaccurate regarding the current Chinese landscape, making it difficult to drop pins or bookmark locations reliably.",
+      "Actual navigation using the map while on the ground in China was minimal, as e-hailing rides served as our primary mode of transport. However, having the correct locations already verified and bookmarked was crucial for ensuring the car took us to the right spot every time.",
+    ],
     items: [
       {
         name: "AMap | 高德地图",
@@ -280,7 +283,11 @@ export const recommendations: Category[] = [
   },
   {
     title: "Transportation",
-    introductions: ["xxx"],
+    introductions: [
+      "Being convenient and affordable, e-hailing became our primary mode of transport in China. Although the metro is a cheaper alternative, it often felt less convenient as stations could be quite far from our actual location. Finding a pick-up spot for an e-hailing ride is much faster and comes with the added luxury of personal space in the car. The only real downsides are the potential for traffic congestion or the occasional driver taking a wrong route.",
+      "For long-distance or inter-province travel, we relied on the high-speed rail and purchased our tickets through the official app. While we initially considered using the local ticketing machines at the station, they weren't very helpful and felt unfamiliar to use. In contrast, the app provided very fast identity verification, allowing us to use it almost immediately. It was also incredibly easy to buy tickets for multiple people at once, making the whole process much more efficient.",
+      // "When using e-hailing at major hubs like airports or high-speed rail stations, it is important to look for the designated Online Ride-Hailing (网约车) signs. These pick-up points are separate from the traditional taxi queues and are often located in specific levels of the parking garages. Following these signs is much more efficient than trying to meet a driver at the general arrivals curb, where stopping is often restricted."
+    ],
     items: [
       {
         name: "DiDi",
@@ -307,7 +314,9 @@ export const recommendations: Category[] = [
         benefits: [
           "Offers official train fares directly from the operator without intermediary fees",
           "Rapid in-app identity verification for international travelers",
-          "Manage seat selections, meal pre-orders, and ticket cancellations",
+          "Manage ticket cancellations and change destination",
+          "Purchase tickets for multiple passengers simultaneously within a single transaction",
+          "Store companion details in dedicated Passenger List to enable fast checkout for future trips",
         ],
         links: [
           {
@@ -328,7 +337,10 @@ export const recommendations: Category[] = [
   },
   {
     title: "Food",
-    introductions: ["xxx"],
+    introductions: [
+      "Leveraging Meituan for food delivery became a staple of our daily routine in Shanghai. While exploring local restaurants is part of the fun, the app was a lifesaver for ordering breakfast directly to our hotel room or securing a late-night dinner when we ended our day late and felt too exhausted to source for food outside.",
+      "One particularly convenient feature of many Chinese hotels is the use of delivery robots. Instead of having to meet the rider downstairs, the food is often left at the front desk where a robot then autonomously navigates to the correct floor to drop the meal off directly at the door. Having this digital convenience allowed us to maximize our rest time without missing out on the local flavors Shanghai has to offer.",
+    ],
     items: [
       {
         name: "Meituan | 美团",
@@ -361,7 +373,10 @@ export const recommendations: Category[] = [
   },
   {
     title: "Shopping",
-    introductions: ["xxx"],
+    introductions: [
+      "Shopping on Taobao while in China is a game-changer compared to the usual experience from Singapore. International shipping fees are eliminated when shopping locally, and items can be delivered directly to your hotel at no extra cost. For the best deals, switching to the Chinese language interface is essential as the prices are usually lower and more discount vouchers become available.",
+      "Most purchases come with an estimated delivery window of one to three days, but it is always wise to chat with the seller to confirm they can meet your schedule. There is even a specific feature to request expedited delivery (催发货), which encourages the seller to ship the goods out as soon as possible.",
+    ],
     items: [
       {
         name: "Taobao | 淘宝",
