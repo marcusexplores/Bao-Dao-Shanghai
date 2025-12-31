@@ -152,7 +152,7 @@ export const recommendations: Category[] = [
     title: "Payment",
     introductions: [
       "Navigating the payment landscape in China is an experience in itself, as the country has become almost entirely cashless. QR-code systems like Alipay and WeChat Pay dominate daily life, but fortunately, international tourists can now link their foreign cards to these apps for seamless transactions at nearly any vendor. While some places still accept cash, it is often difficult for vendors to provide change, so having the exact amount is essential if you go that route.",
-      "To unlock the full functionality of these apps, completing identity verification with your passport details is highly recommended. Between the two, Alipay became our primary choice because its interface is incredibly intuitive, as all the necessary mini-apps for transport and payments are right on the landing page once the app is open. WeChat Pay remains a reliable backup, though it requires clicking through a few more interfaces to reach the payment screen.",
+      "To unlock the full functionality of these apps, completing identity verification with passport details is highly recommended. Between the two, Alipay became our primary choice because its interface is incredibly intuitive, as all the necessary mini-apps for transport and payments are right on the landing page once the app is open. WeChat Pay remains a reliable backup, though it requires clicking through a few more interfaces to reach the payment screen.",
       "One important tip to keep in mind is that both platforms impose a 3% fee on transactions exceeding 200 RMB. To get around this, we often checked if vendors could split a large bill into smaller batches under the 200 RMB limit. Alternatively, Singapore-based travellers can use Changi Pay to scan Alipay QR codes without incurring those extra transaction fees.",
       "Beyond the fee structure, the digital nature of these payments makes it effortless to track our budget. Since every transaction is recorded, we had a clear history to keep tabs on our spending and could easily address any discrepancies via the in-app chat support.",
     ],
@@ -339,7 +339,7 @@ export const recommendations: Category[] = [
     title: "Food",
     introductions: [
       "Leveraging Meituan for food delivery became a staple of our daily routine in Shanghai. While exploring local restaurants is part of the fun, the app was a lifesaver for ordering breakfast directly to our hotel room or securing a late-night dinner when we ended our day late and felt too exhausted to source for food outside.",
-      "One particularly convenient feature of many Chinese hotels is the use of delivery robots. Instead of having to meet the rider downstairs, the food is often left at the front desk where a robot then autonomously navigates to the correct floor to drop the meal off directly at the door. Having this digital convenience allowed us to maximize our rest time without missing out on the local flavors Shanghai has to offer.",
+      "Delivery robots have become a hallmark of convenience in many Chinese hotels. Instead of having to meet the rider downstairs, the food is often left at the front desk where a robot then autonomously navigates to the correct floor to drop the meal off directly at the door. Having this digital convenience allowed us to maximize our rest time without missing out on the local flavors Shanghai has to offer.",
     ],
     items: [
       {
@@ -374,8 +374,8 @@ export const recommendations: Category[] = [
   {
     title: "Shopping",
     introductions: [
-      "Shopping on Taobao while in China is a game-changer compared to the usual experience from Singapore. International shipping fees are eliminated when shopping locally, and items can be delivered directly to your hotel at no extra cost. For the best deals, switching to the Chinese language interface is essential as the prices are usually lower and more discount vouchers become available.",
-      "Most purchases come with an estimated delivery window of one to three days, but it is always wise to chat with the seller to confirm they can meet your schedule. There is even a specific feature to request expedited delivery (催发货), which encourages the seller to ship the goods out as soon as possible.",
+      "Shopping on Taobao while in China is a game-changer compared to the usual experience from Singapore. International shipping fees are eliminated when shopping locally, and items can be delivered directly to the hotel at no extra cost. For the best deals, switching to the Chinese language interface is essential as the prices are usually lower and more discount vouchers become available.",
+      "Most purchases come with an estimated delivery window of one to three days, but it is always wise to chat with the seller to confirm they can meet the required schedule. There is even a specific feature to request expedited delivery (催发货), which encourages the seller to ship the goods out as soon as possible.",
     ],
     items: [
       {
@@ -386,7 +386,7 @@ export const recommendations: Category[] = [
           alt: "Taobao Logo",
         },
         benefits: [
-          "Ultra-fast shipping, often arriving within 24-48 hours in Shanghai",
+          "Ultra-fast shipping, often arriving within 24-72 hours in Shanghai",
           "Sellers typically offer highly responsive customer support",
           "While the platform supports English, browsing in Chinese may provide broader search results and additional promotional pricing",
         ],
@@ -409,7 +409,10 @@ export const recommendations: Category[] = [
   },
   {
     title: "Network Communication",
-    introductions: ["xxx"],
+    introductions: [
+      "Using a physical SIM card remains a straightforward option as it is essentially a matter of inserting the card and using it immediately. However, an eSIM is an excellent alternative for those who prefer a digital setup. While the initial configuration of an eSIM can seem challenging, online shops like WeFly make the process much easier by providing clear, step-by-step instructions. The key is to complete the setup and activation before departing, ensuring that a working connection is available the moment the plane lands.",
+      "International travel SIMs provide a distinct benefit by routing data through servers outside of China. This naturally bypasses the Great Firewall, allowing access to apps like WhatsApp, Instagram, and Google without the need to set up a separate VPN.",
+    ],
     items: [
       {
         name: "WeFly",
@@ -434,7 +437,10 @@ export const recommendations: Category[] = [
   },
   {
     title: "VPN",
-    introductions: ["xxx"],
+    introductions: [
+      "While international SIMs provide unrestricted access, the chosen plans were more budget-friendly and offered limited high-speed data. To conserve data for use while out and about, tapping into the hotel Wi-Fi was necessary. However, because local hotel networks are subject to regional internet restrictions, international applications often fail to function.",
+      "Bridging this gap required the use of a VPN. We relied on SecureVPN, a free app that proved sufficient to meet daily requirements. This allowed for a seamless transition between mobile data and hotel Wi-Fi, ensuring that messaging and social media apps remained accessible even when connected to a restricted local network.",
+    ],
     items: [
       {
         name: "Secure VPN",
@@ -463,7 +469,10 @@ export const recommendations: Category[] = [
   },
   {
     title: "Insurance",
-    introductions: ["xxx"],
+    introductions: [
+      "Securing travel insurance is a non-negotiable part of any trip. FWD often stands out as a budget-friendly choice, especially since their plans frequently include promo codes that can be stacked with ShopBack for additional savings.",
+      "Based on our own experience, FWD's claims process is straightforward and efficient, which is a vital factor when choosing a provider. Having this protection in place ensures that potential issues do not lead to significant out-of-pocket expenses.",
+    ],
     items: [
       {
         name: "FWD SG",
@@ -502,7 +511,11 @@ export const recommendations: Category[] = [
   },
   {
     title: "Research & Inspiration",
-    introductions: ["xxx"],
+    introductions: [
+      "Planning our trip involves a mix of global and local tools to balance general information with ground-level accuracy. For initial brainstorming, Google Search serves as a reliable starting point for broad searches, while Google Drive acts as our central hub for storing research findings, itineraries, and digital copies of important documents.",
+      "To gain deeper insights and verify specific details, local platforms are indispensable. Baidu and its integrated AI provide the most precise information regarding local addresses and restaurant operating hours. For visual inspiration and sample itineraries, XiaoHongShu and Lemon8 are excellent resources for discovering photography spots and summarized food guides. While XiaoHongShu offers a massive volume of content, Lemon8 often provides a more familiar Singaporean perspective, making it easier to gauge whether a recommendation aligns with our tastes and expectations.",
+      "For the most current updates on immigration policies or the situation on the ground, YouTube is a vital tool. By filtering for videos uploaded within the last two months, we can stay mentally prepared with the latest tips from content creators who have recently navigated the same routes. This multi-layered approach ensures that the travel plan is both inspired by creative content and grounded in practical, up-to-date facts.",
+    ],
     items: [
       {
         name: "Google",
@@ -628,7 +641,9 @@ export const recommendations: Category[] = [
   },
   {
     title: "Useful Applications",
-    introductions: ["xxx"],
+    introductions: [
+      "Beyond our daily essentials, we identified several other apps that were worth having on standby. While we may or may not have used all of them on this specific trip, they were frequently recommended and could be useful for future needs.",
+    ],
     items: [
       {
         name: "Dian Ping | 大众点评",
