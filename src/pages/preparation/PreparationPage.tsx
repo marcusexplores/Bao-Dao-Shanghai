@@ -74,12 +74,15 @@ export const PreparationPage = () => {
           <p>
             Some links here are affiliate or referral links. If you make a
             purchase or booking after clicking one, we may receive a small
-            benefit (like a commission or credit).
+            benefit (like a commission or credit) at absolutely no extra cost to
+            you.
           </p>
           <p>
-            Please know that this comes at absolutely no extra cost to you. We
-            only recommend services and sites we used ourselves to plan this
-            trip, and any support we receive helps keep the blog running!
+            We only recommend services and sites we used ourselves to plan this
+            trip, and any support we receive helps keep our motivation up!
+            Please note that the promotions mentioned were accurate during our
+            travel period. We recommend checking official sites for the latest
+            updates and current offers.
           </p>
         </PageContainerItem>
       </PreparationPageSection>

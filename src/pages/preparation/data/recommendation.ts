@@ -8,16 +8,19 @@ import AMapLogo from "@/assets/images/Logo_AMap.webp";
 import DiDiLogo from "@/assets/images/Logo_DiDi.webp";
 import RailwayLogo from "@/assets/images/Logo_Railway12306.webp";
 import MeiTuanLogo from "@/assets/images/Logo_MeiTuan.webp";
-import DianPingLogo from "@/assets/images/Logo_Dianping.webp";
-import FwdLogo from "@/assets/images/Logo_Fwd.webp";
+import TaobaoLogo from "@/assets/images/Logo_Taobao.webp";
+import WeFlyLogo from "@/assets/images/Logo_WeFly.webp";
 import SecureVpnLogo from "@/assets/images/Logo_SecureVpn.webp";
+import FwdLogo from "@/assets/images/Logo_Fwd.webp";
 import GoogleLogo from "@/assets/images/Logo_Google.webp";
 import BaiduLogo from "@/assets/images/Logo_Baidu.webp";
 import XiaoHongShuLogo from "@/assets/images/Logo_XiaoHongShu.webp";
 import Lemon8Logo from "@/assets/images/Logo_Lemon8.webp";
 import YouTubeLogo from "@/assets/images/Logo_YouTube.webp";
-import TaobaoLogo from "@/assets/images/Logo_Taobao.webp";
-import WeFlyLogo from "@/assets/images/Logo_WeFly.webp";
+import DianPingLogo from "@/assets/images/Logo_Dianping.webp";
+import YouTripLogo from "@/assets/images/Logo_YouTrip.webp";
+import TrustLogo from "@/assets/images/Logo_Trust.webp";
+import MariBankLogo from "@/assets/images/Logo_MariBank.webp";
 import type { ExternalLinkOptionType } from "../types";
 import { ExternalLinkOption } from "../constants";
 
@@ -26,12 +29,19 @@ interface Link {
   src: string;
 }
 
+interface Referral {
+  description: string;
+  code?: string;
+  link?: string;
+}
+
 export interface Item {
   name: string;
   description: string;
   icon: Image;
   benefits: string[];
   links?: Link[];
+  referral?: Referral;
 }
 
 export interface Category {
@@ -140,11 +150,12 @@ export const recommendations: Category[] = [
             type: ExternalLinkOption.AppStore,
             src: "https://apps.apple.com/us/app/trip-com-book-flights-hotels/id681752345",
           },
-          {
-            type: ExternalLinkOption.ReferralLink,
-            src: "https://sg.trip.com/sale/4283/referee.html?locale=en-SG&referCode=NCJVEF",
-          },
         ],
+        referral: {
+          code: "NCJVEF",
+          link: "https://sg.trip.com/sale/4283/referee.html?locale=en-SG&referCode=NCJVEF",
+          description: "Use this code to get a Welcome Pack worth SGD$68!",
+        },
       },
     ],
   },
@@ -506,6 +517,10 @@ export const recommendations: Category[] = [
             src: "https://www.fwd.com.sg/ref/d6a54a0fc952c5f",
           },
         ],
+        referral: {
+          link: "https://www.fwd.com.sg/ref/d6a54a0fc952c5f",
+          description: "Use this code to get a referral discount.",
+        },
       },
     ],
   },
@@ -653,10 +668,107 @@ export const recommendations: Category[] = [
           alt: "Dian Ping Logo",
         },
         benefits: [
-          "Supports Lorem ipsum",
-          "Supports Lorem ipsum",
-          "Supports Lorem ipsum",
+          "Combines reviews, bookings, and payments for almost any local service",
+          "Offers massive savings through pre-paid vouchers",
+          "Some establishments offer complimentary items in exchange for high ratings",
         ],
+      },
+      {
+        name: "YouTrip",
+        description: "Good Food",
+        icon: {
+          src: YouTripLogo,
+          alt: "YouTrip Logo",
+        },
+        benefits: [
+          "No foreign transaction fees",
+          "Provides real-time wholesale exchange rates with zero fees or markups",
+          "Supports easy linking to Alipay and WeChat Pay",
+        ],
+        links: [
+          {
+            type: ExternalLinkOption.Website,
+            src: "https://www.you.co/sg",
+          },
+          {
+            type: ExternalLinkOption.GooglePlay,
+            src: "https://play.google.com/store/apps/details?id=co.you.youapp&pcampaignid=web_share",
+          },
+          {
+            type: ExternalLinkOption.AppStore,
+            src: "https://apps.apple.com/sg/app/youtrip/id1228562274",
+          },
+        ],
+        referral: {
+          link: "https://youtrip.onelink.me/3xWB/va97tlpe",
+          description:
+            "Sign up with this referral link and get S$5 when you make your first top-up!",
+        },
+      },
+      {
+        name: "Trust",
+        description: "Good Food",
+        icon: {
+          src: TrustLogo,
+          alt: "Trust Logo",
+        },
+        benefits: [
+          "Available as both Credit and Debit card",
+          "No foreign transaction fees or currency markups on overseas spending",
+          "Supports easy linking to Alipay and WeChat Pay",
+          "Earn rewards and savings for use in Singapore",
+        ],
+        links: [
+          {
+            type: ExternalLinkOption.Website,
+            src: "https://trustbank.sg",
+          },
+          {
+            type: ExternalLinkOption.GooglePlay,
+            src: "https://play.google.com/store/apps/details?id=sg.trust&pcampaignid=web_share",
+          },
+          {
+            type: ExternalLinkOption.AppStore,
+            src: "https://apps.apple.com/sg/app/trust-bank-sg/id1598460384",
+          },
+        ],
+        referral: {
+          code: "PUC46M26",
+          description:
+            "Sign up with this referral link and get a sure-win scratch card that guarantees you a minimum cashback of S$5, up to S$1,000!",
+        },
+      },
+      {
+        name: "MariBank",
+        description: "Good Food",
+        icon: {
+          src: MariBankLogo,
+          alt: "MariBank Logo",
+        },
+        benefits: [
+          "Provides a digital-first credit line issued instantly upon approval",
+          "Earn up to 1.5% unlimited cashback on foreign currency spending",
+          "Supports easy linking to Alipay and WeChat Pay",
+        ],
+        links: [
+          {
+            type: ExternalLinkOption.Website,
+            src: "https://www.maribank.sg",
+          },
+          {
+            type: ExternalLinkOption.GooglePlay,
+            src: "https://play.google.com/store/apps/details?id=sg.com.maribankmobile.digitalbank&pcampaignid=web_share",
+          },
+          {
+            type: ExternalLinkOption.AppStore,
+            src: "https://apps.apple.com/sg/app/maribank-singapore/id1658919834",
+          },
+        ],
+        referral: {
+          code: "1RNN38BI",
+          description:
+            "Sign up with this referral link and enjoy exclusive New User Rewards!",
+        },
       },
     ],
   },
