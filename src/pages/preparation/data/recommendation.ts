@@ -512,10 +512,6 @@ export const recommendations: Category[] = [
             type: ExternalLinkOption.AppStore,
             src: "https://apps.apple.com/us/app/fwd-sg/id1538535682",
           },
-          {
-            type: ExternalLinkOption.ReferralLink,
-            src: "https://www.fwd.com.sg/ref/d6a54a0fc952c5f",
-          },
         ],
         referral: {
           link: "https://www.fwd.com.sg/ref/d6a54a0fc952c5f",
