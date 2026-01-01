@@ -5,6 +5,7 @@ import { PageHeadline } from "@/components/page/PageHeadline";
 import { PageContainer } from "@/components/page/PageContainer";
 import { PageContainerItem } from "@/components/page/PageContainerItem";
 import { ChecklistSection } from "./components/ChecklistSection";
+import { ChecklistPdfButton } from "./components/ChecklistPdfButton";
 import { checklist, type Category } from "./data/checklist";
 
 export const PreparationChecklistPage = () => {
@@ -109,6 +110,9 @@ export const PreparationChecklistPage = () => {
                 ✨ All set! Have an amazing trip! ✨
               </motion.p>
             )}
+          </PageContainerItem>
+          <PageContainerItem className="flex justify-center items-center mt-6">
+            <ChecklistPdfButton data={savedList}/>
           </PageContainerItem>
         </motion.div>
       </PageContainer>
