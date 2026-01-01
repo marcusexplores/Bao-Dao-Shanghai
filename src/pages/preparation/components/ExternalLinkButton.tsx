@@ -40,8 +40,6 @@ const getExternalLinkInformation = (
       return { first: SmartphoneIcon, second: "Google Play" };
     case ExternalLinkOption.Shopee:
       return { first: ShoppingCartIcon, second: "Google Play" };
-    case ExternalLinkOption.ReferralLink:
-      return { first: GlobeIcon, second: "Referral Link" };
     default:
       return { first: GlobeIcon, second: "Official Website" };
   }
