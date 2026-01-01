@@ -115,7 +115,7 @@ export const PreparationChecklistPage = () => {
 
       {/* Categories Grid */}
       <PageContainer>
-        <div className="grid md:grid-cols-2 gap-x-8 gap-y-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12 pl-3 md:pl-8">
           {savedList.map((category, index) => (
             <motion.div
               key={category.name}
