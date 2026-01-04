@@ -17,7 +17,7 @@ export const timeline: TimelineActivity[] = [
     title: itineraryDays[0].title,
     subtitle: itineraryDays[0].date,
     description:
-      "Our journey began at Changi International Airport, where the anticipation was palpable. After a quiet pre-flight dinner and a moment of calm in the Blossom Lounge, we boarded our flight with Juneyao Air, marking the official start of our long-awaited adventure.",
+      "Our journey began at Singapore Changi Airport, where the anticipation was palpable. After a quiet pre-flight dinner and a moment of calm in the Blossom Lounge, we boarded our flight with Juneyao Air, marking the official start of our long-awaited adventure.",
     icon: ZapIcon,
     thumbnail: Day0Thumbnail,
     link: NAVIGATION_KEY.ITINERARY_DAY_0,

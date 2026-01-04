@@ -25,7 +25,7 @@ export const ItineraryDay0Page = () => {
         trip, though work schedules meant we couldn't lock in our flights until
         the very last minute. Despite the challenges of late planning and having
         to work with limited availability, luck was on our side as we snagged an
-        excellent deal. Our adventure finally began at Changi Airport Terminal
+        excellent deal. Our adventure finally began at Singapore Changi Airport Terminal
         4.
       </PageContainerItem>
       <PageContainerItem>
