@@ -25,8 +25,8 @@ export const ItineraryDay0Page = () => {
         trip, though work schedules meant we couldn't lock in our flights until
         the very last minute. Despite the challenges of late planning and having
         to work with limited availability, luck was on our side as we snagged an
-        excellent deal. Our adventure finally began at Singapore Changi Airport Terminal
-        4.
+        excellent deal. Our adventure finally began at Singapore Changi Airport
+        Terminal 4.
       </PageContainerItem>
       <PageContainerItem>
         Arriving well ahead of schedule proved to be a wise decision, as we
@@ -158,11 +158,11 @@ export const ItineraryDay0Page = () => {
       />
       <PageContainerItem>
         Any initial misconceptions about the airline being budget were quickly
-        dispelled upon boarding. We were pleasantly surprised by the generous
+        dispelled upon boarding. We were pleasantly surprised by the sufficient
         legroom and the quality of the seats, where the adjustable headrests
         provided great support and a mini back cushion added an extra layer of
-        comfort. Between the complimentary supper and the attentive drink
-        service, the hospitality was top-notch.
+        comfort. The hospitality was highly commendable, especially with the
+        complimentary supper and proactive drink service.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
