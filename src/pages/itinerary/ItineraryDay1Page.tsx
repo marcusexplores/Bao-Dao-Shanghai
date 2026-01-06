@@ -161,15 +161,17 @@ export const ItineraryDay1Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Locating the entrance proved to be a bit of a challenge, as the hotel
+        name was not clearly visible from a distance. Despite this initial
+        hurdle, we found the area to be very convenient for calling e-hailing
+        rides whenever we needed to head out. Regarding the room itself, we were
+        quite satisfied with the amount of space provided. There was plenty of
+        room to fully open our luggage and still walk around comfortably, and
+        the inclusion of a dedicated resting sofa was a nice touch. We found it
+        rather amusing that the shower room was designed with slightly
+        translucent glass, leaving the top half quite visible from the bedroom.
+        While the hotel wifi was stable and working well, we had to rely on our
+        own VPN to access international apps.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -196,15 +198,11 @@ export const ItineraryDay1Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Feeling hungry from all the travelling, our first pit stop was Zhi Wei
+        Guan, a renowned restaurant that has been a cornerstone of the Hangzhou
+        food scene since 1913. It is famous for being a time-honored brand that
+        has served generations of locals and travellers alike, earning
+        widespread respect for preserving the culinary heritage of the region.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -227,15 +225,21 @@ export const ItineraryDay1Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        When we entered the restaurant, it was fortunately not too crowded. We
+        joined the queue and began placing our order, but when we took a brief
+        pause to consider our choices, the customer behind us started shouting
+        for us to hurry up. Thankfully, the cashier remained incredibly
+        professional. She greeted us with a smile and patiently took our order
+        while providing some helpful recommendations. If it had not been for her
+        kind demeanour, it really would have ruined the experience.
+      </PageContainerItem>
+      <PageContainerItem>
+        Because of the rush, we decided to settle for what we had already
+        ordered and perhaps pick up other snacks along the way, especially since
+        our trip had only just started. As a result, we only managed to try a
+        few items, including some dumplings, a spring roll, and the classic Dong
+        Po Rou. It was a modest start that gave us a quick taste of the local
+        flavours.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -258,15 +262,12 @@ export const ItineraryDay1Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Since West Lake was within walking distance, we took a slow stroll in
+        that direction to see the nearby stalls and explore the area. Only a few
+        shops down the street, a subsidiary called Zhi Wei Guan Pastry caught
+        our eyes. Their signature item appeared to be the Longjing pastry, so we
+        bought one along with an osmanthus version. They were actually quite
+        nice and rather flavourful.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -281,15 +282,10 @@ export const ItineraryDay1Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        On the way, we spotted a building featuring a prominent scrolling LCD
+        screen. It felt like quite an iconic landmark, especially when the words
+        "I am in Hangzhou" flashed across the display. We couldn't resist taking
+        a photo as a bit of proof that we had finally arrived in the city.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -304,15 +300,17 @@ export const ItineraryDay1Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Water calligraphy was not something we expected to see, but apparently,
+        this practice is a common sight in Chinese parks, particularly among the
+        older generation who use it as a form of exercise and artistic
+        expression. It became popular across the country as a way to practise
+        the traditional art of calligraphy without the cost of expensive ink and
+        paper, using an oversized brush made of foam or sponge attached to a
+        long handle which is then dipped into plain water collected from the
+        nearby lake. The practitioners use the stone pavement as their canvas to
+        write beautiful characters or poems, with several of them scattered
+        along the path and positioned a short distance from one another to
+        ensure they had enough space for their art.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -327,15 +325,20 @@ export const ItineraryDay1Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        While taking a moment to appreciate the art, we could not help but
+        notice some disappointing moments. Some children were trying to wipe
+        away the water and were destroying the art right under the eyes of the
+        artists. Although the parents were nearby, they seemed oblivious to the
+        artists' feelings and did not stop the children. Luckily, it was only a
+        brief moment before the peace was restored.
+      </PageContainerItem>
+      <PageContainerItem>
+        Before we knew it, we had already reached West Lake. Since our stomachs
+        were still not full, we came across a food stall where the sight of some
+        juicy sausages stopped us in our tracks. We decided to buy one, but
+        little did we know at the time that it was overpriced. We only realised
+        this later when we spotted cheaper sausages being sold as we explored
+        further along the lakeside.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
