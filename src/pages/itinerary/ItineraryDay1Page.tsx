@@ -35,6 +35,8 @@ import WulinNightMarketPhoto from "@/assets/photos/Itinerary_Day1_Wulin_NightMar
 import WulinStoryPhoto from "@/assets/photos/Itinerary_Day1_Wulin_Story.jpg";
 import WulinStoryFood1Photo from "@/assets/photos/Itinerary_Day1_Wulin_Story_Food1.jpg";
 import WulinStoryFood2Photo from "@/assets/photos/Itinerary_Day1_Wulin_Story_Food2.jpg";
+import SoybeanMilkPhoto from "@/assets/photos/Itinerary_Day1_LongjingJasmineSoybeanMilk.jpg";
+import WulinFoodStreetPhoto from "@/assets/photos/Itinerary_Day1_WulinFoodStreet.jpg";
 
 export const ItineraryDay1Page = () => {
   return (
@@ -748,6 +750,26 @@ export const ItineraryDay1Page = () => {
         satisfied with this spread of variety for dinner and began to slowly
         make our way back to the hotel to rest for the night.
       </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: SoybeanMilkPhoto,
+              alt: "Longjin Soybean Milk",
+            },
+            className: "col-span-4",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: WulinFoodStreetPhoto,
+              alt: "Wulin Food Street",
+            },
+            className: "col-span-8",
+          },
+        ]}
+      />
       <PageContainerItem>
         The bustling noise of the market eventually faded into the distance, and
         the vibrant neon glow gave way to the quieter, steady hum of the streets
