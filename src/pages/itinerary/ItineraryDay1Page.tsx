@@ -664,15 +664,24 @@ export const ItineraryDay1Page = () => {
         heading out again for dinner.
       </PageContainerItem>
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Waking up refreshed from a good rest, we made our way toward Wulin Night
+        Market. When we reached Wulin Road, we noticed a few food stalls already
+        lined up along the sidewalk. Although the displays looked quite
+        appetizing, the area was surprisingly quiet with little to no customers
+        in sight. Seeing the empty street made us suspect that we hadn't
+        actually found the main market yet, prompting us to keep searching for
+        the real hub of activity.
+      </PageContainerItem>
+      <PageContainerItem>
+        True enough, once we reached the actual Wulin Night Market (武林夜市),
+        the atmosphere shifted completely into a vibrant hub of local life. Rows
+        of brightly lit stalls stretched down the street, offering everything
+        from trendy fashion and handmade crafts to quirky souvenirs. The air was
+        thick with the enticing scents of street food as vendors served up local
+        favorites like stinky tofu and grilled seafood. Spotting the same
+        oversized meat skewers we had seen earlier made it clear that this was
+        the real spot for variety, and seeing the much lower prices actually
+        made us feel a bit cheated by what we had paid back at the lake.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -687,15 +696,13 @@ export const ItineraryDay1Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Beyond the individual street stalls, we found larger establishments like
+        Long Xing Tian Xia Food Plaza (龙行天下美食广场), which offered a
+        centralized cluster of food options with shared tables and seating. The
+        stalls were cleverly designed with two sides to serve different needs.
+        Those looking for a quick bite can order from the outside counter to
+        take their food on the go, while those who prefer to dine in can secure
+        a seat and order from the inside counter.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -726,15 +733,30 @@ export const ItineraryDay1Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        For a start, we played it safe by ordering familiar favorites like
+        potatoes and shrimps. We also spotted some Pan-fried Buns (生煎包) and
+        since they looked so small and cute, we were intrigued enough to give
+        them a try. However, they didn't really share the same reputation as the
+        original-sized ones and felt more like simple finger food. Then we came
+        across Grilled Sweet Potato Skin (烤苕皮). It was something we had never
+        seen before and we had no idea what it was, but we decided to give it a
+        go anyway. All we can say is that it is definitely an acquired taste.
+      </PageContainerItem>
+      <PageContainerItem>
+        Other food and drinks we tried were the Longjing Jasmine Soybean Milk
+        nearby and the Hotplate Tofu at Wulin Food Street (武林好吃街). We felt
+        satisfied with this spread of variety for dinner and began to slowly
+        make our way back to the hotel to rest for the night.
+      </PageContainerItem>
+      <PageContainerItem>
+        The bustling noise of the market eventually faded into the distance, and
+        the vibrant neon glow gave way to the quieter, steady hum of the streets
+        leading back to our hotel. A sense of calm finally took over when the
+        day's long walks and the lingering exhaustion from the red-eye flight
+        caught up with us. Satisfied with the variety of food we had discovered
+        and the local rhythm we had finally found, we leaned back into our
+        pillows and closed our eyes. We drifted off feeling at peace, but with a
+        spark of anticipation for the morning.
       </PageContainerItem>
     </>
   );
