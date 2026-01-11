@@ -415,7 +415,7 @@ export const ItineraryDay3Page = () => {
             type: MediaType.Image,
             media: {
               src: TeashopPhoto,
-              alt: "Tea Shop",
+              alt: "Gu Ren Shuo Tea Stall",
             },
             className: "col-span-full",
           },
@@ -554,7 +554,7 @@ export const ItineraryDay3Page = () => {
             type: MediaType.Image,
             media: {
               src: BuildingPhoto,
-              alt: "Building",
+              alt: "Golden hour at the waterfront",
             },
             className: "col-span-full",
           },

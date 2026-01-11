@@ -55,7 +55,7 @@ export const ItineraryDay4Page = () => {
             type: MediaType.Image,
             media: {
               src: BreakfastPhoto,
-              alt: "Breakfast",
+              alt: "Porridge and sesame flatbread",
             },
             className: "col-span-full max-w-lg mx-auto",
           },
@@ -201,7 +201,7 @@ export const ItineraryDay4Page = () => {
             type: MediaType.Image,
             media: {
               src: MuralPhoto,
-              alt: "Mural",
+              alt: "Brick architecture in downtown Shanghai",
             },
             className: "col-span-full",
           },
@@ -258,17 +258,17 @@ export const ItineraryDay4Page = () => {
           },
           {
             type: MediaType.Image,
-            media: { src: JiChangXingMeatPhoto, alt: "Meat" },
+            media: { src: JiChangXingMeatPhoto, alt: "Braised Pork Belly" },
             className: "col-span-6 md:col-span-4",
           },
           {
             type: MediaType.Image,
-            media: { src: JiChangXingDumplingPhoto, alt: "Dumpling" },
+            media: { src: JiChangXingDumplingPhoto, alt: "Steamed bi-color dumplings" },
             className: "col-span-6",
           },
           {
             type: MediaType.Image,
-            media: { src: JiChangXingEelPhoto, alt: "Eel" },
+            media: { src: JiChangXingEelPhoto, alt: "Glazed and crispy fried eels" },
             className: "col-span-6",
           },
         ]}
@@ -472,7 +472,7 @@ export const ItineraryDay4Page = () => {
             type: MediaType.Image,
             media: {
               src: TeaShopPhoto,
-              alt: "Tea Shop",
+              alt: "KFC's Chinese tea spinoff shop",
             },
             className: "col-span-6",
           },
@@ -480,7 +480,7 @@ export const ItineraryDay4Page = () => {
             type: MediaType.Image,
             media: {
               src: TeaPhoto,
-              alt: "Tea",
+              alt: "Yanyu Longjing Rice Milk Tea",
             },
             className: "col-span-6",
           },

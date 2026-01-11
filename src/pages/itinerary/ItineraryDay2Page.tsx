@@ -889,7 +889,7 @@ export const ItineraryDay2Page = () => {
             type: MediaType.Image,
             media: {
               src: HefangStreetSkewersPhoto,
-              alt: "Skewers",
+              alt: "Massive grilled meat skewer bucket",
             },
             className: "col-span-6",
           },
@@ -897,7 +897,7 @@ export const ItineraryDay2Page = () => {
             type: MediaType.Image,
             media: {
               src: HefangStreetPasteryPhoto,
-              alt: "Pasteries",
+              alt: "Beef pancake",
             },
             className: "col-span-6",
           },

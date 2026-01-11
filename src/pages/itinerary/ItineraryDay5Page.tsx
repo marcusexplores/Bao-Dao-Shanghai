@@ -32,7 +32,7 @@ export const ItineraryDay5Page = () => {
             type: MediaType.Image,
             media: {
               src: BreakfastFoodPhoto,
-              alt: "Breakfast Food",
+              alt: "Hearty local breakfast variety",
             },
             className: "col-span-6",
           },
