@@ -346,7 +346,7 @@ export const ItineraryDay1Page = () => {
             type: MediaType.Image,
             media: {
               src: SausagePhoto,
-              alt: "Sausage",
+              alt: "Sausage near Hangzhou West Lake",
             },
             className: "col-span-full",
           },
@@ -387,7 +387,7 @@ export const ItineraryDay1Page = () => {
             type: MediaType.Image,
             media: {
               src: DragonBoatPhoto,
-              alt: "Boat with dragon shape",
+              alt: "Golden dragon boat",
             },
             className: "col-span-full",
           },
@@ -409,7 +409,7 @@ export const ItineraryDay1Page = () => {
             type: MediaType.Image,
             media: {
               src: FruitTeaPhoto,
-              alt: "Fruit Tea",
+              alt: "Fruit Tea Stall",
             },
             className: "col-span-full",
           },
@@ -462,7 +462,7 @@ export const ItineraryDay1Page = () => {
             type: MediaType.Image,
             media: {
               src: TowerPhoto,
-              alt: "Tower",
+              alt: "Scenic view with Tower",
             },
             className: "col-span-full max-w-lg mx-auto",
           },
@@ -513,7 +513,7 @@ export const ItineraryDay1Page = () => {
             type: MediaType.Image,
             media: {
               src: SkewerPhoto,
-              alt: "Skewers",
+              alt: "Grilled Skewers",
             },
             className: "col-span-full max-w-lg mx-auto",
           },
@@ -577,7 +577,7 @@ export const ItineraryDay1Page = () => {
             type: MediaType.Image,
             media: {
               src: HutPhoto,
-              alt: "Hut",
+              alt: "Hut at QuYuan Fenghe",
             },
             className: "col-span-full",
           },
@@ -599,7 +599,7 @@ export const ItineraryDay1Page = () => {
             type: MediaType.Image,
             media: {
               src: RiverCruisePhoto,
-              alt: "River Boat",
+              alt: "Canal Cruise",
             },
             className: "col-span-6",
           },
@@ -607,7 +607,7 @@ export const ItineraryDay1Page = () => {
             type: MediaType.Image,
             media: {
               src: RiverPhoto,
-              alt: "Admiring the River",
+              alt: "Quiet moment by the canal",
             },
             className: "col-span-6",
           },
@@ -710,7 +710,7 @@ export const ItineraryDay1Page = () => {
             type: MediaType.Image,
             media: {
               src: WulinStoryPhoto,
-              alt: "Wu Lin Gu Shi",
+              alt: "Long Xing Tian Xia Food Plaza",
             },
             className: "col-span-full md:col-span-4",
           },
@@ -718,7 +718,7 @@ export const ItineraryDay1Page = () => {
             type: MediaType.Image,
             media: {
               src: WulinStoryFood1Photo,
-              alt: "Wu Lin Gu Shi Food 1",
+              alt: "Dumplings and local street snacks",
             },
             className: "col-span-6 md:col-span-4",
           },
@@ -726,7 +726,7 @@ export const ItineraryDay1Page = () => {
             type: MediaType.Image,
             media: {
               src: WulinStoryFood2Photo,
-              alt: "Wu Lin Gu Shi Food 2",
+              alt: "Chili-topped seafood and potatoes",
             },
             className: "col-span-6 md:col-span-4",
           },
