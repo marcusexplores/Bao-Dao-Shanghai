@@ -3,3 +3,9 @@ export const MediaType = {
   Video: "video",
   ImageComparison: "image-comparison",
 } as const;
+
+export const ImagePriority = {
+  High: "high",
+  Low: "low",
+  Auto: "auto"
+} as const;

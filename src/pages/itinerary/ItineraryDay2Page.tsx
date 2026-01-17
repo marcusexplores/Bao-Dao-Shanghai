@@ -1,6 +1,6 @@
 import { PageContainerItem } from "@/components/page/PageContainerItem";
 import { PageContainerItemMedia } from "@/components/page/PageContainerItemMedia";
-import { MediaType } from "@/components/page/constants";
+import { ImagePriority, MediaType } from "@/components/page/constants";
 import HotelBuffetHotPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Hot.jpg";
 import HotelBuffetSidesPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Sides.jpg";
 import HotelBuffetDrinkPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Drink.jpg";
@@ -11,10 +11,13 @@ import HotelBuffetIcePhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Ice
 import HotelBuffetSoupPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Soup.jpg";
 import HotelBuffetPasteriesPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Pasteries.jpg";
 import HotelBuffetSteamPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Steam.jpg";
+import OmgParkGatePhoto from "@/assets/photos/Itinerary_Day2_Omg_Gate.jpg";
+import OmgParkShadowPhoto from "@/assets/photos/Itinerary_Thumbnail_Day2.jpg";
 import OmgParkTogetherPhoto from "@/assets/photos/Itinerary_Day2_Omg_Together.jpg";
 import OmgParkMascotPhoto from "@/assets/photos/Itinerary_Day2_Omg_Mascot.jpg";
 import OmgParkTotemPhoto from "@/assets/photos/Itinerary_Day2_Omg_Totem.jpg";
-import BoatEntrancePhoto from "@/assets/photos/Itinerary_Day2_BoatEntrance.jpg";
+import OmgParkTicketEntrance from "@/assets/photos/Itinerary_Day2_TicketEntrance.jpg";
+import OmgParkTicketGantry from "@/assets/photos/Itinerary_Day2_TicketGantry.jpg";
 import BoatBoardingPhoto from "@/assets/photos/Itinerary_Day2_BoatBoarding.jpg";
 import AltarPhoto from "@/assets/photos/Itinerary_Day2_Altar.jpg";
 import BuddhaPhoto from "@/assets/photos/Itinerary_Day2_Buddha.jpg";
@@ -51,20 +54,22 @@ import ParkRewardsPhoto from "@/assets/photos/Itinerary_Day2_Park_Rewards.jpg";
 import HefangStreetPhoto from "@/assets/photos/Itinerary_Day2_HefangStreet.jpg";
 import HefangStreetSkewersPhoto from "@/assets/photos/Itinerary_Day2_HefangStreet_Skewers.jpg";
 import HefangStreetPasteryPhoto from "@/assets/photos/Itinerary_Day2_HefangStreet_Pastery.jpg";
+import RobotVideo from "@/assets/videos/Itinerary_Day2_Omg_Robot.mp4";
 
 export const ItineraryDay2Page = () => {
   return (
     <>
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Morning at the hotel began with a breakfast buffet that offered a wide
+        variety of choices, including international options like Portuguese egg
+        tarts and sushi. Although it was a nutritious spread, some of the food
+        did not quite meet our expectations. We were looking forward to long,
+        crispy youtiao, but the version here was short and hard instead.
+        Surprisingly, the highlight of the meal turned out to be the vegetables,
+        which were seasoned well and cooked perfectly. This was not just our own
+        bias, as we noticed how quickly the other diners finished them,
+        affirming that the vegetables were the most popular choice of the
+        morning.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -73,6 +78,7 @@ export const ItineraryDay2Page = () => {
             media: {
               src: HotelBuffetHotPhoto,
               alt: "Hotel Buffet Hot Snacks",
+              fetchPriority: ImagePriority.High,
             },
             className: "col-span-6 md:col-span-4",
           },
@@ -81,6 +87,7 @@ export const ItineraryDay2Page = () => {
             media: {
               src: HotelBuffetSidesPhoto,
               alt: "Hotel Buffet Sides",
+              fetchPriority: ImagePriority.High,
             },
             className: "col-span-6 md:col-span-4",
           },
@@ -89,6 +96,7 @@ export const ItineraryDay2Page = () => {
             media: {
               src: HotelBuffetDrinkPhoto,
               alt: "Hotel Buffet Drinks",
+              fetchPriority: ImagePriority.High,
             },
             className: "col-span-6 md:col-span-4",
           },
@@ -97,6 +105,7 @@ export const ItineraryDay2Page = () => {
             media: {
               src: HotelBuffetPorridgePhoto,
               alt: "Hotel Buffet Porridge",
+              fetchPriority: ImagePriority.High,
             },
             className: "col-span-6",
           },
@@ -105,6 +114,7 @@ export const ItineraryDay2Page = () => {
             media: {
               src: HotelBuffetCookPhoto,
               alt: "Hotel Buffet Chefs",
+              fetchPriority: ImagePriority.High,
             },
             className: "col-span-6",
           },
@@ -113,6 +123,7 @@ export const ItineraryDay2Page = () => {
             media: {
               src: HotelBuffetVegetablesPhoto,
               alt: "Hotel Buffet Vegetables",
+              fetchPriority: ImagePriority.High,
             },
             className: "col-span-6 md:col-span-4",
           },
@@ -121,6 +132,7 @@ export const ItineraryDay2Page = () => {
             media: {
               src: HotelBuffetIcePhoto,
               alt: "Hotel Buffet Cold Food",
+              fetchPriority: ImagePriority.High,
             },
             className: "col-span-6 md:col-span-4",
           },
@@ -129,6 +141,7 @@ export const ItineraryDay2Page = () => {
             media: {
               src: HotelBuffetSoupPhoto,
               alt: "Hotel Buffet Soup",
+              fetchPriority: ImagePriority.High,
             },
             className: "col-span-6 md:col-span-4",
           },
@@ -151,15 +164,61 @@ export const ItineraryDay2Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Returning to our hotel room, we went through our usual morning routine
+        and finished our final preparations before heading out for the day. We
+        had heard from friends that switching the DiDi app to the Chinese
+        language interface might reveal cheaper rates, and sure enough, we were
+        immediately bombarded by a huge variety of offers and options. To make
+        sense of it all, we headed back to the hotel reception to ask for advice
+        on the different services. The staff recommended trying the hitch
+        (顺风车) option, which turned out to be way cheaper than the standard
+        service. We successfully booked the ride, and although the driver
+        requested that we pay the highway tolls when we reached the toll area,
+        it was still a fantastic deal. The hour and a half journey was smooth
+        and quiet, giving us the perfect opportunity to catch up on some sleep
+        before arriving at OMG Heartbeat Park.
+      </PageContainerItem>
+      <PageContainerItem>
+        Our taxi dropped us off a short distance from the entrance of the park
+        because of a vehicle-restricted zone that started a few hundred meters
+        away. Since we couldn't see the entrance from where we stood, we felt a
+        little anxious and quickly checked our maps to confirm we were in the
+        right spot. Just then, we overheard someone nearby asking for directions
+        and being told to simply walk straight ahead. Following their lead, we
+        soon spotted the park logo on the ground, which gave us the relief of
+        knowing we had finally arrived at the right place.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: OmgParkGatePhoto,
+              alt: "OMG Heartbeat Park Gate",
+            },
+            className: "col-span-4",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: OmgParkShadowPhoto,
+              alt: "Shadow photo outside OMG Heartbeat Park",
+            },
+            className: "col-span-8",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Moving past the entrance, we stopped at the restrooms nearby to freshen
+        up after our long ride before officially starting our exploration. The
+        main reason we were so drawn to this park was the Sky Road Flying Car
+        (天路飞车), which has a massive reputation online for its thrilling
+        2,000-meter track. It allows for drifting down the mountainside at high
+        speeds, making it a major highlight for most visitors. It was
+        disappointing to find that the ride was under maintenance during the
+        visit, but we decided to go ahead anyway. We were confident that the
+        park still had plenty of other exciting attractions to make the trip
+        worthwhile.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -180,17 +239,24 @@ export const ItineraryDay2Page = () => {
             className: "col-span-4",
           },
         ]}
+        caption="Park logo after a toilet break before heading in"
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        OMG Heartbeat Park, officially known as Chuiyun Riveh to the Heaven
+        (垂云通天河), is a premier adventure and scenic destination located in
+        Tonglu, Hangzhou. It is famous for its "Up to the Sky and Down to Earth"
+        theme, which seamlessly blends high-altitude thrills with deep
+        underground explorations within a unique karst landscape. The park holds
+        a prestigious National AAAA rating, an official certification awarded by
+        China's Ministry of Culture and Tourism for excellence in scenic
+        quality, infrastructure, and management. This recognition is driven by
+        its rare geological wonders, such as the subterranean Tongtian River
+        that stays a constant 18°C, alongside innovative attractions like the
+        massive glass Sky Bridge and the immersive Journey to the West themed
+        zones. By maintaining strict standards for safety and visitor services
+        while offering one-of-a-kind experiences, the park has established
+        itself as a top-tier landmark for both nature lovers and thrill-seekers
+        alike.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -202,6 +268,56 @@ export const ItineraryDay2Page = () => {
             },
             className: "col-span-full max-w-lg mx-auto",
           },
+        ]}
+      />
+      <PageContainerItem>
+        At the ticketing area, a hospitable robot greeted visitors by eagerly
+        waving and attempting to shake hands. It was quite persistent,
+        occasionally following those who did not acknowledge its greeting or
+        offer a handshake. We were unclear whether the robot was being remotely
+        controlled by a staff member or if it was operating through artificial
+        intelligence, but the interaction provided a lighthearted moment before
+        heading further into the park.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: OmgParkTicketEntrance,
+              alt: "Ticketing Counter",
+            },
+            className: "col-span-8",
+          },
+          {
+            type: MediaType.Video,
+            media: {
+              src: RobotVideo,
+              alt: "Robot at the ticketing counter",
+            },
+            className: "col-span-4",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Since we bought our tickets online and had our digital QR codes ready,
+        we were able to head straight to the gantry. Just around the corner from
+        the entrance, we came across a small booth where we needed to exchange
+        our codes for physical tickets depending on our chosen path. The staff
+        explained that our current package covered most of the activities on
+        Route A, but they encouraged us to try a more adventurous route instead.
+        We decided to heed their advice and upgrade our experience.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: OmgParkTicketGantry,
+              alt: "Ticket Gantry",
+            },
+            className: "col-span-full",
+          }
         ]}
       />
       <PageContainerItem>
@@ -220,18 +336,10 @@ export const ItineraryDay2Page = () => {
           {
             type: MediaType.Image,
             media: {
-              src: BoatEntrancePhoto,
-              alt: "Boat Boarding Entrance",
-            },
-            className: "col-span-6",
-          },
-          {
-            type: MediaType.Image,
-            media: {
               src: BoatBoardingPhoto,
               alt: "Boat Boarding Area",
             },
-            className: "col-span-6",
+            className: "col-span-full",
           },
         ]}
       />

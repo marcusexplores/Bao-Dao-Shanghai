@@ -1,11 +1,12 @@
+import type { ImgHTMLAttributes } from "react";
 import { Comparison } from "./Comparison";
 import { ComparisonItem } from "./ComparisonItem";
 import { ComparisonHandle } from "./ComparisonHandle";
 import { ItemPosition } from "./constants";
 
 interface ImageComparisonProps {
-  before: Image;
-  after: Image;
+  before: ImgHTMLAttributes<HTMLImageElement>;
+  after: ImgHTMLAttributes<HTMLImageElement>;
 }
 
 export const ImageComparison = ({ before, after }: ImageComparisonProps) => {

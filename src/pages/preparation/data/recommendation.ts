@@ -1,3 +1,4 @@
+import type { ImgHTMLAttributes } from "react";
 import JuneyaoAirLogo from "@/assets/images/Logo_JuneyaoAir.webp";
 import PriorityPassLogo from "@/assets/images/Logo_PriorityPass.webp";
 import TripLogo from "@/assets/images/Logo_Trip.webp";
@@ -38,7 +39,7 @@ interface Referral {
 export interface Item {
   name: string;
   description: string;
-  icon: Image;
+  icon: ImgHTMLAttributes<HTMLImageElement>;
   benefits: string[];
   links?: Link[];
   referral?: Referral;

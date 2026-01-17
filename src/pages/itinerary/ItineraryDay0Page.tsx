@@ -1,7 +1,7 @@
 import { PageContainerItem } from "@/components/page/PageContainerItem";
 import { PageContainerItemMedia } from "@/components/page/PageContainerItemMedia";
 import { Flipboard } from "@/components/flipboard/Flipboard";
-import { MediaType } from "@/components/page/constants";
+import { ImagePriority, MediaType } from "@/components/page/constants";
 import PassportPhoto from "@/assets/photos/Itinerary_Day0_Passport.jpg";
 import LoungePhoto from "@/assets/photos/Itinerary_Day0_Lounge.jpg";
 import LoungeSaladBarPhoto from "@/assets/photos/Itinerary_Day0_Lounge_SaladBar.jpg";
@@ -39,7 +39,11 @@ export const ItineraryDay0Page = () => {
         data={[
           {
             type: MediaType.Image,
-            media: { src: PassportPhoto, alt: "Passport" },
+            media: {
+              src: PassportPhoto,
+              alt: "Passport",
+              fetchPriority: ImagePriority.High,
+            },
             className: "col-span-full max-w-lg mx-auto",
           },
         ]}

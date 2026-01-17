@@ -1,6 +1,6 @@
 import { PageContainerItem } from "@/components/page/PageContainerItem";
 import { PageContainerItemMedia } from "@/components/page/PageContainerItemMedia";
-import { MediaType } from "@/components/page/constants";
+import { ImagePriority, MediaType } from "@/components/page/constants";
 import AirportConnectingTrainPhoto from "@/assets/photos/Itinerary_Day1_AirportConnectingTrain.jpg";
 import AirportLinkTrainPhoto from "@/assets/photos/Itinerary_Day1_AirportLinkTrain.jpg";
 import HotelPhoto from "@/assets/photos/Itinerary_Day1_Hotel.jpg";
@@ -58,6 +58,7 @@ export const ItineraryDay1Page = () => {
             media: {
               src: AirportConnectingTrainPhoto,
               alt: "Aiport Connecting Train",
+              fetchPriority: ImagePriority.High,
             },
             className: "col-span-full",
           },

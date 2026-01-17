@@ -1,3 +1,4 @@
+import type { ImgHTMLAttributes } from "react";
 import { motion } from "motion/react";
 import { cn } from "@/functions/classname";
 import { ImageComparison } from "@/components/comparison/ImageComparison";
@@ -10,7 +11,7 @@ interface QuiltProps {
 
 const displayTile = (index: number, tile: QuiltTile) => {
   if (tile.type === MediaType.ImageComparison) {
-    const pair = tile.media as Pair<Image, Image>;
+    const pair = tile.media as Pair<ImgHTMLAttributes<HTMLImageElement>, ImgHTMLAttributes<HTMLImageElement>>;
     return (
       <div key={index} className={cn(tile.className)}>
         <ImageComparison before={pair.first} after={pair.second} />
@@ -29,7 +30,7 @@ const displayTile = (index: number, tile: QuiltTile) => {
       </video>
     );
   } else {
-    const image = tile.media as Image;
+    const image = tile.media as ImgHTMLAttributes<HTMLImageElement>;
     return (
       <motion.div
         key={index}

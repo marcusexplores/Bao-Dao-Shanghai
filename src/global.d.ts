@@ -29,11 +29,6 @@ declare global {
     second: U;
   }
 
-  interface Image {
-    src: string;
-    alt: string;
-  }
-
   interface Video {
     src: string;
     type?: string;
