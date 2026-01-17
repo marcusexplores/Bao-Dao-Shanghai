@@ -28,9 +28,4 @@ declare global {
     first: T;
     second: U;
   }
-
-  interface Video {
-    src: string;
-    type?: string;
-  }
 }

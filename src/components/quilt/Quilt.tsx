@@ -1,4 +1,4 @@
-import type { ImgHTMLAttributes } from "react";
+import type { ImgHTMLAttributes, SourceHTMLAttributes } from "react";
 import { motion } from "motion/react";
 import { cn } from "@/functions/classname";
 import { ImageComparison } from "@/components/comparison/ImageComparison";
@@ -18,7 +18,7 @@ const displayTile = (index: number, tile: QuiltTile) => {
       </div>
     );
   } else if (tile.type === MediaType.Video) {
-    const video = tile.media as Video;
+    const video = tile.media as SourceHTMLAttributes<HTMLSourceElement>;
     return (
       <video
         controls
