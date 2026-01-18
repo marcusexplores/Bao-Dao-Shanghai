@@ -22,6 +22,7 @@ const displayTile = (index: number, tile: QuiltTile) => {
     return (
       <video
         controls
+        preload="metadata"
         key={index}
         className={cn("w-full h-full object-cover", tile.className)}
       >
@@ -42,8 +43,7 @@ const displayTile = (index: number, tile: QuiltTile) => {
         transition={{ duration: 0.2 }}
       >
         <img
-          src={image.src}
-          alt={image.alt}
+          {...image}
           className={cn(
             "w-full h-full object-cover transition duration-500 group-hover:opacity-80 group-hover:scale-105",
             tile.className

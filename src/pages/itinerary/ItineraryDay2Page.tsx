@@ -19,6 +19,7 @@ import OmgParkTotemPhoto from "@/assets/photos/Itinerary_Day2_Omg_Totem.jpg";
 import OmgParkTicketEntrance from "@/assets/photos/Itinerary_Day2_TicketEntrance.jpg";
 import OmgParkTicketGantry from "@/assets/photos/Itinerary_Day2_TicketGantry.jpg";
 import BoatBoardingPhoto from "@/assets/photos/Itinerary_Day2_BoatBoarding.jpg";
+import CaveEntrancePhoto from "@/assets/photos/Itinerary_Day2_Cave_Entrance.jpg";
 import AltarPhoto from "@/assets/photos/Itinerary_Day2_Altar.jpg";
 import BuddhaPhoto from "@/assets/photos/Itinerary_Day2_Buddha.jpg";
 import CaveInspectorPhoto from "@/assets/photos/Itinerary_Day2_Cave_Inspector.jpg";
@@ -317,19 +318,16 @@ export const ItineraryDay2Page = () => {
               alt: "Ticket Gantry",
             },
             className: "col-span-full",
-          }
+          },
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        After leaving the ticket booth, we headed toward the next area. We
+        couldn't see any alternative paths nearby, so we continued forward until
+        we reached the boat boarding area. The staff there were already urging
+        us to hurry up because the next boat was just about to depart, leaving
+        us with no choice but to move quickly, since we didn't want to be stuck
+        waiting for the next one.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -338,6 +336,28 @@ export const ItineraryDay2Page = () => {
             media: {
               src: BoatBoardingPhoto,
               alt: "Boat Boarding Area",
+            },
+            className: "col-span-full",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Because everything happened so fast, we didn't have time to check the
+        map or internalize where we were going. We simply hopped onto the boat
+        and braced ourselves for the journey ahead, still trying to process our
+        surroundings as we set off. Since we had not researched the specific
+        details of the park, we were curious to see where the water would lead
+        us. We initially thought it was just a simple boat ride, but as soon as
+        we left the dock, a radio speaker began narrating stories about Sun
+        Wukong while we drifted towards a cave.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: CaveEntrancePhoto,
+              alt: "Cave Entrance",
             },
             className: "col-span-full",
           },
