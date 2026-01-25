@@ -2,6 +2,8 @@ import type { ImgHTMLAttributes, SourceHTMLAttributes } from "react";
 import { motion } from "motion/react";
 import { cn } from "@/functions/classname";
 import { ImageComparison } from "@/components/comparison/ImageComparison";
+import { YoutubeViewer } from "@/components/youtube/YoutubeViewer";
+import type { Youtube } from "@/components/youtube/types";
 import type { QuiltTile } from "./types";
 import { MediaType } from "./constants";
 
@@ -11,7 +13,10 @@ interface QuiltProps {
 
 const displayTile = (index: number, tile: QuiltTile) => {
   if (tile.type === MediaType.ImageComparison) {
-    const pair = tile.media as Pair<ImgHTMLAttributes<HTMLImageElement>, ImgHTMLAttributes<HTMLImageElement>>;
+    const pair = tile.media as Pair<
+      ImgHTMLAttributes<HTMLImageElement>,
+      ImgHTMLAttributes<HTMLImageElement>
+    >;
     return (
       <div key={index} className={cn(tile.className)}>
         <ImageComparison before={pair.first} after={pair.second} />
@@ -30,6 +35,13 @@ const displayTile = (index: number, tile: QuiltTile) => {
         Your browser does not support the video tag.
       </video>
     );
+  } else if (tile.type === MediaType.YouTube) {
+    const youtube = tile.media as Youtube;
+    return (
+      <div key={index} className={cn(tile.className)}>
+        <YoutubeViewer id={youtube.id} />
+      </div>
+    );
   } else {
     const image = tile.media as ImgHTMLAttributes<HTMLImageElement>;
     return (
@@ -37,7 +49,7 @@ const displayTile = (index: number, tile: QuiltTile) => {
         key={index}
         className={cn(
           "relative overflow-hidden group transition-all duration-300 ease-in-out",
-          tile.className
+          tile.className,
         )}
         whileHover={{ scale: 1.02 }}
         transition={{ duration: 0.2 }}
@@ -46,7 +58,7 @@ const displayTile = (index: number, tile: QuiltTile) => {
           {...image}
           className={cn(
             "w-full h-full object-cover transition duration-500 group-hover:opacity-80 group-hover:scale-105",
-            tile.className
+            tile.className,
           )}
         />
       </motion.div>

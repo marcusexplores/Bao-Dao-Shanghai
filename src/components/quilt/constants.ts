@@ -1,6 +1,7 @@
 export const MediaType = {
   Image: "image",
   Video: "video",
+  YouTube: "youtube",
   ImageComparison: "image-comparison",
 } as const;
 

@@ -56,6 +56,7 @@ import HefangStreetPhoto from "@/assets/photos/Itinerary_Day2_HefangStreet.jpg";
 import HefangStreetSkewersPhoto from "@/assets/photos/Itinerary_Day2_HefangStreet_Skewers.jpg";
 import HefangStreetPasteryPhoto from "@/assets/photos/Itinerary_Day2_HefangStreet_Pastery.jpg";
 import RobotVideo from "@/assets/videos/Itinerary_Day2_Omg_Robot.mp4";
+import { youtubeId } from "./data/youtube";
 
 export const ItineraryDay2Page = () => {
   return (
@@ -359,7 +360,14 @@ export const ItineraryDay2Page = () => {
               src: CaveEntrancePhoto,
               alt: "Cave Entrance",
             },
-            className: "col-span-full",
+            className: "col-span-8",
+          },
+          {
+            type: MediaType.YouTube,
+            media: {
+              id: youtubeId.CaveBoatRideEntrance,
+            },
+            className: "col-span-4",
           },
         ]}
       />
