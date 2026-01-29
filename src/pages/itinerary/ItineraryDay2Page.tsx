@@ -21,7 +21,6 @@ import OmgParkTicketGantry from "@/assets/photos/Itinerary_Day2_TicketGantry.jpg
 import BoatBoardingPhoto from "@/assets/photos/Itinerary_Day2_BoatBoarding.jpg";
 import CaveEntrancePhoto from "@/assets/photos/Itinerary_Day2_Cave_Entrance.jpg";
 import AltarPhoto from "@/assets/photos/Itinerary_Day2_Altar.jpg";
-import BuddhaPhoto from "@/assets/photos/Itinerary_Day2_Buddha.jpg";
 import CaveInspectorPhoto from "@/assets/photos/Itinerary_Day2_Cave_Inspector.jpg";
 import CaveSceneryPhoto from "@/assets/photos/Itinerary_Day2_Cave_Scenery.jpg";
 import CaveRewardPhoto from "@/assets/photos/Itinerary_Day2_Cave_Reward.jpg";
@@ -349,8 +348,8 @@ export const ItineraryDay2Page = () => {
         surroundings as we set off. Since we had not researched the specific
         details of the park, we were curious to see where the water would lead
         us. We initially thought it was just a simple boat ride, but as soon as
-        we left the dock, a radio speaker began narrating stories about Sun
-        Wukong while we drifted towards a cave.
+        we left the dock, a radio speaker began narrating stories inspired by
+        Journey to the West (西游记) while we drifted towards a cave.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -372,15 +371,12 @@ export const ItineraryDay2Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Shortly after entering the cave, we were told to disembark and cross
+        over a small hill where the crew would be waiting for us. The path was
+        quite an adventure on its own as we had to duck under low-hanging rocks
+        and climb several flights of stairs. Along the way, we even discovered
+        an altar tucked away inside the cavern before finally reaching the spot
+        where our boat was waiting for us to continue the journey.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -395,38 +391,38 @@ export const ItineraryDay2Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        It was impressive how they could come up with such elaborate stories
+        about the rock formations, and we really had to squeeze our imaginations
+        to try to perceive what we were being told. Honestly, we couldn't make
+        sense of the descriptions throughout the rest of the ride as we
+        struggled to see the specific shapes the narration was pointing out.
+        Despite our confusion, the creative effort behind the storytelling added
+        a unique layer to the atmosphere of the cave, which culminated in a
+        stunning finale. As we reached the end of the boat ride, our eyes were
+        blessed by a beautiful video projection of a Buddha statue meditating in
+        a serene nature setting.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
           {
-            type: MediaType.Image,
+            type: MediaType.YouTube,
             media: {
-              src: BuddhaPhoto,
-              alt: "Buddha Mural",
+              id: youtubeId.CaveBoatRide,
             },
             className: "col-span-full",
           },
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        This area served as a cross junction where we had to choose whether to
+        exit or continue our cave exploration. Since the next activity was
+        called the Earth Core Expedition Team, we naturally chose to proceed and
+        went to retrieve our safety hats. Mind you, these hats were not just
+        props for a perfect photo because they served a very real purpose. We
+        had to be extremely careful of overhead rocks to avoid bumping into
+        them, which we actually did several times. We were certainly thankful
+        for the safety gear, even as we acknowledged that we looked just like a
+        pair of cave inspectors wearing them.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
