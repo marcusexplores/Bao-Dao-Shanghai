@@ -21,13 +21,18 @@ import OmgParkTicketGantry from "@/assets/photos/Itinerary_Day2_TicketGantry.jpg
 import BoatBoardingPhoto from "@/assets/photos/Itinerary_Day2_BoatBoarding.jpg";
 import CaveEntrancePhoto from "@/assets/photos/Itinerary_Day2_Cave_Entrance.jpg";
 import AltarPhoto from "@/assets/photos/Itinerary_Day2_Altar.jpg";
-import CaveInspectorPhoto from "@/assets/photos/Itinerary_Day2_Cave_Inspector.jpg";
 import CaveSceneryPhoto from "@/assets/photos/Itinerary_Day2_Cave_Scenery.jpg";
 import CaveRewardPhoto from "@/assets/photos/Itinerary_Day2_Cave_Reward.jpg";
+import CaveScripturesPhoto from "@/assets/photos/Itinerary_Day2_Cave_Scriptures.jpg";
+import CaveLampsPhoto from "@/assets/photos/Itinerary_Day2_Cave_Lamps.jpg";
+import CaveSparklesPhoto from "@/assets/photos/Itinerary_Day2_Cave_Sparkles.jpg";
+import CaveExitPhoto from "@/assets/photos/Itinerary_Day2_Cave_Exit.jpg";
 import LiftPhoto from "@/assets/photos/Itinerary_Day2_Lift.jpg";
 import BernardWingPhoto from "@/assets/photos/Itinerary_Day2_Wing_Bernard.jpg";
 import GalbrenaImage from "@/assets/images/Galbrena.jpg";
-import GlassBridgePhoto from "@/assets/photos/Itinerary_Day2_GlassBridge.jpg";
+import LingyunEntrancePhoto from "@/assets/photos/Itinerary_Day2_Lingyun_Entrance.jpg";
+import LingyunPlaquePhoto from "@/assets/photos/Itinerary_Day2_Lingyun_Plaque.jpg";
+import LingyunBridgePhoto from "@/assets/photos/Itinerary_Day2_Lingyun_GlassBridge.jpg";
 import LittlePrincePhoto from "@/assets/photos/Itinerary_Day2_LittlePrince.jpg";
 import GlassBridgeOverviewPhoto from "@/assets/photos/Itinerary_Day2_GlassBridge_Overview.jpg";
 import CliffSwingPhoto from "@/assets/photos/Itinerary_Day2_CliffSwing.jpg";
@@ -427,25 +432,20 @@ export const ItineraryDay2Page = () => {
       <PageContainerItemMedia
         data={[
           {
-            type: MediaType.Image,
+            type: MediaType.YouTube,
             media: {
-              src: CaveInspectorPhoto,
-              alt: "Cave Inspector",
+              id: youtubeId.EarthCoreExpedition,
             },
-            className: "col-span-full max-w-lg mx-auto",
+            className: "col-span-full aspect-[9/16] mx-auto",
           },
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        All the climbing and crouching eventually paid off when we were met with
+        stunning views deep inside the cave. Endless streams of clear mountain
+        water wind through the space, where every curve in the rock serves as a
+        silent record of passing ages. With vibrant blue lights illuminating the
+        water and stone, the atmosphere felt truly magical.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -460,15 +460,11 @@ export const ItineraryDay2Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Interestingly enough, a chest full of stones awaited us at the end of
+        the exploration. We were invited to pick out a favorite rock to keep as
+        a memento of the journey, which was a nice touch after the long trek.
+        Unfortunately, we discovered there was no separate exit, so we had to
+        turn around and walk all the way back the way we came.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -483,15 +479,71 @@ export const ItineraryDay2Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        After returning our helmets, we headed toward the cave exit. The path
+        along the way was beautifully decorated with interesting installations,
+        including traditional scriptures and glowing lamps that lined the cavern
+        walls. Just before a flight of stairs, we came across a vibrant,
+        colorful lighting display. A scenic viewpoint guide stood a few feet
+        away, suggesting the best angle and spot for a photo. It was at this
+        point that we realized the exit involved a long, challenging climb up
+        the stairs. We could see many people stopping to catch their breath
+        while others cheered them on to keep moving.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: CaveScripturesPhoto,
+              alt: "Cave Scriptures",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: CaveLampsPhoto,
+              alt: "Cave Lamps",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: CaveSparklesPhoto,
+              alt: "Sparkles in the cave",
+            },
+            className: "col-span-8",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: CaveExitPhoto,
+              alt: "Cave Exit",
+            },
+            className: "col-span-4",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        When we finally reached the landing, we discovered that a cafe had been
+        strategically placed just outside the exit. It was a welcome sight for
+        those tired and thirsty from the strenuous climb, offering a place to
+        recover with something to eat or drink. Since we had our own water and
+        had already eaten breakfast earlier, we decided not to stop. Instead, we
+        moved forward, feeling excited for whatever the next stop on our journey
+        had in store.
+      </PageContainerItem>
+      <PageContainerItem>
+        Instead of climbing more stairs or hiking further up the mountain, an
+        unusual travelator presented itself in the form of a human conveyor
+        belt. We did not expect to see one here, as we thought these were only
+        found at other mountains trending on social media. This was a first-time
+        experience for us and turned out to be quite pleasant. There were no
+        violent vibrations, making it easy on the buttocks as we sat and moved
+        along. It allowed us to truly admire the scenery and take a much-needed
+        breather. When we reached the end, we simply had to turn around, stand
+        up, and step off the belt.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -506,15 +558,10 @@ export const ItineraryDay2Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Without knowing what the next station held, we simply followed the path
+        until we came across an art installation of a pair of open wings. The
+        sight immediately gave us inspiration, as it reminded us of Galbrena, a
+        newly released character from the game Wuthering Waves.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -535,25 +582,40 @@ export const ItineraryDay2Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Continuing the journey, we arrived at the Glass Bridge Skywalk
+        (凌云天桥). The organizers clearly put a lot of thought into the
+        experience by requiring everyone to wear shoe covers. This helps protect
+        the glass surface from scratches, dirt, and wear, ensuring it stays
+        clear, transparent, and safe for everyone. By providing a barrier
+        against grit or sharp objects on shoes, the covers maintain the bridge's
+        pristine look for photos and visibility. Walking across it is said to
+        give the incredible sensation of floating through the clouds.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
           {
             type: MediaType.Image,
             media: {
-              src: GlassBridgePhoto,
-              alt: "Glass Bridge",
+              src: LingyunPlaquePhoto,
+              alt: "Glass Bridge Skywalk Plaque",
             },
-            className: "col-span-full max-w-lg mx-auto",
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: LingyunEntrancePhoto,
+              alt: "Glass Bridge Skywalk Entrance",
+            },
+            className: "col-span-6 row-start-2",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: LingyunBridgePhoto,
+              alt: "Glass Bridge Skywalk",
+            },
+            className: "col-span-6 row-span-2",
           },
         ]}
       />
