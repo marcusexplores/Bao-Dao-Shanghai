@@ -46,7 +46,6 @@ import PegasusVideo from "@/assets/videos/Itinerary_Day2_Pegasus.mp4";
 import WaterEntrancePhoto from "@/assets/photos/Itinerary_Day2_Water_Entrance.jpg";
 import WaterBackStoryPhoto from "@/assets/photos/Itinerary_Day2_Water_BackStory.jpg";
 import WaterBoatPhoto from "@/assets/photos/Itinerary_Day2_Water_Boat.jpg";
-import WaterTogetherPhoto from "@/assets/photos/Itinerary_Day2_Water_Together.jpg";
 import WaterDryerPhoto from "@/assets/photos/Itinerary_Day2_Water_Dryer.jpg";
 import TeahousePhoto from "@/assets/photos/Itinerary_Day2_Teahouse.jpg";
 import TeahouseFoodPhoto from "@/assets/photos/Itinerary_Day2_Teahouse_Food.jpg";
@@ -834,10 +833,9 @@ export const ItineraryDay2Page = () => {
       <PageContainerItemMedia
         data={[
           {
-            type: MediaType.Image,
+            type: MediaType.YouTube,
             media: {
-              src: WaterTogetherPhoto,
-              alt: "Photo captured during Water Ride",
+              id: youtubeId.ChasingDragonsRafting,
             },
             className: "col-span-full",
           },
