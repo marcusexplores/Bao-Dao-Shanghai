@@ -42,6 +42,7 @@ import SpaceStationPhoto from "@/assets/photos/Itinerary_Day2_SpaceStation.jpg";
 import NineHeavensCloudCorridorPhoto from "@/assets/photos/Itinerary_Day2_NineHeavensCloudCorridor.jpg";
 import ObservatoryBernardPhoto from "@/assets/photos/Itinerary_Day2_Observatory_Bernard.jpg";
 import ObservatoryMarcusPhoto from "@/assets/photos/Itinerary_Day2_Observatory_Marcus.jpg";
+import PegasusVideo from "@/assets/videos/Itinerary_Day2_Pegasus.mp4";
 import WaterEntrancePhoto from "@/assets/photos/Itinerary_Day2_Water_Entrance.jpg";
 import WaterBackStoryPhoto from "@/assets/photos/Itinerary_Day2_Water_BackStory.jpg";
 import WaterBoatPhoto from "@/assets/photos/Itinerary_Day2_Water_Boat.jpg";
@@ -754,6 +755,29 @@ export const ItineraryDay2Page = () => {
               alt: "Bernard at the Observatory",
             },
             className: "col-span-8",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Video,
+            media: {
+              src: PegasusVideo,
+              alt: "Whimsical",
+            },
+            className: "col-span-full",
           },
         ]}
       />
