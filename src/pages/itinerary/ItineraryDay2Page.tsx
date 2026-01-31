@@ -38,6 +38,8 @@ import GlassBridgeOverviewPhoto from "@/assets/photos/Itinerary_Day2_GlassBridge
 import CliffSwingPhoto from "@/assets/photos/Itinerary_Day2_CliffSwing.jpg";
 import AstronautPhoto from "@/assets/photos/Itinerary_Day2_Astronaut.jpg";
 import AstronautTouchPhoto from "@/assets/photos/Itinerary_Day2_Astronaut_Touch.jpg";
+import SpaceStationPhoto from "@/assets/photos/Itinerary_Day2_SpaceStation.jpg";
+import NineHeavensCloudCorridorPhoto from "@/assets/photos/Itinerary_Day2_NineHeavensCloudCorridor.jpg";
 import ObservatoryBernardPhoto from "@/assets/photos/Itinerary_Day2_Observatory_Bernard.jpg";
 import ObservatoryMarcusPhoto from "@/assets/photos/Itinerary_Day2_Observatory_Marcus.jpg";
 import WaterEntrancePhoto from "@/assets/photos/Itinerary_Day2_Water_Entrance.jpg";
@@ -421,13 +423,13 @@ export const ItineraryDay2Page = () => {
       <PageContainerItem>
         This area served as a cross junction where we had to choose whether to
         exit or continue our cave exploration. Since the next activity was
-        called the Earth Core Expedition Team, we naturally chose to proceed and
-        went to retrieve our safety hats. Mind you, these hats were not just
-        props for a perfect photo because they served a very real purpose. We
-        had to be extremely careful of overhead rocks to avoid bumping into
-        them, which we actually did several times. We were certainly thankful
-        for the safety gear, even as we acknowledged that we looked just like a
-        pair of cave inspectors wearing them.
+        called the Earth Core Expedition Team (地心科考队), we naturally chose
+        to proceed and went to retrieve our safety hats. Mind you, these hats
+        were not just props for a perfect photo because they served a very real
+        purpose. We had to be extremely careful of overhead rocks to avoid
+        bumping into them, which we actually did several times. We were
+        certainly thankful for the safety gear, even as we acknowledged that we
+        looked just like a pair of cave inspectors wearing them.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -620,15 +622,14 @@ export const ItineraryDay2Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        We ascended even higher by taking another human conveyor belt to a
+        viewing platform, where we were surprised to find statues of the Little
+        Prince and the fox. The installation referenced the famous quote about
+        him watching forty-four sunsets in a single day. It served as a
+        wonderful resting point for people to admire the scenery, perhaps even
+        to catch the sunset and reflect on life. For the Prince, these sunsets
+        represent a quiet, peaceful conclusion to the day and a way to process
+        loneliness or sadness through the lens of beauty.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -643,15 +644,10 @@ export const ItineraryDay2Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Just slightly further up, we discovered another cafe boasting a
+        spectacular view, accompanied by a nearby toilet for those needing a
+        break. As we continued toward an even higher elevation, we expected to
+        find the Cliff Swing, but unfortunately, the attraction was closed.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -661,77 +657,88 @@ export const ItineraryDay2Page = () => {
               src: GlassBridgeOverviewPhoto,
               alt: "Glass Structures in a distance",
             },
-            className: "col-span-full",
+            className: "col-span-6",
           },
-        ]}
-      />
-      <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </PageContainerItem>
-      <PageContainerItemMedia
-        data={[
           {
             type: MediaType.Image,
             media: {
               src: CliffSwingPhoto,
               alt: "Cliff Swing",
             },
-            className: "col-span-full",
+            className: "col-span-6",
           },
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Once we reached the top, we arrived at an area where we were required to
+        put on shoe covers once more. After sliding them on, we spotted a
+        gigantic astronaut and became so excited that we completely missed the
+        glass walkway in our peripheral vision. We had assumed the walkway was
+        located further up, past the astronaut, so we headed straight out to
+        take photos with the massive figure. After our photoshoot, we continued
+        a bit further to capture some shots with a charming mini space station
+        stall nearby.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
-          {
-            type: MediaType.Image,
-            media: {
-              src: AstronautPhoto,
-              alt: "Astronaut",
-            },
-            className: "col-span-8",
-          },
           {
             type: MediaType.Image,
             media: {
               src: AstronautTouchPhoto,
               alt: "Touching the Astronaut",
             },
-            className: "col-span-4",
+            className: "col-span-6 row-span-2",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: AstronautPhoto,
+              alt: "Astronaut",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: SpaceStationPhoto,
+              alt: "Space Station",
+            },
+            className: "col-span-6",
           },
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Wondering why shoe covers were required so early, we initially assumed
+        the glass walkway was further ahead and headed toward an opening at the
+        back of the space station, thinking it was the path forward. It was only
+        when we noticed a staff member mumbling to herself and pointing
+        emphatically toward the actual entrance that the realization hit.
+        Looking back, we saw the glass walkway had been right next to us the
+        entire time, perfectly visible yet completely overlooked in our
+        excitement over the astronaut.
+      </PageContainerItem>
+      <PageContainerItem>
+        The Nine Heavens Cloud Corridor (九天云廊) is far more than just a
+        walkway because it serves as a majestic vantage point designed to make
+        visitors feel the vastness of the universe while remaining safely
+        protected by high-tech glass and themed barriers. The transparent floor
+        gives the surreal impression of walking through thin air and offers a
+        dramatic 360-degree panoramic view of the mountains and valleys
+        sprawling below. On clear days, the scenery stretches out endlessly
+        toward the horizon, while on mistier days, the clouds drift right
+        beneath the walkway to truly live up to its name as a corridor in the
+        heavens.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: NineHeavensCloudCorridorPhoto,
+              alt: "Nine Heavens Cloud Corridor",
+            },
+            className: "col-span-full",
+          },
           {
             type: MediaType.Image,
             media: {
