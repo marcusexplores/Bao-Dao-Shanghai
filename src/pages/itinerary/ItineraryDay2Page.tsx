@@ -51,8 +51,8 @@ import TeahousePhoto from "@/assets/photos/Itinerary_Day2_Teahouse.jpg";
 import TeahouseFoodPhoto from "@/assets/photos/Itinerary_Day2_Teahouse_Food.jpg";
 import DoveAreaPhoto from "@/assets/photos/Itinerary_Day2_Dove_Area.jpg";
 import DoveHousePhoto from "@/assets/photos/Itinerary_Day2_Dove_House.jpg";
+import DoveVideo from "@/assets/videos/Itinerary_Day2_Dove.mp4";
 import ForestBernardPhoto from "@/assets/photos/Itinerary_Day2_Forest_Bernard.jpg";
-import ForestMarcusPhoto from "@/assets/photos/Itinerary_Day2_Forest_Marcus.jpg";
 import DragonPhoto from "@/assets/photos/Itinerary_Day2_Dragon.jpg";
 import GapEntrancePhoto from "@/assets/photos/Itinerary_Day2_Gap_Entrance.jpg";
 import GapAreaPhoto from "@/assets/photos/Itinerary_Day2_Gap_Area.jpg";
@@ -373,7 +373,7 @@ export const ItineraryDay2Page = () => {
             media: {
               id: youtubeId.CaveBoatRideEntrance,
             },
-            className: "col-span-4",
+            className: "col-span-4 aspect-[9/16]",
           },
         ]}
       />
@@ -561,9 +561,10 @@ export const ItineraryDay2Page = () => {
       />
       <PageContainerItem>
         Without knowing what the next station held, we simply followed the path
-        until we came across an art installation of a pair of open wings. The
-        sight immediately gave us inspiration, as it reminded us of Galbrena, a
-        newly released character from the game Wuthering Waves.
+        until we came across an art installation of a pair of open wings. It is
+        called Angel's Wings (天使之翼). The sight immediately gave us
+        inspiration, as it reminded us of Galbrena, a newly released character
+        from the game Wuthering Waves.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -758,15 +759,20 @@ export const ItineraryDay2Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        On the way down, following what seemed to be the only path to the next
+        attraction, we reached a cross junction where a sign suggested heading
+        up for the Pegasus ride, also known as Whimsical (天马行空), or heading
+        down for the water ride. We noticed a family nearby arguing over which
+        route to take until the wife provided a justification that forced the
+        entire group to head downward first. Trusting our instincts, we chose to
+        go up for the Pegasus ride instead. This ride functions as a clever
+        means of transportation down the mountain rather than a typical
+        carousel, so by heading up first, we ensured a logical flow to our
+        journey. As we prepared for our descent, we saw the same family
+        laboriously climbing back up the mountain, likely realizing they had to
+        backtrack just to experience the Pegasus ride before heading down again.
+        Our decision saved us from that unnecessary climb and allowed the ride
+        to carry us smoothly toward the base where the water ride was located.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -781,15 +787,13 @@ export const ItineraryDay2Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Chasing Dragons Rafting (逐龙漂越) was the water boat ride we had been
+        looking forward to, and it easily became one of the major highlights of
+        our visit. The holding area felt like entering a mythical realm, setting
+        a magical tone before the adventure even began. To keep us dry, we were
+        provided with a complimentary, one-time-use raincoat set that included
+        rain pants designed to cover our shoes. We donned the gear while
+        queueing for our turn, eager to finally start the ride.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -820,15 +824,17 @@ export const ItineraryDay2Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Exhilaration defined the experience as the boat navigated sharp turns,
+        making the ride an absolute blast from start to finish. We slid down so
+        fast that the wind kept blowing the hoodie off, so we spent much of the
+        time frantically trying to tighten it. We had no idea our entire descent
+        was being captured on camera until we reached the end, where staff
+        informed us that we could scan a QR code via WeChat to view the footage.
+        Had we known about the cameras earlier, we probably would have tried to
+        look more presentable by actually posing for the lens. Despite our messy
+        appearance, we ultimately decided to purchase the media since the price
+        was quite reasonable, and we were especially impressed to find that the
+        package even included a drone view of our journey.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -842,15 +848,12 @@ export const ItineraryDay2Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Stepping out of the boat, we found that the ride ended directly just
+        outside a drying area, where we were able to dispose of our raincoats
+        and visit the restroom. We were truly impressed by the thoughtfulness of
+        the establishment, as they provided a dedicated space equipped with
+        hairdryers and mirrors for anyone who got wet. This level of detail made
+        the post-ride experience much more comfortable and convenient.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -865,15 +868,16 @@ export const ItineraryDay2Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Glancing at the time, we realized it was already quite late for lunch
+        and knew we needed to eat immediately to avoid running too close to
+        dinner. We stopped by an area called Twelve Rooms (十二间), where
+        various stalls sold roast chicken and other quick bites. Eventually, we
+        decided to settle in at Qingzhao Tea House (清照茶铺) and ordered a
+        Braised Pork with Preserved Vegetables Rice (梅菜扣肉饭), a Tomato Beef
+        Brisket Rice (番茄牛腩饭), and a Carrot Apple Juice (胡萝卜苹果). While
+        the taste was acceptable, the meal didn't quite feel worth the price. We
+        simply had to accept it given the lack of other food options nearby and
+        the typical premium charged within a theme park.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -896,15 +900,13 @@ export const ItineraryDay2Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Just outside the dining area lay the Dove Matchmaking Corner
+        (鸽鸽相亲角), a lively spot where doves gathered in large numbers.
+        Visitors were encouraged to feed the birds and take photos, and the park
+        even provided humorous instructions on how to 'seduce' the doves to get
+        them to land. We were lucky enough to be there at the perfect moment,
+        catching a couple of doves expressing their affection for each other on
+        camera.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -922,20 +924,32 @@ export const ItineraryDay2Page = () => {
               src: DoveHousePhoto,
               alt: "Dove House",
             },
-            className: "col-span-6",
+            className: "col-span-6 row-start-2",
+          },
+          {
+            type: MediaType.Video,
+            media: {
+              src: DoveVideo,
+              alt: "Dove Pair",
+            },
+            className: "col-span-6 row-span-2",
           },
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Having digested our food while wandering through the dove area and past
+        a nearby fishing pond, we glanced at the time and grew concerned. We had
+        been told to arrive at the final activity before 4pm, so we quickly made
+        our way to the Black Forest Adventure (黑森林大冒险). Upon arrival, we
+        discovered there were no lockers for personal belongings, which made us
+        realize a small waist pouch would have been the ideal way to carry
+        essentials. Even though our pockets lacked zippers, we decided to take
+        the risk of bringing our phones along and were glad we did, as it
+        allowed us to capture our adventure moments. Since there was no one
+        waiting behind us, we were able to take our time crossing each section
+        one by one. The course featured quite a few obstacles, and while some
+        were genuinely challenging, we could always rely on the safety line to
+        help us across whenever a section felt too difficult.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -948,12 +962,11 @@ export const ItineraryDay2Page = () => {
             className: "col-span-6",
           },
           {
-            type: MediaType.Image,
+            type: MediaType.YouTube,
             media: {
-              src: ForestMarcusPhoto,
-              alt: "Marcus in Forest Challenge",
+              id: youtubeId.BlackForestAdventure,
             },
-            className: "col-span-6",
+            className: "col-span-6 aspect-[9/16]",
           },
         ]}
       />
