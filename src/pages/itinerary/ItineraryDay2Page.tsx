@@ -53,6 +53,8 @@ import DoveAreaPhoto from "@/assets/photos/Itinerary_Day2_Dove_Area.jpg";
 import DoveHousePhoto from "@/assets/photos/Itinerary_Day2_Dove_House.jpg";
 import DoveVideo from "@/assets/videos/Itinerary_Day2_Dove.mp4";
 import ForestBernardPhoto from "@/assets/photos/Itinerary_Day2_Forest_Bernard.jpg";
+import MagicSpringPhoto from "@/assets/photos/Itinerary_Day2_EnchantedForest_MagicSpring.jpg";
+import MagicArrayPhoto from "@/assets/photos/Itinerary_Day2_EnchantedForest_MagicArray.jpg";
 import DragonPhoto from "@/assets/photos/Itinerary_Day2_Dragon.jpg";
 import GapEntrancePhoto from "@/assets/photos/Itinerary_Day2_Gap_Entrance.jpg";
 import GapAreaPhoto from "@/assets/photos/Itinerary_Day2_Gap_Area.jpg";
@@ -971,15 +973,51 @@ export const ItineraryDay2Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        After successfully completing the forest challenge, we realized we still
+        had enough time to squeeze in one more stop. A quick look at the map led
+        us to the Enchanted Forest (奇幻森林), which we initially thought
+        sounded quite intriguing. However, it turned out to be a simple
+        self-guided trail filled with various interactive installations. Since
+        some of these activities required an additional fee, we decided to skip
+        them and just enjoy the scenery as we walked. We did stop at a magic
+        array where we are supposed to chant an incantation to perform an
+        ancient ritual to tame an unsealed dragon, but despite our best efforts,
+        we couldn't get the magic to work.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.YouTube,
+            media: {
+              id: youtubeId.EnchantedForestDragon,
+            },
+            className: "col-span-full",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: MagicSpringPhoto,
+              alt: "Magic Spring",
+            },
+            className: "col-span-4",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: MagicArrayPhoto,
+              alt: "Magic Array to tame the Dragon",
+            },
+            className: "col-span-8",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Following the trail route, we unexpectedly came face-to-face with the
+        dragon itself. We had assumed it was merely part of the story, so seeing
+        it in person was a pleasant surprise. Interestingly, the dragon was
+        located right beside the water ride we had taken earlier. We had
+        completely missed it during the descent, likely because the ride was
+        moving far too fast for us to notice our surroundings.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
