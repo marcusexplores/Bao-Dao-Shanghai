@@ -1,0 +1,1182 @@
+import { PageContainerItem } from "@/components/page/PageContainerItem";
+import { PageContainerItemMedia } from "@/components/page/PageContainerItemMedia";
+import { ImagePriority, MediaType } from "@/components/page/constants";
+import HotelBuffetHotPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Hot.jpg";
+import HotelBuffetSidesPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Sides.jpg";
+import HotelBuffetDrinkPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Drink.jpg";
+import HotelBuffetPorridgePhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Porridge.jpg";
+import HotelBuffetCookPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Cook.jpg";
+import HotelBuffetVegetablesPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Vegetables.jpg";
+import HotelBuffetIcePhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Ice.jpg";
+import HotelBuffetSoupPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Soup.jpg";
+import HotelBuffetPasteriesPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Pasteries.jpg";
+import HotelBuffetSteamPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Steam.jpg";
+import OmgParkGatePhoto from "@/assets/photos/Itinerary_Day2_Omg_Gate.jpg";
+import OmgParkShadowPhoto from "@/assets/photos/Itinerary_Thumbnail_Day2.jpg";
+import OmgParkTogetherPhoto from "@/assets/photos/Itinerary_Day2_Omg_Together.jpg";
+import OmgParkMascotPhoto from "@/assets/photos/Itinerary_Day2_Omg_Mascot.jpg";
+import OmgParkTotemPhoto from "@/assets/photos/Itinerary_Day2_Omg_Totem.jpg";
+import OmgParkTicketEntrance from "@/assets/photos/Itinerary_Day2_TicketEntrance.jpg";
+import OmgParkTicketGantry from "@/assets/photos/Itinerary_Day2_TicketGantry.jpg";
+import BoatBoardingPhoto from "@/assets/photos/Itinerary_Day2_BoatBoarding.jpg";
+import CaveEntrancePhoto from "@/assets/photos/Itinerary_Day2_Cave_Entrance.jpg";
+import AltarPhoto from "@/assets/photos/Itinerary_Day2_Altar.jpg";
+import CaveSceneryPhoto from "@/assets/photos/Itinerary_Day2_Cave_Scenery.jpg";
+import CaveRewardPhoto from "@/assets/photos/Itinerary_Day2_Cave_Reward.jpg";
+import CaveScripturesPhoto from "@/assets/photos/Itinerary_Day2_Cave_Scriptures.jpg";
+import CaveLampsPhoto from "@/assets/photos/Itinerary_Day2_Cave_Lamps.jpg";
+import CaveSparklesPhoto from "@/assets/photos/Itinerary_Day2_Cave_Sparkles.jpg";
+import CaveExitPhoto from "@/assets/photos/Itinerary_Day2_Cave_Exit.jpg";
+import LiftPhoto from "@/assets/photos/Itinerary_Day2_Lift.jpg";
+import BernardWingPhoto from "@/assets/photos/Itinerary_Day2_Wing_Bernard.jpg";
+import GalbrenaImage from "@/assets/images/Galbrena.jpg";
+import LingyunEntrancePhoto from "@/assets/photos/Itinerary_Day2_Lingyun_Entrance.jpg";
+import LingyunPlaquePhoto from "@/assets/photos/Itinerary_Day2_Lingyun_Plaque.jpg";
+import LingyunBridgePhoto from "@/assets/photos/Itinerary_Day2_Lingyun_GlassBridge.jpg";
+import LittlePrincePhoto from "@/assets/photos/Itinerary_Day2_LittlePrince.jpg";
+import GlassBridgeOverviewPhoto from "@/assets/photos/Itinerary_Day2_GlassBridge_Overview.jpg";
+import CliffSwingPhoto from "@/assets/photos/Itinerary_Day2_CliffSwing.jpg";
+import AstronautPhoto from "@/assets/photos/Itinerary_Day2_Astronaut.jpg";
+import AstronautTouchPhoto from "@/assets/photos/Itinerary_Day2_Astronaut_Touch.jpg";
+import SpaceStationPhoto from "@/assets/photos/Itinerary_Day2_SpaceStation.jpg";
+import NineHeavensCloudCorridorPhoto from "@/assets/photos/Itinerary_Day2_NineHeavensCloudCorridor.jpg";
+import ObservatoryBernardPhoto from "@/assets/photos/Itinerary_Day2_Observatory_Bernard.jpg";
+import ObservatoryMarcusPhoto from "@/assets/photos/Itinerary_Day2_Observatory_Marcus.jpg";
+import PegasusVideo from "@/assets/videos/Itinerary_Day2_Pegasus.mp4";
+import WaterEntrancePhoto from "@/assets/photos/Itinerary_Day2_Water_Entrance.jpg";
+import WaterBackStoryPhoto from "@/assets/photos/Itinerary_Day2_Water_BackStory.jpg";
+import WaterBoatPhoto from "@/assets/photos/Itinerary_Day2_Water_Boat.jpg";
+import WaterDryerPhoto from "@/assets/photos/Itinerary_Day2_Water_Dryer.jpg";
+import TeahousePhoto from "@/assets/photos/Itinerary_Day2_Teahouse.jpg";
+import TeahouseFoodPhoto from "@/assets/photos/Itinerary_Day2_Teahouse_Food.jpg";
+import DoveAreaPhoto from "@/assets/photos/Itinerary_Day2_Dove_Area.jpg";
+import DoveHousePhoto from "@/assets/photos/Itinerary_Day2_Dove_House.jpg";
+import DoveVideo from "@/assets/videos/Itinerary_Day2_Dove.mp4";
+import ForestBernardPhoto from "@/assets/photos/Itinerary_Day2_Forest_Bernard.jpg";
+import MagicSpringPhoto from "@/assets/photos/Itinerary_Day2_EnchantedForest_MagicSpring.jpg";
+import MagicArrayPhoto from "@/assets/photos/Itinerary_Day2_EnchantedForest_MagicArray.jpg";
+import DragonPhoto from "@/assets/photos/Itinerary_Day2_Dragon.jpg";
+import GapEntrancePhoto from "@/assets/photos/Itinerary_Day2_Gap_Entrance.jpg";
+import GapAreaPhoto from "@/assets/photos/Itinerary_Day2_Gap_Area.jpg";
+import GapDrinkPhoto from "@/assets/photos/Itinerary_Day2_Gap_Drink.jpg";
+import ParkRewardsPhoto from "@/assets/photos/Itinerary_Day2_Park_Rewards.jpg";
+import HefangStreetPhoto from "@/assets/photos/Itinerary_Day2_HefangStreet.jpg";
+import HefangStreetSkewersPhoto from "@/assets/photos/Itinerary_Day2_HefangStreet_Skewers.jpg";
+import HefangStreetPasteryPhoto from "@/assets/photos/Itinerary_Day2_HefangStreet_Pastery.jpg";
+import RobotVideo from "@/assets/videos/Itinerary_Day2_Omg_Robot.mp4";
+import { youtubeId } from "./data/youtube";
+
+export const ItineraryDay2Page = () => {
+  return (
+    <>
+      <PageContainerItem>
+        Morning at the hotel began with a breakfast buffet that offered a wide
+        variety of choices, including international options like Portuguese egg
+        tarts and sushi. Although it was a nutritious spread, some of the food
+        did not quite meet our expectations. We were looking forward to long,
+        crispy youtiao, but the version here was short and hard instead.
+        Surprisingly, the highlight of the meal turned out to be the vegetables,
+        which were seasoned well and cooked perfectly. This was not just our own
+        bias, as we noticed how quickly the other diners finished them,
+        affirming that the vegetables were the most popular choice of the
+        morning.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: HotelBuffetHotPhoto,
+              alt: "Hotel Buffet Hot Snacks",
+              fetchPriority: ImagePriority.High,
+            },
+            className: "col-span-6 md:col-span-4",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: HotelBuffetSidesPhoto,
+              alt: "Hotel Buffet Sides",
+              fetchPriority: ImagePriority.High,
+            },
+            className: "col-span-6 md:col-span-4",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: HotelBuffetDrinkPhoto,
+              alt: "Hotel Buffet Drinks",
+              fetchPriority: ImagePriority.High,
+            },
+            className: "col-span-6 md:col-span-4",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: HotelBuffetPorridgePhoto,
+              alt: "Hotel Buffet Porridge",
+              fetchPriority: ImagePriority.High,
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: HotelBuffetCookPhoto,
+              alt: "Hotel Buffet Chefs",
+              fetchPriority: ImagePriority.High,
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: HotelBuffetVegetablesPhoto,
+              alt: "Hotel Buffet Vegetables",
+              fetchPriority: ImagePriority.High,
+            },
+            className: "col-span-6 md:col-span-4",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: HotelBuffetIcePhoto,
+              alt: "Hotel Buffet Cold Food",
+              fetchPriority: ImagePriority.High,
+            },
+            className: "col-span-6 md:col-span-4",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: HotelBuffetSoupPhoto,
+              alt: "Hotel Buffet Soup",
+              fetchPriority: ImagePriority.High,
+            },
+            className: "col-span-6 md:col-span-4",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: HotelBuffetPasteriesPhoto,
+              alt: "Hotel Buffet Pasteries",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: HotelBuffetSteamPhoto,
+              alt: "Hotel Buffet Warm Food",
+            },
+            className: "col-span-6",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Returning to our hotel room, we went through our usual morning routine
+        and finished our final preparations before heading out for the day. We
+        had heard from friends that switching the DiDi app to the Chinese
+        language interface might reveal cheaper rates, and sure enough, we were
+        immediately bombarded by a huge variety of offers and options. To make
+        sense of it all, we headed back to the hotel reception to ask for advice
+        on the different services. The staff recommended trying the hitch
+        (顺风车) option, which turned out to be way cheaper than the standard
+        service. We successfully booked the ride, and although the driver
+        requested that we pay the highway tolls when we reached the toll area,
+        it was still a fantastic deal. The hour and a half journey was smooth
+        and quiet, giving us the perfect opportunity to catch up on some sleep
+        before arriving at OMG Heartbeat Park.
+      </PageContainerItem>
+      <PageContainerItem>
+        Our taxi dropped us off a short distance from the entrance of the park
+        because of a vehicle-restricted zone that started a few hundred meters
+        away. Since we couldn't see the entrance from where we stood, we felt a
+        little anxious and quickly checked our maps to confirm we were in the
+        right spot. Just then, we overheard someone nearby asking for directions
+        and being told to simply walk straight ahead. Following their lead, we
+        soon spotted the park logo on the ground, which gave us the relief of
+        knowing we had finally arrived at the right place.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: OmgParkGatePhoto,
+              alt: "OMG Heartbeat Park Gate",
+            },
+            className: "col-span-4",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: OmgParkShadowPhoto,
+              alt: "Shadow photo outside OMG Heartbeat Park",
+            },
+            className: "col-span-8",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Moving past the entrance, we stopped at the restrooms nearby to freshen
+        up after our long ride before officially starting our exploration. The
+        main reason we were so drawn to this park was the Sky Road Flying Car
+        (天路飞车), which has a massive reputation online for its thrilling
+        2,000-meter track. It allows for drifting down the mountainside at high
+        speeds, making it a major highlight for most visitors. It was
+        disappointing to find that the ride was under maintenance during the
+        visit, but we decided to go ahead anyway. We were confident that the
+        park still had plenty of other exciting attractions to make the trip
+        worthwhile.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: OmgParkTogetherPhoto,
+              alt: "OMG Heartbeat Park Wefie",
+            },
+            className: "col-span-8",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: OmgParkMascotPhoto,
+              alt: "OMG Heartbeat Park Entrance",
+            },
+            className: "col-span-4",
+          },
+        ]}
+        caption="Park logo after a toilet break before heading in"
+      />
+      <PageContainerItem>
+        OMG Heartbeat Park, officially known as Chuiyun Riveh to the Heaven
+        (垂云通天河), is a premier adventure and scenic destination located in
+        Tonglu, Hangzhou. It is famous for its "Up to the Sky and Down to Earth"
+        theme, which seamlessly blends high-altitude thrills with deep
+        underground explorations within a unique karst landscape. The park holds
+        a prestigious National AAAA rating, an official certification awarded by
+        China's Ministry of Culture and Tourism for excellence in scenic
+        quality, infrastructure, and management. This recognition is driven by
+        its rare geological wonders, such as the subterranean Tongtian River
+        that stays a constant 18°C, alongside innovative attractions like the
+        massive glass Sky Bridge and the immersive Journey to the West themed
+        zones. By maintaining strict standards for safety and visitor services
+        while offering one-of-a-kind experiences, the park has established
+        itself as a top-tier landmark for both nature lovers and thrill-seekers
+        alike.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: OmgParkTotemPhoto,
+              alt: "OMG Heartbeat Park Totem",
+            },
+            className: "col-span-full max-w-lg mx-auto",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        At the ticketing area, a hospitable robot greeted visitors by eagerly
+        waving and attempting to shake hands. It was quite persistent,
+        occasionally following those who did not acknowledge its greeting or
+        offer a handshake. We were unclear whether the robot was being remotely
+        controlled by a staff member or if it was operating through artificial
+        intelligence, but the interaction provided a lighthearted moment before
+        heading further into the park.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: OmgParkTicketEntrance,
+              alt: "Ticketing Counter",
+            },
+            className: "col-span-8",
+          },
+          {
+            type: MediaType.Video,
+            media: {
+              src: RobotVideo,
+              alt: "Robot at the ticketing counter",
+            },
+            className: "col-span-4",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Since we bought our tickets online and had our digital QR codes ready,
+        we were able to head straight to the gantry. Just around the corner from
+        the entrance, we came across a small booth where we needed to exchange
+        our codes for physical tickets depending on our chosen path. The staff
+        explained that our current package covered most of the activities on
+        Route A, but they encouraged us to try a more adventurous route instead.
+        We decided to heed their advice and upgrade our experience.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: OmgParkTicketGantry,
+              alt: "Ticket Gantry",
+            },
+            className: "col-span-full",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        After leaving the ticket booth, we headed toward the next area. We
+        couldn't see any alternative paths nearby, so we continued forward until
+        we reached the boat boarding area. The staff there were already urging
+        us to hurry up because the next boat was just about to depart, leaving
+        us with no choice but to move quickly, since we didn't want to be stuck
+        waiting for the next one.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: BoatBoardingPhoto,
+              alt: "Boat Boarding Area",
+            },
+            className: "col-span-full",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Because everything happened so fast, we didn't have time to check the
+        map or internalize where we were going. We simply hopped onto the boat
+        and braced ourselves for the journey ahead, still trying to process our
+        surroundings as we set off. Since we had not researched the specific
+        details of the park, we were curious to see where the water would lead
+        us. We initially thought it was just a simple boat ride, but as soon as
+        we left the dock, a radio speaker began narrating stories inspired by
+        Journey to the West (西游记) while we drifted towards a cave.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: CaveEntrancePhoto,
+              alt: "Cave Entrance",
+            },
+            className: "col-span-8",
+          },
+          {
+            type: MediaType.YouTube,
+            media: {
+              id: youtubeId.CaveBoatRideEntrance,
+            },
+            className: "col-span-4 aspect-[9/16]",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Shortly after entering the cave, we were told to disembark and cross
+        over a small hill where the crew would be waiting for us. The path was
+        quite an adventure on its own as we had to duck under low-hanging rocks
+        and climb several flights of stairs. Along the way, we even discovered
+        an altar tucked away inside the cavern before finally reaching the spot
+        where our boat was waiting for us to continue the journey.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: AltarPhoto,
+              alt: "Altar in the cave",
+            },
+            className: "col-span-full max-w-lg mx-auto",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        It was impressive how they could come up with such elaborate stories
+        about the rock formations, and we really had to squeeze our imaginations
+        to try to perceive what we were being told. Honestly, we couldn't make
+        sense of the descriptions throughout the rest of the ride as we
+        struggled to see the specific shapes the narration was pointing out.
+        Despite our confusion, the creative effort behind the storytelling added
+        a unique layer to the atmosphere of the cave, which culminated in a
+        stunning finale. As we reached the end of the boat ride, our eyes were
+        blessed by a beautiful video projection of a Buddha statue meditating in
+        a serene nature setting.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.YouTube,
+            media: {
+              id: youtubeId.CaveBoatRide,
+            },
+            className: "col-span-full",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        This area served as a cross junction where we had to choose whether to
+        exit or continue our cave exploration. Since the next activity was
+        called the Earth Core Expedition Team (地心科考队), we naturally chose
+        to proceed and went to retrieve our safety hats. Mind you, these hats
+        were not just props for a perfect photo because they served a very real
+        purpose. We had to be extremely careful of overhead rocks to avoid
+        bumping into them, which we actually did several times. We were
+        certainly thankful for the safety gear, even as we acknowledged that we
+        looked just like a pair of cave inspectors wearing them.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.YouTube,
+            media: {
+              id: youtubeId.EarthCoreExpedition,
+            },
+            className: "col-span-full aspect-[9/16] mx-auto",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        All the climbing and crouching eventually paid off when we were met with
+        stunning views deep inside the cave. Endless streams of clear mountain
+        water wind through the space, where every curve in the rock serves as a
+        silent record of passing ages. With vibrant blue lights illuminating the
+        water and stone, the atmosphere felt truly magical.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: CaveSceneryPhoto,
+              alt: "Scenery inside the cave",
+            },
+            className: "col-span-full",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Interestingly enough, a chest full of stones awaited us at the end of
+        the exploration. We were invited to pick out a favorite rock to keep as
+        a memento of the journey, which was a nice touch after the long trek.
+        Unfortunately, we discovered there was no separate exit, so we had to
+        turn around and walk all the way back the way we came.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: CaveRewardPhoto,
+              alt: "Rewards from completing Cave Exploration",
+            },
+            className: "col-span-full",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        After returning our helmets, we headed toward the cave exit. The path
+        along the way was beautifully decorated with interesting installations,
+        including traditional scriptures and glowing lamps that lined the cavern
+        walls. Just before a flight of stairs, we came across a vibrant,
+        colorful lighting display. A scenic viewpoint guide stood a few feet
+        away, suggesting the best angle and spot for a photo. It was at this
+        point that we realized the exit involved a long, challenging climb up
+        the stairs. We could see many people stopping to catch their breath
+        while others cheered them on to keep moving.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: CaveScripturesPhoto,
+              alt: "Cave Scriptures",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: CaveLampsPhoto,
+              alt: "Cave Lamps",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: CaveSparklesPhoto,
+              alt: "Sparkles in the cave",
+            },
+            className: "col-span-8",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: CaveExitPhoto,
+              alt: "Cave Exit",
+            },
+            className: "col-span-4",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        When we finally reached the landing, we discovered that a cafe had been
+        strategically placed just outside the exit. It was a welcome sight for
+        those tired and thirsty from the strenuous climb, offering a place to
+        recover with something to eat or drink. Since we had our own water and
+        had already eaten breakfast earlier, we decided not to stop. Instead, we
+        moved forward, feeling excited for whatever the next stop on our journey
+        had in store.
+      </PageContainerItem>
+      <PageContainerItem>
+        Instead of climbing more stairs or hiking further up the mountain, an
+        unusual travelator presented itself in the form of a human conveyor
+        belt. We did not expect to see one here, as we thought these were only
+        found at other mountains trending on social media. This was a first-time
+        experience for us and turned out to be quite pleasant. There were no
+        violent vibrations, making it easy on the buttocks as we sat and moved
+        along. It allowed us to truly admire the scenery and take a much-needed
+        breather. When we reached the end, we simply had to turn around, stand
+        up, and step off the belt.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: LiftPhoto,
+              alt: "Raised Seated Travelator",
+            },
+            className: "col-span-full max-w-lg mx-auto",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Without knowing what the next station held, we simply followed the path
+        until we came across an art installation of a pair of open wings. It is
+        called Angel's Wings (天使之翼). The sight immediately gave us
+        inspiration, as it reminded us of Galbrena, a newly released character
+        from the game Wuthering Waves.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.ImageComparison,
+            media: {
+              first: {
+                src: BernardWingPhoto,
+                alt: "Bernard with Wings",
+              },
+              second: {
+                src: GalbrenaImage,
+                alt: "Galbrena",
+              },
+            },
+            className: "col-span-full",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Continuing the journey, we arrived at the Glass Bridge Skywalk
+        (凌云天桥). The organizers clearly put a lot of thought into the
+        experience by requiring everyone to wear shoe covers. This helps protect
+        the glass surface from scratches, dirt, and wear, ensuring it stays
+        clear, transparent, and safe for everyone. By providing a barrier
+        against grit or sharp objects on shoes, the covers maintain the bridge's
+        pristine look for photos and visibility. Walking across it is said to
+        give the incredible sensation of floating through the clouds.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: LingyunPlaquePhoto,
+              alt: "Glass Bridge Skywalk Plaque",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: LingyunEntrancePhoto,
+              alt: "Glass Bridge Skywalk Entrance",
+            },
+            className: "col-span-6 row-start-2",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: LingyunBridgePhoto,
+              alt: "Glass Bridge Skywalk",
+            },
+            className: "col-span-6 row-span-2",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        We ascended even higher by taking another human conveyor belt to a
+        viewing platform, where we were surprised to find statues of the Little
+        Prince and the fox. The installation referenced the famous quote about
+        him watching forty-four sunsets in a single day. It served as a
+        wonderful resting point for people to admire the scenery, perhaps even
+        to catch the sunset and reflect on life. For the Prince, these sunsets
+        represent a quiet, peaceful conclusion to the day and a way to process
+        loneliness or sadness through the lens of beauty.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: LittlePrincePhoto,
+              alt: "Little Prince",
+            },
+            className: "col-span-full",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Just slightly further up, we discovered another cafe boasting a
+        spectacular view, accompanied by a nearby toilet for those needing a
+        break. As we continued toward an even higher elevation, we expected to
+        find the Cliff Swing, but unfortunately, the attraction was closed.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: GlassBridgeOverviewPhoto,
+              alt: "Glass Structures in a distance",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: CliffSwingPhoto,
+              alt: "Cliff Swing",
+            },
+            className: "col-span-6",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Once we reached the top, we arrived at an area where we were required to
+        put on shoe covers once more. After sliding them on, we spotted a
+        gigantic astronaut and became so excited that we completely missed the
+        glass walkway in our peripheral vision. We had assumed the walkway was
+        located further up, past the astronaut, so we headed straight out to
+        take photos with the massive figure. After our photoshoot, we continued
+        a bit further to capture some shots with a charming mini space station
+        stall nearby.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: AstronautTouchPhoto,
+              alt: "Touching the Astronaut",
+            },
+            className: "col-span-6 row-span-2",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: AstronautPhoto,
+              alt: "Astronaut",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: SpaceStationPhoto,
+              alt: "Space Station",
+            },
+            className: "col-span-6",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Wondering why shoe covers were required so early, we initially assumed
+        the glass walkway was further ahead and headed toward an opening at the
+        back of the space station, thinking it was the path forward. It was only
+        when we noticed a staff member mumbling to herself and pointing
+        emphatically toward the actual entrance that the realization hit.
+        Looking back, we saw the glass walkway had been right next to us the
+        entire time, perfectly visible yet completely overlooked in our
+        excitement over the astronaut.
+      </PageContainerItem>
+      <PageContainerItem>
+        The Nine Heavens Cloud Corridor (九天云廊) is far more than just a
+        walkway because it serves as a majestic vantage point designed to make
+        visitors feel the vastness of the universe while remaining safely
+        protected by high-tech glass and themed barriers. The transparent floor
+        gives the surreal impression of walking through thin air and offers a
+        dramatic 360-degree panoramic view of the mountains and valleys
+        sprawling below. On clear days, the scenery stretches out endlessly
+        toward the horizon, while on mistier days, the clouds drift right
+        beneath the walkway to truly live up to its name as a corridor in the
+        heavens.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: NineHeavensCloudCorridorPhoto,
+              alt: "Nine Heavens Cloud Corridor",
+            },
+            className: "col-span-full",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: ObservatoryMarcusPhoto,
+              alt: "Marcus at the Observatory",
+            },
+            className: "col-span-4",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: ObservatoryBernardPhoto,
+              alt: "Bernard at the Observatory",
+            },
+            className: "col-span-8",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        On the way down, following what seemed to be the only path to the next
+        attraction, we reached a cross junction where a sign suggested heading
+        up for the Pegasus ride, also known as Whimsical (天马行空), or heading
+        down for the water ride. We noticed a family nearby arguing over which
+        route to take until the wife provided a justification that forced the
+        entire group to head downward first. Trusting our instincts, we chose to
+        go up for the Pegasus ride instead. This ride functions as a clever
+        means of transportation down the mountain rather than a typical
+        carousel, so by heading up first, we ensured a logical flow to our
+        journey. As we prepared for our descent, we saw the same family
+        laboriously climbing back up the mountain, likely realizing they had to
+        backtrack just to experience the Pegasus ride before heading down again.
+        Our decision saved us from that unnecessary climb and allowed the ride
+        to carry us smoothly toward the base where the water ride was located.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Video,
+            media: {
+              src: PegasusVideo,
+              alt: "Whimsical",
+            },
+            className: "col-span-full",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Chasing Dragons Rafting (逐龙漂越) was the water boat ride we had been
+        looking forward to, and it easily became one of the major highlights of
+        our visit. The holding area felt like entering a mythical realm, setting
+        a magical tone before the adventure even began. To keep us dry, we were
+        provided with a complimentary, one-time-use raincoat set that included
+        rain pants designed to cover our shoes. We donned the gear while
+        queueing for our turn, eager to finally start the ride.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: WaterEntrancePhoto,
+              alt: "Water Ride Entrance",
+            },
+            className: "col-span-6 row-span-2",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: WaterBackStoryPhoto,
+              alt: "Background story for Water Ride",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: WaterBoatPhoto,
+              alt: "Boats used in Water Ride",
+            },
+            className: "col-span-6",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Exhilaration defined the experience as the boat navigated sharp turns,
+        making the ride an absolute blast from start to finish. We slid down so
+        fast that the wind kept blowing the hoodie off, so we spent much of the
+        time frantically trying to tighten it. We had no idea our entire descent
+        was being captured on camera until we reached the end, where staff
+        informed us that we could scan a QR code via WeChat to view the footage.
+        Had we known about the cameras earlier, we probably would have tried to
+        look more presentable by actually posing for the lens. Despite our messy
+        appearance, we ultimately decided to purchase the media since the price
+        was quite reasonable, and we were especially impressed to find that the
+        package even included a drone view of our journey.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.YouTube,
+            media: {
+              id: youtubeId.ChasingDragonsRafting,
+            },
+            className: "col-span-full",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Stepping out of the boat, we found that the ride ended directly just
+        outside a drying area, where we were able to dispose of our raincoats
+        and visit the restroom. We were truly impressed by the thoughtfulness of
+        the establishment, as they provided a dedicated space equipped with
+        hairdryers and mirrors for anyone who got wet. This level of detail made
+        the post-ride experience much more comfortable and convenient.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: WaterDryerPhoto,
+              alt: "Hair Dryer",
+            },
+            className: "col-span-full max-w-lg mx-auto",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Glancing at the time, we realized it was already quite late for lunch
+        and knew we needed to eat immediately to avoid running too close to
+        dinner. We stopped by an area called Twelve Rooms (十二间), where
+        various stalls sold roast chicken and other quick bites. Eventually, we
+        decided to settle in at Qingzhao Tea House (清照茶铺) and ordered a
+        Braised Pork with Preserved Vegetables Rice (梅菜扣肉饭), a Tomato Beef
+        Brisket Rice (番茄牛腩饭), and a Carrot Apple Juice (胡萝卜苹果). While
+        the taste was acceptable, the meal didn't quite feel worth the price. We
+        simply had to accept it given the lack of other food options nearby and
+        the typical premium charged within a theme park.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: TeahousePhoto,
+              alt: "Qingzhao Tea House",
+            },
+            className: "col-span-8",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: TeahouseFoodPhoto,
+              alt: "Qingzhao Tea House Food",
+            },
+            className: "col-span-4",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Just outside the dining area lay the Dove Matchmaking Corner
+        (鸽鸽相亲角), a lively spot where doves gathered in large numbers.
+        Visitors were encouraged to feed the birds and take photos, and the park
+        even provided humorous instructions on how to 'seduce' the doves to get
+        them to land. We were lucky enough to be there at the perfect moment,
+        catching a couple of doves expressing their affection for each other on
+        camera.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: DoveAreaPhoto,
+              alt: "Dove Attraction",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: DoveHousePhoto,
+              alt: "Dove House",
+            },
+            className: "col-span-6 row-start-2",
+          },
+          {
+            type: MediaType.Video,
+            media: {
+              src: DoveVideo,
+              alt: "Dove Pair",
+            },
+            className: "col-span-6 row-span-2",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Having digested our food while wandering through the dove area and past
+        a nearby fishing pond, we glanced at the time and grew concerned. We had
+        been told to arrive at the final activity before 4pm, so we quickly made
+        our way to the Black Forest Adventure (黑森林大冒险). Upon arrival, we
+        discovered there were no lockers for personal belongings, which made us
+        realize a small waist pouch would have been the ideal way to carry
+        essentials. Even though our pockets lacked zippers, we decided to take
+        the risk of bringing our phones along and were glad we did, as it
+        allowed us to capture our adventure moments. Since there was no one
+        waiting behind us, we were able to take our time crossing each section
+        one by one. The course featured quite a few obstacles, and while some
+        were genuinely challenging, we could always rely on the safety line to
+        help us across whenever a section felt too difficult.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: ForestBernardPhoto,
+              alt: "Bernard in Forest Challenge",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.YouTube,
+            media: {
+              id: youtubeId.BlackForestAdventure,
+            },
+            className: "col-span-6 aspect-[9/16]",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        After successfully completing the forest challenge, we realized we still
+        had enough time to squeeze in one more stop. A quick look at the map led
+        us to the Enchanted Forest (奇幻森林), which we initially thought
+        sounded quite intriguing. However, it turned out to be a simple
+        self-guided trail filled with various interactive installations. Since
+        some of these activities required an additional fee, we decided to skip
+        them and just enjoy the scenery as we walked. We did stop at a magic
+        array where we are supposed to chant an incantation to perform an
+        ancient ritual to tame an unsealed dragon, but despite our best efforts,
+        we couldn't get the magic to work.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.YouTube,
+            media: {
+              id: youtubeId.EnchantedForestDragon,
+            },
+            className: "col-span-full",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: MagicSpringPhoto,
+              alt: "Magic Spring",
+            },
+            className: "col-span-4",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: MagicArrayPhoto,
+              alt: "Magic Array to tame the Dragon",
+            },
+            className: "col-span-8",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Following the trail route, we unexpectedly came face-to-face with the
+        dragon itself. We had assumed it was merely part of the story, so seeing
+        it in person was a pleasant surprise. Interestingly, the dragon was
+        located right beside the water ride we had taken earlier. We had
+        completely missed it during the descent, likely because the ride was
+        moving far too fast for us to notice our surroundings.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: DragonPhoto,
+              alt: "Running away from Dragon",
+            },
+            className: "col-span-full",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Finally, the time arrived for the final stop of our visit, a highlight
+        known as GAP, the Ground Away Project (地表逃离计划). We were asked to
+        sign an indemnity form, which we did without thinking much about it at
+        the time. Staff led us back to the boat ride area, though this time we
+        boarded from the opposite bank. The boat carried us into the same cave
+        we had visited previously, but we alighted at a specific GAP drop-off
+        point. After climbing a flight of stairs and following the signs, we
+        eventually reached the rock climbing area.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: GapEntrancePhoto,
+              alt: "GAP Entrance",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: GapAreaPhoto,
+              alt: "GAP Area",
+            },
+            className: "col-span-6",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        We were presented with two choices, one lasting approximately an hour
+        and another taking about an hour and a half. Assuming the activities
+        would be family friendly like the ones we had experienced so far, we
+        confidently opted for the longer route. However, once we began, we
+        quickly realized this was the real deal. The path involved intense
+        vertical climbing and high exposure over the underground river,
+        featuring narrow wire bridges and steep rock faces. Every turn seemed to
+        lead into a never ending cycle of climbing up and down through
+        challenging maneuvers. With no way to turn back, we had no choice but to
+        push forward and finish the course. When we finally reached the end and
+        jumped down from the drop-off point, our legs buckled from the effort.
+        We heaved a massive sigh of relief, knowing we had actually made it.
+        Unfortunately, we didn't manage to capture any video of the climb since
+        we were too afraid of dropping our phones.
+      </PageContainerItem>
+      <PageContainerItem>
+        Slowly, we made our way to the café to redeem a free drink, finally
+        giving our bodies and souls a chance to rest. We sat there for a while,
+        recounting the day's adventures and watching others attempt the same
+        climb we had just finished.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: GapDrinkPhoto,
+              alt: "Cafe Drinks",
+            },
+            className: "col-span-full",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Returning to the boat pickup point, we waited for the crew to steer the
+        boat in and ferry us out of the cave. Near the exit of the park, there
+        was a booth distributing rewards based on the stamps we had collected at
+        various attractions throughout the day. It was a wonderful way to
+        conclude the visit, as our completed stamp collection earned us these
+        charming amulets to keep as mementos of our adventure.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: ParkRewardsPhoto,
+              alt: "Rewards from completing various challenges at OMG Heartbeat Park",
+            },
+            className: "col-span-full",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        At that hour in such a remote location, the theme park was beginning to
+        quiet down as it prepared to close. We were among the last few visitors
+        left on the grounds. Since it was difficult to secure a lower-priced
+        ride through Didi at that time, we opted for a standard taxi instead.
+        Although the sky had already turned pitch black, the clock showed it was
+        still relatively early in the evening. Realizing we hadn't yet had
+        dinner, we took the taxi straight to Hefang Street (河坊街) to hunt for
+        some dinner.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: HefangStreetPhoto,
+              alt: "Hefang Street",
+            },
+            className: "col-span-full",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        While walking along the street, we spotted the same long meat skewers we
+        had purchased during our visit to West Lake and decided to buy some,
+        especially since the price was much more affordable. The portions were
+        surprisingly generous, which was a pleasant bonus. We also picked up
+        some tofu skin skewers and continued our stroll, sampling various finger
+        foods like meat pastries along the way. Since they were cooked on the
+        spot and served piping hot, they were the perfect snack to warm us up in
+        the cold weather.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: HefangStreetSkewersPhoto,
+              alt: "Massive grilled meat skewer bucket",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: HefangStreetPasteryPhoto,
+              alt: "Beef pancake",
+            },
+            className: "col-span-6",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        What a day it turned out to be, filled with an incredible blend of
+        physical endurance and unexpected discovery. We pushed ourselves much
+        further than we had anticipated. Ending the night under the glowing
+        lights of Hefang Street with a handful of hot snacks was the perfect way
+        to thaw out from the cold and process everything we had accomplished. It
+        was a day that began with a sense of curiosity and ended with a true
+        feeling of triumph, leaving us exhausted but fully satisfied with the
+        adventure.
+      </PageContainerItem>
+    </>
+  );
+};

@@ -1,4 +1,5 @@
 import { useState, useMemo, useEffect } from "react";
+import { FlipboardCharacter } from "./FlipboardCharacter";
 import {
   AUTO_FLIP_INTERVAL,
   DESKTOP_ROW_LENGTH,
@@ -6,7 +7,6 @@ import {
 } from "./constants";
 import { getCharacters } from "./functions";
 import { type FlightInformation } from "./types";
-import { FlipboardCharacter } from "./FlipboardCharacter";
 
 interface DisplaySection {
   label: string;
@@ -64,7 +64,7 @@ export const Flipboard = ({ flight  }: FlipboardProps) => {
     return () => {
       clearInterval(intervalId);
     };
-  }, []);
+  }, [flight.length]);
   // --- End Automatic Flip Logic ---
 
   // Memoize the structured data sections based on the current segment index
@@ -108,22 +108,10 @@ export const Flipboard = ({ flight  }: FlipboardProps) => {
         type: "info",
       },
     ];
-  }, [currentFlightSegmentIndex, rowLength]); // Add rowLength to dependencies
-
-  // Get current flight number and transit status for the status message
-  const currentFlightNumber = flight[currentFlightSegmentIndex].flightNumber;
-  const currentTransitStatus = flight[currentFlightSegmentIndex].transit;
+  }, [currentFlightSegmentIndex, rowLength, flight]); // Add rowLength to dependencies
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col items-center p-4 md:p-8 font-[Inter]">
-      {/* Header */}
-      <h1 className="text-3xl md:text-5xl font-bold text-gray-800 mb-2 mt-10 text-center">
-        Flight Itinerary Board
-      </h1>
-      <p className="text-gray-500 mb-8 text-center">
-        Simulated Split-Flap Display (Auto-Cycling)
-      </p>
-
+    <div className="flex flex-col items-center p-4 md:p-8 font-[Inter]">
       {/* Flip Board Container */}
       <div className="w-full max-w-4xl bg-gray-700 shadow-2xl rounded-xl p-4 md:p-6 border-4 border-gray-800">
         {/* Dynamic Display Rows */}
@@ -167,16 +155,7 @@ export const Flipboard = ({ flight  }: FlipboardProps) => {
           </div>
         ))}
       </div>
-
-      {/* Control Panel (Removed the button, added a simple status text) */}
-      <div className="mt-8 flex flex-col items-center">
-        <div className="text-gray-600 text-sm mb-4">
-          Next flip in 5 seconds. Now viewing:{" "}
-          <span className="font-bold text-gray-900">
-            {currentFlightNumber} - {currentTransitStatus}
-          </span>
-        </div>
-      </div>
+      
     </div>
   );
 };
