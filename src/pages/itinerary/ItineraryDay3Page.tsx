@@ -41,15 +41,15 @@ export const ItineraryDay3Page = () => {
   return (
     <>
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        It was time for us to bid goodbye to Hangzhou as we prepared for another
+        journey on the High-Speed Rail back to Shanghai. This experience felt a
+        little different from our first attempt, as we were informed that
+        tickets had to be purchased before we could even enter the station.
+        Drawing on our prior experience, we navigated the app quickly and
+        secured both tickets in a single transaction under one account,
+        believing this would minimize the chance of being seated separately.
+        Once inside, we found our way easily to the correct gate and platform,
+        navigating the station with a newfound sense of confidence.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -64,15 +64,12 @@ export const ItineraryDay3Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Once we arrived in the city, we took a taxi straight to the Mehood
+        Elegant Hotel Shanghai Bund (上海外滩雅致酒店). A porter greeted us
+        immediately to help move our luggage to the reception counter, where we
+        enjoyed a swift and easy check-in. The service remained excellent as he
+        then escorted us to our room and delivered our bags, making the start of
+        our stay feel seamless and welcoming.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -87,15 +84,12 @@ export const ItineraryDay3Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        The room was satisfyingly spacious, providing plenty of floor space to
+        open our luggage without sacrificing walking room. Everything was clean
+        and well kept. Unfortunately, our window offered no view because it was
+        completely blocked by a neighboring building. The only real drawback was
+        the shower room. There was nowhere to hang our clothes or towels inside,
+        as the only available hooks were located on the outside.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -130,15 +124,13 @@ export const ItineraryDay3Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Feeling hungry and eager to find something quickly, we decided to stop
+        at the first nearby eatery that caught our eye. We came across a beef
+        noodle shop and settled in for brunch. After noticing that almost every
+        table had ordered the bone marrow set, we decided to try a bowl for
+        ourselves. However, we weren't accustomed to the dish and found it quite
+        difficult to eat, so we couldn't really appreciate it. Fortunately, the
+        standard beef noodles were quite good and hit the spot.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -166,15 +158,10 @@ export const ItineraryDay3Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        We spent some time debating how to reach our next destination, weighing
+        whether to try the metro or continue taking taxis. Ultimately, we
+        decided to stick with a taxi since we were running behind schedule,
+        leaving the metro for another time and heading straight to Neo World.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
