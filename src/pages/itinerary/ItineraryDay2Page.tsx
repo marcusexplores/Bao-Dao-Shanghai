@@ -1032,15 +1032,14 @@ export const ItineraryDay2Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Finally, the time arrived for the final stop of our visit, a highlight
+        known as GAP, the Ground Away Project (地表逃离计划). We were asked to
+        sign an indemnity form, which we did without thinking much about it at
+        the time. Staff led us back to the boat ride area, though this time we
+        boarded from the opposite bank. The boat carried us into the same cave
+        we had visited previously, but we alighted at a specific GAP drop-off
+        point. After climbing a flight of stairs and following the signs, we
+        eventually reached the rock climbing area.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -1050,33 +1049,34 @@ export const ItineraryDay2Page = () => {
               src: GapEntrancePhoto,
               alt: "GAP Entrance",
             },
-            className: "col-span-full",
+            className: "col-span-6",
           },
-        ]}
-      />
-      <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </PageContainerItem>
-      <PageContainerItemMedia
-        data={[
           {
             type: MediaType.Image,
             media: {
               src: GapAreaPhoto,
               alt: "GAP Area",
             },
-            className: "col-span-full",
+            className: "col-span-6",
           },
         ]}
       />
+      <PageContainerItem>
+        We were presented with two choices, one lasting approximately an hour
+        and another taking about an hour and a half. Assuming the activities
+        would be family friendly like the ones we had experienced so far, we
+        confidently opted for the longer route. However, once we began, we
+        quickly realized this was the real deal. The path involved intense
+        vertical climbing and high exposure over the underground river,
+        featuring narrow wire bridges and steep rock faces. Every turn seemed to
+        lead into a never ending cycle of climbing up and down through
+        challenging maneuvers. With no way to turn back, we had no choice but to
+        push forward and finish the course. When we finally reached the end and
+        jumped down from the drop-off point, our legs buckled from the effort.
+        We heaved a massive sigh of relief, knowing we had actually made it.
+        Unfortunately, we didn't manage to capture any video of the climb since
+        we were too afraid of dropping our phones.
+      </PageContainerItem>
       <PageContainerItem>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
