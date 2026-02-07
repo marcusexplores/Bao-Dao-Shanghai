@@ -1078,15 +1078,10 @@ export const ItineraryDay2Page = () => {
         we were too afraid of dropping our phones.
       </PageContainerItem>
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Slowly, we made our way to the café to redeem a free drink, finally
+        giving our bodies and souls a chance to rest. We sat there for a while,
+        recounting the day's adventures and watching others attempt the same
+        climb we had just finished.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -1101,15 +1096,12 @@ export const ItineraryDay2Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Returning to the boat pickup point, we waited for the crew to steer the
+        boat in and ferry us out of the cave. Near the exit of the park, there
+        was a booth distributing rewards based on the stamps we had collected at
+        various attractions throughout the day. It was a wonderful way to
+        conclude the visit, as our completed stamp collection earned us these
+        charming amulets to keep as mementos of our adventure.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -1124,15 +1116,14 @@ export const ItineraryDay2Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        At that hour in such a remote location, the theme park was beginning to
+        quiet down as it prepared to close. We were among the last few visitors
+        left on the grounds. Since it was difficult to secure a lower-priced
+        ride through Didi at that time, we opted for a standard taxi instead.
+        Although the sky had already turned pitch black, the clock showed it was
+        still relatively early in the evening. Realizing we hadn't yet had
+        dinner, we took the taxi straight to Hefang Street (河坊街) to hunt for
+        some dinner.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -1147,15 +1138,14 @@ export const ItineraryDay2Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        While walking along the street, we spotted the same long meat skewers we
+        had purchased during our visit to West Lake and decided to buy some,
+        especially since the price was much more affordable. The portions were
+        surprisingly generous, which was a pleasant bonus. We also picked up
+        some tofu skin skewers and continued our stroll, sampling various finger
+        foods like meat pastries along the way. Since they were cooked on the
+        spot and served piping hot, they were the perfect snack to warm us up in
+        the cold weather.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -1178,15 +1168,14 @@ export const ItineraryDay2Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        What a day it turned out to be, filled with an incredible blend of
+        physical endurance and unexpected discovery. We pushed ourselves much
+        further than we had anticipated. Ending the night under the glowing
+        lights of Hefang Street with a handful of hot snacks was the perfect way
+        to thaw out from the cold and process everything we had accomplished. It
+        was a day that began with a sense of curiosity and ended with a true
+        feeling of triumph, leaving us exhausted but fully satisfied with the
+        adventure.
       </PageContainerItem>
     </>
   );
