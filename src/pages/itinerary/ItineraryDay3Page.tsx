@@ -1,6 +1,6 @@
 import { PageContainerItem } from "@/components/page/PageContainerItem";
 import { PageContainerItemMedia } from "@/components/page/PageContainerItemMedia";
-import { MediaType } from "@/components/page/constants";
+import { ImagePriority, MediaType } from "@/components/page/constants";
 import TrainBoardPhoto from "@/assets/photos/Itinerary_Day3_Train_Board.jpg";
 import HotelPhoto from "@/assets/photos/Itinerary_Day3_Hotel.jpg";
 import HotelRoomOverviewPhoto from "@/assets/photos/Itinerary_Day3_Hotel_Room_Overview.jpg";
@@ -25,6 +25,7 @@ import TrashbinSitPhoto from "@/assets/photos/Itinerary_Day3_Trashbin_Sit.jpg";
 import ArknightStandeePhoto from "@/assets/photos/Itinerary_Day3_Arknights_Standee.jpg";
 import MihoyoShopPhoto from "@/assets/photos/Itinerary_Day3_Mihoyo.jpg";
 import TeashopPhoto from "@/assets/photos/Itinerary_Day3_TeaShop.jpg";
+import TeaDrinkPhoto from "@/assets/photos/Itinerary_Day3_TeaDrink.jpg";
 import CrabSoupDumplingShopPhoto from "@/assets/photos/Itinerary_Day3_CrabSoupDumpling_Shop.jpg";
 import CrabSoupDumplingFoodPhoto from "@/assets/photos/Itinerary_Day3_CrabSoupDumpling_Food.jpg";
 import DaHuChunShopPhoto from "@/assets/photos/Itinerary_Day3_DaHuChun_Shop.jpg";
@@ -58,6 +59,7 @@ export const ItineraryDay3Page = () => {
             media: {
               src: TrainBoardPhoto,
               alt: "Train Timings",
+              fetchPriority: ImagePriority.High,
             },
             className: "col-span-full",
           },
@@ -78,6 +80,7 @@ export const ItineraryDay3Page = () => {
             media: {
               src: HotelPhoto,
               alt: "Mehood Elegant Hotel",
+              fetchPriority: ImagePriority.High,
             },
             className: "col-span-full",
           },
@@ -178,15 +181,14 @@ export const ItineraryDay3Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Our main goal was to see some massive statues of game characters, but as
+        we looked around, they were nowhere to be seen. After walking a bit
+        further, the only thing we found was an empty container bearing the
+        Arknights logo. We partially convinced ourselves that the statues might
+        have been part of a temporary event and had since been taken down. To
+        cope with the disappointment, we decided to at least take a photo with a
+        controller-shaped structure nearby, figuring that since we had already
+        made the trip, we might as well have a memento before leaving.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -196,43 +198,26 @@ export const ItineraryDay3Page = () => {
               src: ArknightsContainerPhoto,
               alt: "Arknights Container",
             },
-            className: "col-span-full",
+            className: "col-span-6",
           },
-        ]}
-      />
-      <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </PageContainerItem>
-      <PageContainerItemMedia
-        data={[
           {
             type: MediaType.Image,
             media: {
               src: ConsoleControllerPhoto,
               alt: "Huge Game Controller",
             },
-            className: "col-span-full",
+            className: "col-span-6",
           },
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Still holding onto a hunch that they had to be nearby, we refused to
+        believe they had been removed. Pushing further ahead, we finally spotted
+        the iconic Lordly Trashcans from Honkai: Star Rail, which was a pleasant
+        surprise. We had only expected to see SAM and Pollux, but to our
+        delight, there were several other characters displayed on a massive
+        birthday cake. The only downside was our tight schedule. Since we had to
+        visit so early in the day, we missed seeing SAM's wings lit up.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -260,44 +245,22 @@ export const ItineraryDay3Page = () => {
             },
             className: "col-span-4",
           },
-        ]}
-      />
-      <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </PageContainerItem>
-      <PageContainerItemMedia
-        data={[
           {
             type: MediaType.Image,
             media: {
               src: CakePhoto,
               alt: "HSR Cake",
             },
-            className: "col-span-full max-w-lg mx-auto",
+            className: "col-span-6",
           },
-        ]}
-      />
-      <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </PageContainerItem>
-      <PageContainerItemMedia
-        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: SamPhoto,
+              alt: "HSR Sam",
+            },
+            className: "col-span-6",
+          },
           {
             type: MediaType.Image,
             media: {
@@ -309,38 +272,11 @@ export const ItineraryDay3Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </PageContainerItem>
-      <PageContainerItemMedia
-        data={[
-          {
-            type: MediaType.Image,
-            media: {
-              src: SamPhoto,
-              alt: "HSR Sam",
-            },
-            className: "col-span-full max-w-lg mx-auto",
-          },
-        ]}
-      />
-      <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        With the photo session complete, we noticed a sign for a miHoYo store
+        situated on the second floor of The Ring Live (鑫耀光环) mall nearby.
+        The gaming atmosphere followed us right into the building, as the entire
+        mall was themed with character statues and standees, featuring popular
+        titles like Honkai: Star Rail and Arknights.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -363,15 +299,11 @@ export const ItineraryDay3Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        On the second floor, it was the miHoYo pop-up store in collaboration
+        with IPSTAR. It was stocked with a wide variety of merchandise from
+        their different games, offering plenty for fans to browse through. We
+        headed inside and took a slow lap around the store, enjoying a bit of
+        window shopping as we looked over the latest collections.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -385,6 +317,14 @@ export const ItineraryDay3Page = () => {
           },
         ]}
       />
+      <PageContainerItem>
+        Directly opposite was another store carrying merchandise from various
+        other games, including Wuthering Waves. We took the opportunity to
+        compare their prices with online e-commerce platforms, only to find that
+        things were notably cheaper online. Because of the price difference, we
+        decided to pass on buying anything there, keeping our wallets closed for
+        the time being.
+      </PageContainerItem>
       <PageContainerItem>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -404,7 +344,15 @@ export const ItineraryDay3Page = () => {
               src: TeashopPhoto,
               alt: "Gu Ren Shuo Tea Stall",
             },
-            className: "col-span-full",
+            className: "col-span-8",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: TeaDrinkPhoto,
+              alt: "Gu Ren Shuo Tea",
+            },
+            className: "col-span-4",
           },
         ]}
       />
