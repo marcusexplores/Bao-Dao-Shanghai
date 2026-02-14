@@ -26,6 +26,8 @@ import ArknightStandeePhoto from "@/assets/photos/Itinerary_Day3_Arknights_Stand
 import MihoyoShopPhoto from "@/assets/photos/Itinerary_Day3_Mihoyo.jpg";
 import TeashopPhoto from "@/assets/photos/Itinerary_Day3_TeaShop.jpg";
 import TeaDrinkPhoto from "@/assets/photos/Itinerary_Day3_TeaDrink.jpg";
+import YuGardenPhoto from "@/assets/photos/Itinerary_Day3_YuGarden.jpg";
+import YuGardenStreetPhoto from "@/assets/photos/Itinerary_Day3_YuGarden_Street.jpg";
 import CrabSoupDumplingShopPhoto from "@/assets/photos/Itinerary_Day3_CrabSoupDumpling_Shop.jpg";
 import CrabSoupDumplingFoodPhoto from "@/assets/photos/Itinerary_Day3_CrabSoupDumpling_Food.jpg";
 import DaHuChunShopPhoto from "@/assets/photos/Itinerary_Day3_DaHuChun_Shop.jpg";
@@ -37,6 +39,7 @@ import BuildingPhoto from "@/assets/photos/Itinerary_Day3_Building.jpg";
 import BernardTaxiPhoto from "@/assets/photos/Itinerary_Day3_Bernard_Taxi.jpg";
 import BernardSitPhoto from "@/assets/photos/Itinerary_Day3_Bernard_Sit.jpg";
 import ChristmasMarketPhoto from "@/assets/photos/Itinerary_Day3_ChristmasMarket.jpg";
+import LiveAgentChatPhoto from "@/assets/photos/Itinerary_Day3_AlipayLiveAgent.jpg";
 
 export const ItineraryDay3Page = () => {
   return (
@@ -326,15 +329,12 @@ export const ItineraryDay3Page = () => {
         the time being.
       </PageContainerItem>
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        After finishing our gaming-focused shopping, we spent a little more time
+        exploring the rest of the mall, though nothing else really caught our
+        attention. Feeling a bit thirsty, we decided to grab a drink from Gu Ren
+        Shuo (谷人说), a shop specializing in grain-based teas. It was our first
+        time trying this style of beverage, and while it was a new experience,
+        we found the taste quite acceptable.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -357,15 +357,55 @@ export const ItineraryDay3Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        As the sun began to set, we took a taxi towards Yu Garden (豫园). The
+        ride was going smoothly until the driver seemingly jinxed himself. He
+        had just been commenting on how confusing this particular stretch of the
+        highway was when he immediately took a wrong turn, forcing us into a
+        lengthy detour. He spent the rest of the trip venting his frustration
+        aloud, cussing at the poor road design. Upon reaching our destination,
+        he promised to cover the cost of the extra distance. We took him at his
+        word, but a quick check of the transaction later revealed we had been
+        charged for the full journey. Not wanting to let the incident ruin our
+        mood, we decided to push it to the back of our minds and focus on
+        enjoying the rest of the evening.
+      </PageContainerItem>
+      <PageContainerItem>
+        Awed by the majestic Ming Dynasty-style architecture, we felt as though
+        we had stepped through a portal into ancient China. The soaring eaves
+        and intricate wood carvings created a timeless atmosphere, while the
+        silhouettes of pagodas and ornate pavilions stood in stunning contrast
+        to the modern city skyline rising just beyond the garden walls.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: YuGardenPhoto,
+              alt: "Yu Garden",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: YuGardenStreetPhoto,
+              alt: "Yu Garden Street",
+            },
+            className: "col-span-6",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Beyond the architecture, this area is a true food paradise with
+        legendary snacks waiting around every corner. Eager to get a taste, we
+        stopped at the first Crab Roe Soup Dumpling (蟹黄汤包) stall we saw.
+        When we were handed the oversized dumpling with a straw, we found
+        ourselves fumbling with it, unsure of exactly where to poke the straw
+        until the stall assistant kindly stepped in to show us. With no seating
+        in sight, we found a quiet street corner to tuck in. The rich, steaming
+        soup and warm filling were perfectly satisfying, providing a welcome
+        comfort against the evening chill.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -544,6 +584,29 @@ export const ItineraryDay3Page = () => {
             media: {
               src: ChristmasMarketPhoto,
               alt: "Christmas Market",
+            },
+            className: "col-span-full max-w-lg mx-auto",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: LiveAgentChatPhoto,
+              alt: "Alipay Live Agent Chat",
             },
             className: "col-span-full max-w-lg mx-auto",
           },
