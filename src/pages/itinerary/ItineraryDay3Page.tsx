@@ -28,6 +28,7 @@ import TeashopPhoto from "@/assets/photos/Itinerary_Day3_TeaShop.jpg";
 import TeaDrinkPhoto from "@/assets/photos/Itinerary_Day3_TeaDrink.jpg";
 import YuGardenPhoto from "@/assets/photos/Itinerary_Day3_YuGarden.jpg";
 import YuGardenStreetPhoto from "@/assets/photos/Itinerary_Day3_YuGarden_Street.jpg";
+import YuGardenTeahousePhoto from "@/assets/photos/Itinerary_Day3_YuGarden_Teahouse.jpg";
 import CrabSoupDumplingShopPhoto from "@/assets/photos/Itinerary_Day3_CrabSoupDumpling_Shop.jpg";
 import CrabSoupDumplingFoodPhoto from "@/assets/photos/Itinerary_Day3_CrabSoupDumpling_Food.jpg";
 import DaHuChunShopPhoto from "@/assets/photos/Itinerary_Day3_DaHuChun_Shop.jpg";
@@ -428,15 +429,15 @@ export const ItineraryDay3Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Continuing our walk, we took a moment to admire the ornate buildings and
+        watch tourists dressed in elegant traditional clothes posing for photos.
+        We eventually came across the famous Da Hu Chun (大壶春) and quickly
+        headed inside, only to find the shop packed to capacity. We were lucky
+        to snag two spots at a counter by squeezing in next to other diners.
+        Seeking a better experience than our previous meal, we ordered the fried
+        pork chop and Shengjianbao (生煎包). We were glad we gave it a chance,
+        as the flavors were far superior and left us feeling much more
+        satisfied.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -459,15 +460,16 @@ export const ItineraryDay3Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        We discovered even more variety at 小吃城, a vibrant food court that
+        brings together a lineup of time-honored eateries. It remains a premier
+        destination for anyone seeking the city's most authentic flavors, but
+        because we were still feeling quite full from our earlier drinks and
+        snacks, we couldn't possibly try everything on offer, no matter how
+        delicious it all looked. After a difficult time narrowing down our
+        choices, we finally settled on a massive scallion pancake (葱油饼) that
+        was quite literally as big as our faces. To balance out the savory snack
+        and quench our thirst, we paired it with a soothing bowl of roasted
+        pears with longan and peach dessert (桂圆桃胶烤梨).
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -490,15 +492,38 @@ export const ItineraryDay3Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Feeling completely stuffed, we began a slow stroll toward the Bund to
+        help with digestion. As we passed the iconic Huxinting (湖心亭) Teahouse
+        and the Jiuqu (九曲桥) Bridge, we managed to find a clear spot away from
+        the crowds to capture the night’s beauty. It was a stark contrast to the
+        area directly opposite us, where crowds had gathered and tourists in
+        elaborate traditional attire were busy posing for photos against the
+        illuminated backdrop.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: YuGardenTeahousePhoto,
+              alt: "Teahouse",
+            },
+            className: "col-span-full",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        When we arrived, we were pleasantly surprised to find the area far less
+        crowded than we had expected. We had a clear, unobstructed view of the
+        Lujiazui (陸家嘴) Skyline, including the Oriental Pearl Tower
+        (东方明珠广播电视塔), the Shanghai World Financial Center
+        (上海环球金融中心) and Shanghai Tower (上海中心大厦). However, as we
+        strolled toward the main swarm of people, we realized we hadn't actually
+        been at the main part of the Bund (外滩). The "real" spot was absolutely
+        packed, making it nearly impossible to find an opening for a good photo.
+        There were also many freelance photographers weaving through the crowd
+        offering their services. We felt glad that we had unintentionally ended
+        up on the quieter side first.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
