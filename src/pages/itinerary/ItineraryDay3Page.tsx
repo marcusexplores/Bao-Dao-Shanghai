@@ -595,15 +595,14 @@ export const ItineraryDay3Page = () => {
         ]}
       />
       <PageContainerItem>
-        We tried to book a taxi through Alipay's DiDi mini-program, but we found
-        ourselves blocked because the payment for our previous ride hadn't been
-        settled. With no other choice, we went ahead and paid the full amount
-        just so we could get back to our hotel, deciding to ask the staff for
-        help once we arrived. Luckily, the hotel team was incredibly helpful.
-        They contacted a live agent through the app on our behalf and
-        successfully secured our compensation. We felt truly grateful for their
-        support and for the prompt assistance we received through the Alipay
-        platform.
+        Our attempt to book a taxi through Alipay's DiDi mini-program was
+        blocked because the payment for our previous ride hadn't been settled.
+        With no other choice, we went ahead and paid the full amount just so we
+        could get back to our hotel, deciding to ask the staff for help once we
+        arrived. Luckily, the hotel team was incredibly helpful. They contacted
+        a live agent through the app on our behalf and successfully secured our
+        compensation. We felt truly grateful for their support and for the
+        prompt assistance we received through the Alipay platform.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -618,15 +617,15 @@ export const ItineraryDay3Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Winding down from a long day of travel and exploration, we finally
+        settled back into our hotel room. The transition from Hangzhou to the
+        high-energy streets of Shanghai had been a whirlwind of futuristic
+        skylines, historic architecture, and incredible food. While the taxi
+        mishap had been a bit of a headache, the kindness of the hotel staff and
+        the eventual resolution allowed us to end the evening on a positive
+        note. With our appetites satisfied and our feet finally getting a rest,
+        we turned in for the night, feeling grateful for a successful first day
+        in the city and excited for what was still to come.
       </PageContainerItem>
     </>
   );
