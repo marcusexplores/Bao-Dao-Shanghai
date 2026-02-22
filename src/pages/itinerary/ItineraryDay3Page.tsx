@@ -538,15 +538,12 @@ export const ItineraryDay3Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        On the other side of the Bund, we were surrounded by beautifully lit
+        golden buildings. The colonial-era architecture was stunning at night,
+        with the grand facades bathed in a warm glow that gave the entire street
+        a majestic, historical feel. It was the perfect spot for some photogenic
+        shots, as the classic European styles provided a sophisticated backdrop
+        that looked amazing in photos.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -558,21 +555,6 @@ export const ItineraryDay3Page = () => {
             },
             className: "col-span-full",
           },
-        ]}
-      />
-      <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </PageContainerItem>
-      <PageContainerItemMedia
-        data={[
           {
             type: MediaType.Image,
             media: {
@@ -592,15 +574,13 @@ export const ItineraryDay3Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Most people visit Nanjing Road and the Bund on the same day, but since
+        it was already late, we decided to save Nanjing Road for another visit.
+        We also considered stopping by the Christmas market but ultimately
+        decided against it. Since there was an entrance fee and we knew we
+        couldn't eat another bite or find anything we truly needed to buy, it
+        didn't seem worth the cost. With our day finally winding down, we
+        decided to head back to the hotel for some rest.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -615,15 +595,15 @@ export const ItineraryDay3Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        We tried to book a taxi through Alipay's DiDi mini-program, but we found
+        ourselves blocked because the payment for our previous ride hadn't been
+        settled. With no other choice, we went ahead and paid the full amount
+        just so we could get back to our hotel, deciding to ask the staff for
+        help once we arrived. Luckily, the hotel team was incredibly helpful.
+        They contacted a live agent through the app on our behalf and
+        successfully secured our compensation. We felt truly grateful for their
+        support and for the prompt assistance we received through the Alipay
+        platform.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
