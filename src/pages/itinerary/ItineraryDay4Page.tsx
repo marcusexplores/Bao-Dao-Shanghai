@@ -4,6 +4,7 @@ import { ImagePriority, MediaType } from "@/components/page/constants";
 import FoodDeliveryVideo from "@/assets/videos/Itinerary_Day4_FoodDelivery.mp4";
 import BreakfastPhoto from "@/assets/photos/Itinerary_Day4_Breakfast.jpg";
 import SnowWorldPhoto from "@/assets/photos/Itinerary_Day4_SnowWorld.jpg";
+import SnowWorldEntrancePhoto from "@/assets/photos/Itinerary_Day4_SnowWorld_Entrance.jpg";
 import SnowWorldGroundFloorPhoto from "@/assets/photos/Itinerary_Day4_SnowWorld_GroundFloor.jpg";
 import SnowWorldGroundFloorWefiePhoto from "@/assets/photos/Itinerary_Day4_SnowWorld_GroundFloor_Together.jpg";
 import LakeLogoPhoto from "@/assets/photos/Itinerary_Day4_Lake_Logo.jpg";
@@ -40,15 +41,22 @@ export const ItineraryDay4Page = () => {
   return (
     <>
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Today began at a relaxed pace since we had planned a chill day with only
+        one major highlight on the agenda. Taking advantage of the extra time,
+        we decided to try ordering breakfast through the Meituan app. The setup
+        was surprisingly easy, and we managed to bypass the registration
+        restrictions by using a random Chinese phone number. We set our hotel
+        room as the delivery address and added a note for the rider to leave the
+        food at the front desk. Although the rider's attempt to call us upon
+        arrival was unsuccessful due to our invalid contact number, we were
+        still able to communicate smoothly through the in-app chat. Once the
+        rider confirmed the drop-off, which took less than an hour, we waited a
+        while thinking the front desk would send the food up automatically since
+        we had included our room number in the note. When it didn't arrive, we
+        realized we needed to call down and request the delivery ourselves.
+        Moments later, a robot arrived at our door to drop off our meal, making
+        our first experience with food delivery in China a truly pleasant and
+        high-tech one.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -72,15 +80,15 @@ export const ItineraryDay4Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Since we rarely get the chance to enjoy winter sports, the approaching
+        season felt like the perfect opportunity to try something new.
+        Fortunately, we were able to experience skiing at the Shanghai L+SNOW
+        Indoor Skiing Theme Resort, a massive facility offering world-class,
+        year-round indoor slopes. Having already secured our tickets through
+        Trip.com, we began the entry process upon arrival with a mandatory
+        facial scan. This served as a standard part of the check-in and
+        equipment rental procedure, ensuring everything was synced to our
+        profiles before we finally hit the snow.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -90,6 +98,31 @@ export const ItineraryDay4Page = () => {
               src: SnowWorldPhoto,
               alt: "Snow World",
               fetchPriority: ImagePriority.High,
+            },
+            className: "col-span-full",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Once inside, our first priority was to find the restrooms after the long
+        taxi ride before heading to the rental lockers to store our belongings.
+        We paid for the locker via WeChat Pay, which typically requires a
+        Chinese phone number because the last few digits serve as the access
+        PIN. Since we did not have one, the staff suggested we simply enter a
+        random number and just make sure to remember those last digits for
+        ourselves. With our belongings secured, we moved on to collect our gear
+        and rented helmets and skis, though for some reason they did not seem to
+        encourage us to take any ski poles. While getting ready, we noticed a
+        signboard for a sports academy and, after asking for directions, we
+        followed the path to see what it offered.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: SnowWorldEntrancePhoto,
+              alt: "Snow World Entrance",
             },
             className: "col-span-full",
           },
