@@ -1,6 +1,7 @@
 import { PageContainerItem } from "@/components/page/PageContainerItem";
 import { PageContainerItemMedia } from "@/components/page/PageContainerItemMedia";
-import { MediaType } from "@/components/page/constants";
+import { ImagePriority, MediaType } from "@/components/page/constants";
+import FoodDeliveryVideo from "@/assets/videos/Itinerary_Day4_FoodDelivery.mp4";
 import BreakfastPhoto from "@/assets/photos/Itinerary_Day4_Breakfast.jpg";
 import SnowWorldPhoto from "@/assets/photos/Itinerary_Day4_SnowWorld.jpg";
 import SnowWorldGroundFloorPhoto from "@/assets/photos/Itinerary_Day4_SnowWorld_GroundFloor.jpg";
@@ -52,12 +53,21 @@ export const ItineraryDay4Page = () => {
       <PageContainerItemMedia
         data={[
           {
+            type: MediaType.Video,
+            media: {
+              src: FoodDeliveryVideo,
+              alt: "Food Delivery to Hotel Room",
+            },
+            className: "col-span-6",
+          },
+          {
             type: MediaType.Image,
             media: {
               src: BreakfastPhoto,
               alt: "Porridge and sesame flatbread",
+              fetchPriority: ImagePriority.High,
             },
-            className: "col-span-full max-w-lg mx-auto",
+            className: "col-span-6",
           },
         ]}
       />
@@ -79,6 +89,7 @@ export const ItineraryDay4Page = () => {
             media: {
               src: SnowWorldPhoto,
               alt: "Snow World",
+              fetchPriority: ImagePriority.High,
             },
             className: "col-span-full",
           },
@@ -263,12 +274,18 @@ export const ItineraryDay4Page = () => {
           },
           {
             type: MediaType.Image,
-            media: { src: JiChangXingDumplingPhoto, alt: "Steamed bi-color dumplings" },
+            media: {
+              src: JiChangXingDumplingPhoto,
+              alt: "Steamed bi-color dumplings",
+            },
             className: "col-span-6",
           },
           {
             type: MediaType.Image,
-            media: { src: JiChangXingEelPhoto, alt: "Glazed and crispy fried eels" },
+            media: {
+              src: JiChangXingEelPhoto,
+              alt: "Glazed and crispy fried eels",
+            },
             className: "col-span-6",
           },
         ]}
