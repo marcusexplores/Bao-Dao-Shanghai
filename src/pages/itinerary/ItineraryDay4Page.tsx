@@ -36,6 +36,7 @@ import PgrBadge4Photo from "@/assets/photos/Itinerary_Day4_Bailian_Pgr_Badge4.jp
 import TeaShopPhoto from "@/assets/photos/Itinerary_Day4_Tea_Shop.jpg";
 import TeaPhoto from "@/assets/photos/Itinerary_Day4_Tea.jpg";
 import LuggagePhoto from "@/assets/photos/Itinerary_Day4_Luggage.jpg";
+import { youtubeId } from "./data/youtube";
 
 export const ItineraryDay4Page = () => {
   return (
@@ -125,6 +126,38 @@ export const ItineraryDay4Page = () => {
               alt: "Snow World Entrance",
             },
             className: "col-span-full",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        After entering the skiing area, we initially struggled to find the
+        academy, so we approached a passerby for directions who happened to be a
+        certified professional trainer. While we were processing this, he kindly
+        offered some immediate tips on using the travelator to reach the top
+        along with some basic walking techniques. Since one of us had skied
+        before, he suggested we try a run ourselves before deciding whether to
+        hire an instructor. We gave it a shot but did not perform well, and he
+        cautioned us that it was dangerous for beginners to continue without
+        proper guidance. He quoted a price that seemed reasonable, though we
+        were initially wary of a potential scam when he mentioned he needed to
+        leave the venue to retrieve his instructor armband after our payment. He
+        reassured us by offering to leave his phone behind as a guarantee of his
+        return, and we ultimately decided to take the risk. We were relieved to
+        find our judgment was correct when he returned as promised, and before
+        letting us head down the main slope, he taught us the basics at the top
+        and insisted we practice there first. He even sent one of us back to the
+        rental counter to pick up ski poles while the other continued
+        practicing, and eventually we were ready to take turns skiing down the
+        slope.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.YouTube,
+            media: {
+              id: youtubeId.SkiTraining,
+            },
+            className: "col-span-full aspect-[9/16] mx-auto",
           },
         ]}
       />

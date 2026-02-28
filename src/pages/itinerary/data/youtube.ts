@@ -4,5 +4,6 @@ export const youtubeId = {
   EarthCoreExpedition: "uWWxd3WWb00",
   ChasingDragonsRafting: "VzzKruhpyTI",
   BlackForestAdventure: "EMiruOtkpBg",
-  EnchantedForestDragon: "4orrGNFrppU"
+  EnchantedForestDragon: "4orrGNFrppU",
+  SkiTraining: "_MHtnHquWBg"
 } as const;
