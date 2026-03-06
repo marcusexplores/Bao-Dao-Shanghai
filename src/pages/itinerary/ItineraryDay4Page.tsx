@@ -13,7 +13,8 @@ import LakeCatVehiclePhoto from "@/assets/photos/Itinerary_Day4_Lake_CatVehicle.
 import LakeBikeTogetherPhoto from "@/assets/photos/Itinerary_Day4_Lake_Bike_Together.jpg";
 import LakeLovePhoto from "@/assets/photos/Itinerary_Day4_Lake_Love.jpg";
 import LakeJettyPhoto from "@/assets/photos/Itinerary_Day4_Lake_Jetty.jpg";
-import LakeLingang from "@/assets/photos/Itinerary_Day4_Lake_Lingang.jpg";
+import LakeLingangPhoto from "@/assets/photos/Itinerary_Day4_Lake_Lingang.jpg";
+import LakeSunsetVideo from "@/assets/videos/Itinerary_Day4_Sunset.mp4";
 import CarlowitzPhoto from "@/assets/photos/Itinerary_Day4_Carlowitz.jpg";
 import MuralPhoto from "@/assets/photos/Itinerary_Day4_Mural.jpg";
 import JiChangXingLogoPhoto from "@/assets/photos/Itinerary_Day4_JiChangXing_Logo.jpg";
@@ -290,10 +291,29 @@ export const ItineraryDay4Page = () => {
           {
             type: MediaType.Image,
             media: {
-              src: LakeLingang,
+              src: LakeLingangPhoto,
               alt: "I love Lingang",
             },
             className: "col-span-full",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        We found a beautiful grass patch in the Lingang area just in time to
+        catch the approaching sunset. After dismounting from our bikes, we took
+        a break there to enjoy the serenity and reflect on the deeper meaning of
+        life, though in reality, we were mostly just soaking in the peaceful
+        atmosphere.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Video,
+            media: {
+              src: LakeSunsetVideo,
+              alt: "Sunset",
+            },
+            className: "col-span-full aspect-[3/4] max-w-lg mx-auto",
           },
         ]}
       />
