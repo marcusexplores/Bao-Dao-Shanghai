@@ -9,7 +9,11 @@ import SnowWorldSkiingVideo from "@/assets/videos/Itinerary_Day4_Skiing.mp4";
 import SnowWorldGroundFloorPhoto from "@/assets/photos/Itinerary_Day4_SnowWorld_GroundFloor.jpg";
 import SnowWorldGroundFloorWefiePhoto from "@/assets/photos/Itinerary_Day4_SnowWorld_GroundFloor_Together.jpg";
 import LakeLogoPhoto from "@/assets/photos/Itinerary_Day4_Lake_Logo.jpg";
+import LakeCatVehiclePhoto from "@/assets/photos/Itinerary_Day4_Lake_CatVehicle.jpg";
 import LakeBikeTogetherPhoto from "@/assets/photos/Itinerary_Day4_Lake_Bike_Together.jpg";
+import LakeLovePhoto from "@/assets/photos/Itinerary_Day4_Lake_Love.jpg";
+import LakeJettyPhoto from "@/assets/photos/Itinerary_Day4_Lake_Jetty.jpg";
+import LakeLingang from "@/assets/photos/Itinerary_Day4_Lake_Lingang.jpg";
 import CarlowitzPhoto from "@/assets/photos/Itinerary_Day4_Carlowitz.jpg";
 import MuralPhoto from "@/assets/photos/Itinerary_Day4_Mural.jpg";
 import JiChangXingLogoPhoto from "@/assets/photos/Itinerary_Day4_JiChangXing_Logo.jpg";
@@ -205,15 +209,14 @@ export const ItineraryDay4Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Our next destination was Dishui Lake (滴水湖), a spot we added at the
+        last minute to round out our day. While panning across the map, we
+        noticed a uniquely circular lake tucked into the corner of the district
+        and decided to drop by for a visit. It proved to be a wonderful way to
+        relax and wind down after our morning sports activities. The calm
+        atmosphere served as a welcome reminder that this is exactly what taking
+        time off from work should feel like, rather than just another marathon
+        of a packed itinerary.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -228,23 +231,67 @@ export const ItineraryDay4Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Upon arriving by taxi, the moment we stepped out, we spotted a rather
+        unique mode of transport in the form of a cool blue cat-shaped
+        sightseeing buggy. While it appeared that we could pay using Alipay, a
+        closer look at the pricing convinced us that the experience was not
+        quite worth the cost, so we decided a quick photo would be enough. We
+        then began looking around for alternatives and were happy to find two
+        shared bikes nearby, which felt like a much better way for both of us to
+        explore the area at our own pace.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
           {
             type: MediaType.Image,
             media: {
+              src: LakeCatVehiclePhoto,
+              alt: "Cat Buggies at Dishui Lake",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
               src: LakeBikeTogetherPhoto,
               alt: "Cycling at Dishui Lake",
+            },
+            className: "col-span-6",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Cycling in the cold was incredibly satisfying, with the crisp air
+        brushing against our hair and faces as we moved. Although our hands
+        began to feel numb after a while, our gloves and windbreakers kept us
+        well-protected from the chill. We took the opportunity to pause at
+        several different spots along the circumference of the lake to admire
+        the view, which felt like the perfect way to soak in the peaceful
+        scenery.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: LakeLovePhoto,
+              alt: "Love Installation",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: LakeJettyPhoto,
+              alt: "Jetty",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: LakeLingang,
+              alt: "I love Lingang",
             },
             className: "col-span-full",
           },
