@@ -5,6 +5,7 @@ import FoodDeliveryVideo from "@/assets/videos/Itinerary_Day4_FoodDelivery.mp4";
 import BreakfastPhoto from "@/assets/photos/Itinerary_Day4_Breakfast.jpg";
 import SnowWorldPhoto from "@/assets/photos/Itinerary_Day4_SnowWorld.jpg";
 import SnowWorldEntrancePhoto from "@/assets/photos/Itinerary_Day4_SnowWorld_Entrance.jpg";
+import SnowWorldSkiingVideo from "@/assets/videos/Itinerary_Day4_Skiing.mp4";
 import SnowWorldGroundFloorPhoto from "@/assets/photos/Itinerary_Day4_SnowWorld_GroundFloor.jpg";
 import SnowWorldGroundFloorWefiePhoto from "@/assets/photos/Itinerary_Day4_SnowWorld_GroundFloor_Together.jpg";
 import LakeLogoPhoto from "@/assets/photos/Itinerary_Day4_Lake_Logo.jpg";
@@ -162,18 +163,29 @@ export const ItineraryDay4Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Before we knew it, our ninety minutes of lesson time were nearly up.
+        Although our trainer sounded fierce and incredibly serious during the
+        session, he proved to be a genuinely friendly person as we wrapped up.
+        He seemed surprised to learn we were tourists when he asked if we wanted
+        to extend the lesson, but we had to decline since we had another
+        location to visit. We requested his help to film a video of us skiing
+        down the slope, though we later discovered that the recording had cut
+        off before we even started. To make up for it, we went for another round
+        on our own to capture the footage ourselves. While we hoped to explore
+        more of the resort, time constraints meant we could only stop for a
+        quick photo at Aurora Village as proof of our experience before heading
+        out.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
+          {
+            type: MediaType.Video,
+            media: {
+              src: SnowWorldSkiingVideo,
+              alt: "Skiing down a slope",
+            },
+            className: "col-span-6 row-span-2",
+          },
           {
             type: MediaType.Image,
             media: {
