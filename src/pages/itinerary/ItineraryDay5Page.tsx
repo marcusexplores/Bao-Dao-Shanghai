@@ -39,6 +39,14 @@ import BookstorePhoto from "@/assets/photos/Itinerary_Day5_Bookstore.jpg";
 import Canal1Photo from "@/assets/photos/Itinerary_Day5_Canal1.jpg";
 import Canal2Photo from "@/assets/photos/Itinerary_Day5_Canal2.jpg";
 import FoodStreetPhoto from "@/assets/photos/Itinerary_Day5_FoodStreet.jpg";
+import GateOfTheOrientBernardPhoto from "@/assets/photos/Itinerary_Day5_GateOfTheOrient_Bernard.jpg";
+import GateOfTheOrientMarcusPhoto from "@/assets/photos/Itinerary_Day5_GateOfTheOrient_Marcus.jpg";
+import RoundOnePhoto from "@/assets/photos/Itinerary_Day5_RoundOne.jpg";
+import HotpotEntrancePhoto from "@/assets/photos/Itinerary_Day5_Hotpot_Entrance.jpg";
+import HotpotSideEntrancePhoto from "@/assets/photos/Itinerary_Day5_Hotpot_SideEntrance.jpg";
+import HotpotSoupPhoto from "@/assets/photos/Itinerary_Day5_Hotpot_Soup.jpg";
+import HotpotVegPhoto from "@/assets/photos/Itinerary_Day5_Hotpot_Vegetables.jpg";
+import HotpotMeatPhoto from "@/assets/photos/Itinerary_Day5_Hotpot_Meat.jpg";
 
 export const ItineraryDay5Page = () => {
   return (
@@ -617,6 +625,115 @@ export const ItineraryDay5Page = () => {
               alt: "Eating a bread bought from August Osmanthus",
             },
             className: "col-span-6",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: GateOfTheOrientBernardPhoto,
+              alt: "Gate of the Orient",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: GateOfTheOrientMarcusPhoto,
+              alt: "Gate of the Orient",
+            },
+            className: "col-span-6",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: RoundOnePhoto,
+              alt: "Round One",
+            },
+            className: "col-span-full",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: HotpotEntrancePhoto,
+              alt: "Zuoting Youyuan Fresh Beef Hotpot Entrance",
+            },
+            className: "col-span-8",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: HotpotSideEntrancePhoto,
+              alt: "Zuoting Youyuan Fresh Beef Hotpot Side Entrance",
+            },
+            className: "col-span-4",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: HotpotSoupPhoto,
+              alt: "Hotpot Soup",
+            },
+            className: "col-span-4",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: HotpotVegPhoto,
+              alt: "Hotpot Vegetables",
+            },
+            className: "col-span-4",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: HotpotMeatPhoto,
+              alt: "Hotpot Meat",
+            },
+            className: "col-span-4",
           },
         ]}
       />
