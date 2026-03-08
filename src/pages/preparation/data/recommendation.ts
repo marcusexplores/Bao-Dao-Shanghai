@@ -164,7 +164,7 @@ export const recommendations: Category[] = [
     title: "Payment",
     introductions: [
       "Navigating the payment landscape in China is an experience in itself, as the country has become almost entirely cashless. QR-code systems like Alipay and WeChat Pay dominate daily life, but fortunately, international tourists can now link their foreign cards to these apps for seamless transactions at nearly any vendor. While some places still accept cash, it is often difficult for vendors to provide change, so having the exact amount is essential if you go that route.",
-      "To unlock the full functionality of these apps, completing identity verification with passport details is highly recommended. Between the two, Alipay became our primary choice because its interface is incredibly intuitive, as all the necessary mini programs for transport and payments are right on the landing page once the app is open. WeChat Pay remains a reliable backup, though it requires clicking through a few more interfaces to reach the payment screen.",
+      "To unlock the full functionality of these apps, completing identity verification with passport details is highly recommended. Between the two, Alipay became our primary choice because its interface is incredibly intuitive, as all the necessary mini-programs for transport and payments are right on the landing page once the app is open. WeChat Pay remains a reliable backup, though it requires clicking through a few more interfaces to reach the payment screen.",
       "One important tip to keep in mind is that both platforms impose a 3% fee on transactions exceeding 200 RMB. To get around this, we often checked if vendors could split a large bill into smaller batches under the 200 RMB limit. Alternatively, Singapore-based travellers can use Changi Pay to scan Alipay QR codes without incurring those extra transaction fees.",
       "Beyond the fee structure, the digital nature of these payments makes it effortless to track our budget. Since every transaction is recorded, we had a clear history to keep tabs on our spending and could easily address any discrepancies via the in-app chat support.",
     ],
@@ -309,7 +309,7 @@ export const recommendations: Category[] = [
           alt: "DiDi Logo",
         },
         benefits: [
-          "Ride-hailing services integrated directly as a Mini Program within Alipay",
+          "Ride-hailing services integrated directly as a mini-program within Alipay",
           "Exclusive discounts and incentive programs accessible primarily through the Chinese-language interface",
           "Offers in-app auto-translation",
           "Direct payment through the linked payment methods within Alipay",
