@@ -661,12 +661,13 @@ export const ItineraryDay4Page = () => {
       <PageContainerItem>
         A deep sense of accomplishment stayed with us as the adrenaline from the
         ski slopes settled into a quiet satisfaction. It was a rather sporty day
-        that truly tested our endurance, but learning a new skill while
-        traveling made the effort totally worth it. Between the excitement of
-        the descent and the relaxing glimpse of the slow life at the lake, we
-        found a perfect balance before the transition ahead. We felt prepared
-        and at peace as we rested up, ready to be thrown back into the historic
-        charm of Suzhou tomorrow.
+        that truly tested our endurance, and by the evening, noticeable blisters
+        had started to form from the intensity of the skiing. Even so, learning
+        a new skill while traveling made every bit of effort totally worth it.
+        Between the excitement of the descent and the relaxing glimpse of the
+        slow life at the lake, we found a perfect balance before the transition
+        ahead. We felt prepared and at peace as we rested up, ready to be thrown
+        back into the historic charm of Suzhou tomorrow.
       </PageContainerItem>
     </>
   );
