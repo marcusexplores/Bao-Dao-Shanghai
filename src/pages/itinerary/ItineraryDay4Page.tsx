@@ -318,15 +318,10 @@ export const ItineraryDay4Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        With warmth in our hearts but our hunger growing, we booked a taxi and
+        headed back to Nanjing Road. Since we didn't have much of a chance to
+        explore the area properly yesterday, we took this opportunity to look at
+        the surroundings more closely as we passed through.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -336,43 +331,25 @@ export const ItineraryDay4Page = () => {
               src: CarlowitzPhoto,
               alt: "Carlowitz",
             },
-            className: "col-span-full",
+            className: "col-span-6",
           },
-        ]}
-      />
-      <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </PageContainerItem>
-      <PageContainerItemMedia
-        data={[
           {
             type: MediaType.Image,
             media: {
               src: MuralPhoto,
               alt: "Brick architecture in downtown Shanghai",
             },
-            className: "col-span-full",
+            className: "col-span-6",
           },
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Up until this point in our trip, we hadn't managed to sit down
+        comfortably and enjoy a full, proper meal in a restaurant. Our dining
+        had mostly consisted of grabbing snacks from stalls along the way or
+        stopping briefly at a place just to try one or two of their specialties.
+        For dinner tonight, we decided to change that by visiting Ji Chang Xing
+        (寄畅興), a spot primarily known for its Crab Roe Noodles (蟹黄面).
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -387,15 +364,31 @@ export const ItineraryDay4Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Initially, we were ushered to a table on the ground floor of the
+        restaurant. Just as we thought we had finally escaped the biting air
+        outside, we realized after settling in that we could still feel the
+        chill from the entrance. Before placing our orders, we quickly requested
+        a change of seating and explained the situation to the waiter, who then
+        moved us to the upper floor. Once we were finally settled in the warmth,
+        we placed our orders and realized that after all that walking and
+        snacking from previous days, the sit-down experience felt like a
+        complete luxury.
+      </PageContainerItem>
+      <PageContainerItem>
+        The meal turned out to be a fantastic way to experience the signature
+        sweet and savory flavors that Shanghai is known for. Our spread included
+        a rich bowl of Crab Roe Noodles with its golden sauce and side
+        garnishes, alongside a very tender, glazed Dongpo Pork that practically
+        melted in the mouth. We also tried the Squirrel-Shaped Mandarin Fish,
+        which was fried crisp and topped with a bright sweet and sour sauce.
+        However, in my personal opinion, the fish felt a little overrated
+        because it tasted quite similar to the sweet and sour pork we have back
+        home, and the flavor seemed to diminish as the dish started to cool
+        down. On the other hand, the honey-glazed eel was our absolute favorite,
+        having been fried until perfectly crispy and tossed in a thick, sweet
+        sauce. To round off the meal, the bi-color Xiao Long Bao added a modern
+        flair with their two-toned wrappers. It was a well-presented and
+        satisfying meal that hit all the regional highlights.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -436,15 +429,13 @@ export const ItineraryDay4Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        As it was still early, we decided to take a quick peek at the main
+        shopping district on Nanjing East Road. Bailian ZX (百联ZX创趣场) soon
+        came into view, and although we had originally planned to visit on
+        another day, we could not contain our excitement and curiosity. Since
+        the entire mall is dedicated to ACG culture (Anime, Comics, Games), our
+        eyes lit up as we spotted major brands like Sega and Jump one after
+        another, making us even more eager to see what else was in store.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -467,15 +458,11 @@ export const ItineraryDay4Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        To our pleasant surprise, we discovered a Demon Slayer pop-up store in
+        the basement. Several life-sized standees were placed along the walkway,
+        and they were also selling a variety of merchandise. Although the
+        selection was not huge, it was still a welcome sight and a nice addition
+        to the experience.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -519,15 +506,11 @@ export const ItineraryDay4Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Some games, such as Brown Dust II, even had their own dedicated themed
+        stores selling exclusive merchandise, featuring large displays on the
+        ceilings to promote the game. Other areas consisted of broader
+        collections where items from various series were sold together in the
+        same store.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -542,15 +525,16 @@ export const ItineraryDay4Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Our prized find of the night was definitely Punishing: Gray Raven
+        (战双帕弥什)! Set on a post-apocalyptic Earth being reclaimed by elite
+        squads of cyborg constructs from a devastating machine virus, the game
+        is known for its high-speed combat and unique orb-matching mechanic that
+        triggers powerful real-time abilities. Usually, we only find one or two
+        items of the less popular characters. Here, however, we found an entire
+        table stacked with a massive variety of merch, ranging from can badges
+        to picture cards, featuring almost every character released to date. It
+        was great to see the game receiving the recognition it deserves, and we
+        truly hope it continues to prosper.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -618,15 +602,19 @@ export const ItineraryDay4Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Being fans of the ACGN culture, we were more than satisfied with the
+        variety on display. We realized that if we continued to explore every
+        floor, there would be no end to it and we would finish very late. Since
+        we need to travel out of the city tomorrow, we decided to stick to the
+        lower levels for now and leave the rest of the building for our
+        dedicated date so we can slowly appreciate everything.
+      </PageContainerItem>
+      <PageContainerItem>
+        On our way back, we spotted Grandpa's Tea (爷爷自在茶) just outside a
+        KFC. It is a tea brand launched and owned by KFC that we do not have
+        back home, so we decided to give it a try. We placed our order and paid
+        through WeChat, which was a quick and easy way to grab a drink before
+        heading back for the night.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -649,15 +637,14 @@ export const ItineraryDay4Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Earlier in the day, we received a notification from Taobao (淘宝) that
+        the luggage we bought yesterday had already arrived at our hotel. When
+        we reached the lobby, we picked it up at the designated collection point
+        in the corner, where it stood out among the other packages because of
+        its size. Once we got it up to our room and unwrapped it, we were very
+        satisfied with both the look and the quality of the product. It was
+        impressive to see such speed and efficiency from both the seller and the
+        platform.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -672,15 +659,14 @@ export const ItineraryDay4Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        A deep sense of accomplishment stayed with us as the adrenaline from the
+        ski slopes settled into a quiet satisfaction. It was a rather sporty day
+        that truly tested our endurance, but learning a new skill while
+        traveling made the effort totally worth it. Between the excitement of
+        the descent and the relaxing glimpse of the slow life at the lake, we
+        found a perfect balance before the transition ahead. We felt prepared
+        and at peace as we rested up, ready to be thrown back into the historic
+        charm of Suzhou tomorrow.
       </PageContainerItem>
     </>
   );
