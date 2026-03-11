@@ -52,15 +52,11 @@ export const ItineraryDay5Page = () => {
   return (
     <>
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Starting another day with food delivery through Meituan, we found
+        ourselves pampered with endless choices. We decided not to go too
+        adventurous just yet, opting instead for the safer route by choosing
+        dishes that felt familiar to us. It was a generally good breakfast to
+        kickstart the long day ahead.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -85,15 +81,15 @@ export const ItineraryDay5Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Arriving at Suzhou station after taking a taxi and the high-speed rail,
+        we immediately began scanning the area for exit signs. A wild thought
+        suddenly struck us as we looked at the map, noticing that our next
+        destination seemed to be within cycling distance. We decided to give it
+        a shot, and after exiting the station, we walked around for a while in
+        search of a stray shared bike. Unfortunately, we could not find a single
+        one, and it felt like we had wasted more time than necessary. Just
+        before we gave up on the idea, we spotted the iconic Suzhou Station sign
+        and knew we had to stop for a photo.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -109,15 +105,18 @@ export const ItineraryDay5Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Out in the open, we realized there wasn't a pickup spot available for
+        booking a taxi, so we headed toward the nearest one a little further
+        ahead. As we approached, it became clear that this was much more than a
+        simple waiting area, appearing instead like an entire terminal unto
+        itself. The space featured a highly organized, multi-lane system
+        designed for maximum efficiency, and we were impressed by the digital
+        display boards providing a real-time layout of the lanes and specific
+        positions of arriving and leaving vehicles. Within the various slots, we
+        could see specific license plate numbers clearly displayed, while some
+        even showed the logo of the corresponding ride-hailing platform like
+        Didi. It was an incredibly efficient setup that helped passengers find
+        their drivers quickly in such a high-traffic environment.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -140,15 +139,13 @@ export const ItineraryDay5Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Suzhou Museum (苏州博物馆) was not our planned first stop, but our taxi
+        dropped us nearby since the vehicle could not go any further in.
+        Although it was on our list of potential spots and comes highly
+        recommended by others, we decided to give it a pass in view of our
+        limited time and the other places we wanted to try. We aimed to keep the
+        day short and head back early, especially since we planned to wake up
+        early tomorrow.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -163,15 +160,15 @@ export const ItineraryDay5Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Known as the "Venice of the East," Suzhou earns its romantic moniker
+        through a 2,500 year old network of crisscrossing canals, stone bridges,
+        and traditional whitewashed houses that line the water's edge. Much like
+        its Italian counterpart, the city's historic soul is built upon the
+        water, where flat bottomed wooden boats still drift past ancient city
+        gates and world class classical gardens. The heart of Suzhou remains a
+        tranquil labyrinth of waterways reflecting the elegance of the Ming and
+        Qing dynasties, where every turn unveils a picturesque landscape as
+        timeless as an image on a postcard.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
