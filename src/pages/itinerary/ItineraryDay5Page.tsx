@@ -191,15 +191,13 @@ export const ItineraryDay5Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Before we started hitting the tourist spots and exploring further, we
+        thought it was better to eat something first, otherwise, once we
+        started, there was no telling how long we would take. It was a little
+        early for lunch, but we knew that waiting until later would likely be
+        too late. We quickly scanned the area and randomly entered Jin Shui Tai
+        (近水台面馆), a restaurant serving something familiar, to grab a quick
+        bite and fuel up for the walk ahead.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -222,15 +220,24 @@ export const ItineraryDay5Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Making a U-turn after straying away from the tourist spots, we headed
+        toward the Humble Administrator's Garden (拙政园). Following the metal
+        railings and the QR codes for admission, we retraced our footsteps to
+        the end of the queue, thinking we could simply purchase tickets through
+        the Meituan app. However, the system required a local identification
+        number that we didn't have. After checking with a nearby staff member,
+        we were guided to a self-ticketing machine further down the path where
+        we presented our passports and bought our tickets for 70 RMB per person.
+      </PageContainerItem>
+      <PageContainerItem>
+        The UNESCO World Heritage site is a massive labyrinth that feels like
+        walking through a life-sized landscape painting. It is the ultimate spot
+        for capturing classic architecture and serene backyard scenes, making it
+        incredibly popular for photography. As soon as we entered, we saw many
+        visitors donned in traditional costumes, posing for photos against the
+        ancient pavilions and colorful flowers. The scenery was so sought after
+        that there were even queues of people waiting for their turn at the more
+        popular photo spots.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
