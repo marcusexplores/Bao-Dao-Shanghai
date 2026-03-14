@@ -284,15 +284,15 @@ export const ItineraryDay5Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Water is the soul of the garden, where vast pools and winding streams
+        create shimmering reflections that seem to double the beauty of the
+        landscape. As we explored deeper, the crowds grew denser and the walking
+        paths narrowed, making it impossible not to overhear tour guides
+        explaining the scenery to their groups. It was interesting to hear how
+        different guides focused on various elements, from the unique rock
+        formations and water bodies to the small ornaments scattered around the
+        garden. Just for fun, we tailed one for a while, eavesdropping as they
+        described the history and hidden details of the area.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -302,7 +302,7 @@ export const ItineraryDay5Page = () => {
               src: AdminGardenMaplePondPhoto,
               alt: "Pond with Maple Tree in Humble Administrator's Garden",
             },
-            className: "col-span-6 md:col-span-full",
+            className: "col-span-6",
           },
           {
             type: MediaType.Image,
@@ -310,7 +310,7 @@ export const ItineraryDay5Page = () => {
               src: AdminGardenPond1Photo,
               alt: "A Pond in Humble Administrator's Garden",
             },
-            className: "col-span-6 md:col-span-4",
+            className: "col-span-6",
           },
           {
             type: MediaType.Image,
@@ -328,18 +328,24 @@ export const ItineraryDay5Page = () => {
             },
             className: "col-span-6 md:col-span-4",
           },
+          {
+            type: MediaType.Image,
+            media: {
+              src: AdminGardenPondMistPhoto,
+              alt: "A Pond with mist in Humble Administrator's Garden",
+            },
+            className: "col-span-full md:col-span-4",
+          },
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        En route to the exit, we came across a large maple tree where groups of
+        tourists had gathered to capture the perfect shot. Seeing others picking
+        up fallen leaves to use as props inspired us to create our own artistic
+        memento by holding a single, vibrant leaf against the backdrop of the
+        fiery red canopy. The result was a memorable photo that focused on the
+        delicate details of the autumn foliage in our hands, perfectly capturing
+        the seasonal essence of the garden before we headed out.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -348,29 +354,6 @@ export const ItineraryDay5Page = () => {
             media: {
               src: AdminGardenMapleLeavesPhoto,
               alt: "Maple Leaves",
-            },
-            className: "col-span-full",
-          },
-        ]}
-      />
-      <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </PageContainerItem>
-      <PageContainerItemMedia
-        data={[
-          {
-            type: MediaType.Image,
-            media: {
-              src: AdminGardenPondMistPhoto,
-              alt: "A Pond with mist in Humble Administrator's Garden",
             },
             className: "col-span-full",
           },
