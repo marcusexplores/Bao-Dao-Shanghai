@@ -360,15 +360,16 @@ export const ItineraryDay5Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Right near the exit, the popular and trendy Bamboo Milk Tea (竹筒奶茶)
+        caught our eyes. As it was a massive social media sensation, we decided
+        to try it for ourselves, especially since there was a promotion for a
+        second cup at half price. We ordered the Osmanthus Oolong Milk Tea
+        (桂花乌龙奶茶) and the Jasmine Biluochun Milk Tea (茉莉碧螺春奶茶) with
+        high expectations for a unique, premium tea flavor. However, we were a
+        bit disappointed to find that the tea tasted quite ordinary and the cup
+        was mostly filled with whipped cream. It definitely falls into the
+        category of things you only need to try once, as the experience is
+        clearly more about the aesthetic than the drink itself.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -399,15 +400,11 @@ export const ItineraryDay5Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Stepping into Pingjiang Road (平江路), we found ourselves in the
+        quintessential Jiangnan water town experience where the ancient street
+        runs exactly parallel to the peaceful Pingjiang River. The area was
+        alive with dozens of travelers wearing elegant Hanfu or Qipao, many with
+        professional photographers in tow to capture the perfect moment.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -430,15 +427,15 @@ export const ItineraryDay5Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        While we had already enjoyed the popular crab noodles and heard much
+        about the famous hairy crabs, this was our first time witnessing the
+        behind the scenes work that goes into such these local delicacies. We
+        saw firsthand the labor intensive reality of the dish, realizing that a
+        bowl of crab roe noodles finished in mere minutes actually requires
+        hours of manual effort from several people just to prepare the
+        ingredients for a single serving. It was a striking reminder of the true
+        cost of flavor and the dedication required to maintain these traditional
+        culinary standards.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -453,15 +450,13 @@ export const ItineraryDay5Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Along the streets, we caught the fragrance of Jiangnan Meihua Gao
+        (江南梅花糕), a traditional snack shaped like a plum blossom. We
+        couldn't resist buying one to try, and it turned out to be the perfect
+        choice. Served piping hot, it was incredibly comforting to eat in the
+        cold air. The bottom is a crispy, golden-brown cone made from batter,
+        while the top remains soft and packed with colorful toppings, offering a
+        delightful mix of textures in every bite.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -492,15 +487,26 @@ export const ItineraryDay5Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Since we were in such a traditional area, it was rare to see Western
+        elements like bread, cakes, and tarts. However, the pastries at August
+        Osmanthus looked and smelled so inviting that we decided to pause and
+        patronize the shop. While we were there, the shop assistant waved us
+        over for help with a translation. A pair of tourists was trying to ask
+        if the stall sold halal food, even showing her Google Translate, but she
+        could not quite grasp the meaning. We stepped in to explain that the
+        couple was inquiring if the food was halal (清真). She quickly shook her
+        head, so we conveyed the "no" to the couple, who then moved on.
+      </PageContainerItem>
+      <PageContainerItem>
+        As they left, the assistant pointed to the bakery machines and mentioned
+        that the pastries were not "lightly steamed" (轻蒸). It suddenly dawned
+        on us that she still had not understood the question. Because the two
+        terms sound so similar, she had mistaken a dietary requirement for a
+        cooking method. Sadly, the couple had already disappeared into the crowd
+        before we could clarify the mix-up. We eventually picked up a small
+        sponge cake topped with caramelized sugar and scooted off to find a spot
+        to rest, though it turned out to be a bit of a disappointment as the
+        taste was quite ordinary.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -531,15 +537,15 @@ export const ItineraryDay5Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Back on track after our small break, we spotted a rather interesting cat
+        café where several cats were casually resting and moving about the
+        open-windowed second floor. The shop featured a few unique breeds that
+        we do not usually see elsewhere, appearing quite elegant and graceful as
+        they perched above the street. One of them, however, looked as if it had
+        only just woken up, with its fur looking hilariously unkempt compared to
+        its companions. We joined a few other passersby on the ground floor,
+        pausing for a moment to admire these cats as they peered out over the
+        street.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -554,15 +560,17 @@ export const ItineraryDay5Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Having traveled all the way to Suzhou, we could not leave without
+        picking up some souvenirs. We eventually came across Momicafe
+        (猫的天空之城), which is far more than just a typical bookstore as it
+        serves as a treasure trove for anyone who loves stationery and the
+        slow-living aesthetic. This specialized concept store features shelves
+        packed with carefully curated goods, including their famous "Postcards
+        to the Future" service. This unique offering allows one to buy beautiful
+        local postcards and have the shop hold and mail them on a specific
+        chosen date, even years into the future. Although we did not end up
+        sending any postcards to our future selves, we bought several back as
+        souvenirs.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
