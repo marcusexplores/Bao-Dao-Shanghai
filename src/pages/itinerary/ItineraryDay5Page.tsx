@@ -47,6 +47,7 @@ import HotpotSideEntrancePhoto from "@/assets/photos/Itinerary_Day5_Hotpot_SideE
 import HotpotSoupPhoto from "@/assets/photos/Itinerary_Day5_Hotpot_Soup.jpg";
 import HotpotVegPhoto from "@/assets/photos/Itinerary_Day5_Hotpot_Vegetables.jpg";
 import HotpotMeatPhoto from "@/assets/photos/Itinerary_Day5_Hotpot_Meat.jpg";
+import HotpotPackagePhoto from "@/assets/photos/Itinerary_Day5_HotpotPackage.jpg";
 
 export const ItineraryDay5Page = () => {
   return (
@@ -671,15 +672,13 @@ export const ItineraryDay5Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        We wandered through the mall, still undecided on dinner, and were
+        surprised to see a massive queue at Sushiro. Despite the complex
+        political headlines at the time, the local appetite for sushi seemed
+        completely unfazed. One look at the queue confirmed it wasn't worth the
+        wait, so we kept moving. Eventually, we came across Zuoting Youyuan
+        Fresh Beef Hotpot (左庭右院鲜牛肉火锅). Realizing we hadn't had hotpot
+        yet on this trip, we decided to give it a try.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -698,6 +697,26 @@ export const ItineraryDay5Page = () => {
               alt: "Zuoting Youyuan Fresh Beef Hotpot Side Entrance",
             },
             className: "col-span-4",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        A staff member pointed out that we could purchase a set for two at a
+        promotional price of 273 RMB through Meituan, even going as far as to
+        guide us through the process. The set was quite comprehensive, including
+        a choice of soup base from five different options, a variety of meats
+        and vegetables, spinach noodles, and access to the self-service
+        seasoning bar. It turned out to be a very filling meal.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: HotpotPackagePhoto,
+              alt: "Hotpot Meituan Package",
+            },
+            className: "col-span-8 row-span-3",
           },
           {
             type: MediaType.Image,
