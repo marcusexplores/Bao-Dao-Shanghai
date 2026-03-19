@@ -48,6 +48,13 @@ import HotpotSoupPhoto from "@/assets/photos/Itinerary_Day5_Hotpot_Soup.jpg";
 import HotpotVegPhoto from "@/assets/photos/Itinerary_Day5_Hotpot_Vegetables.jpg";
 import HotpotMeatPhoto from "@/assets/photos/Itinerary_Day5_Hotpot_Meat.jpg";
 import HotpotPackagePhoto from "@/assets/photos/Itinerary_Day5_HotpotPackage.jpg";
+import ShanTangEntrancePhoto from "@/assets/photos/Itinerary_Day5_ShanTangEntrance.jpg";
+import ShanTangStreetPhoto from "@/assets/photos/Itinerary_Day5_ShanTangStreet.jpg";
+import JiangnanSiLiPhoto from "@/assets/photos/Itinerary_Day5_JiangnanSiLi.jpg";
+import QiLiShanTangPhoto from "@/assets/photos/Itinerary_Day5_QiLiShanTang.jpg";
+import QiLiShanTangCanalPhoto from "@/assets/photos/Itinerary_Day5_QiLiShanTang_Canal.jpg";
+import SuzouStampMuseumPhoto from "@/assets/photos/Itinerary_Day5_SuzhouZodiacStampMuseum.jpg";
+import LaoShanTangShopPhoto from "@/assets/photos/Itinerary_Day5_LaoShanTangXieKeHuang.jpg";
 
 export const ItineraryDay5Page = () => {
   return (
@@ -744,6 +751,133 @@ export const ItineraryDay5Page = () => {
           },
         ]}
       />
+      <PageContainerItem>
+        After our meal, we took a taxi to Qilishantang (七里山塘), but as we
+        approached the area, we were caught in a massive traffic jam. Not
+        wanting to waste time sitting in the gridlock, we requested the driver
+        drop us off early and followed our map the rest of the way on foot. Just
+        as we were thinking we had not picked up any specialty food souvenirs
+        from Suzhou yet, we came across a shop called Jiangnan Si Li (江南四礼).
+        We decided to buy several boxes of local pastries and snacks, opting for
+        the larger sets with many individual pieces that are perfect for sharing
+        with coworkers.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: ShanTangEntrancePhoto,
+              alt: "Shantang Entrance",
+            },
+            className: "col-span-6 md:col-span-4",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: ShanTangStreetPhoto,
+              alt: "Shantang Street",
+            },
+            className: "col-span-6 md:col-span-4",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: JiangnanSiLiPhoto,
+              alt: "Jiangnan Si Li",
+            },
+            className: "col-span-full mx-auto w-[50vw] md:col-span-4 md:w-auto",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: QiLiShanTangPhoto,
+              alt: "Qi Li Shan Tang",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: QiLiShanTangCanalPhoto,
+              alt: "Qi Li Shan Tang Canal",
+            },
+            className: "col-span-6",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: SuzouStampMuseumPhoto,
+              alt: "Suzhou Zodiac Stamp Museum",
+            },
+            className: "col-span-full",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: LaoShanTangShopPhoto,
+              alt: "Lao Shan Tang Xie Ke Huant",
+            },
+            className: "col-span-full max-w-lg mx-auto",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </PageContainerItem>
     </>
   );
 };
