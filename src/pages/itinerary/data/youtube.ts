@@ -5,5 +5,6 @@ export const youtubeId = {
   ChasingDragonsRafting: "VzzKruhpyTI",
   BlackForestAdventure: "EMiruOtkpBg",
   EnchantedForestDragon: "4orrGNFrppU",
-  SkiTraining: "_MHtnHquWBg"
+  SkiTraining: "_MHtnHquWBg",
+  BattleForTheSunkenTreasure: "BSIds_Antjg",
 } as const;
