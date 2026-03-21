@@ -752,15 +752,16 @@ export const ItineraryDay5Page = () => {
         ]}
       />
       <PageContainerItem>
-        After our meal, we took a taxi to Qilishantang (七里山塘), but as we
-        approached the area, we were caught in a massive traffic jam. Not
-        wanting to waste time sitting in the gridlock, we requested the driver
-        drop us off early and followed our map the rest of the way on foot. Just
-        as we were thinking we had not picked up any specialty food souvenirs
-        from Suzhou yet, we came across a shop called Jiangnan Si Li (江南四礼).
-        We decided to buy several boxes of local pastries and snacks, opting for
-        the larger sets with many individual pieces that are perfect for sharing
-        with coworkers.
+        After our meal, we checked the time and realized it felt a bit early to
+        head back to Shanghai, especially since we had already come so far. We
+        decided to fit in one more tourist spot, so we took a taxi to
+        Qilishantang (七里山塘). As we approached the area, we were caught in a
+        massive traffic jam, but not wanting to waste time sitting in the
+        gridlock, we requested the driver drop us off early and followed our map
+        on foot. Just as we were thinking we had not picked up any specialty
+        food souvenirs from Suzhou yet, we came across a shop called Jiangnan Si
+        Li (江南四礼). We decided to buy several boxes of local pastries and
+        snacks, choosing the ones that are perfect for sharing with coworkers.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -791,15 +792,18 @@ export const ItineraryDay5Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Turning into the alley shown on our map, we were suddenly swarmed by the
+        crowd, signaling the true start of the tourist attraction. The
+        atmosphere was incredibly vibrant and bustling as we continued further
+        ahead toward the famous canal. It was narrow and filled with traditional
+        wooden sightseeing boats, their silhouettes etched against the
+        shimmering reflections in the water. On the ancient stone bridge, the
+        congestion was so heavy that a security guard was stationed there to
+        advise tourists to keep moving and not block the path. Despite his
+        reminders, many people still stayed put to take in the view. We managed
+        to squeeze our way up, and once we reached the center, we finally had a
+        front-row seat to a living postcard. We quickly snapped a photo and
+        moved off to allow others to take our place.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -822,15 +826,14 @@ export const ItineraryDay5Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Once back in the flow of the crowd, we spent some time soaking in the
+        nightlife and appreciating the scenery, though we were not quite sure
+        what to do next. After looking around for another place of interest, we
+        decided to visit the Suzhou Zodiac Stamp Museum (苏州生肖邮票博物馆).
+        Without giving it a second thought to check the opening hours, we
+        hurriedly made our way there only to find it already closed. It was
+        quite a blunder on our part, but seeing as it was already so late, we
+        really should have expected it and could only laugh it off.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -845,15 +848,16 @@ export const ItineraryDay5Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Leaving the museum, we found ourselves in a surprisingly quiet alley far
+        from the crowds. Since it was getting late, we started making our way
+        toward the exit, but stopped when we saw LaoShanTangXieKeHuang
+        (老山塘蟹壳黄) selling some pastries. They looked quite appealing, and
+        since the promotional price seemed like a good deal, we decided to pick
+        up some snacks. We bought five different flavors with the idea that the
+        extras could be saved for breakfast the next morning. However, we were
+        ultimately disappointed once we tried them. The taste was not to our
+        liking, and we didn't even manage to finish them, so they eventually had
+        to be disposed of.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -868,15 +872,33 @@ export const ItineraryDay5Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        The further we walked, the quieter it became, eventually reaching a
+        point where the silence felt a bit disturbing as we realized we weren't
+        getting out anytime soon. Fortunately, we eventually reached a cross
+        junction where we spotted a few people. At that moment, a small
+        three-wheel motorcycle pulled up, offering to ferry us to a taxi pick-up
+        point. Given how late it was and the long walk back to the starting
+        point, we made a swift decision to take up the offer, even if it felt
+        like a bit of a risk. We expected to be dropped at an official taxi
+        stand, but it turned out to be just a spot on the main road. Still, we
+        paid the 15 RMB for the shuttle service and moved on.
+      </PageContainerItem>
+      <PageContainerItem>
+        Knowing the journey back to Shanghai would be long, we hoped to find a
+        restroom, though standing on the roadside made that seem unlikely. We
+        decided to explore a bit, and luck was on our side when a toilet
+        suddenly appeared in view. After a quick stop, we tried to call a direct
+        taxi all the way back to Shanghai, but no one would accept the trip. We
+        eventually had to pivot, booking a taxi to Suzhou Station instead and
+        taking the high-speed rail the rest of the way.
+      </PageContainerItem>
+      <PageContainerItem>
+        Returning to our hotel, we found that most of our Taobao deliveries had
+        arrived throughout the day. After picking them up at the lobby and
+        heading back to our room, we realized we had completely defied our
+        original plan to rest early for tomorrow's early start. Despite the
+        exhaustion, it was a fulfilling day, and we both look forward to
+        immersing ourselves in the magical world of Disney tomorrow.
       </PageContainerItem>
     </>
   );
