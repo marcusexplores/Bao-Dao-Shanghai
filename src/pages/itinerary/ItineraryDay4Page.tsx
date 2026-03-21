@@ -6,6 +6,8 @@ import BreakfastPhoto from "@/assets/photos/Itinerary_Day4_Breakfast.jpg";
 import SnowWorldPhoto from "@/assets/photos/Itinerary_Day4_SnowWorld.jpg";
 import SnowWorldEntrancePhoto from "@/assets/photos/Itinerary_Day4_SnowWorld_Entrance.jpg";
 import SnowWorldSkiingVideo from "@/assets/videos/Itinerary_Day4_Skiing.mp4";
+import SnowWorldSkiingReadyPhoto from "@/assets/photos/Itinerary_Day4_Skiing_Ready.jpg";
+import SnowWorldSkiingFinishPhoto from "@/assets/photos/Itinerary_Day4_Skiing_Finish.jpg";
 import SnowWorldGroundFloorPhoto from "@/assets/photos/Itinerary_Day4_SnowWorld_GroundFloor.jpg";
 import SnowWorldGroundFloorWefiePhoto from "@/assets/photos/Itinerary_Day4_SnowWorld_GroundFloor_Together.jpg";
 import LakeLogoPhoto from "@/assets/photos/Itinerary_Day4_Lake_Logo.jpg";
@@ -159,11 +161,27 @@ export const ItineraryDay4Page = () => {
       <PageContainerItemMedia
         data={[
           {
+            type: MediaType.Image,
+            media: {
+              src: SnowWorldSkiingReadyPhoto,
+              alt: "Getting ready to ski down the slope",
+            },
+            className: "col-span-full md:col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: SnowWorldSkiingFinishPhoto,
+              alt: "Conquered the slope",
+            },
+            className: "col-span-6 md:col-span-3",
+          },
+          {
             type: MediaType.YouTube,
             media: {
               id: youtubeId.SkiTraining,
             },
-            className: "col-span-full aspect-[9/16] mx-auto",
+            className: "col-span-6 md:col-span-3 aspect-[9/16] mx-auto",
           },
         ]}
       />
