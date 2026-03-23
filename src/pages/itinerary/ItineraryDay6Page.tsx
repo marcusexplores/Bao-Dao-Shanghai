@@ -312,15 +312,24 @@ export const ItineraryDay6Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Next on our list was Soaring Over the Horizon (翱翔•飞越地平线), which
+        felt like a breathtaking spiritual odyssey. As our seats lifted and the
+        floor vanished, we were swept into a flawless illusion of being
+        suspended high above the Earth. The seats were stacked vertically so
+        that everyone had a perfectly clear view, and the entire experience felt
+        like a true multi sensory masterpiece. We didn't just see the world, we
+        felt it, from the cool mist spraying off the turquoise waters of Fiji to
+        the fragrant scent of roses as we glided over the Taj Mahal. After
+        banking through the icy peaks of the Matterhorn and dodging kites over
+        the Great Wall of China, the experience reached a crescendo with a
+        spectacular homecoming. We wove through the neon-lit skyscrapers of the
+        Shanghai skyline before soaring directly toward the Enchanted Storybook
+        Castle just as a golden firework finale illuminated the horizon, leaving
+        us in a moment of collective, hushed awe. It was such a good way to
+        relax after all the queuing and the adrenaline rush, and after seeing so
+        many of the world's wonders in one sitting, it felt like we'd finished
+        our global travels for the next few years without ever leaving our
+        seats.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -343,15 +352,16 @@ export const ItineraryDay6Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        With three-quarters of our planned rides completed, we could finally
+        slow down our pace and take some time to admire the beauty of Treasure
+        Cove. The area is incredibly detailed, with the massive Siren's Revenge
+        pirate ship (海妖复仇号) docked in the lagoon and sun-bleached Spanish
+        architecture making the pirate atmosphere feel very immersive. We even
+        saw a Jack Sparrow performer who was fully in character as a long queue
+        formed for a meet-and-greet near the docks. We spent a few moments
+        soaking in the scenery before we strolled past the cove, leaving the
+        high-seas energy behind as we made our way toward the vibrant streets of
+        Zootopia.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
