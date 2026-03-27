@@ -36,6 +36,17 @@ import ZootopiaNickJudyPhoto from "@/assets/photos/Itinerary_Day6_Zootopia_NickA
 import ZootopiaOfficersPhoto from "@/assets/photos/Itinerary_Day6_Zootopia_Officers.jpg";
 import ZootopiaTableJudyPhoto from "@/assets/photos/Itinerary_Day6_Zootopia_Table_Judy.jpg";
 import ZootopiaTableNickPhoto from "@/assets/photos/Itinerary_Day6_Zootopia_Table_Nick.jpg";
+import ZootopiaPrisonBedPhoto from "@/assets/photos/Itinerary_Day6_Zootopia_Prison_DoubleBed.jpg";
+import ZootopiaPrisonPhonePhoto from "@/assets/photos/Itinerary_Day6_Zootopia_Prison_Phone.jpg";
+import ZootopiaPrisonBathtubPhoto from "@/assets/photos/Itinerary_Day6_Zootopia_Prison_Bathtub.jpg";
+import ZootopiaPrisonCrowdPhoto from "@/assets/photos/Itinerary_Day6_Zootopia_Prison_Crowd.jpg";
+import ZootopiaPrisonCellBlockPhoto from "@/assets/photos/Itinerary_Day6_Zootopia_Prison_Cells.jpg";
+import ZootopiaPrisonRoom1Photo from "@/assets/photos/Itinerary_Day6_Zootopia_Prison_Room1.jpg";
+import ZootopiaPrisonRoom2Photo from "@/assets/photos/Itinerary_Day6_Zootopia_Prison_Room2.jpg";
+import ZootopiaPoliceOfficePhoto from "@/assets/photos/Itinerary_Day6_Zootopia_PoliceOffice.jpg";
+import ZootopiaPoliceLockerPhoto from "@/assets/photos/Itinerary_Day6_Zootopia_PoliceLockers.jpg";
+import HotPursuitQueuePhoto from "@/assets/photos/Itinerary_Day6_HotPursuit_Queue.jpg";
+import HotPursuitCarPhoto from "@/assets/photos/Itinerary_Day6_HotPursuit_Car.jpg";
 // import xxxxxxxxxxxxxxx from "@/assets/photos/xxxxxxxxxxxxxxxxx.jpg";
 import { youtubeId } from "./data/youtube";
 
@@ -558,6 +569,198 @@ export const ItineraryDay6Page = () => {
               alt: "Nick's Desk",
             },
             className: "col-span-6",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: ZootopiaPrisonBedPhoto,
+              alt: "Prison Beds",
+            },
+            className: "col-span-6 row-span-2",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: ZootopiaPrisonPhonePhoto,
+              alt: "Prison Telephone Room",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: ZootopiaPrisonBathtubPhoto,
+              alt: "Prison Shower Room",
+            },
+            className: "col-span-6",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: ZootopiaPrisonCrowdPhoto,
+              alt: "Crowded Prison",
+            },
+            className: "col-span-8",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: ZootopiaPrisonCellBlockPhoto,
+              alt: "Prison Cell Block B",
+            },
+            className: "col-span-4",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: ZootopiaPrisonRoom1Photo,
+              alt: "Prison Room",
+            },
+            className: "col-span-4",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: ZootopiaPrisonRoom2Photo,
+              alt: "Prison Room",
+            },
+            className: "col-span-8",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: ZootopiaPoliceOfficePhoto,
+              alt: "Police Office",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: ZootopiaPoliceLockerPhoto,
+              alt: "Police Lockers",
+            },
+            className: "col-span-6",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.YouTube,
+            media: {
+              id: youtubeId.ChiefBogo,
+            },
+            className: "col-span-full",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: HotPursuitQueuePhoto,
+              alt: "Hot Pursuit Queue",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: HotPursuitCarPhoto,
+              alt: "Hot Pursuit Car",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.YouTube,
+            media: {
+              id: youtubeId.HotPursuit,
+            },
+            className: "col-span-full",
           },
         ]}
       />

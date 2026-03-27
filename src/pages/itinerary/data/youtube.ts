@@ -8,5 +8,7 @@ export const youtubeId = {
   SkiTraining: "_MHtnHquWBg",
   BattleForTheSunkenTreasure: "BSIds_Antjg",
   DisneyParade: "U56xbB7gZRw",
-  Clawhauser: "hxHOdR67Ha8"
+  Clawhauser: "hxHOdR67Ha8",
+  ChiefBogo: "lbJaqRaIW0A",
+  HotPursuit: "YB5w5CEh7m0"
 } as const;
