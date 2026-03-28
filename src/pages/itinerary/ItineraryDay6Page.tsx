@@ -56,6 +56,15 @@ import ZootopiaSnomanJudyNickPhoto from "@/assets/photos/Itinerary_Day6_Zootopia
 import ZootopiaSnomanPolicPhoto from "@/assets/photos/Itinerary_Day6_Zootopia_Snowman_PoliceOfficers.jpg";
 import ZootopiaTrafficLightPhoto from "@/assets/photos/Itinerary_Day6_Zootopia_TrafficLight.jpg";
 import ZootopiaTicketPhoto from "@/assets/photos/Itinerary_Day6_Zootopia_Tickets.jpg";
+import WonderlandScrollGardenPhoto from "@/assets/photos/Itinerary_Day6_AliceInWonderland_Scroll_Garden.jpg";
+import WonderlandScrollRedQueenPhoto from "@/assets/photos/Itinerary_Day6_AliceInWonderland_Scroll_RedQueen.jpg";
+import WonderlandBandersnatchPhoto from "@/assets/photos/Itinerary_Day6_AliceInWonderland_Bandersnatch.jpg";
+import WonderlandRedQueenGardenEntrancePhoto from "@/assets/photos/Itinerary_Day6_AliceInWonderland_RedQueen_GardenEntrance.jpg";
+import WonderlandRedQueenPhoto from "@/assets/photos/Itinerary_Day6_AliceInWonderland_RedQueen.jpg";
+import WonderlandRedQueenThronePhoto from "@/assets/photos/Itinerary_Day6_AliceInWonderland_RedQueen_Throne.jpg";
+import WonderlandMazeMapPhoto from "@/assets/photos/Itinerary_Day6_AliceInWonderland_MazeMap.jpg";
+import WonderlandTeaPartyPhoto from "@/assets/photos/Itinerary_Day6_AliceInWonderland_TeaParty.jpg";
+import WonderlandHatsPhoto from "@/assets/photos/Itinerary_Day6_AliceInWonderland_Hats.jpg";
 // import xxxxxxxxxxxxxxx from "@/assets/photos/xxxxxxxxxxxxxxxxx.jpg";
 import { youtubeId } from "./data/youtube";
 
@@ -618,21 +627,6 @@ export const ItineraryDay6Page = () => {
             },
             className: "col-span-6",
           },
-        ]}
-      />
-      <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </PageContainerItem>
-      <PageContainerItemMedia
-        data={[
           {
             type: MediaType.Image,
             media: {
@@ -873,6 +867,123 @@ export const ItineraryDay6Page = () => {
             },
             className: "col-span-full max-w-lg mx-auto",
           }
+        ]}
+      />
+      <PageContainerItem>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: WonderlandScrollGardenPhoto,
+              alt: "Scroll found in Alice in Wonderland Maze",
+            },
+            className: "col-span-6 md:col-span-4",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: WonderlandScrollRedQueenPhoto,
+              alt: "Scroll found in Alice in Wonderland Maze",
+            },
+            className: "col-span-6 md:col-span-4",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: WonderlandBandersnatchPhoto,
+              alt: "Bandersnatch",
+            },
+            className: "col-span-full md:col-span-4",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: WonderlandRedQueenGardenEntrancePhoto,
+              alt: "Red Queen Garden Entrance",
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: WonderlandRedQueenPhoto,
+              alt: "Red Queen",
+            },
+            className: "col-span-6 row-start-2",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: WonderlandRedQueenThronePhoto,
+              alt: "Red Queen Throne",
+            },
+            className: "col-span-6 row-span-2",
+          },
+        ]}
+      />
+      <PageContainerItem>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.Image,
+            media: {
+              src: WonderlandMazeMapPhoto,
+              alt: "Alice in Wonderland Maze Map",
+            },
+            className: "col-span-full md:col-span-4",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: WonderlandTeaPartyPhoto,
+              alt: "Mad Hatter's Tea Party",
+            },
+            className: "col-span-6 md:col-span-4",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: WonderlandHatsPhoto,
+              alt: "Hats",
+            },
+            className: "col-span-6 md:col-span-4",
+          },
         ]}
       />
     </>
