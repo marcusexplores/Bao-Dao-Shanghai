@@ -430,15 +430,12 @@ export const ItineraryDay6Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        As we were walking, we came across a large crowd already gathered behind
+        stanchions on both sides of a road. With the street completely empty, it
+        was clear a parade was about to start, and since we weren't in a major
+        rush, we decided to hang around and see the show. We managed to find a
+        great spot right near the exit point, which gave us a clear view of the
+        entire proceeding of Mickey's Storybook Express as it passed by.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -452,15 +449,22 @@ export const ItineraryDay6Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Duffy and Friends were the final group to pass, and as they went by, we
+        noticed the crowd began tailing closely behind the float. We weren't
+        entirely sure why everyone was following them, but since we weren't
+        interested, we turned around to head our own way. Right then, we noticed
+        a small section of the crowd picking up their pace toward Zootopia,
+        which immediately raised our suspicions that the rides might finally be
+        available.
+      </PageContainerItem>
+      <PageContainerItem>
+        Our hunch was spot on. By the time we got near the entrance, we could
+        literally see people running, a clear sign that the attractions had
+        reopened. We followed in hot pursuit and managed to secure a spot in
+        line. At this point, our bladders were definitely starting to protest,
+        but we had no choice but to push through. We didn't want to risk losing
+        our place, especially with the risk of even longer wait times
+        potentially making us miss the fireworks later at night.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -491,15 +495,12 @@ export const ItineraryDay6Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        The queue for Zootopia: Hot Pursuit was an attraction in its own right,
+        with the absolute highlight being the life-like animatronic of Officer
+        Benjamin Clawhauser. He was stationed right behind his desk with an
+        incredible level of detail, and his eye movements, mouth
+        synchronization, and body coordination were so on point that it really
+        felt as if he were alive and speaking directly to us.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -513,15 +514,11 @@ export const ItineraryDay6Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Along the walls of the queue, photos of various police officers from the
+        movie were displayed, really leaning into the precinct theme. Since the
+        ride centered around the new Zootopia 2 movie that we hadn't seen yet,
+        some of the characters were unfamiliar to us, but it was still great to
+        spot the usual leads like Nick and Judy.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -560,15 +557,9 @@ export const ItineraryDay6Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Their office desks were also featured, and it was a great touch to see
+        how Nick and Judy's personalities were clearly showcased through the
+        different items they chose to display in their cubicles.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -591,15 +582,12 @@ export const ItineraryDay6Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Moving into the prison area, we walked past telephone booths, shower
+        rooms, and bunk beds. Walking through these sections made us feel like
+        actual officers checking in on the inmates. However, it felt like a bit
+        of a missed opportunity not to have any of the actual characters from
+        the movie in the cells to really bring the place to life and keep us
+        engaged while we waited.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -646,15 +634,13 @@ export const ItineraryDay6Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        It was only when we came across a few cells featuring a clear prison
+        break that the empty rooms finally made sense. It seems the inmates had
+        already escaped and were on the run, setting the stage for the chase
+        ahead. We even spotted a book on a table detailing the escape plans for
+        Dawn Bellwether and the Night Howler conspiracy, showing their
+        determination to take out Gazelle. Their logic was simple: no more
+        Gazelle means no more concert, and ultimately, no more Zootopia!
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -677,15 +663,12 @@ export const ItineraryDay6Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        After all the twists and turns, we finally made our way out of the
+        prison area and back into the main police department. This was where we
+        met Chief Bogo, who delivered the safety briefing in the most engaging
+        way possible. Instead of the usual dry instructions, his booming
+        presence really pulled us into the story and made even the standard
+        rules feel like part of the mission.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -705,21 +688,6 @@ export const ItineraryDay6Page = () => {
             },
             className: "col-span-6",
           },
-        ]}
-      />
-      <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </PageContainerItem>
-      <PageContainerItemMedia
-        data={[
           {
             type: MediaType.YouTube,
             media: {
@@ -730,15 +698,12 @@ export const ItineraryDay6Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        We spent about an hour and a half in line, which felt like a huge win
+        considering we didn't have express passes. Once it was finally our turn,
+        we hopped into the sleek police cruiser, and the entire simulation was
+        fantastic. Since there weren't any of those stomach-dropping moments
+        you'd get on a roller coaster, we figured it was safe enough to record
+        the whole experience from our point of view!
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -768,15 +733,17 @@ export const ItineraryDay6Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        By the time we finally finished the ride, the sky was pitch black and
+        the lights of Zootopia had completely transformed the area. It felt like
+        the city's nightlife was just getting started. It was such a cool sight
+        to see the animal citizens through the windows, with some dancing away
+        in a club and others working out in a gym. One of the best spots was
+        seeing Koslov holding up a phone, which turned into a great photo op.
+        People were getting really creative with it. Some posed like he was
+        taking a picture of them, while others held up their own phones as if he
+        were trying to scan a QR code from their screens. All these little
+        installations around the land made the whole experience feel so much
+        more immersive for us.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -847,15 +814,13 @@ export const ItineraryDay6Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Even after the ride and the whole tour of the area, we left without
+        knowing what the purpose of the Zootopia tickets we received at the
+        entrance was. It turns out those are actually collectible souvenir cards
+        rather than functional tickets for the ride. They feature different
+        characters and are meant to be a keepsakes for the 10th anniversary
+        celebrations, so we ended up with a pretty cool memento without even
+        realizing it.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -866,7 +831,7 @@ export const ItineraryDay6Page = () => {
               alt: "Tickets",
             },
             className: "col-span-full max-w-lg mx-auto",
-          }
+          },
         ]}
       />
       <PageContainerItem>
