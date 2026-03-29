@@ -10,5 +10,6 @@ export const youtubeId = {
   DisneyParade: "U56xbB7gZRw",
   Clawhauser: "hxHOdR67Ha8",
   ChiefBogo: "lbJaqRaIW0A",
-  HotPursuit: "YB5w5CEh7m0"
+  HotPursuit: "YB5w5CEh7m0",
+  SnowWhite: "C3iEtOMe-SE"
 } as const;
