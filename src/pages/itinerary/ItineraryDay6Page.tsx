@@ -1023,6 +1023,24 @@ export const ItineraryDay6Page = () => {
         with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum.
       </PageContainerItem>
+      <PageContainerItemMedia
+        data={[
+          {
+            type: MediaType.YouTube,
+            media: {
+              id: youtubeId.FireworksZootopia,
+            },
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.YouTube,
+            media: {
+              id: youtubeId.FireworksZootopia,
+            },
+            className: "col-span-6",
+          },
+        ]}
+      />
       <PageContainerItem>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
