@@ -818,9 +818,8 @@ export const ItineraryDay6Page = () => {
         knowing what the purpose of the Zootopia tickets we received at the
         entrance was. It turns out those are actually collectible souvenir cards
         rather than functional tickets for the ride. They feature different
-        characters and are meant to be a keepsakes for the 10th anniversary
-        celebrations, so we ended up with a pretty cool memento without even
-        realizing it.
+        characters and are meant to be a keepsakes, so we ended up with a pretty
+        cool memento without even realizing it.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -835,15 +834,10 @@ export const ItineraryDay6Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Looking at the time, we realized we were still well ahead of the
+        fireworks display. Not wanting to waste time loitering around, we
+        decided to check out some nearby attractions in Fantasyland. We
+        eventually wandered into the Alice in Wonderland Maze.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -874,15 +868,12 @@ export const ItineraryDay6Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Passing through the giant heart-shaped arch between the card guards, we
+        entered the Red Queen's garden. Her huge head was definitely the center
+        of attention, and we had a lot of fun mimicking her expression for some
+        funny pictures. Luckily, there was almost no queue, just a cute child
+        taking photos for someone who seemed to be the mother, so we even got a
+        chance to sit on the throne for a quick photo ourselves.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -913,15 +904,12 @@ export const ItineraryDay6Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Eventually, we reached the Mad Hatter's Tea Party at the end, where the
+        glowing, colorful lanterns and the long table set with oversized teapots
+        made for a great atmosphere. Plenty of people had gathered there to take
+        photos of themselves sitting in the chairs, looking like the VIPs of the
+        party while the rest of us were just guests. It was quite crowded, so we
+        decided it wasn't really worth the wait to get a picture of our own.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
