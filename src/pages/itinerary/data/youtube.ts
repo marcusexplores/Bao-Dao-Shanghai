@@ -12,5 +12,6 @@ export const youtubeId = {
   ChiefBogo: "lbJaqRaIW0A",
   HotPursuit: "YB5w5CEh7m0",
   SnowWhite: "C3iEtOMe-SE",
-  FireworksZootopia: "3UHDVR2lY_E"
+  FireworksZootopia: "3UHDVR2lY_E",
+  FireworksIlluminate: "ADpkBuagI5E"
 } as const;

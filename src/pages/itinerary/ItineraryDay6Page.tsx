@@ -1035,7 +1035,7 @@ export const ItineraryDay6Page = () => {
           {
             type: MediaType.YouTube,
             media: {
-              id: youtubeId.FireworksZootopia,
+              id: youtubeId.FireworksIlluminate,
             },
             className: "col-span-6",
           },
