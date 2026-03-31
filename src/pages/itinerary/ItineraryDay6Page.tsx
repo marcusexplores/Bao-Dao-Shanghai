@@ -944,15 +944,14 @@ export const ItineraryDay6Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Right at the exit of the maze, we ended up at the Enchanted Storybook
+        Castle. We weren't exactly sure what it was at first, but we spotted the
+        "Once Upon a Time" Adventure. Since we still had plenty of time and the
+        next show was about to start, we quickly joined the queue and followed
+        the crowd inside. To be honest, it wouldn't be something we would
+        purposely queue for if we weren't just trying to fill the time. That
+        said, it was a pleasant enough experience that worked out as a nice,
+        chill activity to pass the time before the big finale.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -966,15 +965,11 @@ export const ItineraryDay6Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        At the base of the castle, there were mosaic murals of various scenes
+        from the stories of the different Disney princesses. Interestingly, the
+        artwork suggested the four different seasons. We could see Tiana
+        representing spring, Rapunzel for summer, Merida for autumn, and Elsa
+        and Anna taking care of winter.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -1013,15 +1008,33 @@ export const ItineraryDay6Page = () => {
         ]}
       />
       <PageContainerItem>
-        Fireworks video is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Even after squeezing in those extra attractions, we still had time to
+        spare but not quite enough to slot in anything else. We slowly made our
+        way to the front of the castle where a huge crowd had already gathered
+        for the finale, ILLUMINATE! A Nighttime Celebration.
+      </PageContainerItem>
+      <PageContainerItem>
+        We initially figured we would just be standing around, but the ushers
+        were actually guiding everyone in an orderly way to take a seat on the
+        cold floor. It was a smart move to make sure no one blocked the view,
+        and they even advised everyone to put away balloons or anything else
+        sticking up. Although we weren't in the absolute best spot, we still
+        managed to see the show clearly, despite a few tourists at the front
+        getting a bit carried away with their excitement at times.
+      </PageContainerItem>
+      <PageContainerItem>
+        While we were waiting, we got word that we would be catching a special
+        short light display on the castle themed around the new Zootopia 2. It
+        was such a pleasant surprise and a perfect lead up to the main event.
+        Then, the finale finally kicked off and it was absolutely breathtaking!
+        The entire sky above the Enchanted Storybook Castle exploded into a
+        kaleidoscope of colors. Brilliant fireworks shot up in perfect sync with
+        the swelling music, while stunning 3D projections danced across the
+        castle walls, bringing Disney stories to life right in front of our
+        eyes. The sheer scale of the pyrotechnics combined with the glowing
+        fountains and flickering lights made for an incredible atmosphere. It
+        was a truly magical way to wrap up the night, leaving us completely
+        mesmerized as the final burst of light illuminated the park.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -1042,15 +1055,25 @@ export const ItineraryDay6Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Recording the whole setting without any tripod support was a challenge,
+        but we found a way. One of us held up the phone while the other acted as
+        a human tripod, supporting and stabilizing the hand holding the device.
+        It was no easy feat in the cold weather! Towards the end of the display,
+        while one of us was still recording, the other quickly tried to book a
+        taxi to beat the crowd. Once the show ended, we weaved through the mass
+        of people and made it to the pick up point. Sadly, the moment we reached
+        it, the taxi cancelled on us and we had to start the booking process all
+        over again.
+      </PageContainerItem>
+      <PageContainerItem>
+        By the time we finally finished, it was already quite late and we were
+        exhausted from all the walking, so we decided to order takeaway for
+        dinner from Meituan and eat in the comfort of our hotel room. Choosing
+        something filling and familiar felt like the right move to satisfy our
+        hunger. We didn't want to risk anything too adventurous that we might
+        potentially dislike and end up going hungry for the night. It turned out
+        to be the perfect way to wind down after such an intense and exciting
+        day.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -1065,15 +1088,13 @@ export const ItineraryDay6Page = () => {
         ]}
       />
       <PageContainerItem>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Once we finally tucked into bed with full stomachs and hearts to match,
+        the warmth of the shower still lingering, it hit us that our trip was
+        finally coming to a close. There was a certain symmetry in how the day
+        ended, as the last of the magic faded, a quiet melancholy settled in. It
+        wasn't so much a sadness that the journey was over, but more of a
+        grateful realization of how lucky we were that it had all happened in
+        the first place.
       </PageContainerItem>
     </>
   );
