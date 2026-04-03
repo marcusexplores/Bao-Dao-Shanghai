@@ -43,6 +43,7 @@ import BailianGoodSmileCafePhoto from "@/assets/photos/Itinerary_Day7_Bailian_Go
 import BailianGoodSmileCafeDrinkPhoto from "@/assets/photos/Itinerary_Day7_Bailian_GoodSmile_Cafe_Drink.jpg";
 import MerchLootsPhoto from "@/assets/photos/Itinerary_Day7_Loots.jpg";
 import DinnerPhoto from "@/assets/photos/Itinerary_Day7_Dinner.jpg";
+import { youtubeId } from "./data/youtube";
 
 export const ItineraryDay7Page = () => {
   return (
@@ -66,7 +67,14 @@ export const ItineraryDay7Page = () => {
               src: EggPancakeStallPhoto,
               alt: "Egg Pancake Stall",
             },
-            className: "col-span-full max-w-lg mx-auto",
+            className: "col-span-6",
+          },
+          {
+            type: MediaType.YouTube,
+            media: {
+              id: youtubeId.EggPancake,
+            },
+            className: "col-span-6 aspect-[9/16]",
           },
         ]}
       />
