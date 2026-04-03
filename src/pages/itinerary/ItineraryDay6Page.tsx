@@ -1,6 +1,6 @@
 import { PageContainerItem } from "@/components/page/PageContainerItem";
 import { PageContainerItemMedia } from "@/components/page/PageContainerItemMedia";
-import { MediaType } from "@/components/page/constants";
+import { ImagePriority, MediaType } from "@/components/page/constants";
 import BreakfastBagPhoto from "@/assets/photos/Itinerary_Day6_Breakfast_Bag.jpg";
 import BreakfastFoodPhoto from "@/assets/photos/Itinerary_Day6_Breakfast_Food.jpg";
 import EntranceWalkwayPhoto from "@/assets/photos/Itinerary_Day6_Entrance_Walkway.jpg";
@@ -93,6 +93,7 @@ export const ItineraryDay6Page = () => {
             media: {
               src: BreakfastBagPhoto,
               alt: "Breakfast Carrier Bag",
+              fetchPriority: ImagePriority.High,
             },
             className: "col-span-6",
           },
@@ -101,6 +102,7 @@ export const ItineraryDay6Page = () => {
             media: {
               src: BreakfastFoodPhoto,
               alt: "Breakfast Food",
+              fetchPriority: ImagePriority.High,
             },
             className: "col-span-6",
           },
@@ -125,6 +127,7 @@ export const ItineraryDay6Page = () => {
             media: {
               src: EntranceWalkwayPhoto,
               alt: "Entrance Walkway",
+              fetchPriority: ImagePriority.High,
             },
             className: "col-span-6",
           },
@@ -133,6 +136,7 @@ export const ItineraryDay6Page = () => {
             media: {
               src: EntranceQueuePhoto,
               alt: "Entrance Queue",
+              fetchPriority: ImagePriority.High,
             },
             className: "col-span-6",
           },
@@ -141,6 +145,7 @@ export const ItineraryDay6Page = () => {
             media: {
               src: EntrancePlazaPhoto,
               alt: "Entrance Plaza",
+              fetchPriority: ImagePriority.High,
             },
             className: "col-span-6",
           },
@@ -149,6 +154,7 @@ export const ItineraryDay6Page = () => {
             media: {
               src: EntranceCastlePhoto,
               alt: "Disney Castle taken at the entrance",
+              fetchPriority: ImagePriority.High,
             },
             className: "col-span-6",
           },
