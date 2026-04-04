@@ -6,21 +6,19 @@ import { TimelineNode } from "./TimelineNode";
 import type { TimelineActivity } from "./types";
 
 interface TimelineItemProps extends TimelineActivity {
-  index: number;
   isLast: boolean;
 }
 
 export const TimelineItem = ({
-  index,
+  day,
   title,
   description,
   subtitle,
-  icon,
   thumbnail,
   link,
   isLast,
 }: TimelineItemProps) => {
-  const isLeft = index % 2 === 0;
+  const isLeft = day % 2 === 0;
 
   // motion variants for alternating slide-in effect
   const variants = {
@@ -49,19 +47,19 @@ export const TimelineItem = ({
           >
             {title}
           </Link>
-          <p className="text-sm font-semibold text-primary/70">{subtitle}</p>
+          <Link to={link}>
+            <p className="text-sm font-semibold text-primary/70">{subtitle}</p>
+          </Link>
         </div>
         <p className="mt-2 text-sm text-muted-foreground">{description}</p>
-        <Link to={link}>
-          <TapedPhoto className="mt-5 mx-5" image={thumbnail} />
-        </Link>
+        <TapedPhoto className="mt-5 mx-5" image={thumbnail} />
       </div>
 
       <Link
         to={link}
         className="absolute md:left-1/2 top-0 h-full w-1 -translate-x-1/2 ml-5 md:ml-0"
       >
-        <TimelineNode icon={icon} isLast={isLast} />
+        <TimelineNode day={day} isLast={isLast} />
       </Link>
     </motion.div>
   );

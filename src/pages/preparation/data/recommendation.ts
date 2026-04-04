@@ -659,7 +659,7 @@ export const recommendations: Category[] = [
     items: [
       {
         name: "Dian Ping | 大众点评",
-        description: "Good Food",
+        description: "China's leading lifestyle and review app for discovering top-rated local dining, entertainment, and services",
         icon: {
           src: DianPingLogo,
           alt: "Dian Ping Logo",
@@ -672,7 +672,7 @@ export const recommendations: Category[] = [
       },
       {
         name: "YouTrip",
-        description: "Good Food",
+        description: "Multi-currency digital wallet and card offering wholesale exchange rates with zero transaction fees for global spending",
         icon: {
           src: YouTripLogo,
           alt: "YouTrip Logo",
@@ -704,7 +704,7 @@ export const recommendations: Category[] = [
       },
       {
         name: "Trust",
-        description: "Good Food",
+        description: "Digitally-native Singaporean bank that offers transparent exchange rates and real-time tracking when used for digital payments",
         icon: {
           src: TrustLogo,
           alt: "Trust Logo",
@@ -737,7 +737,7 @@ export const recommendations: Category[] = [
       },
       {
         name: "MariBank",
-        description: "Good Food",
+        description: "Singapore-based digital bank providing zero-fee overseas spending",
         icon: {
           src: MariBankLogo,
           alt: "MariBank Logo",

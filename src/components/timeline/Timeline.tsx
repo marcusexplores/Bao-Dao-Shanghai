@@ -12,7 +12,6 @@ export const Timeline = ({ data }: TimelineProps) => {
         <TimelineItem
           key={index}
           {...item}
-          index={index}
           isLast={index === data.length - 1}
         />
       ))}
