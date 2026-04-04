@@ -1,10 +1,8 @@
-import type { LucideIcon } from "lucide-react";
-
 export interface TimelineActivity {
+  day: number;
   title: string;
   subtitle: string;
   description: string;
-  icon: LucideIcon;
   thumbnail: string;
   link: string;
 }
