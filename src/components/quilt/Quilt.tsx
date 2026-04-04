@@ -1,5 +1,4 @@
 import type { ImgHTMLAttributes, SourceHTMLAttributes } from "react";
-import { motion } from "motion/react";
 import { cn } from "@/functions/classname";
 import { ImageComparison } from "@/components/comparison/ImageComparison";
 import { YoutubeViewer } from "@/components/youtube/YoutubeViewer";
