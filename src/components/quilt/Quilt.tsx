@@ -45,23 +45,13 @@ const displayTile = (index: number, tile: QuiltTile) => {
   } else {
     const image = tile.media as ImgHTMLAttributes<HTMLImageElement>;
     return (
-      <motion.div
-        key={index}
+      <img
+        {...image}
         className={cn(
-          "relative overflow-hidden group transition-all duration-300 ease-in-out",
+          "w-full h-full object-cover transition duration-500 group-hover:opacity-80 group-hover:scale-105",
           tile.className,
         )}
-        whileHover={{ scale: 1.02 }}
-        transition={{ duration: 0.2 }}
-      >
-        <img
-          {...image}
-          className={cn(
-            "w-full h-full object-cover transition duration-500 group-hover:opacity-80 group-hover:scale-105",
-            tile.className,
-          )}
-        />
-      </motion.div>
+      />
     );
   }
 };
