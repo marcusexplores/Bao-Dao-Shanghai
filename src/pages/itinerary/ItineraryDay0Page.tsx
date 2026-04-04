@@ -166,7 +166,9 @@ export const ItineraryDay0Page = () => {
         legroom and the quality of the seats, where the adjustable headrests
         provided great support and a mini back cushion added an extra layer of
         comfort. The hospitality was highly commendable, especially with the
-        complimentary supper and proactive drink service.
+        complimentary supper and proactive drink service. Although they don't
+        serve apple juice, the Chinese bayberry (杨梅) was a surprisingly
+        refreshing alternative.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
