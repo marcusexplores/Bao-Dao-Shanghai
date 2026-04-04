@@ -47,12 +47,12 @@ export const TimelineItem = ({
           >
             {title}
           </Link>
-          <p className="text-sm font-semibold text-primary/70">{subtitle}</p>
+          <Link to={link}>
+            <p className="text-sm font-semibold text-primary/70">{subtitle}</p>
+          </Link>
         </div>
         <p className="mt-2 text-sm text-muted-foreground">{description}</p>
-        <Link to={link}>
-          <TapedPhoto className="mt-5 mx-5" image={thumbnail} />
-        </Link>
+        <TapedPhoto className="mt-5 mx-5" image={thumbnail} />
       </div>
 
       <Link
