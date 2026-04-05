@@ -1,3 +1,13 @@
+import BaoApparrels from "@/assets/images/Bao_Apparrels.png";
+import BaoToiletries from "@/assets/images/Bao_Toiletries.png";
+import BaoBodyCare from "@/assets/images/Bao_BodyCare.png";
+import BaoHealth from "@/assets/images/Bao_Health.png";
+import BaoElectronics from "@/assets/images/Bao_Electronics.png";
+import BaoApplications from "@/assets/images/Bao_Applications.png";
+import BaoMoney from "@/assets/images/Bao_Money.png";
+import BaoDocuments from "@/assets/images/Bao_Documents.png";
+import BaoEssentials from "@/assets/images/Bao_Essentials.png";
+
 interface Item {
   name: string;
   isChecked: boolean;
@@ -12,7 +22,7 @@ export interface Category {
 export const checklist: Category[] = [
   {
     name: "Apparels",
-    icon: "👕",
+    icon: BaoApparrels,
     items: [
       { name: "Top x7", isChecked: false },
       { name: "Bottom x3", isChecked: false },
@@ -30,7 +40,7 @@ export const checklist: Category[] = [
   },
   {
     name: "Toiletries",
-    icon: "🧴",
+    icon: BaoToiletries,
     items: [
       { name: "Toothbrush", isChecked: false },
       { name: "Toothpaste", isChecked: false },
@@ -41,7 +51,7 @@ export const checklist: Category[] = [
   },
   {
     name: "Body Care",
-    icon: "🧴",
+    icon: BaoBodyCare,
     items: [
       { name: "Sunscreen", isChecked: false },
       { name: "Moisturiser", isChecked: false },
@@ -51,7 +61,7 @@ export const checklist: Category[] = [
   },
   {
     name: "Health",
-    icon: "🧴",
+    icon: BaoHealth,
     items: [
       { name: "Medications", isChecked: false },
       { name: "Health Supplements", isChecked: false },
@@ -62,7 +72,7 @@ export const checklist: Category[] = [
   },
   {
     name: "Electronics",
-    icon: "📱",
+    icon: BaoElectronics,
     items: [
       { name: "Phone & Charger", isChecked: false },
       { name: "Power Bank & Charger", isChecked: false },
@@ -73,7 +83,7 @@ export const checklist: Category[] = [
   },
   {
     name: "Applications",
-    icon: "📱",
+    icon: BaoApplications,
     items: [
       { name: "Alipay", isChecked: false },
       { name: "WeChat Pay", isChecked: false },
@@ -91,7 +101,7 @@ export const checklist: Category[] = [
   },
   {
     name: "Money",
-    icon: "📄",
+    icon: BaoMoney,
     items: [
       { name: "Wallet", isChecked: false },
       { name: "Chinese RMB", isChecked: false },
@@ -100,7 +110,7 @@ export const checklist: Category[] = [
   },
   {
     name: "Documents",
-    icon: "📄",
+    icon: BaoDocuments,
     items: [
       { name: "Passport", isChecked: false },
       { name: "Clear Folder (For keeping receipts)", isChecked: false },
@@ -117,7 +127,7 @@ export const checklist: Category[] = [
   },
   {
     name: "Essentials",
-    icon: "🎒",
+    icon: BaoEssentials,
     items: [
       { name: "Backpack", isChecked: false },
       { name: "Expandable Duffel Bag", isChecked: false },

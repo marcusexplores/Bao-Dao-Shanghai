@@ -52,7 +52,7 @@ export const ChecklistSection = ({
       {/* Category Header */}
       <div className="mb-6 relative">
         <div className="flex items-center gap-3 mb-3">
-          <div className="text-5xl">{category.icon}</div>
+          <img src={category.icon} alt={category.name} className="w-12 h-12 object-contain" />
           <div className="flex-1">
             <div className="flex items-center gap-2">
               <h2 className="text-3xl mb-1">{category.name}</h2>

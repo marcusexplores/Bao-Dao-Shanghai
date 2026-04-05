@@ -1,4 +1,4 @@
-import { Document, Page, Text, View, StyleSheet } from '@react-pdf/renderer';
+import { Document, Page, Text, View, Image, StyleSheet } from '@react-pdf/renderer';
 import type { Category } from "../data/checklist";
 
 interface ChecklistPdfProps {
@@ -15,8 +15,13 @@ export const ChecklistPdf = ({ data }: ChecklistPdfProps) => {
           {data.map((category, idx) => (
             <View key={idx} style={styles.categoryBox} wrap={false}>
               {/* Category Header */}
-              <Text style={styles.categoryTitle}>{category.name}</Text>
-
+              <View style={styles.categoryHeader}>
+                <Text style={styles.categoryTitle}>{category.name}</Text>
+                <Image
+                  style={styles.image}
+                  src={category.icon}
+                />
+              </View>
               {/* Items */}
               {category.items.map((item, itemIdx) => (
                 <View key={itemIdx} style={styles.itemRow}>
@@ -55,13 +60,18 @@ const styles = StyleSheet.create({
     width: "47%", // Creates a nice 2-column effect
     marginBottom: 15,
   },
-  categoryTitle: {
-    fontSize: 12,
-    fontWeight: "bold",
+  categoryHeader: {
+    flexDirection: "row",
+    alignItems: "center",
     backgroundColor: "#f0f0f0",
     padding: 5,
     marginBottom: 5,
     borderLeft: "3pt solid #000",
+  },
+  categoryTitle: {
+    fontSize: 12,
+    fontWeight: "bold",
+    marginRight: 8,
   },
   itemRow: {
     flexDirection: "row",
@@ -76,5 +86,9 @@ const styles = StyleSheet.create({
   },
   itemName: {
     flex: 1,
+  },
+  image: {
+    width: 20,
+    height: 20,
   },
 });

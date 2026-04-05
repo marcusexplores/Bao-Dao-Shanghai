@@ -16,13 +16,13 @@ export const PreparationChecklistPage = () => {
       prev.map((cat) =>
         cat.name === categoryName
           ? {
-              ...cat,
-              items: cat.items.map((item) =>
-                item.name === itemName
-                  ? { ...item, isChecked: !item.isChecked }
-                  : item
-              ),
-            }
+            ...cat,
+            items: cat.items.map((item) =>
+              item.name === itemName
+                ? { ...item, isChecked: !item.isChecked }
+                : item
+            ),
+          }
           : cat
       )
     );
@@ -35,15 +35,15 @@ export const PreparationChecklistPage = () => {
       prev.map((cat) =>
         cat.name === categoryName
           ? {
-              ...cat,
-              items: [
-                ...cat.items,
-                {
-                  name: itemName.trim(),
-                  isChecked: false,
-                },
-              ],
-            }
+            ...cat,
+            items: [
+              ...cat.items,
+              {
+                name: itemName.trim(),
+                isChecked: false,
+              },
+            ],
+          }
           : cat
       )
     );
@@ -54,9 +54,9 @@ export const PreparationChecklistPage = () => {
       prev.map((cat) =>
         cat.name === categoryName
           ? {
-              ...cat,
-              items: cat.items.filter((item) => item.name !== itemName),
-            }
+            ...cat,
+            items: cat.items.filter((item) => item.name !== itemName),
+          }
           : cat
       )
     );
@@ -112,7 +112,7 @@ export const PreparationChecklistPage = () => {
             )}
           </PageContainerItem>
           <PageContainerItem className="flex justify-center items-center mt-6">
-            <ChecklistPdfButton data={savedList}/>
+            <ChecklistPdfButton data={savedList} />
           </PageContainerItem>
         </motion.div>
       </PageContainer>
@@ -136,11 +136,6 @@ export const PreparationChecklistPage = () => {
             </motion.div>
           ))}
         </div>
-      </PageContainer>
-
-      {/* Footer */}
-      <PageContainer className="text-center text-sm">
-        <p>Download checklist</p>
       </PageContainer>
     </Page>
   );
