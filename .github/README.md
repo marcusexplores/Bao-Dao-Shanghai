@@ -5,7 +5,7 @@
 # The Tri-City Chronicle: Shanghai, Hangzhou & Suzhou
 Welcome! This repository is a living scrapbook of our journey through East China. Whether you’re here for the neon skylines of Shanghai, the serene tea hills of Hangzhou, or the classical gardens of Suzhou, we’ve got you covered.
 
-Use our documented experiences to find your "why," and use our interactive checklist and budget tracker to handle the "how."
+Use our documented experiences to find your "why" and use our interactive checklist and budget tracker to handle the "how."
 
 <div align="center">
   <a href="https://marcusexplores.github.io/Bao-Dao-Shanghai/">
@@ -26,5 +26,5 @@ Use our documented experiences to find your "why," and use our interactive check
 | **Core Stack** | React, TypeScript, [Vite](https://vite.dev) |
 | **AI Tools** | [Gemini](https://gemini.google.com/app) (Language & Graphics), [Figma Make](https://www.figma.com/make) |
 | **UI & Animation** | [Tailwind CSS](https://tailwindcss.com), [shadcn/ui](https://ui.shadcn.com), [shadcn.io](https://www.shadcn.io), [Motion](https://motion.dev) |
-| **Vector Design** | [Inkscape](https://inkscape.org) (SVG creation & editing) |
-| **Processing** | [iLoveIMG](https://www.iloveimg.com/compress-image) (Image Compression), [FreeConvert](https://www.freeconvert.com/video-compressor) (Video Compression), [Watermark Remover](https://www.watermarkremover.io/) |
+| **Image Processing** | [Inkscape](https://inkscape.org) (SVG creation & editing), [iLoveIMG](https://www.iloveimg.com/compress-image), [Watermark Remover](https://www.watermarkremover.io/) |
+| **Video Processing** | [Microsoft Clipchamp](https://clipchamp.com), [YouTube Studio](https://studio.youtube.com), [TikTok](https://www.tiktok.com), [FreeConvert](https://www.freeconvert.com/video-compressor) (Video Compression) |
