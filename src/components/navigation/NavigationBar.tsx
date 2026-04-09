@@ -71,7 +71,7 @@ export const NavigationBar = () => {
         <div className="flex justify-between items-center max-w-7xl mx-auto">
           <NavigationBarLeft />
           <NavigationBarCenter />
-          <NavigationBarRight />
+          <NavigationBarRight isAtTop={!isScrolledDown} />
         </div>
       </motion.div>
     </>
