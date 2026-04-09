@@ -1,6 +1,7 @@
 import { PageContainerItem } from "@/components/page/PageContainerItem";
 import { PageContainerItemMedia } from "@/components/page/PageContainerItemMedia";
 import { ImagePriority, MediaType } from "@/components/page/constants";
+import { Tipbox } from "@/components/tipbox/Tipbox";
 import HotelBuffetHotPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Hot.jpg";
 import HotelBuffetSidesPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Sides.jpg";
 import HotelBuffetDrinkPhoto from "@/assets/photos/Itinerary_Day2_Hotel_Buffet_Drink.jpg";
@@ -65,7 +66,6 @@ import HefangStreetSkewersPhoto from "@/assets/photos/Itinerary_Day2_HefangStree
 import HefangStreetPasteryPhoto from "@/assets/photos/Itinerary_Day2_HefangStreet_Pastery.jpg";
 import RobotVideo from "@/assets/videos/Itinerary_Day2_Omg_Robot.mp4";
 import { youtubeId } from "./data/youtube";
-import { Tipbox } from "@/components/tipbox/TipBox";
 
 export const ItineraryDay2Page = () => {
   return (
