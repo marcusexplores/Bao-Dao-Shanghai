@@ -15,7 +15,7 @@ export const NavigationMenu = () => {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <MenuIcon className="cursor-pointer" />
+        <MenuIcon className="cursor-pointer text-primary-foreground" />
       </SheetTrigger>
       <SheetContent side="left" className="w-75">
         <SheetHeader>

@@ -15,7 +15,7 @@ export const NavigationBarItem = ({ item, level }: NavigationBarItemProps) => {
   if (item.type === "page") {
     return (
       <Link to={item.key}>
-        <span className="text-sm">{item.name}</span>
+        <span className="text-sm text-primary-foreground">{item.name}</span>
       </Link>
     );
   }
@@ -23,11 +23,11 @@ export const NavigationBarItem = ({ item, level }: NavigationBarItemProps) => {
   return (
     <div className="flex">
       <Link to={item.key} className="mr-1">
-        <span className="text-sm">{item.name}</span>
+        <span className="text-sm text-primary-foreground">{item.name}</span>
       </Link>
       <DropdownMenu modal={false}>
         <DropdownMenuTrigger>
-          <ChevronDownIcon className='size-4 shrink-0 transition-transform [[data-state="open"]>&]:rotate-180 cursor-pointer' />
+          <ChevronDownIcon className='text-primary-foreground size-4 shrink-0 transition-transform [[data-state="open"]>&]:rotate-180 cursor-pointer' />
         </DropdownMenuTrigger>
         <DropdownMenuContent align="start">
           {item.children.map((item) => (
