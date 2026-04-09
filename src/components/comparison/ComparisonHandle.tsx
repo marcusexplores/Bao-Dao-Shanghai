@@ -1,13 +1,11 @@
-import type { ComponentProps, ReactNode } from "react";
+import type { ComponentProps } from "react";
 import { useTransform, motion } from "motion/react";
 import { GripVerticalIcon } from "lucide-react";
 import { cn } from "@/functions/classname";
 import { useComparisonContext } from "./hooks";
 import { SliderMode } from "./constants";
 
-type ComparisonHandleProps = ComponentProps<typeof motion.div> & {
-  children?: ReactNode;
-};
+type ComparisonHandleProps = ComponentProps<typeof motion.div>;
 
 export const ComparisonHandle = ({
   className,
