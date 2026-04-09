@@ -3,7 +3,8 @@ import { navigationItems } from "./data";
 
 export const NavigationBarRight = () => {
   return (
-    <div className="flex items-center space-x-6">
+    <div className="flex items-center">
+      <div className="w-6 lg:hidden"></div>
       <nav className="hidden lg:flex space-x-8">
         {navigationItems.map((item) => (
           <NavigationBarItem key={item.name} item={item} level={0} />

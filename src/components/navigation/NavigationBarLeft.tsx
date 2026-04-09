@@ -3,9 +3,9 @@ import { NavigationLogo } from "./NavigationLogo";
 
 export const NavigationBarLeft = () => {
   return (
-    <div className="flex items-center space-x-4">
+    <div className="flex items-center">
       {/* Mobile Menu Toggle */}
-      <div className={`lg:hidden`}>
+      <div className="lg:hidden">
         <NavigationMenu />
       </div>
 
