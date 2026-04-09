@@ -1,10 +1,8 @@
-import type { ReactNode } from "react";
+import type { ComponentProps } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { useDialogContext } from "./hooks";
 
-interface DialogContentProps {
-  children: ReactNode;
-}
+type DialogContentProps = ComponentProps<typeof motion.div>;
 
 export const DialogContent = ({ children }: DialogContentProps) => {
   const { isOpen, closeDialog } = useDialogContext();

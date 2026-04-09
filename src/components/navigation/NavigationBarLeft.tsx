@@ -1,12 +1,16 @@
 import { NavigationMenu } from "./NavigationMenu";
 import { NavigationLogo } from "./NavigationLogo";
 
-export const NavigationBarLeft = () => {
+interface NavigationBarLeftProps {
+  isAtTop: boolean;
+}
+
+export const NavigationBarLeft = ({ isAtTop }: NavigationBarLeftProps) => {
   return (
-    <div className="flex items-center space-x-4">
+    <div className="flex items-center">
       {/* Mobile Menu Toggle */}
-      <div className={`lg:hidden`}>
-        <NavigationMenu />
+      <div className="lg:hidden">
+        <NavigationMenu isAtTop={isAtTop} />
       </div>
 
       {/* Desktop Logo  */}

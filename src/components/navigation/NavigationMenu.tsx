@@ -8,14 +8,23 @@ import { SheetFooter } from "@/components/sheet/SheetFooter";
 import { Separator } from "@/components/separator/Separator";
 import { ExternalLink } from "@/components/link/ExternalLink";
 import Bao1 from "@/assets/vectors/Bao1_DongPoRou.svg";
+import { cn } from "@/functions/classname";
 import { NavigationMenuItem } from "./NavigationMenuItem";
 import { navigationMenuItems } from "./data";
 
-export const NavigationMenu = () => {
+interface NavigationMenuProps {
+  isAtTop: boolean;
+}
+
+export const NavigationMenu = ({ isAtTop }: NavigationMenuProps) => {
+  const textColor = isAtTop
+    ? "text-foreground"
+    : "text-background";
+
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <MenuIcon className="cursor-pointer" />
+        <MenuIcon className={cn("cursor-pointer", textColor)} />
       </SheetTrigger>
       <SheetContent side="left" className="w-75">
         <SheetHeader>
