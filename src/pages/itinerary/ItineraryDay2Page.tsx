@@ -65,6 +65,7 @@ import HefangStreetSkewersPhoto from "@/assets/photos/Itinerary_Day2_HefangStree
 import HefangStreetPasteryPhoto from "@/assets/photos/Itinerary_Day2_HefangStreet_Pastery.jpg";
 import RobotVideo from "@/assets/videos/Itinerary_Day2_Omg_Robot.mp4";
 import { youtubeId } from "./data/youtube";
+import { Tipbox } from "@/components/tipbox/TipBox";
 
 export const ItineraryDay2Page = () => {
   return (
@@ -849,6 +850,14 @@ export const ItineraryDay2Page = () => {
           },
         ]}
       />
+      <PageContainerItem>
+        <Tipbox>
+          Keep your eyes peeled for the cameras and keep that smile on! Don't
+          waste your ride fighting with your raincoat hoodie because it is not
+          worth missing the view. If your hair gets a bit wild, don't sweat it.
+          There are hairdryers and mirrors waiting for you at the finish line!
+        </Tipbox>
+      </PageContainerItem>
       <PageContainerItem>
         Stepping out of the boat, we found that the ride ended directly just
         outside a drying area, where we were able to dispose of our raincoats
