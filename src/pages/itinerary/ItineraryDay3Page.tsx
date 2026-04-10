@@ -41,6 +41,8 @@ import BernardTaxiPhoto from "@/assets/photos/Itinerary_Day3_Bernard_Taxi.jpg";
 import BernardSitPhoto from "@/assets/photos/Itinerary_Day3_Bernard_Sit.jpg";
 import ChristmasMarketPhoto from "@/assets/photos/Itinerary_Day3_ChristmasMarket.jpg";
 import LiveAgentChatPhoto from "@/assets/photos/Itinerary_Day3_AlipayLiveAgent.jpg";
+import { ElaborationModal } from "./components/ElaborationModal";
+import { elaboration } from "./data/elaboration";
 
 export const ItineraryDay3Page = () => {
   return (
@@ -70,12 +72,16 @@ export const ItineraryDay3Page = () => {
         ]}
       />
       <PageContainerItem>
-        Once we arrived in the city, we took a taxi straight to the Mehood
-        Elegant Hotel Shanghai Bund (上海外滩雅致酒店). A porter greeted us
-        immediately to help move our luggage to the reception counter, where we
-        enjoyed a swift and easy check-in. The service remained excellent as he
-        then escorted us to our room and delivered our bags, making the start of
-        our stay feel seamless and welcoming.
+        Once we arrived in the city, we took a taxi straight to the
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.MehoodElegantHotel}>
+          Mehood Elegant Hotel Shanghai Bund
+        </ElaborationModal>
+        . A porter greeted us immediately to help move our luggage to the
+        reception counter, where we enjoyed a swift and easy check-in. The
+        service remained excellent as he then escorted us to our room and
+        delivered our bags, making the start of our stay feel seamless and
+        welcoming.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -132,12 +138,17 @@ export const ItineraryDay3Page = () => {
       />
       <PageContainerItem>
         Feeling hungry and eager to find something quickly, we decided to stop
-        at the first nearby eatery that caught our eye. We came across a beef
-        noodle shop and settled in for brunch. After noticing that almost every
-        table had ordered the bone marrow set, we decided to try a bowl for
-        ourselves. However, we weren't accustomed to the dish and found it quite
-        difficult to eat, so we couldn't really appreciate it. Fortunately, the
-        standard beef noodles were quite good and hit the spot.
+        at the first nearby eatery that caught our eye. We came across a
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.BeefBoneSoupNoodles}>
+          beef noodle shop
+        </ElaborationModal>
+        <span>&nbsp;</span>
+        and settled in for brunch. After noticing that almost every table had
+        ordered the bone marrow set, we decided to try a bowl for ourselves.
+        However, we weren't accustomed to the dish and found it quite difficult
+        to eat, so we couldn't really appreciate it. Fortunately, the standard
+        beef noodles were quite good and hit the spot.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -216,12 +227,21 @@ export const ItineraryDay3Page = () => {
       />
       <PageContainerItem>
         Still holding onto a hunch that they had to be nearby, we refused to
-        believe they had been removed. Pushing further ahead, we finally spotted
-        the iconic Lordly Trashcans from Honkai: Star Rail, which was a pleasant
-        surprise. We had only expected to see SAM and Pollux, but to our
-        delight, there were several other characters displayed on a massive
-        birthday cake. The only downside was our tight schedule. Since we had to
-        visit so early in the day, we missed seeing SAM's wings lit up.
+        believe they had been removed. Pushing
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.MihoyoThemePark}>
+          further ahead
+        </ElaborationModal>
+        , we finally spotted the iconic Lordly Trashcans from
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.HonkaiStarRail}>
+          Honkai: Star Rail
+        </ElaborationModal>
+        , which was a pleasant surprise. We had only expected to see SAM and
+        Pollux, but to our delight, there were several other characters
+        displayed on a massive birthday cake. The only downside was our tight
+        schedule. Since we had to visit so early in the day, we missed seeing
+        SAM's wings lit up.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -277,10 +297,15 @@ export const ItineraryDay3Page = () => {
       />
       <PageContainerItem>
         With the photo session complete, we noticed a sign for a miHoYo store
-        situated on the second floor of The Ring Live (鑫耀光环) mall nearby.
-        The gaming atmosphere followed us right into the building, as the entire
-        mall was themed with character statues and standees, featuring popular
-        titles like Honkai: Star Rail and Arknights.
+        situated on the second floor of
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.TheRingLive}>
+          The Ring Live
+        </ElaborationModal>
+        <span>&nbsp;</span>
+        mall nearby. The gaming atmosphere followed us right into the building,
+        as the entire mall was themed with character statues and standees,
+        featuring popular titles like Honkai: Star Rail and Arknights.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -323,19 +348,27 @@ export const ItineraryDay3Page = () => {
       />
       <PageContainerItem>
         Directly opposite was another store carrying merchandise from various
-        other games, including Wuthering Waves. We took the opportunity to
-        compare their prices with online e-commerce platforms, only to find that
-        things were notably cheaper online. Because of the price difference, we
-        decided to pass on buying anything there, keeping our wallets closed for
-        the time being.
+        other games, including
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.WutheringWaves}>
+          Wuthering Waves
+        </ElaborationModal>
+        . We took the opportunity to compare their prices with online e-commerce
+        platforms, only to find that things were notably cheaper online. Because
+        of the price difference, we decided to pass on buying anything there,
+        keeping our wallets closed for the time being.
       </PageContainerItem>
       <PageContainerItem>
         After finishing our gaming-focused shopping, we spent a little more time
         exploring the rest of the mall, though nothing else really caught our
-        attention. Feeling a bit thirsty, we decided to grab a drink from Gu Ren
-        Shuo (谷人说), a shop specializing in grain-based teas. It was our first
-        time trying this style of beverage, and while it was a new experience,
-        we found the taste quite acceptable.
+        attention. Feeling a bit thirsty, we decided to grab a drink from
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.GuRenShuo}>
+          Gu Ren Shuo
+        </ElaborationModal>
+        , a shop specializing in grain-based teas. It was our first time trying
+        this style of beverage, and while it was a new experience, we found the
+        taste quite acceptable.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -358,10 +391,14 @@ export const ItineraryDay3Page = () => {
         ]}
       />
       <PageContainerItem>
-        As the sun began to set, we took a taxi towards Yu Garden (豫园). The
-        ride was going smoothly until the driver seemingly jinxed himself. He
-        had just been commenting on how confusing this particular stretch of the
-        highway was when he immediately took a wrong turn, forcing us into a
+        As the sun began to set, we took a taxi towards
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.YuGarden}>
+          Yu Garden
+        </ElaborationModal>
+        . The ride was going smoothly until the driver seemingly jinxed himself.
+        He had just been commenting on how confusing this particular stretch of
+        the highway was when he immediately took a wrong turn, forcing us into a
         lengthy detour. He spent the rest of the trip venting his frustration
         aloud, cussing at the poor road design. Upon reaching our destination,
         he promised to cover the cost of the extra distance. We took him at his
@@ -431,12 +468,17 @@ export const ItineraryDay3Page = () => {
       <PageContainerItem>
         Continuing our walk, we took a moment to admire the ornate buildings and
         watch tourists dressed in elegant traditional clothes posing for photos.
-        We eventually came across the famous Da Hu Chun (大壶春) and quickly
-        headed inside, only to find the shop packed to capacity. We were lucky
-        to snag two spots at a counter by squeezing in next to other diners.
-        Seeking a better experience than our previous meal, we ordered the fried
-        pork chop and Shengjianbao (生煎包). We were glad we gave it a chance,
-        as the flavors were far superior and left us feeling much more
+        We eventually came across the famous
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.DaHuChun}>
+          Da Hu Chun
+        </ElaborationModal>
+        <span>&nbsp;</span>
+        and quickly headed inside, only to find the shop packed to capacity. We
+        were lucky to snag two spots at a counter by squeezing in next to other
+        diners. Seeking a better experience than our previous meal, we ordered
+        the fried pork chop and Shengjianbao (生煎包). We were glad we gave it a
+        chance, as the flavors were far superior and left us feeling much more
         satisfied.
       </PageContainerItem>
       <PageContainerItemMedia
@@ -460,16 +502,21 @@ export const ItineraryDay3Page = () => {
         ]}
       />
       <PageContainerItem>
-        We discovered even more variety at 小吃城, a vibrant food court that
-        brings together a lineup of time-honored eateries. It remains a premier
-        destination for anyone seeking the city's most authentic flavors, but
-        because we were still feeling quite full from our earlier drinks and
-        snacks, we couldn't possibly try everything on offer, no matter how
-        delicious it all looked. After a difficult time narrowing down our
-        choices, we finally settled on a massive scallion pancake (葱油饼) that
-        was quite literally as big as our faces. To balance out the savory snack
-        and quench our thirst, we paired it with a soothing bowl of roasted
-        pears with longan and peach dessert (桂圆桃胶烤梨).
+        We discovered even more variety at a vibrant
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.XiaoChiCheng}>
+          food court
+        </ElaborationModal>
+        <span>&nbsp;</span>
+        that brings together a lineup of time-honored eateries. It remains a
+        premier destination for anyone seeking the city's most authentic
+        flavors, but because we were still feeling quite full from our earlier
+        drinks and snacks, we couldn't possibly try everything on offer, no
+        matter how delicious it all looked. After a difficult time narrowing
+        down our choices, we finally settled on a massive scallion pancake
+        (葱油饼) that was quite literally as big as our faces. To balance out
+        the savory snack and quench our thirst, we paired it with a soothing
+        bowl of roasted pears with longan and peach dessert (桂圆桃胶烤梨).
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -492,10 +539,18 @@ export const ItineraryDay3Page = () => {
         ]}
       />
       <PageContainerItem>
-        Feeling completely stuffed, we began a slow stroll toward the Bund to
-        help with digestion. As we passed the iconic Huxinting (湖心亭) Teahouse
-        and the Jiuqu (九曲桥) Bridge, we managed to find a clear spot away from
-        the crowds to capture the night’s beauty. It was a stark contrast to the
+        Feeling completely stuffed, we began a slow stroll toward
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.TheBund}>The Bund</ElaborationModal>
+        <span>&nbsp;</span>
+        to help with digestion. As we passed the iconic
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.HuXinTing}>
+          Hu Xin Ting Teahouse
+        </ElaborationModal>
+        <span>&nbsp;</span>
+        and the Jiuqu Bridge (九曲桥), we managed to find a clear spot away from
+        the crowds to capture the night's beauty. It was a stark contrast to the
         area directly opposite us, where crowds had gathered and tourists in
         elaborate traditional attire were busy posing for photos against the
         illuminated backdrop.
@@ -515,15 +570,35 @@ export const ItineraryDay3Page = () => {
       <PageContainerItem>
         When we arrived, we were pleasantly surprised to find the area far less
         crowded than we had expected. We had a clear, unobstructed view of the
-        Lujiazui (陸家嘴) Skyline, including the Oriental Pearl Tower
-        (东方明珠广播电视塔), the Shanghai World Financial Center
-        (上海环球金融中心) and Shanghai Tower (上海中心大厦). However, as we
-        strolled toward the main swarm of people, we realized we hadn't actually
-        been at the main part of the Bund (外滩). The "real" spot was absolutely
-        packed, making it nearly impossible to find an opening for a good photo.
-        There were also many freelance photographers weaving through the crowd
-        offering their services. We felt glad that we had unintentionally ended
-        up on the quieter side first.
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.LuJiaZui}>
+          Lujiazui
+        </ElaborationModal>
+        <span>&nbsp;</span>
+        Skyline, including the
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.OrientalPearlTower}>
+          Oriental Pearl Tower
+        </ElaborationModal>
+        , the
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.ShanghaiWorldFinancialCenter}>
+          Shanghai World Financial Center
+        </ElaborationModal>
+        <span>&nbsp;</span>
+        and the
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.ShanghaiTower}>
+          Shanghai Tower
+        </ElaborationModal>
+        . However, as we strolled toward the main swarm of people, we realized
+        we hadn't actually been at the main part of
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.TheBund}>The Bund</ElaborationModal>
+        . The "real" spot was absolutely packed, making it nearly impossible to
+        find an opening for a good photo. There were also many freelance
+        photographers weaving through the crowd offering their services. We felt
+        glad that we had unintentionally ended up on the quieter side first.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -538,12 +613,15 @@ export const ItineraryDay3Page = () => {
         ]}
       />
       <PageContainerItem>
-        On the other side of the Bund, we were surrounded by beautifully lit
-        golden buildings. The colonial-era architecture was stunning at night,
-        with the grand facades bathed in a warm glow that gave the entire street
-        a majestic, historical feel. It was the perfect spot for some photogenic
-        shots, as the classic European styles provided a sophisticated backdrop
-        that looked amazing in photos.
+        On the other side of
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.TheBund}>The Bund</ElaborationModal>
+        , we were surrounded by beautifully lit golden buildings. The
+        colonial-era architecture was stunning at night, with the grand facades
+        bathed in a warm glow that gave the entire street a majestic, historical
+        feel. It was the perfect spot for some photogenic shots, as the classic
+        European styles provided a sophisticated backdrop that looked amazing in
+        photos.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -574,13 +652,17 @@ export const ItineraryDay3Page = () => {
         ]}
       />
       <PageContainerItem>
-        Most people visit Nanjing Road and the Bund on the same day, but since
-        it was already late, we decided to save Nanjing Road for another visit.
-        We also considered stopping by the Christmas market but ultimately
-        decided against it. Since there was an entrance fee and we knew we
-        couldn't eat another bite or find anything we truly needed to buy, it
-        didn't seem worth the cost. With our day finally winding down, we
-        decided to head back to the hotel for some rest.
+        Most people visit Nanjing Road and
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.TheBund}>The Bund</ElaborationModal>
+        <span>&nbsp;</span>
+        on the same day, but since it was already late, we decided to save
+        Nanjing Road for another visit. We also considered stopping by the
+        Christmas market but ultimately decided against it. Since there was an
+        entrance fee and we knew we couldn't eat another bite or find anything
+        we truly needed to buy, it didn't seem worth the cost. With our day
+        finally winding down, we decided to head back to the hotel for some
+        rest.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[

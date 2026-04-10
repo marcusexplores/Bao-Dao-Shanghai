@@ -1,6 +1,7 @@
 import { PDFDownloadLink } from "@react-pdf/renderer";
 import { ChecklistPdf } from "./ChecklistPdf";
 import type { Category } from "../data/checklist";
+import { Button } from "@/components/button/Button";
 
 interface ChecklistPdfButtonProps {
   data: Category[];
@@ -8,13 +9,13 @@ interface ChecklistPdfButtonProps {
 
 export const ChecklistPdfButton = ({ data }: ChecklistPdfButtonProps) => (
   <div>
-    <PDFDownloadLink
-      document={<ChecklistPdf data={data} />}
-      fileName="travel-checklist.pdf"
-      className="inline-block bg-black text-white px-6 py-2 rounded-md font-medium hover:bg-gray-800 transition-colors"
-    >
-      Download PDF
-      {/* {({ loading }) => (loading ? "Generating..." : "Download PDF")} */}
-    </PDFDownloadLink>
+    <Button asChild className="px-6 py-2 rounded-md">
+      <PDFDownloadLink
+        document={<ChecklistPdf data={data} />}
+        fileName="travel-checklist.pdf"
+      >
+        Download PDF
+      </PDFDownloadLink>
+    </Button>
   </div>
 );

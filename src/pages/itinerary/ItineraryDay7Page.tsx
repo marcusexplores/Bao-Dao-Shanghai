@@ -44,6 +44,8 @@ import BailianGoodSmileCafePhoto from "@/assets/photos/Itinerary_Day7_Bailian_Go
 import BailianGoodSmileCafeDrinkPhoto from "@/assets/photos/Itinerary_Day7_Bailian_GoodSmile_Cafe_Drink.jpg";
 import MerchLootsPhoto from "@/assets/photos/Itinerary_Day7_Loots.jpg";
 import DinnerPhoto from "@/assets/photos/Itinerary_Day7_Dinner.jpg";
+import { ElaborationModal } from "./components/ElaborationModal";
+import { elaboration } from "./data/elaboration";
 import { youtubeId } from "./data/youtube";
 
 export const ItineraryDay7Page = () => {
@@ -55,8 +57,13 @@ export const ItineraryDay7Page = () => {
         focusing mostly on eating and shopping without any real rush, so we woke
         up much later than usual and enjoyed the extra rest. Instead of the
         usual food delivery, we decided to head out for a proper breakfast to
-        start the morning right. We caught a taxi to the trending egg pancake
-        shop, Old Shanghai Egg Pancake (老上海鸡蛋饼), at Ding Xing Road.
+        start the morning right. We caught a taxi to the trending
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.DingXingRoadEggPancake}>
+          egg pancake shop
+        </ElaborationModal>
+        <span>&nbsp;</span>
+        at Ding Xing Road.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -101,8 +108,12 @@ export const ItineraryDay7Page = () => {
         By the time it was finally our turn, we had been waiting for around 45
         minutes. Since the pancakes were still piping hot, we decided to hold
         off and find a spot to eat them later. We then made our way over to the
-        Park Hotel, which was just a few minutes walk away and famous for its
-        iconic butterfly shaped pastries.
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.ParkHotelBakery}>
+          Park Hotel Bakery
+        </ElaborationModal>
+        , which was just a few minutes walk away and famous for its iconic
+        butterfly shaped pastries.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -120,9 +131,13 @@ export const ItineraryDay7Page = () => {
       <PageContainerItem>
         Unfortunately, the queue here was even longer, and we weren't ready to
         commit to another hour of waiting in line. We decided to give it a pass
-        and hopped in a taxi to Joy City (大悦城) instead. This place is a total
-        haven for subculture enthusiasts, with massive sections dedicated to
-        anime, gaming, and all sorts of "geeky" collectibles.
+        and hopped in a taxi to
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.JoyCity}>Joy City</ElaborationModal>
+        <span>&nbsp;</span>
+        instead. This place is a total haven for subculture enthusiasts, with
+        massive sections dedicated to anime, gaming, and all sorts of "geeky"
+        collectibles.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -181,9 +196,10 @@ export const ItineraryDay7Page = () => {
         we had bought earlier. They were incredibly filling and definitely worth
         the wait, though we suspect they would have been even better had we
         eaten them hot right after buying them. Feeling a bit thirsty after the
-        meal, we went on the hunt for a drink stall and stumbled upon Guoyaya
-        (果呀呀), which turned out to be a pretty good choice to wash everything
-        down.
+        meal, we went on the hunt for a drink stall and stumbled upon
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.Guoyaya}>Guoyaya</ElaborationModal>,
+        which turned out to be a pretty good choice to wash everything down.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -207,10 +223,24 @@ export const ItineraryDay7Page = () => {
       />
       <PageContainerItem>
         With our stomachs filled, it was time to let the shopping begin! We were
-        totally thrilled when the first shop we visited, Goodsfun (森罗万象),
-        already had merchandise from games we actually play, like Wuthering
-        Waves and Punishing Gray Raven. We couldn't resist picking up a few
-        character standees to add to our collection.
+        totally thrilled when the first shop we visited,
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.Goodsfun}>
+          GOODSFUN
+        </ElaborationModal>
+        , already had merchandise from games we actually play, like
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.WutheringWaves}>
+          Wuthering Waves
+        </ElaborationModal>
+        <span>&nbsp;</span>
+        and
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.PunishingGrayRaven}>
+          Punishing: Gray Raven
+        </ElaborationModal>
+        . We couldn't resist picking up a few character standees to add to our
+        collection.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -347,14 +377,17 @@ export const ItineraryDay7Page = () => {
       <PageContainerItem>
         Even though it was well past lunchtime and far too early for dinner, we
         pushed on to our next food destination as part of our plan to alternate
-        eating with shopping. A quick taxi ride brought us to Lai Lai Xiao Long
-        (莱莱小笼), where we were greeted by a long, winding queue that
-        fortunately moved quite fast. We were handed an order form to fill out
-        and had to make payment at the counter before heading inside, noting
-        that the menu even included items from the store next door. While the
-        seating was a bit cramped since we had to share a table in close
-        proximity with others, the meal itself turned out to be quite
-        satisfying.
+        eating with shopping. A quick taxi ride brought us to
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.LaiLaiXiaoLong}>
+          Lai Lai Xiao Long
+        </ElaborationModal>
+        , where we were greeted by a long, winding queue that fortunately moved
+        quite fast. We were handed an order form to fill out and had to make
+        payment at the counter before heading inside, noting that the menu even
+        included items from the store next door. While the seating was a bit
+        cramped since we had to share a table in close proximity with others,
+        the meal itself turned out to be quite satisfying.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -409,11 +442,17 @@ export const ItineraryDay7Page = () => {
         ]}
       />
       <PageContainerItem>
-        Returning to Bailian ZX for the night, we prepared to fully comb through
-        the building. The moment we stepped inside, we noticed that the atrium
-        display had completely changed. It had featured Demon Slayer standees
-        previously, but now it was a full setup for Infinity Nikki. For a
-        second, we actually thought we had walked into the wrong building.
+        Returning to
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.BailianZx}>
+          Bailian ZX
+        </ElaborationModal>
+        <span>&nbsp;</span>
+        for the night, we prepared to fully comb through the building. The
+        moment we stepped inside, we noticed that the atrium display had
+        completely changed. It had featured Demon Slayer standees previously,
+        but now it was a full setup for Infinity Nikki. For a second, we
+        actually thought we had walked into the wrong building.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[

@@ -1,9 +1,9 @@
 import type { ComponentProps } from "react";
 
-type DialogTitleProps = ComponentProps<"h2">;
+type DialogTitleProps = ComponentProps<"div">;
 
 export const DialogTitle = ({ children }: DialogTitleProps) => {
   return (
-    <h2 className="text-xl font-bold">{children}</h2>
+    <div className="text-xl font-bold">{children}</div>
   );
 };

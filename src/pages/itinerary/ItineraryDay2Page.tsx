@@ -62,9 +62,12 @@ import GapAreaPhoto from "@/assets/photos/Itinerary_Day2_Gap_Area.jpg";
 import GapDrinkPhoto from "@/assets/photos/Itinerary_Day2_Gap_Drink.jpg";
 import ParkRewardsPhoto from "@/assets/photos/Itinerary_Day2_Park_Rewards.jpg";
 import HefangStreetPhoto from "@/assets/photos/Itinerary_Day2_HefangStreet.jpg";
+import HefangStreetZhiSuDaLiPhoto from "@/assets/photos/Itinerary_Day2_HefangStreet_ZhiSuDaLi.jpg";
 import HefangStreetSkewersPhoto from "@/assets/photos/Itinerary_Day2_HefangStreet_Skewers.jpg";
 import HefangStreetPasteryPhoto from "@/assets/photos/Itinerary_Day2_HefangStreet_Pastery.jpg";
 import RobotVideo from "@/assets/videos/Itinerary_Day2_Omg_Robot.mp4";
+import { ElaborationModal } from "./components/ElaborationModal";
+import { elaboration } from "./data/elaboration";
 import { youtubeId } from "./data/youtube";
 
 export const ItineraryDay2Page = () => {
@@ -187,7 +190,12 @@ export const ItineraryDay2Page = () => {
         requested that we pay the highway tolls when we reached the toll area,
         it was still a fantastic deal. The hour and a half journey was smooth
         and quiet, giving us the perfect opportunity to catch up on some sleep
-        before arriving at OMG Heartbeat Park.
+        before arriving at
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.OmgHeartbeatPark}>
+          OMG Heartbeat Park
+        </ElaborationModal>
+        .
       </PageContainerItem>
       <PageContainerItem>
         Our taxi dropped us off a short distance from the entrance of the park
@@ -253,12 +261,15 @@ export const ItineraryDay2Page = () => {
         caption="Park logo after a toilet break before heading in"
       />
       <PageContainerItem>
-        OMG Heartbeat Park, officially known as Chuiyun Riveh to the Heaven
-        (垂云通天河), is a premier adventure and scenic destination located in
-        Tonglu, Hangzhou. It is famous for its "Up to the Sky and Down to Earth"
-        theme, which seamlessly blends high-altitude thrills with deep
-        underground explorations within a unique karst landscape. The park holds
-        a prestigious National AAAA rating, an official certification awarded by
+        <ElaborationModal data={elaboration.OmgHeartbeatPark}>
+          OMG Heartbeat Park
+        </ElaborationModal>
+        , officially known as Chuiyun Riveh to the Heaven (垂云通天河), is a
+        premier adventure and scenic destination located in Tonglu, Hangzhou. It
+        is famous for its "Up to the Sky and Down to Earth" theme, which
+        seamlessly blends high-altitude thrills with deep underground
+        explorations within a unique karst landscape. The park holds a
+        prestigious National AAAA rating, an official certification awarded by
         China's Ministry of Culture and Tourism for excellence in scenic
         quality, infrastructure, and management. This recognition is driven by
         its rare geological wonders, such as the subterranean Tongtian River
@@ -1131,8 +1142,13 @@ export const ItineraryDay2Page = () => {
         ride through Didi at that time, we opted for a standard taxi instead.
         Although the sky had already turned pitch black, the clock showed it was
         still relatively early in the evening. Realizing we hadn't yet had
-        dinner, we took the taxi straight to Hefang Street (河坊街) to hunt for
-        some dinner.
+        dinner, we took the taxi straight to
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.HeFangStreet}>
+          Hefang Street
+        </ElaborationModal>
+        <span>&nbsp;</span>
+        to hunt for some dinner.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -1142,7 +1158,15 @@ export const ItineraryDay2Page = () => {
               src: HefangStreetPhoto,
               alt: "Hefang Street",
             },
-            className: "col-span-full",
+            className: "col-span-8",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: HefangStreetZhiSuDaLiPhoto,
+              alt: "Sesame Pastry Shop",
+            },
+            className: "col-span-4",
           },
         ]}
       />
@@ -1180,11 +1204,16 @@ export const ItineraryDay2Page = () => {
         What a day it turned out to be, filled with an incredible blend of
         physical endurance and unexpected discovery. We pushed ourselves much
         further than we had anticipated. Ending the night under the glowing
-        lights of Hefang Street with a handful of hot snacks was the perfect way
-        to thaw out from the cold and process everything we had accomplished. It
-        was a day that began with a sense of curiosity and ended with a true
-        feeling of triumph, leaving us exhausted but fully satisfied with the
-        adventure.
+        lights of
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.HeFangStreet}>
+          Hefang Street
+        </ElaborationModal>
+        <span>&nbsp;</span>
+        with a handful of hot snacks was the perfect way to thaw out from the
+        cold and process everything we had accomplished. It was a day that began
+        with a sense of curiosity and ended with a true feeling of triumph,
+        leaving us exhausted but fully satisfied with the adventure.
       </PageContainerItem>
     </>
   );

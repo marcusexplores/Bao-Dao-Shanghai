@@ -22,7 +22,7 @@ Use our documented experiences to find your "why" and use our interactive checkl
 
 | Category | Details |
 | :--- | :--- |
-| **IDE** | VS Code |
+| **IDE** | [VS Code](https://code.visualstudio.com/), [Antigravity](https://antigravity.google/) |
 | **Core Stack** | React, TypeScript, [Vite](https://vite.dev) |
 | **AI Tools** | [Gemini](https://gemini.google.com/app) (Language & Graphics), [Figma Make](https://www.figma.com/make) |
 | **UI & Animation** | [Tailwind CSS](https://tailwindcss.com), [shadcn/ui](https://ui.shadcn.com), [shadcn.io](https://www.shadcn.io), [Motion](https://motion.dev) |
