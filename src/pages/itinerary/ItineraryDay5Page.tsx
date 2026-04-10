@@ -55,6 +55,8 @@ import QiLiShanTangPhoto from "@/assets/photos/Itinerary_Day5_QiLiShanTang.jpg";
 import QiLiShanTangCanalPhoto from "@/assets/photos/Itinerary_Day5_QiLiShanTang_Canal.jpg";
 import SuzouStampMuseumPhoto from "@/assets/photos/Itinerary_Day5_SuzhouZodiacStampMuseum.jpg";
 import LaoShanTangShopPhoto from "@/assets/photos/Itinerary_Day5_LaoShanTangXieKeHuang.jpg";
+import { ElaborationModal } from "./components/ElaborationModal";
+import { elaboration } from "./data/elaboration";
 
 export const ItineraryDay5Page = () => {
   return (
@@ -147,13 +149,16 @@ export const ItineraryDay5Page = () => {
         ]}
       />
       <PageContainerItem>
-        Suzhou Museum (苏州博物馆) was not our planned first stop, but our taxi
-        dropped us nearby since the vehicle could not go any further in.
-        Although it was on our list of potential spots and comes highly
-        recommended by others, we decided to give it a pass in view of our
-        limited time and the other places we wanted to try. We aimed to keep the
-        day short and head back early, especially since we planned to wake up
-        early tomorrow.
+        <ElaborationModal data={elaboration.SuzhouMuseum}>
+          Suzhou Museum
+        </ElaborationModal>
+        <span>&nbsp;</span>
+        was not our planned first stop, but our taxi dropped us nearby since the
+        vehicle could not go any further in. Although it was on our list of
+        potential spots and comes highly recommended by others, we decided to
+        give it a pass in view of our limited time and the other places we
+        wanted to try. We aimed to keep the day short and head back early,
+        especially since we planned to wake up early tomorrow.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -203,9 +208,13 @@ export const ItineraryDay5Page = () => {
         thought it was better to eat something first, otherwise, once we
         started, there was no telling how long we would take. It was a little
         early for lunch, but we knew that waiting until later would likely be
-        too late. We quickly scanned the area and randomly entered Jin Shui Tai
-        (近水台面馆), a restaurant serving something familiar, to grab a quick
-        bite and fuel up for the walk ahead.
+        too late. We quickly scanned the area and randomly entered
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.JinShuiTai}>
+          Jin Shui Tai
+        </ElaborationModal>
+        , a restaurant serving something familiar, to grab a quick bite and fuel
+        up for the walk ahead.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -229,13 +238,18 @@ export const ItineraryDay5Page = () => {
       />
       <PageContainerItem>
         Making a U-turn after straying away from the tourist spots, we headed
-        toward the Humble Administrator's Garden (拙政园). Following the metal
-        railings and the QR codes for admission, we retraced our footsteps to
-        the end of the queue, thinking we could simply purchase tickets through
-        the Meituan app. However, the system required a local identification
-        number that we didn't have. After checking with a nearby staff member,
-        we were guided to a self-ticketing machine further down the path where
-        we presented our passports and bought our tickets for 70 RMB per person.
+        toward the
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.HumbleAdministratorGarden}>
+          Humble Administrator's Garden
+        </ElaborationModal>
+        . Following the metal railings and the QR codes for admission, we
+        retraced our footsteps to the end of the queue, thinking we could simply
+        purchase tickets through the Meituan app. However, the system required a
+        local identification number that we didn't have. After checking with a
+        nearby staff member, we were guided to a self-ticketing machine further
+        down the path where we presented our passports and bought our tickets
+        for 70 RMB per person.
       </PageContainerItem>
       <PageContainerItem>
         The UNESCO World Heritage site is a massive labyrinth that feels like
@@ -369,6 +383,12 @@ export const ItineraryDay5Page = () => {
       />
       <PageContainerItem>
         Right near the exit, the popular and trendy Bamboo Milk Tea (竹筒奶茶)
+        of
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.HuanXiMoLi}>
+          Huan Xi Mo Li
+        </ElaborationModal>
+        <span>&nbsp;</span>
         caught our eyes. As it was a massive social media sensation, we decided
         to try it for ourselves, especially since there was a promotion for a
         second cup at half price. We ordered the Osmanthus Oolong Milk Tea
@@ -408,11 +428,16 @@ export const ItineraryDay5Page = () => {
         ]}
       />
       <PageContainerItem>
-        Stepping into Pingjiang Road (平江路), we found ourselves in the
-        quintessential Jiangnan water town experience where the ancient street
-        runs exactly parallel to the peaceful Pingjiang River. The area was
-        alive with dozens of travelers wearing elegant Hanfu or Qipao, many with
-        professional photographers in tow to capture the perfect moment.
+        Stepping into
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.PingjiangRoad}>
+          Pingjiang Road
+        </ElaborationModal>
+        , we found ourselves in the quintessential Jiangnan water town
+        experience where the ancient street runs exactly parallel to the
+        peaceful Pingjiang River. The area was alive with dozens of travelers
+        wearing elegant Hanfu or Qipao, many with professional photographers in
+        tow to capture the perfect moment.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -459,12 +484,17 @@ export const ItineraryDay5Page = () => {
       />
       <PageContainerItem>
         Along the streets, we caught the fragrance of Jiangnan Meihua Gao
-        (江南梅花糕), a traditional snack shaped like a plum blossom. We
-        couldn't resist buying one to try, and it turned out to be the perfect
-        choice. Served piping hot, it was incredibly comforting to eat in the
-        cold air. The bottom is a crispy, golden-brown cone made from batter,
-        while the top remains soft and packed with colorful toppings, offering a
-        delightful mix of textures in every bite.
+        (江南梅花糕), a traditional snack shaped like a plum blossom, coming
+        from
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.MeiJingSu}>
+          Mei Jing Su
+        </ElaborationModal>
+        . We couldn't resist buying one to try, and it turned out to be the
+        perfect choice. Served piping hot, it was incredibly comforting to eat
+        in the cold air. The bottom is a crispy, golden-brown cone made from
+        batter, while the top remains soft and packed with colorful toppings,
+        offering a delightful mix of textures in every bite.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -569,16 +599,19 @@ export const ItineraryDay5Page = () => {
       />
       <PageContainerItem>
         Having traveled all the way to Suzhou, we could not leave without
-        picking up some souvenirs. We eventually came across Momicafe
-        (猫的天空之城), which is far more than just a typical bookstore as it
-        serves as a treasure trove for anyone who loves stationery and the
-        slow-living aesthetic. This specialized concept store features shelves
-        packed with carefully curated goods, including their famous "Postcards
-        to the Future" service. This unique offering allows one to buy beautiful
-        local postcards and have the shop hold and mail them on a specific
-        chosen date, even years into the future. Although we did not end up
-        sending any postcards to our future selves, we bought several back as
-        souvenirs.
+        picking up some souvenirs. We eventually came across
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.Momicafe}>
+          Momicafe
+        </ElaborationModal>
+        , which is far more than just a typical bookstore as it serves as a
+        treasure trove for anyone who loves stationery and the slow-living
+        aesthetic. This specialized concept store features shelves packed with
+        carefully curated goods, including their famous "Postcards to the
+        Future" service. This unique offering allows one to buy beautiful local
+        postcards and have the shop hold and mail them on a specific chosen
+        date, even years into the future. Although we did not end up sending any
+        postcards to our future selves, we bought several back as souvenirs.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -594,10 +627,14 @@ export const ItineraryDay5Page = () => {
       />
       <PageContainerItem>
         Without a map, we simply followed the flow of the crowd and kept an eye
-        out for potential dinner spots as we reached the end of Pingjiang Road.
-        Since most of the options nearby were small roadside stalls rather than
-        the sit-down meal we were looking for, we decided to continue our slow
-        stroll along the canal toward the taxi pickup point.
+        out for potential dinner spots as we reached the end of
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.PingjiangRoad}>
+          Pingjiang Road
+        </ElaborationModal>
+        . Since most of the options nearby were small roadside stalls rather
+        than the sit-down meal we were looking for, we decided to continue our
+        slow stroll along the canal toward the taxi pickup point.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -629,15 +666,24 @@ export const ItineraryDay5Page = () => {
       />
       <PageContainerItem>
         Initially, our plans were a bit over-ambitious, but to keep our schedule
-        manageable, we decided to skip a few stops and head straight to the Gate
-        of the Orient (东方之门). Often nicknamed "the pants building" due to
-        its unique shape, the building is strategically positioned to serve as a
-        literal gateway between the historic Old Town and the futuristic Suzhou
-        Industrial Park. The area was incredibly crowded when we arrived, and
-        with so many professional photographers around, all the prime spots were
-        already taken. We had to make do with whatever little space we could
-        find to grab a few shots before quickly heading into Suzhou Center Mall
-        (苏州中心广场) to escape the cold.
+        manageable, we decided to skip a few stops and head straight to the
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.GateOfTheOrient}>
+          Gate of the Orient
+        </ElaborationModal>
+        . Often nicknamed "the pants building" due to its unique shape, the
+        building is strategically positioned to serve as a literal gateway
+        between the historic Old Town and the futuristic Suzhou Industrial Park.
+        The area was incredibly crowded when we arrived, and with so many
+        professional photographers around, all the prime spots were already
+        taken. We had to make do with whatever little space we could find to
+        grab a few shots before quickly heading into
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.SuzhouCenterMall}>
+          Suzhou Center Mall
+        </ElaborationModal>
+        <span>&nbsp;</span>
+        to escape the cold.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -683,9 +729,13 @@ export const ItineraryDay5Page = () => {
         surprised to see a massive queue at Sushiro. Despite the complex
         political headlines at the time, the local appetite for sushi seemed
         completely unfazed. One look at the queue confirmed it wasn't worth the
-        wait, so we kept moving. Eventually, we came across Zuoting Youyuan
-        Fresh Beef Hotpot (左庭右院鲜牛肉火锅). Realizing we hadn't had hotpot
-        yet on this trip, we decided to give it a try.
+        wait, so we kept moving. Eventually, we came across
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.ZuotingYouyuanFreshBeefHotpot}>
+          Zuoting Youyuan Fresh Beef Hotpot
+        </ElaborationModal>
+        . Realizing we hadn't had hotpot yet on this trip, we decided to give it
+        a try.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -755,13 +805,21 @@ export const ItineraryDay5Page = () => {
         After our meal, we checked the time and realized it felt a bit early to
         head back to Shanghai, especially since we had already come so far. We
         decided to fit in one more tourist spot, so we took a taxi to
-        Qilishantang (七里山塘). As we approached the area, we were caught in a
-        massive traffic jam, but not wanting to waste time sitting in the
-        gridlock, we requested the driver drop us off early and followed our map
-        on foot. Just as we were thinking we had not picked up any specialty
-        food souvenirs from Suzhou yet, we came across a shop called Jiangnan Si
-        Li (江南四礼). We decided to buy several boxes of local pastries and
-        snacks, choosing the ones that are perfect for sharing with coworkers.
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.QiLiShanTang}>
+          Qi Li Shan Tang
+        </ElaborationModal>
+        . As we approached the area, we were caught in a massive traffic jam,
+        but not wanting to waste time sitting in the gridlock, we requested the
+        driver drop us off early and followed our map on foot. Just as we were
+        thinking we had not picked up any specialty food souvenirs from Suzhou
+        yet, we came across a shop called
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.JiangnanSiLi}>
+          Jiangnan Si Li
+        </ElaborationModal>
+        . We decided to buy several boxes of local pastries and snacks, choosing
+        the ones that are perfect for sharing with coworkers.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -829,8 +887,12 @@ export const ItineraryDay5Page = () => {
         Once back in the flow of the crowd, we spent some time soaking in the
         nightlife and appreciating the scenery, though we were not quite sure
         what to do next. After looking around for another place of interest, we
-        decided to visit the Suzhou Zodiac Stamp Museum (苏州生肖邮票博物馆).
-        Without giving it a second thought to check the opening hours, we
+        decided to visit the
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.SuzhouZodiacStampMuseum}>
+          Suzhou Zodiac Stamp Museum
+        </ElaborationModal>
+        . Without giving it a second thought to check the opening hours, we
         hurriedly made our way there only to find it already closed. It was
         quite a blunder on our part, but seeing as it was already so late, we
         really should have expected it and could only laugh it off.

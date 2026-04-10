@@ -18,6 +18,8 @@ import ShakeShackFoodPhoto from "@/assets/photos/Itinerary_Day8_ShakeShack_Food.
 import AirportGatePhoto from "@/assets/photos/Itinerary_Day8_Airport_Gates.jpg";
 import AirportEmptyPhoto from "@/assets/photos/Itinerary_Day8_Airport_Empty.jpg";
 import PlaneFoodPhoto from "@/assets/photos/Itinerary_Day8_PlaneFood.jpg";
+import { ElaborationModal } from "./components/ElaborationModal";
+import { elaboration } from "./data/elaboration";
 import { returnFlight } from "./data/flights";
 
 export const ItineraryDay8Page = () => {
@@ -56,13 +58,18 @@ export const ItineraryDay8Page = () => {
         ]}
       />
       <PageContainerItem>
-        Even as we were working out, that one figurine from Bailian ZX was still
-        lingering in our minds. It felt like such a rare find that leaving
-        Shanghai without it would have felt like a missed opportunity. After a
-        bit of self-convincing, we decided to head back to the mall to grab it,
-        especially since we had the morning free before our late afternoon
-        flight. To keep things moving, we placed a Meituan order while we
-        exercised so the food arrived right as we wrapped up, giving us just
+        Even as we were working out, that one figurine from
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.BailianZx}>
+          Bailian ZX
+        </ElaborationModal>
+        <span>&nbsp;</span>
+        was still lingering in our minds. It felt like such a rare find that
+        leaving Shanghai without it would have felt like a missed opportunity.
+        After a bit of self-convincing, we decided to head back to the mall to
+        grab it, especially since we had the morning free before our late
+        afternoon flight. To keep things moving, we placed a Meituan order while
+        we exercised so the food arrived right as we wrapped up, giving us just
         enough time to shower and eat before our final dash to the shops.
       </PageContainerItem>
       <PageContainerItemMedia
@@ -78,8 +85,13 @@ export const ItineraryDay8Page = () => {
         ]}
       />
       <PageContainerItem>
-        Once we checked out of our hotel, we dragged our luggage back to Bailian
-        ZX for one last visit. The mall was incredibly quiet compared to the
+        Once we checked out of our hotel, we dragged our luggage back to
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.BailianZx}>
+          Bailian ZX
+        </ElaborationModal>
+        <span>&nbsp;</span>
+        for one last visit. The mall was incredibly quiet compared to the
         evening rush, which gave us a perfect chance to get some clear,
         full-view shots of the shops and really appreciate the space. While we
         were there, we took the opportunity to browse through the other
@@ -132,14 +144,18 @@ export const ItineraryDay8Page = () => {
       <PageContainerItem>
         Leaving no stone unturned, we scoured the aisles one last time, but
         sadly didn't find any new treasures, especially with the prices being a
-        bit steep. We eventually made our way to the final shop, Light Darkness,
-        which held the figurine we had been eyeing. We spent some time debating
-        whether we really wanted it, trying our best to be thrifty while the
-        sales assistants stepped in to offer some extra details. In the end, we
-        succumbed to our wants and made the purchase. After a thorough
-        inspection at the cashier, we carefully tucked it into our handcarry,
-        far too afraid that it might get damaged if we risked putting it in our
-        checked luggage.
+        bit steep. We eventually made our way to the final shop,
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.LightDarkness}>
+          Light Darkness
+        </ElaborationModal>
+        , which held the figurine we had been eyeing. We spent some time
+        debating whether we really wanted it, trying our best to be thrifty
+        while the sales assistants stepped in to offer some extra details. In
+        the end, we succumbed to our wants and made the purchase. After a
+        thorough inspection at the cashier, we carefully tucked it into our
+        handcarry, far too afraid that it might get damaged if we risked putting
+        it in our checked luggage.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[

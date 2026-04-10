@@ -44,6 +44,8 @@ import PgrBadge4Photo from "@/assets/photos/Itinerary_Day4_Bailian_Pgr_Badge4.jp
 import TeaShopPhoto from "@/assets/photos/Itinerary_Day4_Tea_Shop.jpg";
 import TeaPhoto from "@/assets/photos/Itinerary_Day4_Tea.jpg";
 import LuggagePhoto from "@/assets/photos/Itinerary_Day4_Luggage.jpg";
+import { ElaborationModal } from "./components/ElaborationModal";
+import { elaboration } from "./data/elaboration";
 import { youtubeId } from "./data/youtube";
 
 export const ItineraryDay4Page = () => {
@@ -91,13 +93,16 @@ export const ItineraryDay4Page = () => {
       <PageContainerItem>
         Since we rarely get the chance to enjoy winter sports, the approaching
         season felt like the perfect opportunity to try something new.
-        Fortunately, we were able to experience skiing at the Shanghai L+SNOW
-        Indoor Skiing Theme Resort, a massive facility offering world-class,
-        year-round indoor slopes. Having already secured our tickets through
-        Trip.com, we began the entry process upon arrival with a mandatory
-        facial scan. This served as a standard part of the check-in and
-        equipment rental procedure, ensuring everything was synced to our
-        profiles before we finally hit the snow.
+        Fortunately, we were able to experience skiing at the
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.ShanghaiYaoxueSnowWorld}>
+          Shanghai L+SNOW Indoor Skiing Theme Resort
+        </ElaborationModal>
+        , a massive facility offering world-class, year-round indoor slopes.
+        Having already secured our tickets through Trip.com, we began the entry
+        process upon arrival with a mandatory facial scan. This served as a
+        standard part of the check-in and equipment rental procedure, ensuring
+        everything was synced to our profiles before we finally hit the snow.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -228,14 +233,18 @@ export const ItineraryDay4Page = () => {
         ]}
       />
       <PageContainerItem>
-        Our next destination was Dishui Lake (滴水湖), a spot we added at the
-        last minute to round out our day. While panning across the map, we
-        noticed a uniquely circular lake tucked into the corner of the district
-        and decided to drop by for a visit. It proved to be a wonderful way to
-        relax and wind down after our morning sports activities. The calm
-        atmosphere served as a welcome reminder that this is exactly what taking
-        time off from work should feel like, rather than just another marathon
-        of a packed itinerary.
+        Our next destination was
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.DishuiLake}>
+          Dishui Lake
+        </ElaborationModal>
+        , a spot we added at the last minute to round out our day. While panning
+        across the map, we noticed a uniquely circular lake tucked into the
+        corner of the district and decided to drop by for a visit. It proved to
+        be a wonderful way to relax and wind down after our morning sports
+        activities. The calm atmosphere served as a welcome reminder that this
+        is exactly what taking time off from work should feel like, rather than
+        just another marathon of a packed itinerary.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -366,8 +375,12 @@ export const ItineraryDay4Page = () => {
         comfortably and enjoy a full, proper meal in a restaurant. Our dining
         had mostly consisted of grabbing snacks from stalls along the way or
         stopping briefly at a place just to try one or two of their specialties.
-        For dinner tonight, we decided to change that by visiting Ji Chang Xing
-        (寄畅興), a spot primarily known for its Crab Roe Noodles (蟹黄面).
+        For dinner tonight, we decided to change that by visiting
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.JiChangXing}>
+          Ji Chang Xing
+        </ElaborationModal>
+        , a spot primarily known for its Crab Roe Noodles (蟹黄面).
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -448,8 +461,13 @@ export const ItineraryDay4Page = () => {
       />
       <PageContainerItem>
         As it was still early, we decided to take a quick peek at the main
-        shopping district on Nanjing East Road. Bailian ZX (百联ZX创趣场) soon
-        came into view, and although we had originally planned to visit on
+        shopping district on Nanjing East Road.
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.BailianZx}>
+          Bailian ZX
+        </ElaborationModal>
+        <span>&nbsp;</span>
+        soon came into view, and although we had originally planned to visit on
         another day, we could not contain our excitement and curiosity. Since
         the entire mall is dedicated to ACG culture (Anime, Comics, Games), our
         eyes lit up as we spotted major brands like Sega and Jump one after
@@ -543,15 +561,19 @@ export const ItineraryDay4Page = () => {
         ]}
       />
       <PageContainerItem>
-        Our prized find of the night was definitely Punishing: Gray Raven
-        (战双帕弥什)! Set on a post-apocalyptic Earth being reclaimed by elite
-        squads of cyborg constructs from a devastating machine virus, the game
-        is known for its high-speed combat and unique orb-matching mechanic that
-        triggers powerful real-time abilities. Usually, we only find one or two
-        items of the less popular characters. Here, however, we found an entire
-        table stacked with a massive variety of merch, ranging from can badges
-        to picture cards, featuring almost every character released to date. It
-        was great to see the game receiving the recognition it deserves, and we
+        Our prized find of the night was definitely
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.PunishingGrayRaven}>
+          Punishing: Gray Raven
+        </ElaborationModal>
+        ! Set on a post-apocalyptic Earth being reclaimed by elite squads of
+        cyborg constructs from a devastating machine virus, the game is known
+        for its high-speed combat and unique orb-matching mechanic that triggers
+        powerful real-time abilities. Usually, we only find one or two items of
+        the less popular characters. Here, however, we found an entire table
+        stacked with a massive variety of merch, ranging from can badges to
+        picture cards, featuring almost every character released to date. It was
+        great to see the game receiving the recognition it deserves, and we
         truly hope it continues to prosper.
       </PageContainerItem>
       <PageContainerItemMedia

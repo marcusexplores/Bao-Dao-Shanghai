@@ -70,6 +70,8 @@ import CastleTangledPhoto from "@/assets/photos/Itinerary_Day6_EnchantedStoryboo
 import CastleBravePhoto from "@/assets/photos/Itinerary_Day6_EnchantedStorybookCastle_Brave.jpg";
 import CastleFrozenPhoto from "@/assets/photos/Itinerary_Day6_EnchantedStorybookCastle_Frozen.jpg";
 import DinnerPhoto from "@/assets/photos/Itinerary_Day6_Dinner.jpg";
+import { ElaborationModal } from "./components/ElaborationModal";
+import { elaboration } from "./data/elaboration";
 import { youtubeId } from "./data/youtube";
 
 export const ItineraryDay6Page = () => {
@@ -118,7 +120,12 @@ export const ItineraryDay6Page = () => {
         moving steadily. Sadly, during the security scan, a pair of mini
         scissors in our first-aid kit was flagged and had to be disposed of.
         Other than that small hiccup, the rest of the entrance process was
-        smooth. Shanghai Disney, here we come!
+        smooth.
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.ShanghaiDisney}>
+          Shanghai Disney
+        </ElaborationModal>
+        , here we come!
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
