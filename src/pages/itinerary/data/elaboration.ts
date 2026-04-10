@@ -18,6 +18,12 @@ export const elaboration: Record<string, Elaboration> = {
     addressEn: "No. 546, Yan'an Road, Gongshu District, Gongshu District, Hangzhou, Zhejiang, China",
     addressCn: "杭州市拱墅区延安路546号"
   },
+  HeFangStreet: {
+    title: "HeFang Street",
+    subtitle: "河坊街",
+    addressCn: "杭州市上城区河坊街",
+    mapCn: "https://surl.amap.com/1CfsXZo1l9Vr"
+  },
   LeifengPagoda: {
     title: "Leifeng Pagoda",
     subtitle: "雷峰塔",
@@ -29,6 +35,13 @@ export const elaboration: Record<string, Elaboration> = {
     subtitle: "龙行天下美食广场",
     addressCn: "杭州市拱墅区西湖·D11食尚城南门旁",
     mapCn: "https://surl.amap.com/g2EMtlU1j41b"
+  },
+  OmgHeartbeatPark: {
+    title: "OMG Heartbeat Park",
+    subtitle: "OMG心跳乐园",
+    addressEn: "OMG Heartbeat Paradise, Tonglu County, Hangzhou, Zhejiang, China, 311515",
+    addressCn: "杭州市桐庐县垂云通天河景区内",
+    mapCn: "https://surl.amap.com/gsuhsNY14giA"
   },
   PingHuQiuYu: {
     title: "Ping Hu Qiu Yu",
