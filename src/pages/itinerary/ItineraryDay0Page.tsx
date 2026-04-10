@@ -14,6 +14,8 @@ import LoungeBarPhoto from "@/assets/photos/Itinerary_Day0_Lounge_Bar.jpg";
 import PlanePhoto from "@/assets/photos/Itinerary_Day0_Plane.jpg";
 import PlaneSeatPhoto from "@/assets/photos/Itinerary_Day0_Plane_Seat.jpg";
 import PlaneFoodPhoto from "@/assets/photos/Itinerary_Day0_Plane_Food.jpg";
+import { ElaborationModal } from "./components/ElaborationModal";
+import { elaboration } from "./data/elaboration";
 import { outboundFlight } from "./data/flights";
 
 export const ItineraryDay0Page = () => {
@@ -50,7 +52,13 @@ export const ItineraryDay0Page = () => {
         caption="The non-negotiable first photo of every travel story"
       />
       <PageContainerItem>
-        Even with a full dinner settled, a visit to the Blossom Lounge was a
+        Even with a full dinner settled, a visit to the
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.BlossomLounge}>
+          Blossom Lounge
+        </ElaborationModal>
+        <span>&nbsp;</span>
+        was a
         must. With the year coming to a close, we wanted to utilize the
         remaining guest visits on our Priority Pass, courtesy of our DBS
         Altitude Visa Signature card.

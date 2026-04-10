@@ -37,6 +37,8 @@ import WulinStoryFood1Photo from "@/assets/photos/Itinerary_Day1_Wulin_Story_Foo
 import WulinStoryFood2Photo from "@/assets/photos/Itinerary_Day1_Wulin_Story_Food2.jpg";
 import SoybeanMilkPhoto from "@/assets/photos/Itinerary_Day1_LongjingJasmineSoybeanMilk.jpg";
 import WulinFoodStreetPhoto from "@/assets/photos/Itinerary_Day1_WulinFoodStreet.jpg";
+import { ElaborationModal } from "./components/ElaborationModal";
+import { elaboration } from "./data/elaboration";
 
 export const ItineraryDay1Page = () => {
   return (
@@ -148,8 +150,12 @@ export const ItineraryDay1Page = () => {
         (武林广场) station. The final stretch involved a short walk to our
         hotel, though finding our bearings on the street level took a bit of
         effort. We even found ourselves stepping into a nearby mall to ask for
-        directions before we finally arrived at our accommodation, the Hangzhou
-        Hotel.
+        directions before we finally arrived at our accommodation, the
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.HangzhouHotel}>
+          Hangzhou Hotel
+        </ElaborationModal>
+        .
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -201,11 +207,15 @@ export const ItineraryDay1Page = () => {
         ]}
       />
       <PageContainerItem>
-        Feeling hungry from all the travelling, our first pit stop was Zhi Wei
-        Guan, a renowned restaurant that has been a cornerstone of the Hangzhou
-        food scene since 1913. It is famous for being a time-honored brand that
-        has served generations of locals and travellers alike, earning
-        widespread respect for preserving the culinary heritage of the region.
+        Feeling hungry from all the travelling, our first pit stop was
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.ZhiWeiGuan}>
+          Zhi Wei Guan
+        </ElaborationModal>
+        , a renowned restaurant that has been a cornerstone of the Hangzhou food
+        scene since 1913. It is famous for being a time-honored brand that has
+        served generations of locals and travellers alike, earning widespread
+        respect for preserving the culinary heritage of the region.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -429,15 +439,19 @@ export const ItineraryDay1Page = () => {
         purchase and quickly moved away.
       </PageContainerItem>
       <PageContainerItem>
-        Sipping our hot tea, we continued our stroll toward the Bai Causeway
-        (白堤), a famous stone path that connects the urban centre of Hangzhou
-        with the scenic lake region. The causeway was named in honour of the
-        Tang Dynasty poet Bai Juyi, who served as the local governor and held a
-        deep affection for the area. Lined with weeping willows and peach trees,
-        the path creates a picturesque frame for the water and feels like a
-        natural corridor stretching across the lake. Walking along this historic
-        stretch offered us a panoramic view of the surrounding hills and the
-        shimmering surface of the water.
+        Sipping our hot tea, we continued our stroll toward the
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.BaiDi}>
+          Bai Causeway
+        </ElaborationModal>
+        , a famous stone path that connects the urban centre of Hangzhou with
+        the scenic lake region. The causeway was named in honour of the Tang
+        Dynasty poet Bai Juyi, who served as the local governor and held a deep
+        affection for the area. Lined with weeping willows and peach trees, the
+        path creates a picturesque frame for the water and feels like a natural
+        corridor stretching across the lake. Walking along this historic stretch
+        offered us a panoramic view of the surrounding hills and the shimmering
+        surface of the water.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -452,12 +466,17 @@ export const ItineraryDay1Page = () => {
         ]}
       />
       <PageContainerItem>
-        As we walked, iconic landmarks like the Leifeng Pagoda rose in the
-        distance beyond the water. The environment was incredibly serene, and
-        with the pleasant weather, the entire stroll felt deeply relaxing. Every
-        turn offered a beautiful new perspective of the lake's natural
-        landscape, providing us with numerous picturesque spots that were
-        perfect for photos.
+        As we walked, iconic landmarks like the
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.LeifengPagoda}>
+          Leifeng Pagoda
+        </ElaborationModal>
+        <span>&nbsp;</span>
+        rose in the distance beyond the water. The environment was incredibly
+        serene, and with the pleasant weather, the entire stroll felt deeply
+        relaxing. Every turn offered a beautiful new perspective of the lake's
+        natural landscape, providing us with numerous picturesque spots that
+        were perfect for photos.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -472,11 +491,18 @@ export const ItineraryDay1Page = () => {
         ]}
       />
       <PageContainerItem>
-        Ping Hu Qiu Yu (平湖秋月), also known as Autumn Moon over the Calm Lake,
-        was the next scenic spot on our itinerary. Situated at the end of the
-        Bai Causeway, this location is famous for offering the most expansive
-        and unobstructed view of the water. It is officially recognised as one
-        of the ten iconic scenes of West Lake and has long been a place where
+        <ElaborationModal data={elaboration.PingHuQiuYu}>
+          Ping Hu Qiu Yu
+        </ElaborationModal>
+        , also known as Autumn Moon over the Calm Lake, was the next scenic spot
+        on our itinerary. Situated at the end of the
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.BaiDi}>
+          Bai Causeway
+        </ElaborationModal>
+        , this location is famous for offering the most expansive and
+        unobstructed view of the water. It is officially recognised as one of
+        the ten iconic scenes of West Lake and has long been a place where
         scholars and emperors gathered to admire the moon's reflection on the
         still, mirror-like surface. Even without the moonlight, the traditional
         pavilions and open terraces create a poetic atmosphere, making the
@@ -503,12 +529,20 @@ export const ItineraryDay1Page = () => {
         ]}
       />
       <PageContainerItem>
-        Following the GPS to our next destination, we came across Yue Hong Jia
-        Jia (岳虹酒家), where the sight of large skewers caught our attention.
-        We decided to stop and buy one beef and one mutton skewer, though in
-        hindsight, we wouldn't recommend buying from here. Similar skewers can
-        be found at places like the Wulin Night Market, which offer much better
-        value for money.
+        Following the GPS to our next destination, we came across
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.YueHongJiuJia}>
+          Yue Hong Jiu Jia
+        </ElaborationModal>
+        , where the sight of large skewers caught our attention. We decided to
+        stop and buy one beef and one mutton skewer, though in hindsight, we
+        wouldn't recommend buying from here. Similar skewers can be found at
+        places like the
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.WulinNightMarket}>
+          Wulin Night Market
+        </ElaborationModal>
+        , which offer much better value for money.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -545,13 +579,18 @@ export const ItineraryDay1Page = () => {
         hospitality, and went on our way.
       </PageContainerItem>
       <PageContainerItem>
-        Originally, our plan was to visit Yue Fei Temple (岳王庙), a site built
-        to commemorate the legendary Southern Song Dynasty general who is
-        revered as a national hero for his loyalty and bravery. As both his
-        memorial and final resting place, the temple is famous for its solemn
-        architecture and the iron statues of his betrayers kneeling in eternal
-        shame before his tomb. We only had enough time to capture a quick photo
-        of the entrance from across the road before we had to move on.
+        Originally, our plan was to visit
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.YueWangTemple}>
+          Yue Wang Temple
+        </ElaborationModal>
+        , a site built to commemorate the legendary Southern Song Dynasty
+        general who is revered as a national hero for his loyalty and bravery.
+        As both his memorial and final resting place, the temple is famous for
+        its solemn architecture and the iron statues of his betrayers kneeling
+        in eternal shame before his tomb. We only had enough time to capture a
+        quick photo of the entrance from across the road before we had to move
+        on.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -566,13 +605,17 @@ export const ItineraryDay1Page = () => {
         ]}
       />
       <PageContainerItem>
-        Upon arriving at QuYuan Fenghe (曲院风荷), also known as Breeze-Ruffled
-        Lotus at Qu Garden, we spent some time walking along the meandering
-        bridges. Since we visited during the off-peak season, we unfortunately
-        missed the sight of the beautiful, blooming lotus flowers and were
-        instead met with withered ones. Seeing the landscape in this state made
-        us start to question why we had even included this stop on our
-        itinerary.
+        Upon arriving at
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.QuYuanFengHe}>
+          Qu Yuan Feng He
+        </ElaborationModal>
+        , also known as Breeze-Ruffled Lotus at Qu Garden, we spent some time
+        walking along the meandering bridges. Since we visited during the
+        off-peak season, we unfortunately missed the sight of the beautiful,
+        blooming lotus flowers and were instead met with withered ones. Seeing
+        the landscape in this state made us start to question why we had even
+        included this stop on our itinerary.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -657,34 +700,47 @@ export const ItineraryDay1Page = () => {
         ]}
       />
       <PageContainerItem>
-        Trying to make our way toward Leifeng Pagoda, we stopped to buy some
-        sausages as snacks to replenish our energy before making a small loop
-        around a nearby garden. Once we reached the pagoda, we realized there
-        was an entrance fee to go up. We ultimately decided against it, feeling
-        that the structure is best viewed from a distance rather than from the
-        top. Having taken a red-eye flight, exhaustion finally started to set
-        in, so we opted to take a taxi back to the hotel for a power nap before
-        heading out again for dinner.
+        Trying to make our way toward
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.LeifengPagoda}>
+          Leifeng Pagoda
+        </ElaborationModal>
+        , we stopped to buy some sausages as snacks to replenish our energy
+        before making a small loop around a nearby garden. Once we reached the
+        pagoda, we realized there was an entrance fee to go up. We ultimately
+        decided against it, feeling that the structure is best viewed from a
+        distance rather than from the top. Having taken a red-eye flight,
+        exhaustion finally started to set in, so we opted to take a taxi back to
+        the hotel for a power nap before heading out again for dinner.
       </PageContainerItem>
       <PageContainerItem>
-        Waking up refreshed from a good rest, we made our way toward Wulin Night
-        Market. When we reached Wulin Road, we noticed a few food stalls already
-        lined up along the sidewalk. Although the displays looked quite
-        appetizing, the area was surprisingly quiet with little to no customers
-        in sight. Seeing the empty street made us suspect that we hadn't
-        actually found the main market yet, prompting us to keep searching for
-        the real hub of activity.
+        Waking up refreshed from a good rest, we made our way toward
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.WulinNightMarket}>
+          Wulin Night Market
+        </ElaborationModal>
+        . When we reached Wulin Road, we noticed a few food stalls already lined
+        up along the sidewalk. Although the displays looked quite appetizing,
+        the area was surprisingly quiet with little to no customers in sight.
+        Seeing the empty street made us suspect that we hadn't actually found
+        the main market yet, prompting us to keep searching for the real hub of
+        activity.
       </PageContainerItem>
       <PageContainerItem>
-        True enough, once we reached the actual Wulin Night Market (武林夜市),
-        the atmosphere shifted completely into a vibrant hub of local life. Rows
-        of brightly lit stalls stretched down the street, offering everything
-        from trendy fashion and handmade crafts to quirky souvenirs. The air was
-        thick with the enticing scents of street food as vendors served up local
-        favorites like stinky tofu and grilled seafood. Spotting the same
-        oversized meat skewers we had seen earlier made it clear that this was
-        the real spot for variety, and seeing the much lower prices actually
-        made us feel a bit cheated by what we had paid back at the lake.
+        True enough, once we reached the actual
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.WulinNightMarket}>
+          Wulin Night Market
+        </ElaborationModal>
+        , the atmosphere shifted completely into a vibrant hub of local life.
+        Rows of brightly lit stalls stretched down the street, offering
+        everything from trendy fashion and handmade crafts to quirky souvenirs.
+        The air was thick with the enticing scents of street food as vendors
+        served up local favorites like stinky tofu and grilled seafood. Spotting
+        the same oversized meat skewers we had seen earlier made it clear that
+        this was the real spot for variety, and seeing the much lower prices
+        actually made us feel a bit cheated by what we had paid back at the
+        lake.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -700,12 +756,15 @@ export const ItineraryDay1Page = () => {
       />
       <PageContainerItem>
         Beyond the individual street stalls, we found larger establishments like
-        Long Xing Tian Xia Food Plaza (龙行天下美食广场), which offered a
-        centralized cluster of food options with shared tables and seating. The
-        stalls were cleverly designed with two sides to serve different needs.
-        Those looking for a quick bite can order from the outside counter to
-        take their food on the go, while those who prefer to dine in can secure
-        a seat and order from the inside counter.
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.LongXingTianXiaFoodPlaza}>
+          Long Xing Tian Xia Food Plaza
+        </ElaborationModal>
+        , which offered a centralized cluster of food options with shared tables
+        and seating. The stalls were cleverly designed with two sides to serve
+        different needs. Those looking for a quick bite can order from the
+        outside counter to take their food on the go, while those who prefer to
+        dine in can secure a seat and order from the inside counter.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
@@ -747,9 +806,13 @@ export const ItineraryDay1Page = () => {
       </PageContainerItem>
       <PageContainerItem>
         Other food and drinks we tried were the Longjing Jasmine Soybean Milk
-        nearby and the Hotplate Tofu at Wulin Food Street (武林好吃街). We felt
-        satisfied with this spread of variety for dinner and began to slowly
-        make our way back to the hotel to rest for the night.
+        nearby and the Hotplate Tofu at
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.WulinFoodStreet}>
+          Wulin Food Street
+        </ElaborationModal>
+        . We felt satisfied with this spread of variety for dinner and began to
+        slowly make our way back to the hotel to rest for the night.
       </PageContainerItem>
       <PageContainerItemMedia
         data={[
