@@ -46,6 +46,7 @@ const displayTile = (index: number, tile: QuiltTile) => {
     return (
       <img
         {...image}
+        key={index}
         className={cn(
           "w-full h-full object-cover transition duration-500 group-hover:opacity-80 group-hover:scale-105",
           tile.className,
