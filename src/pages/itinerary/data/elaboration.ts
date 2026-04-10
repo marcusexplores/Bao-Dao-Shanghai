@@ -42,6 +42,11 @@ export const elaboration: Record<string, Elaboration> = {
     addressCn: "杭州市上城区河坊街",
     mapCn: "https://surl.amap.com/1CfsXZo1l9Vr"
   },
+  HonkaiStarRail: {
+    title: "Honkai: Star Rail",
+    subtitle: "崩坏：星穹铁道",
+    website: "https://hsr.hoyoverse.com/en-us/"
+  },
   HuXinTing: {
     title: "Hu Xin Ting",
     subtitle: "湖心亭",
@@ -138,6 +143,11 @@ export const elaboration: Record<string, Elaboration> = {
     subtitle: "武林夜市",
     addressCn: "杭州市拱墅区武林街道武林路143号",
     mapCn: "https://surl.amap.com/uW31BU1h9So"
+  },
+  WutheringWaves: {
+    title: "Wuthering Waves",
+    subtitle: "鸣潮",
+    website: "https://wutheringwaves.kurogame.com/en/"
   },
   XiaoChiCheng: {
     title: "Xiao Chi Cheng",

@@ -232,8 +232,12 @@ export const ItineraryDay3Page = () => {
         <ElaborationModal data={elaboration.MihoyoThemePark}>
           further ahead
         </ElaborationModal>
-        , we finally spotted the iconic Lordly Trashcans from Honkai: Star Rail,
-        which was a pleasant surprise. We had only expected to see SAM and
+        , we finally spotted the iconic Lordly Trashcans from
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.HonkaiStarRail}>
+          Honkai: Star Rail
+        </ElaborationModal>
+        , which was a pleasant surprise. We had only expected to see SAM and
         Pollux, but to our delight, there were several other characters
         displayed on a massive birthday cake. The only downside was our tight
         schedule. Since we had to visit so early in the day, we missed seeing
@@ -344,11 +348,15 @@ export const ItineraryDay3Page = () => {
       />
       <PageContainerItem>
         Directly opposite was another store carrying merchandise from various
-        other games, including Wuthering Waves. We took the opportunity to
-        compare their prices with online e-commerce platforms, only to find that
-        things were notably cheaper online. Because of the price difference, we
-        decided to pass on buying anything there, keeping our wallets closed for
-        the time being.
+        other games, including
+        <span>&nbsp;</span>
+        <ElaborationModal data={elaboration.WutheringWaves}>
+          Wuthering Waves
+        </ElaborationModal>
+        . We took the opportunity to compare their prices with online e-commerce
+        platforms, only to find that things were notably cheaper online. Because
+        of the price difference, we decided to pass on buying anything there,
+        keeping our wallets closed for the time being.
       </PageContainerItem>
       <PageContainerItem>
         After finishing our gaming-focused shopping, we spent a little more time

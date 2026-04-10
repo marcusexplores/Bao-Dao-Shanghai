@@ -1,11 +1,12 @@
 import type { ComponentProps } from "react";
+import { GlobeIcon, MapPinIcon } from "lucide-react";
 import { Dialog } from "@/components/dialog/Dialog";
 import { DialogTrigger } from "@/components/dialog/DialogTrigger";
 import { DialogContent } from "@/components/dialog/DialogContent";
 import { DialogTitle } from "@/components/dialog/DialogTitle";
 import { DialogHeader } from "@/components/dialog/DialogHeader";
 import { DialogBody } from "@/components/dialog/DialogBody";
-import { Address } from "./Address";
+import { IconItem } from "./IconItem";
 import type { Elaboration } from "../types";
 
 type ElaborationModalProps = ComponentProps<typeof Dialog> & {
@@ -13,7 +14,7 @@ type ElaborationModalProps = ComponentProps<typeof Dialog> & {
 };
 
 export const ElaborationModal = ({ data, children }: ElaborationModalProps) => {
-  const { title, subtitle, addressEn, addressCn, mapEn, mapCn } = data;
+  const { title, subtitle, addressEn, addressCn, mapEn, mapCn, website } = data;
 
   return (
     <Dialog>
@@ -36,8 +37,9 @@ export const ElaborationModal = ({ data, children }: ElaborationModalProps) => {
           </DialogTitle>
         </DialogHeader>
         <DialogBody className="space-y-3">
-          {addressEn && <Address address={addressEn} map={mapEn} />}
-          {addressCn && <Address address={addressCn} map={mapCn} />}
+          {addressEn && <IconItem icon={MapPinIcon} text={addressEn} link={mapEn}/>}
+          {addressCn && <IconItem icon={MapPinIcon} text={addressCn} link={mapCn}/>}
+          {website && <IconItem icon={GlobeIcon} text={website} link={website}/>}
         </DialogBody>
       </DialogContent>
     </Dialog>
