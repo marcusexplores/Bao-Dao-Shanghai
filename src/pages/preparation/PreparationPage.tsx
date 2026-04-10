@@ -1,14 +1,15 @@
-import { ArrowRight, Package } from "lucide-react";
+import { Link } from "react-router";
+import { ArrowRight } from "lucide-react";
 import { Page } from "@/components/page/Page";
 import { PageContainer } from "@/components/page/PageContainer";
 import { PageContainerItem } from "@/components/page/PageContainerItem";
 import { PageHeadline } from "@/components/page/PageHeadline";
 import { Separator } from "@/components/separator/Separator";
-import { PreparationPageSection } from "./components/PreparationPageSection";
-import { Link } from "react-router";
 import { NAVIGATION_KEY } from "@/components/navigation/constants";
-import { recommendations } from "./data/recommendation";
+import BaoChecklist from "@/assets/images/Bao_Checklist.png";
+import { PreparationPageSection } from "./components/PreparationPageSection";
 import { Recommendation } from "./components/Recommendation";
+import { recommendations } from "./data/recommendation";
 
 export const PreparationPage = () => {
   return (
@@ -35,23 +36,25 @@ export const PreparationPage = () => {
         <PageContainerItem className="space-y-6">
           <Link
             to={NAVIGATION_KEY.PREPARATION_CHECKLIST}
-            className="group flex items-center justify-between p-6 rounded-2xl border border-slate-100 bg-slate-50/30 hover:bg-slate-900 transition-all duration-300"
+            className="group flex items-center justify-between p-6 rounded-2xl border border-slate-100 bg-slate-50/30 hover:bg-primary transition-all duration-300"
           >
             <div className="flex items-center gap-4">
-              <div className="w-12 h-12 rounded-xl bg-white shadow-sm flex items-center justify-center text-slate-600 group-hover:text-slate-900">
-                <Package size={24} />
-              </div>
+              <img
+                src={BaoChecklist}
+                alt="Bao Checklist"
+                className="object-contain w-12 h-12 md:w-16 md:h-16 md:pr-3"
+              />
               <div>
-                <span className="block font-semibold text-slate-900 group-hover:text-white transition-colors">
+                <span className="block font-semibold group-hover:text-background transition-colors">
                   View Complete Packing List
                 </span>
-                <span className="text-sm text-slate-500 group-hover:text-slate-400 transition-colors">
+                <span className="text-sm text-muted-foreground group-hover:text-background/80 transition-colors">
                   Explore our gear, clothing, and tech essentials
                 </span>
               </div>
             </div>
             <ArrowRight
-              className="text-slate-300 group-hover:text-white group-hover:translate-x-1 transition-all"
+              className="text-muted-foreground group-hover:text-background group-hover:translate-x-1 transition-all"
               size={20}
             />
           </Link>

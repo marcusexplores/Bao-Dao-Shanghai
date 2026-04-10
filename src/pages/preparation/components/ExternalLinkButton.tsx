@@ -22,7 +22,7 @@ export const ExternalLinkButton = ({ href, type }: ExternalLinkButtonProps) => {
   return (
     <ExternalLink
       href={href}
-      className="inline-flex items-center gap-2 text-[11px] font-semibold text-slate-600 hover:text-slate-900 transition-colors bg-slate-50 px-3 py-1.5 rounded-lg border border-slate-100"
+      className="inline-flex items-center gap-2 text-[11px] font-semibold text-slate-600 hover:text-background transition-colors bg-slate-50 hover:bg-primary px-3 py-1.5 rounded-lg border border-slate-100"
     >
       <Icon size={14} />
       {displayText}

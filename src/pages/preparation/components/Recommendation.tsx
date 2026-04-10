@@ -24,17 +24,6 @@ export const Recommendation = ({ item }: RecommendationProps) => {
     }
   };
 
-  // const handleCopy = (text: string) => {
-  //   const textArea = document.createElement("textarea");
-  //   textArea.value = text;
-  //   document.body.appendChild(textArea);
-  //   textArea.select();
-  //   document.execCommand("copy");
-  //   document.body.removeChild(textArea);
-  //   setCopied(true);
-  //   setTimeout(() => setCopied(false), 2000);
-  // };
-
   return (
     <div>
       <div className="flex items-center gap-5">
@@ -46,7 +35,7 @@ export const Recommendation = ({ item }: RecommendationProps) => {
           />
         </div>
         <div className="text-left">
-          <h4 className="font-medium text-slate-900">{item.name}</h4>
+          <h4 className="font-medium">{item.name}</h4>
           <p className="text-sm text-slate-500 mt-1">{item.description}</p>
         </div>
       </div>
@@ -111,7 +100,7 @@ export const Recommendation = ({ item }: RecommendationProps) => {
                     onClick={() => {
                       void handleCopy(item.referral?.code ?? "");
                     }}
-                    className="px-3 py-1.5 bg-white border border-slate-200 rounded-lg text-[10px] font-mono font-bold hover:bg-slate-50 transition-colors flex items-center gap-2 shadow-sm"
+                    className="px-3 py-1.5 bg-white hover:bg-slate-50 font-mono font-bold text-[10px] border border-slate-200 rounded-lg transition-colors flex items-center gap-2 shadow-sm cursor-pointer"
                   >
                     {copied ? "COPIED" : item.referral.code}
                     <Copy size={12} className="text-slate-300" />
@@ -122,7 +111,7 @@ export const Recommendation = ({ item }: RecommendationProps) => {
                     href={item.referral.link}
                     target="_blank"
                     rel="noopener"
-                    className="px-3 py-1.5 bg-slate-900 text-white rounded-lg text-[10px] font-bold hover:bg-blue-600 transition-colors flex items-center gap-1 shadow-sm shadow-slate-200"
+                    className="px-3 py-1.5 bg-white hover:bg-primary font-bold text-[10px] hover:text-background border border-slate-200 rounded-lg transition-colors flex items-center gap-1 shadow-sm shadow-slate-200"
                   >
                     Invite Link
                     <ExternalLink size={10} />

@@ -95,7 +95,7 @@ export const PreparationChecklistPage = () => {
             </div>
             <div className="h-2 bg-muted rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-primary to-success"
+                className="h-full bg-success"
                 initial={{ width: 0 }}
                 animate={{ width: `${progress.toString()}%` }}
                 transition={{ duration: 0.5, ease: "easeOut" }}
