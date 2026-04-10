@@ -62,6 +62,7 @@ import GapAreaPhoto from "@/assets/photos/Itinerary_Day2_Gap_Area.jpg";
 import GapDrinkPhoto from "@/assets/photos/Itinerary_Day2_Gap_Drink.jpg";
 import ParkRewardsPhoto from "@/assets/photos/Itinerary_Day2_Park_Rewards.jpg";
 import HefangStreetPhoto from "@/assets/photos/Itinerary_Day2_HefangStreet.jpg";
+import HefangStreetZhiSuDaLiPhoto from "@/assets/photos/Itinerary_Day2_HefangStreet_ZhiSuDaLi.jpg";
 import HefangStreetSkewersPhoto from "@/assets/photos/Itinerary_Day2_HefangStreet_Skewers.jpg";
 import HefangStreetPasteryPhoto from "@/assets/photos/Itinerary_Day2_HefangStreet_Pastery.jpg";
 import RobotVideo from "@/assets/videos/Itinerary_Day2_Omg_Robot.mp4";
@@ -1157,7 +1158,15 @@ export const ItineraryDay2Page = () => {
               src: HefangStreetPhoto,
               alt: "Hefang Street",
             },
-            className: "col-span-full",
+            className: "col-span-8",
+          },
+          {
+            type: MediaType.Image,
+            media: {
+              src: HefangStreetZhiSuDaLiPhoto,
+              alt: "Sesame Pastry Shop",
+            },
+            className: "col-span-4",
           },
         ]}
       />
