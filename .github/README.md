@@ -18,7 +18,7 @@ Use our documented experiences to find your "why" and use our interactive checkl
 - Budget Tracker
 - Checklist
 
-## Development Specifications
+## Tech Stack
 
 | Category | Details |
 | :--- | :--- |
