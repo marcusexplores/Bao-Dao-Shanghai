@@ -23,8 +23,8 @@ Use our documented experiences to find your "why" and use our interactive checkl
 | Category | Details |
 | :--- | :--- |
 | **IDE** | [VS Code](https://code.visualstudio.com/), [Antigravity](https://antigravity.google/) |
-| **Core Stack** | React, TypeScript, [Vite](https://vite.dev) |
-| **AI Tools** | [Gemini](https://gemini.google.com/app) (Language & Graphics), [Figma Make](https://www.figma.com/make) |
-| **UI & Animation** | [Tailwind CSS](https://tailwindcss.com), [shadcn/ui](https://ui.shadcn.com), [shadcn.io](https://www.shadcn.io), [Motion](https://motion.dev) |
-| **Image Processing** | [Inkscape](https://inkscape.org) (SVG creation & editing), [iLoveIMG](https://www.iloveimg.com/compress-image), [Watermark Remover](https://www.watermarkremover.io/) |
-| **Video Processing** | [Microsoft Clipchamp](https://clipchamp.com), [YouTube Studio](https://studio.youtube.com), [TikTok](https://www.tiktok.com), [FreeConvert](https://www.freeconvert.com/video-compressor) (Video Compression) |
+| **Core Stack** | [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [Vite](https://vite.dev) |
+| **AI Tools** | [Gemini](https://gemini.google.com/app) (Language & Graphics), [Figma Make](https://www.figma.com/make/) |
+| **UI & Animation** | [Tailwind CSS](https://tailwindcss.com/), [shadcn/ui](https://ui.shadcn.com/), [shadcn.io](https://www.shadcn.io/), [Motion](https://motion.dev/) |
+| **Image Processing** | [Inkscape](https://inkscape.org/) (SVG creation & editing), [paint.net](https://www.getpaint.net/) (Image editing), [iLoveIMG](https://www.iloveimg.com/compress-image), [Watermark Remover](https://www.watermarkremover.io/) |
+| **Video Processing** | [Microsoft Clipchamp](https://clipchamp.com/en/), [YouTube Studio](https://studio.youtube.com), [TikTok](https://www.tiktok.com/), [FreeConvert](https://www.freeconvert.com/video-compressor) (Video Compression) |
